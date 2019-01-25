@@ -26,7 +26,7 @@ module.exports = {
     anchor: {
       permalink: true
     },
-    config: md => {
+    config: (md) => {
       md.use(require("markdown-it-katex"))
       md.options.linkify = true
     }
@@ -37,6 +37,6 @@ module.exports = {
       { text: 'Memo'   , link: '/memo.html'    },
       { text: 'Article', link: '/article.html' }
     ],
-    search: true
+    search: true,
   }
 }

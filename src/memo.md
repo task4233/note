@@ -54,3 +54,4 @@ $ vue --version
  - [TypeScriptでVue.jsを書く – Vue CLIを使った開発のポイントを紹介](https://mae.chab.in/archives/60167)
  - [はじめに](https://jp.vuejs.org/v2/guide/index.html)
  - [Config.jsの公式](https://vuepress.vuejs.org/config/#basic-config)
+ - [VuePressでディレクトリ構成からサイドバーのメニューを自動設定する](https://qiita.com/jacoyutorius/items/ad769d5e303d222f215a)
