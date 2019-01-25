@@ -1,8 +1,11 @@
 module.exports = {
   locales: {
+    '/': {
+      lang: 'ja',
+      title: 'Note',
+      description: 'Take it easy. But not lazy.'
+    }
   },
-  title: 'Note',
-  description: 'つらつらと書いていきます',
   base: '/note/',
   dest: 'docs',
   head: [
@@ -27,5 +30,13 @@ module.exports = {
       md.use(require("markdown-it-katex"))
       md.options.linkify = true
     }
+  },
+  themeConfig: {
+    nav: [
+      { text: 'Config' , link: '/config.html'  },
+      { text: 'Memo'   , link: '/memo.html'    },
+      { text: 'Article', link: '/article.html' }
+    ],
+    search: true
   }
 }

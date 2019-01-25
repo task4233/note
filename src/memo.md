@@ -1,5 +1,4 @@
 ---
-homt: true
 footer: Copyright ©︎ 2019-present task4233
 ---
 
@@ -41,9 +40,11 @@ $ vue --version
    - ホスト側のセキュリティソフト等も確認する
 
 ## componentsフォルダ内の*.vueファイルでしていること
+::: tip
  - `<template>`にhtml構造の記述
  - `<script>`にjsを記述(htmlに書かれているmsgもここで定義)
  - `<style>`にcssを記述
+:::
 以上の3点をまとめて, `*.vue`に記述。
 
  
