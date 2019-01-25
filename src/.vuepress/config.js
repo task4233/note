@@ -1,7 +1,9 @@
 module.exports = {
+  locales: {
+  },
   title: 'Note',
   description: 'つらつらと書いていきます',
-  base: '/note/'
+  base: '/note/',
   dest: 'docs',
   head: [
     ['link',
@@ -16,7 +18,7 @@ module.exports = {
         href: 'https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css'
       }
     ]
-  ]
+  ],
   markdown: {
     anchor: {
       permalink: true

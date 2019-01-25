@@ -52,3 +52,4 @@ $ vue --version
  - [webpack4対応webpack-dev-serverの主要な設定オプション(CLI,webpack.config.js)の意味と挙動](https://qiita.com/riversun/items/d27f6d3ab7aaa119deab)
  - [TypeScriptでVue.jsを書く – Vue CLIを使った開発のポイントを紹介](https://mae.chab.in/archives/60167)
  - [はじめに](https://jp.vuejs.org/v2/guide/index.html)
+ - [Config.jsの公式](https://vuepress.vuejs.org/config/#basic-config)
