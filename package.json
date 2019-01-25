@@ -1,0 +1,18 @@
+{
+  "name": "pg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev src --port 3000",
+    "docs:build": "vuepress build src"
+  },
+  "keywords": [],
+  "author": "task4233",
+  "license": "ISC",
+  "devDependencies": {
+    "markdown-it": "^8.4.2",
+    "markdown-it-katex": "^2.0.3",
+    "vuepress": "^0.14.8"
+  }
+}
