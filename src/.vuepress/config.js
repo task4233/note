@@ -35,7 +35,7 @@ module.exports = {
     nav: [
       { text: 'Config' , link: '/config.html'  },
       { text: 'Memo'   , link: '/memo.html'    },
-      { text: 'Article', link: '/article.html' }
+      { text: 'Vue x Rails', link: '/article/vue_rails.html' }
     ],
     search: true,
   }

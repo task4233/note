@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vue x Rails | Note</title>
+    <meta name="description" content="Take it easy. But not lazy.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css">
+    
+    <link rel="preload" href="/note/assets/css/0.styles.f813b145.css" as="style"><link rel="preload" href="/note/assets/js/app.2502b2cc.js" as="script"><link rel="preload" href="/note/assets/js/6.8e134820.js" as="script"><link rel="prefetch" href="/note/assets/js/2.3badc248.js"><link rel="prefetch" href="/note/assets/js/3.422aba82.js"><link rel="prefetch" href="/note/assets/js/4.c5adbed5.js"><link rel="prefetch" href="/note/assets/js/5.0ca729c7.js"><link rel="prefetch" href="/note/assets/js/7.a19c1fd4.js"><link rel="prefetch" href="/note/assets/js/8.6755c40f.js"><link rel="prefetch" href="/note/assets/js/9.7d5cc4ac.js">
+    <link rel="stylesheet" href="/note/assets/css/0.styles.f813b145.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/note/" class="home-link router-link-active"><!----> <span class="site-name">Note</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/note/config.html" class="nav-link">Config</a></div><div class="nav-item"><a href="/note/memo.html" class="nav-link">Memo</a></div><div class="nav-item"><a href="/note/article/vue_rails.html" class="nav-link router-link-exact-active router-link-active">Vue x Rails</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/note/config.html" class="nav-link">Config</a></div><div class="nav-item"><a href="/note/memo.html" class="nav-link">Memo</a></div><div class="nav-item"><a href="/note/article/vue_rails.html" class="nav-link router-link-exact-active router-link-active">Vue x Rails</a></div> <!----></nav>  <!----> </div> <div class="page"> <div class="content"><h1 id="vue-x-rails"><a href="#vue-x-rails" aria-hidden="true" class="header-anchor">#</a> Vue x Rails</h1> <p><a href="https://re-engines.com/2018/04/09/vue-js%E3%81%A8rails%E3%81%A7todo%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%E3%81%BF%E3%81%9F%E3%81%84%E3%81%AA%E3%82%82%E3%81%AE%E3%82%92/" target="_blank" rel="noopener noreferrer">こちら<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>のサイトを参考にチュートリアルを進めています.</p> <h2 id="_2019-1-26"><a href="#_2019-1-26" aria-hidden="true" class="header-anchor">#</a> 2019/1/26</h2> <h2 id="プロジェクトの生成"><a href="#プロジェクトの生成" aria-hidden="true" class="header-anchor">#</a> プロジェクトの生成</h2> <div class="language- extra-class"><pre class="language-text"><code>$ rails new {project_name} --webpack=vue
+</code></pre></div><h2 id="vue-jsの参照"><a href="#vue-jsの参照" aria-hidden="true" class="header-anchor">#</a> Vue.jsの参照</h2> <p>Viewのページで, <code>javascript_pack_tag</code>を使用することで,<code>app/javascript/packs</code>以下にあるJSファイルを探す.<br>
+インストール時に<code>app/javascript/packs/hello_vue.js</code>というファイルが生成されているので, これを<code>index</code>アクションにて読み込ませる.</p> <h2 id="devサーバの自動コンパイル"><a href="#devサーバの自動コンパイル" aria-hidden="true" class="header-anchor">#</a> devサーバの自動コンパイル</h2> <h3 id="foreman-gemのインストール"><a href="#foreman-gemのインストール" aria-hidden="true" class="header-anchor">#</a> foreman gemのインストール</h3> <p><code>bin/webpack</code>というコマンドでコンパイルされる.</p> <p>毎回のコンパイルが面倒なので, 変更を検出して自動コンパイルする.<br> <a href="https://medium.com/statuscode/introducing-webpacker-7136d66cddfb" target="_blank" rel="noopener noreferrer">Introducing Webpacker<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p><code>foreman</code>のGemをインストールする.<br>
+Gemfileファイルに<code>gem 'foreman'</code>を追加して<code>bundle install</code>する.</p> <h3 id="bin-serverとprocfileの追記"><a href="#bin-serverとprocfileの追記" aria-hidden="true" class="header-anchor">#</a> bin/serverとProcfileの追記</h3> <h4 id="bin-server"><a href="#bin-server" aria-hidden="true" class="header-anchor">#</a> bin/server</h4> <p>以下で示すProcfile.devの内容を実行する.</p> <div class="language- extra-class"><pre class="language-text"><code>// bin/server
+#! /bin/bash -i
+bundle install
+bundle exec foreman start -f Procfile.dev
+</code></pre></div><h4 id="packfile-dev"><a href="#packfile-dev" aria-hidden="true" class="header-anchor">#</a> Packfile.dev</h4> <p><code>rails s</code>と<code>bin/webpack-dev-server</code>を実行する.<br>
+ポート指定のために, <code>-b 0.0.0.0</code>オプションをつける.<br> <a href="https://qiita.com/Tocyuki/items/de66987ead2183e4fcae" target="_blank" rel="noopener noreferrer">RailsでポートとIPアドレスを指定する方法<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p> <div class="language- extra-class"><pre class="language-text"><code>// Procfile.dev
+web: bundle exec rails s -b 0.0.0.0
+webpacker: ./bin/webpack-dev-server
+</code></pre></div><h3 id="実践"><a href="#実践" aria-hidden="true" class="header-anchor">#</a> 実践</h3> <p><code>app/javascript/app.vue</code>のmessageを編集するとすぐにコンパイルされる.</p> <h2 id="apiの準備"><a href="#apiの準備" aria-hidden="true" class="header-anchor">#</a> APIの準備</h2> <h3 id="テーブルとモデルの作成"><a href="#テーブルとモデルの作成" aria-hidden="true" class="header-anchor">#</a> テーブルとモデルの作成</h3> <p>テーブル名は<code>tasks</code>, モデル名は<code>Task</code>とする.</p> <table><thead><tr><th style="text-align:center">Column Name</th> <th style="text-align:center">Type</th> <th style="text-align:center">Options</th></tr></thead> <tbody><tr><td style="text-align:center">name</td> <td style="text-align:center">string</td> <td style="text-align:center">presence: true</td></tr> <tr><td style="text-align:center">is_done</td> <td style="text-align:center">boolean</td> <td style="text-align:center">presence: true, default: false</td></tr> <tr><td style="text-align:center">created_at</td> <td style="text-align:center">datetime</td> <td style="text-align:center">null: false</td></tr> <tr><td style="text-align:center">updated_at</td> <td style="text-align:center">datetime</td> <td style="text-align:center">null: false</td></tr></tbody></table> <p>とりあえず,<br> <code>$ rails g model Task name:string is_done:boolean</code>.</p> <p>その後, <code>options</code>の内容を以下のようにして<code>db/migrate/*.rb</code>に追記.</p> <div class="language- extra-class"><pre class="language-text"><code>// db/migrate/*.rb
+class CreateTasks &lt; ActiveRecord::Migration[5.1]
+  def change
+    create_table :tasks do |t|
+      t.string :name    , presence: true
+      t.boolean :is_done, default: false, presence: true
+
+      t.timestamps
+    end
+  end
+end
+
+</code></pre></div><p>ついでに, <code>app/models/task.rb</code>に上で定義したvalidatesの内容を追加.</p> <div class="language- extra-class"><pre class="language-text"><code>// app/models/task.rb
+class Task &lt; ApplicationRecord
+  validates :name, presence: true
+end
+</code></pre></div><h3 id="apiのルーティングの設定"><a href="#apiのルーティングの設定" aria-hidden="true" class="header-anchor">#</a> APIのルーティングの設定</h3> <p>urlを<code>api/tasks</code>のようにnamespaceを切る.<br>
+そうすることで, api用のルーティングが用意できる.<br>
+(具体的には, <code>/api/*</code>のようにnamespaceが区切られる)</p> <div class="language- extra-class"><pre class="language-text"><code>// config/routes.rb
+Rails.application.routes.draw do
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root to: 'home#index'
+  
+  namespace :api, format: 'json' do
+    resources :tasks, only: [:index, :create, :update]
+  end
+end
+</code></pre></div><h3 id="コントローラを作成"><a href="#コントローラを作成" aria-hidden="true" class="header-anchor">#</a> コントローラを作成</h3> <p>API用のコントローラを作成する.<br>
+controllerの場所は, <code>app/controllers/</code>以下に新しく<code>api</code>というディレクトリを作成する.<br>
+名前は慣習的に<code>tasks_controller.rb</code>とする.</p> <p>追加するアクションは3つで, 以下の通り.</p> <table><thead><tr><th style="text-align:center">Action Name</th> <th style="text-align:center">REST</th> <th style="text-align:center">Overview</th></tr></thead> <tbody><tr><td style="text-align:center">index</td> <td style="text-align:center">GET /tasks</td> <td style="text-align:center">更新順の@tasksを返す</td></tr> <tr><td style="text-align:center">create</td> <td style="text-align:center">POST /tasks</td> <td style="text-align:center">新しく@taskを作ってデータベースに保存</td></tr> <tr><td style="text-align:center">''</td> <td style="text-align:center">''</td> <td style="text-align:center">保存できない場合, <code>:unprocessable_entity</code>ステータスの<code>json</code>ファイルをrenderする</td></tr> <tr><td style="text-align:center">update</td> <td style="text-align:center">PATCH/PUT /tasks/*</td> <td style="text-align:center">@taskを更新する</td></tr> <tr><td style="text-align:center">''</td> <td style="text-align:center">''</td> <td style="text-align:center">更新できなかった場合, <code>:unprocessable_entity</code>ステータスの<code>json</code>ファイルをrenderする</td></tr></tbody></table> <p>中身を勝手にいじられないように, <code>private</code>で<code>task_params</code>を定義しておく.</p> <div class="language- extra-class"><pre class="language-text"><code># -*- coding: utf-8 -*-
+class Api::TasksController &lt; ApplicationController
+ 
+  # GET /tasks
+  def index
+    # 後々のために, 更新順で返す
+    @tasks = Task.order('updated_at DESC')
+  end
+
+  # POST /tasks
+  def create
+    @task = Task.new(task_params)
+    
+    if @task.save
+      render :show, status :created
+    else
+      render json: @task.errors, status: :unprocessable_entity
+    end
+  end
+
+  # PATCH/PUT /tasks/*
+  def update
+    @task = Task.find(params[:id])
+    
+    if @task.update(task_params)
+      render :show, status: :ok
+    else
+      render json: @task.errors, status: :unprocessable_entity
+    end
+  end
+
+  private
+  def task_params
+    params.fetch(:task, {}).permit(
+      :name, :is_done
+    )
+  end
+end
+</code></pre></div><h3 id="viewのjsonファイル"><a href="#viewのjsonファイル" aria-hidden="true" class="header-anchor">#</a> ViewのJSONファイル</h3> <p><code>app/views/api/tasks/</code>下に, <code>index</code>と<code>show</code>のための2つのjbuilderファイル(json)を配置.<br>
+jbuilderについては, 以下を参照.<br> <a href="https://qiita.com/ryouzi/items/06cb0d4aa7b6527b3645" target="_blank" rel="noopener noreferrer">Railsのjbuilderの書き方と便利なイディオムやメソッド<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <div class="language- extra-class"><pre class="language-text"><code>// app/views/api/tasks/index.json.jbuilder
+// `set!`は, `:tasks`という属性をまとめるメソッド
+json.set! :tasks do
+  // `array!`は, `@tasks`の内容をループで回すメソッド 
+  // 返り値は配列になる
+  json.array! @tasks do |task|
+    // `extract!`は, `task`の中身を指定して返せるメソッド
+    // 以下の場合は, `task`の中身を, `:id`, `:name`, ..., `:updated_at`をまとめて返すことになる
+    json.extract! task, :id, :name, :is_done, :created_at, :updated_at
+  end
+end
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>// app/views/api/tasks/show.json.jbuilder
+json.set! :task do
+  json.extract! @task, :id, :name, :is_done, :created_at, :updated_at
+end
+</code></pre></div><h3 id="seeds-rbを作成し-curlコマンドで確認"><a href="#seeds-rbを作成し-curlコマンドで確認" aria-hidden="true" class="header-anchor">#</a> seeds.rbを作成し, curlコマンドで確認</h3> <p>初期値データの作成.<br>
+今回は未達成Taskを2つ, 達成済みTaskを1つ作る.
+おなじみの<code>seeds.rb</code>を以下のように設定.</p> <div class="language- extra-class"><pre class="language-text"><code>// db/seeds.rb
+2.times { Task.create!(name: 'Sample Task') }
+1.times { Task.create!(name: 'Done Task', is_done: true) }
+</code></pre></div><p>コマンドは<code>$ rails db:seed</code>.<br>
+リセットする場合は<code>$ rails db:setup</code></p> <h3 id="curlでgetしてみる"><a href="#curlでgetしてみる" aria-hidden="true" class="header-anchor">#</a> curlでGETしてみる</h3> <p><code>$ curl -X GET 0.0.0.0:5000/api/tasks | jq</code>を叩く.</p> <div class="language- extra-class"><pre class="language-text"><code>{
+  &quot;tasks&quot;: [
+    {
+      &quot;id&quot;: 6,
+      &quot;name&quot;: &quot;Done Task&quot;,
+      &quot;is_done&quot;: true,
+      &quot;created_at&quot;: &quot;2019-01-26T13:54:22.507Z&quot;,
+      &quot;updated_at&quot;: &quot;2019-01-26T13:54:22.507Z&quot;
+    },
+    {
+      &quot;id&quot;: 5,
+      &quot;name&quot;: &quot;Sample Task&quot;,
+      &quot;is_done&quot;: false,
+      &quot;created_at&quot;: &quot;2019-01-26T13:54:22.496Z&quot;,
+      &quot;updated_at&quot;: &quot;2019-01-26T13:54:22.496Z&quot;
+    },
+    {
+      &quot;id&quot;: 4,
+      &quot;name&quot;: &quot;Sample Task&quot;,
+      &quot;is_done&quot;: false,
+      &quot;created_at&quot;: &quot;2019-01-26T13:54:22.486Z&quot;,
+      &quot;updated_at&quot;: &quot;2019-01-26T13:54:22.486Z&quot;
+    },
+    {
+      &quot;id&quot;: 3,
+      &quot;name&quot;: &quot;Done Task&quot;,
+      &quot;is_done&quot;: true,
+      &quot;created_at&quot;: &quot;2019-01-26T13:54:07.951Z&quot;,
+      &quot;updated_at&quot;: &quot;2019-01-26T13:54:07.951Z&quot;
+    },
+    {
+      &quot;id&quot;: 2,
+      &quot;name&quot;: &quot;Sample Task&quot;,
+      &quot;is_done&quot;: false,
+      &quot;created_at&quot;: &quot;2019-01-26T13:54:07.939Z&quot;,
+      &quot;updated_at&quot;: &quot;2019-01-26T13:54:07.939Z&quot;
+    },
+    {
+      &quot;id&quot;: 1,
+      &quot;name&quot;: &quot;Sample Task&quot;,
+      &quot;is_done&quot;: false,
+      &quot;created_at&quot;: &quot;2019-01-26T13:54:07.929Z&quot;,
+      &quot;updated_at&quot;: &quot;2019-01-26T13:54:07.929Z&quot;
+    }
+  ]
+}
+</code></pre></div><p>なぜか2倍作成されている...<br>
+Why...?</p> <p>あとで検証する. 今は眠いのだ.</p> <h3 id="curlでpostしてみる"><a href="#curlでpostしてみる" aria-hidden="true" class="header-anchor">#</a> curlでPOSTしてみる</h3> <p><code>$ curl -X POST 0.0.0.0:5000/api/tasks -d 'task[hoge]=fuga'</code></p> <p><code>ActionController::InvalidAuthenticityToken</code>が返ってくる.<br>
+認証していないのが問題らしい.</p> <h3 id="認証機能の追加"><a href="#認証機能の追加" aria-hidden="true" class="header-anchor">#</a> 認証機能の追加</h3> <p><a href="https://qiita.com/Yarimizu14/items/c81a8cf1859f954b953e" target="_blank" rel="noopener noreferrer">【Rails】RailsでAPIの簡単なトークン認証を実装する<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a><br>
+こちらの記事を参考にした.</p> <p>(実装途中ですが, 今日はここまで)</p></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
+    <script src="/note/assets/js/app.2502b2cc.js" defer></script><script src="/note/assets/js/6.8e134820.js" defer></script>
+  </body>
+</html>
