@@ -340,6 +340,7 @@ Gemを追加して`bundle install`
  - Stylesheetsはセミコロン抜け注意.  
  - `Sprockets::FileNotFound`が出たら, Gemfileとかサーバの再起動とかしてみると直る.
  - [materialize-sassの公式](https://github.com/mkhairi/materialize-sass/tree/v0.100)
+ - カラースキームは[公式](https://materializecss.com/color.html)を見て
 
 ```
 // - app/assets/stylesheets/application.css
@@ -364,3 +365,150 @@ $secondary-color: color("cyan", "base") !default;
 ```
 
 ## Componentsを活用してヘッダを作成
+元のファイルは`index.html.erb`なので, そこの`<div id="app">`にvueの内容がマウントされる.  
+`<navbar>`の装飾をvueで行う.  
+
+フォルダ構成は以下の通り.  
+```
+/home/vagrant/rails_work/workspace/vue_todo/app/javascript
+|--app.vue
+|--packs
+| |--application.js
+| |--components
+| | |--header.vue // headerの情報を提供
+| |--todo.js // index.html.erbの`<div id="app">の部分にマウントされる
+```
+
+ - [components/header.vue](https://github.com/task4233/vue_todo/blob/master/app/javascript/packs/components/header.vue)
+ - [todo.js](https://github.com/task4233/vue_todo/blob/master/app/javascript/packs/todo.js)
+
+## Vue-Routerを使用する
+目的は, Top, About, Contactページの作成.
+
+### What's Vue-Router?
+[Vue Router](https://router.vuejs.org/ja/)
+Vue.jsでSPAを作るときに使うルータ.  
+機能は以下の通り(from 公式)  
+ - ネストされたルート/ビューマッピング
+ - モジュール式、コンポーネントベースのルータ構造
+ - ルートパラメータ、クエリ、ワイルドカード
+ - Vue.js の transition 機能による、transition エフェクトの表示
+ - 細かいナビゲーションコントロール
+ - 自動で付与される active CSS クラス
+ - HTML5 history モードまたは hash モードと IE9 の互換性
+ - カスタマイズ可能なスクロール動作
+
+兎にも角にも実装してみます.  
+
+### Vue-Routerの追加
+`$ yarn add vue-router`  
+で`vue-router`を追加 
+
+### Componentsの作成
+#### index.vue(Top)
+```
+// app/javascript/packs/components/index.vue
+<template>
+  <div>
+    <p>Index</p>
+  </div>
+</template>
+```
+#### about.vue(About)
+```
+// app/javascript/packs/components/about.vue
+<template>
+  <div>
+    <p>
+      This is a sample todo application.<br>
+      As I wanna practice vue.js, I've made this app.
+    </p>
+  </div>
+</template>
+```
+
+#### contact.vue(Contact)
+```
+// app/javascript/packs/components/contact.vue
+<template>
+  <div>
+    <p>
+      If you wanna contact me, plz send direct message to below account.<br>
+      Twitter: `@task4233`
+    </p>
+  </div>
+</template>
+```
+
+### 作成したComponentsをVue-routerに登録
+Vue-routerを使用するために, `router`ディレクトリを作成してそちらに記述.  
+`mode: 'history'`とすることで, HTMLのhistory APIを使用して, 同じビューないでURLを書き換えられる.  
+[HTML Historyモード](https://router.vuejs.org/ja/guide/essentials/history-mode.html)  
+
+ただし, not-foundパスが`index.html`にリダイレクトされるため, 404ページを`NotFountComponent`とする.
+
+```
+// app/javascript/packs/router/router.js
+import Vue from 'vue/dist/vue.esm.js'
+import VueRouter from 'vue-router'
+import Index from '../components/index.vue'
+import About from '../components/about.vue'
+import Contact from '../components/contact.vue'
+
+Vue.use(VueRouter)
+
+export default new VueRouter({
+  mode: 'history',
+  routes: [
+    { path: '/', components: Index },
+    { path: '/about', components: About },
+    { path: '/contact', components: Contact },
+    { path: '*', component: NotFoundComponent }
+  ]
+})
+```
+
+#### Vue-Routerに応じたタグの修正
+Vue-Routerを使用すると,以下のようなタグが提供される.
+
+|Name|Effect|  
+|:-:|:-:|  
+|`<router-link>`|`<a>`タグとして変換されるが,|
+|''| Vue-Routerに登録されたパスからコンポーネントを探す|  
+|`<router-view>`|`<router-link>`で見つけたコンポーネントを表示|
+
+要するに, `<a>`タグを`<router-link>`に修正する.
+
+その後, `app/views/home/index.html.erb`に`<router-view></router-view>`を追加.
+
+## Axiosを用いたAPI通信(Ajax)
+### What's Axios?
+Ajax通信ライブラリらしい.  
+[axios](https://github.com/axios/axios)
+
+### Axiosのインストール
+`$ yarn add axios`  
+
+### 実践(Axios)
+checkboxの書き方は, Materialize 1.0.0から変わったので注意.  
+詳しくは, [公式](https://materializecss.com/checkboxes.html)を見よ.
+
+また, 一覧を表示するために, JSを書く.  
+仕組みは, インスタンスにプロパティとして`Task`(array)と, `newTask`(string)を与え, メソッドでAPIで取得してきた値をループさせて`tasks`に格納するというもの.
+
+ - `method`は, Vueインスタンスがマウントされたタイミングで実行されるライフサイクルフック(詳しくは, [ライフサイクルダイアグラム](https://jp.vuejs.org/v2/guide/instance.html#%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A2%E3%82%B0%E3%83%A9%E3%83%A0)をみるとよい)
+ - 一覧表示は, [`v-for`](https://jp.vuejs.org/v2/api/#v-for)と[`v-if`](https://jp.vuejs.org/v2/api/#v-if)を使ってやればよい(汚くなるけども, まぁ動くので)  
+ - v-bindで置換
+ - 単一コンポーネントにするので, コンパイル時にCSSを出さないようにする
+ - 具体的には, `config/webpack/environment.js`で`environment.loaders.get('vue').options.extractCSS=false`とすれば良い
+ - accomplished tasksは基本的に非表示, 必要な時に表示すればおk.
+ - ボタンが押されたとき([`v-on`](https://jp.vuejs.org/v2/api/#v-on))に表示すればおk.
+
+### 新規作成フォームの作成
+双方向バインディングが可能な[`v-model`](https://jp.vuejs.org/v2/api/#v-model)を用いる.  
+`<input>`タグで入力された値と, インスタンスの[`newTask`プロパティ](#%E5%AE%9F%E8%B7%B5-axios)とをバインドさせる.
+
+::: tip
+基本的には, `script`の`method`を定義して, イベントに対してそれを呼び出すという様式になっている様子.  
+JSと同じ.
+:::
