@@ -261,4 +261,106 @@ Why...?
 [【Rails】RailsでAPIの簡単なトークン認証を実装する](https://qiita.com/Yarimizu14/items/c81a8cf1859f954b953e)  
 こちらの記事を参考にした.  
 
-(実装途中ですが, 今日はここまで)
+## 2019/1/27
+### 認証機能の追加(つづき)
+追加するのは, `app/controllers/application_controller.rb`.  
+以下のように追加.
+```
+class ApplicationController < ActionController::Base
+
+  include ActionController::HttpAuthentication::Token::ControllerMethods
+
+  before_action :authenticate
+  protect_from_forgery with: :exception
+  
+  protected
+  def authenticate
+    authenticate_token || render_unauthenticated
+  end
+
+  def authenticate_token
+    authenticate_with_http_token do |token, options|
+      token == 'hoge'
+    end
+  end
+  
+  def render_unauthenticated
+    # render_errors(:unauthorized, ['invalid token'])
+    obj = { message: 'token invalid' }
+    render json: obj, status: :unauthorized
+  end
+  
+end
+
+```
+
+この後,   
+`$ curl -X POST -H 'Content-Type:application/json' -H 'Authorization: Token hoge' 0.0.0.0:5000/api/tasks -d '{ "task"=>{"name":"fuga"} }'`  
+を叩くと,  
+`Can't verify CSRF token authenticity`と怒られる.  
+このtokenだとダメなのか?  
+
+## secureな認証付きトークンを用いてPOSTする
+[Rails5 APIで認証付きのWebAPIを作ってみる](https://qiita.com/ochiochi/items/966b884eb17045dfb929)
+
+こちらの記事を参考にしてみる.  
+
+これユーザ認証だ.  
+
+uhmmmmmmmmmm....  
+
+後でやります(TODOに投げる)  
+Do better then perfectなので.  
+
+### 最悪の対処法
+`app/controller/application_controller.rb`のCSRF対策のコードをコメントアウト.  
+許せ...
+
+`$ curl -X POST -H 'Content-Type:application/json' 0.0.0.0:5000/api/tasks | jq`  
+```
+{ "task":
+  {
+    "id": 7,
+    "name": "fuga",
+    "is_done": false,
+    "created_at": "2019-01-27T01:45:10.207Z",
+    "updated_at": "2019-01-27T01:45:10.207Z"
+  }
+}
+```
+
+おkですね(全くおkではない)  
+後で認証は実装する.  
+
+## Materializeの導入
+MaterializeというCSSフレームワークを導入する.  
+Gemを追加して`bundle install`
+
+その後, Materializeを適応するために以下の2ファイルを変更.  
+ - Stylesheetsはセミコロン抜け注意.  
+ - `Sprockets::FileNotFound`が出たら, Gemfileとかサーバの再起動とかしてみると直る.
+ - [materialize-sassの公式](https://github.com/mkhairi/materialize-sass/tree/v0.100)
+
+```
+// - app/assets/stylesheets/application.css
+// + app/assets/stylesheets/application.scss
+/* Materialize */
+
+@import "materialize/components/color-variables";
+$primary-color: color("teal", "accent-3") !default;
+$secondary-color: color("cyan", "base") !default;
+@import 'materialize';
+@import 'material_icons';
+```
+
+```
+// app/assets/javascripts/application.js
+//= require jquery
+//= require jquery.turbolinks
+//= require materialize-sprockets
+//= require turbolinks
+//= require_tree .
+
+```
+
+## Componentsを活用してヘッダを作成
