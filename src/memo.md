@@ -47,6 +47,10 @@ $ vue --version
 :::
 以上の3点をまとめて, `*.vue`に記述。
 
+## checkboxの追加
+以下のpackageで追加可能.  
+ただし, staticなので注意.  
+[markdown-it-task-lists](https://github.com/revin/markdown-it-task-lists)
  
 # 参考資料
  - [vue-cliでVue.jsをインストールしたときのファイルについて](https://qiita.com/magaya0403/items/2b5d9641592df0c7cba2)

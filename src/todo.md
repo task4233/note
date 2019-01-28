@@ -1,5 +1,11 @@
 # TODO
- - APIの認証を実装
- - カテゴリの追加
- - searchのデザイン変更
- - プログラムのlinum追加
+ - Rails Todo
+   - [ ] TODOをチェックボックスにする
+   - [ ] modelにis_doneを追加
+ - Rails x Vue
+   - [ ] APIの認証を実装
+ - VuePress
+   - [ ] カテゴリの追加
+   - [ ] searchのデザイン変更
+   - [x] プログラムのlinum追加
+   - [x] チェックボックスの追加

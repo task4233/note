@@ -31,6 +31,10 @@ bundle install
 bundle exec foreman start -f Procfile.dev
 ```
 
+::: warning
+`$ chmod 777 bin/server`を実行しておかないと, `bin/server`がパーミッションのせいで実行できなくなる可能性がある.
+:::
+
 #### Packfile.dev
 `rails s`と`bin/webpack-dev-server`を実行する.  
 ポート指定のために, `-b 0.0.0.0`オプションをつける.  

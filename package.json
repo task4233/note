@@ -14,5 +14,8 @@
     "markdown-it": "^8.4.2",
     "markdown-it-katex": "^2.0.3",
     "vuepress": "^0.14.8"
+  },
+  "dependencies": {
+    "markdown-it-task-lists": "^2.1.1"
   }
 }

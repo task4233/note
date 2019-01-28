@@ -23,22 +23,24 @@ module.exports = {
     ]
   ],
   markdown: {
+    lineNumbers: true,
     anchor: {
       permalink: true
     },
     config: (md) => {
-      md.use(require("markdown-it-katex"))
+      md.use(require('markdown-it-katex'))
+      md.use(require('markdown-it-task-lists'))
       md.options.linkify = true
     }
   },
   themeConfig: {
     nav: [
-      { text: 'Config' , link: '/config.html'  },
-      { text: 'Memo'   , link: '/memo.html'    },
+      { text: 'Todo'    , link: '/todo.html'  },
+      { text: 'Memo'    , link: '/memo.html'    },
       { text: 'Articles',
         items: [
             { text: 'Vue x Rails', link: '/article/vue_rails.html' },
-            { text: 'Rails Todo', link: '/article/rails_todo.html' }
+            { text: 'Rails Todo' , link: '/article/rails_todo.html' }
         ]
       }
     ],
