@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>製作手順 | Note</title>
+    <meta name="description" content="Take it easy. But not lazy.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css">
+    
+    <link rel="preload" href="/note/assets/css/0.styles.f813b145.css" as="style"><link rel="preload" href="/note/assets/js/app.56e0a8cb.js" as="script"><link rel="preload" href="/note/assets/js/7.71b9228b.js" as="script"><link rel="prefetch" href="/note/assets/js/10.71033598.js"><link rel="prefetch" href="/note/assets/js/11.c8e1385f.js"><link rel="prefetch" href="/note/assets/js/12.cc72deb8.js"><link rel="prefetch" href="/note/assets/js/2.22f59a13.js"><link rel="prefetch" href="/note/assets/js/3.cacc13e2.js"><link rel="prefetch" href="/note/assets/js/4.8e678305.js"><link rel="prefetch" href="/note/assets/js/5.8bc0b433.js"><link rel="prefetch" href="/note/assets/js/6.1dcf1e56.js"><link rel="prefetch" href="/note/assets/js/8.bd0b6ccb.js"><link rel="prefetch" href="/note/assets/js/9.9f24c4d7.js">
+    <link rel="stylesheet" href="/note/assets/css/0.styles.f813b145.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/note/" class="home-link router-link-active"><!----> <span class="site-name">Note</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/note/config.html" class="nav-link">Config</a></div><div class="nav-item"><a href="/note/memo.html" class="nav-link">Memo</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">Articles</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note/article/vue_rails.html" class="nav-link">Vue x Rails</a></li><li class="dropdown-item"><!----> <a href="/note/article/rails_todo.html" class="nav-link router-link-exact-active router-link-active">Rails Todo</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/note/config.html" class="nav-link">Config</a></div><div class="nav-item"><a href="/note/memo.html" class="nav-link">Memo</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">Articles</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note/article/vue_rails.html" class="nav-link">Vue x Rails</a></li><li class="dropdown-item"><!----> <a href="/note/article/rails_todo.html" class="nav-link router-link-exact-active router-link-active">Rails Todo</a></li></ul></div></div> <!----></nav>  <!----> </div> <div class="page"> <div class="content"><h1 id="製作手順"><a href="#製作手順" aria-hidden="true" class="header-anchor">#</a> 製作手順</h1> <h1 id="_12-26"><a href="#_12-26" aria-hidden="true" class="header-anchor">#</a> 12/26</h1> <ol><li>rootのToppageの作成</li></ol> <h2 id="homeアクションとaboutアクションを追加"><a href="#homeアクションとaboutアクションを追加" aria-hidden="true" class="header-anchor">#</a> homeアクションとaboutアクションを追加</h2> <p>$ rails generate controller StaticPages home about
+($ rails generate controller {ControllerName} {action_name}+)</p> <div class="language-shell extra-class"><pre class="language-text"><code>Running via Spring preloader in process 30664
+      create  app/controllers/static_pages_controller.rb
+       route  get 'static_pages/about'
+       route  get 'static_pages/home'
+      invoke  erb
+      create    app/views/static_pages
+      create    app/views/static_pages/home.html.erb
+      create    app/views/static_pages/about.html.erb
+      invoke  test_unit
+      create    test/controllers/static_pages_controller_test.rb
+      invoke  helper
+      create    app/helpers/static_pages_helper.rb
+      invoke    test_unit
+      invoke  assets
+      invoke    coffee
+      create      app/assets/javascripts/static_pages.coffee
+      invoke    scss
+      create      app/assets/stylesheets/static_pages.scss
+</code></pre></div><p>結果, <code>$rails s</code>すると, 以下のページにアクセス可能になる。</p> <ul><li><a href="http://192.168.33.10:3000/static_pages/home" target="_blank" rel="noopener noreferrer">http://192.168.33.10:3000/static_pages/home<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="http://192.168.33.10:3000/static_pages/about" target="_blank" rel="noopener noreferrer">http://192.168.33.10:3000/static_pages/about<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <h2 id="内容の編集"><a href="#内容の編集" aria-hidden="true" class="header-anchor">#</a> 内容の編集</h2> <p>表示される内容はViewにあたるので, 以下のパスに存在している。</p> <ul><li>/app/views/static_pages/home</li> <li>/app/views/static_pages/about</li></ul> <h2 id="テストの作成"><a href="#テストの作成" aria-hidden="true" class="header-anchor">#</a> テストの作成</h2> <p>テストは<code>/test/controllers/</code>以下に存在する。</p> <div class="language- extra-class"><pre class="language-text"><code># test/controllers/static_pages_controller_test.rb
+~
+test “should get home” do
+  # homeページにGETリクエスト
+  get static_pages_home_url
+  # レスポンスがGREENになるはず
+  assert_response :success
+end
+~
+</code></pre></div><p>テスト駆動開発はテストから作る。</p> <ul><li><p>リクエストして, 正しくレスポンスされるかを確認する
+{get/post} {page_url}
+assert_response :success</p></li> <li><p>オブジェクトが存在するかを確認
+assert_select “{object_name(e.g. title)}”, “{Screening text}”</p></li></ul> <h2 id="埋め込みruby"><a href="#埋め込みruby" aria-hidden="true" class="header-anchor">#</a> 埋め込みRuby</h2> <p>&lt;% … %&gt; := 中に書かれたコードを実行するだけ
+&lt;%= … %&gt; := 中に蚊kれたコードの実行結果がそこに挿入される</p> <p><code>provide</code>メソッドを使用してタイトルをページごとに変更する。</p> <div class="language- extra-class"><pre class="language-text"><code>app/view/static_pages/*.html.erb
+&lt;% provide(:title, “Help”) %&gt;
+~
+&lt;%= yield(:title) %&gt;
+</code></pre></div><p>ページのレイアウトは<code>app/views/layouts/application.html.erb</code>以下に存在している。
+これを用いることで, <code>provide</code>メソッドを各ファイルで定義し, <code>yield</code>メソッドを書く必要がなくなる。</p> <h1 id="html5のサポート"><a href="#html5のサポート" aria-hidden="true" class="header-anchor">#</a> html5のサポート</h1> <div class="language- extra-class"><pre class="language-text"><code>&lt;!--[if lt IE 9]&gt;
+  &lt;script src=&quot;//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js&quot;&gt;
+  &lt;/script&gt;
+&lt;![endif]--&gt;
+</code></pre></div><h1 id="bootstrapの追加"><a href="#bootstrapの追加" aria-hidden="true" class="header-anchor">#</a> bootstrapの追加</h1> <p>app/assets/stylesheet/custom.scssに,
+@import bootstrap
+@import bootstrap-sprockets
+を追加</p> <h1 id="bootstrapの効果"><a href="#bootstrapの効果" aria-hidden="true" class="header-anchor">#</a> bootstrapの効果</h1> <p>navbar navbar-fixed-top := nav要素を上に表示
+navbar-inverse := 色反転</p> <p>nav navbar-nav navbar-right := navbar内のnav要素を右に表示</p> <p>jumbotran := 背景をそれっぽく覆う</p> <h1 id="renderメソッドによる分散コーディング"><a href="#renderメソッドによる分散コーディング" aria-hidden="true" class="header-anchor">#</a> renderメソッドによる分散コーディング</h1> <p>&lt;%= render ‘layouts/hoge’ %&gt;
+と書くと,
+app/views/layout/_hoge.html.erb
+を参照する。</p> <h1 id="アセットパイプライン"><a href="#アセットパイプライン" aria-hidden="true" class="header-anchor">#</a> アセットパイプライン</h1> <ul><li>app/assets := 現在のアプリケーション固有のアセット</li> <li>lib/assets := 開発チームによって作成されたライブラリ用のアセット</li> <li>vendor/assets := サードパーティのアセット</li></ul> <h1 id="振りプロセッサエンジン"><a href="#振りプロセッサエンジン" aria-hidden="true" class="header-anchor">#</a> 振りプロセッサエンジン</h1> <p>chain可能で, 順番に参照して結合する。
+末尾から実行される。
+e.g.) hoge.js.coffee.erbだと, erb→coffeeScriptの順番</p> <h1 id="リンクのテスト-統合テスト"><a href="#リンクのテスト-統合テスト" aria-hidden="true" class="header-anchor">#</a> リンクのテスト(統合テスト)</h1> <p>$ rails generate integration_test {test_name}
+test/integration/{test_name}_test.rbが作成される</p> <p>12/27</p> <h1 id="usersモデルの作成"><a href="#usersモデルの作成" aria-hidden="true" class="header-anchor">#</a> Usersモデルの作成</h1> <p>まずはコントローラを作成</p> <div class="language- extra-class"><pre class="language-text"><code>$ rails g controller Users new
+# Usersコントローラにnewアクションを与える
+</code></pre></div><p>次にモデルを作成
+$ rails g model User name: string email string</p> <h1 id="モデルのバリデーション"><a href="#モデルのバリデーション" aria-hidden="true" class="header-anchor">#</a> モデルのバリデーション</h1> <p>app/models/user.rb以下に記入
+validate {要素名}, オプション</p> <p>presence := 存在しているか
+length := 文字列長(maximum, minimum, etc…)
+uniqueness := 一意性があるか{ case_sensitive: false }で大文字小文字を区別しない
+format: {with: } := 正規表現
+/ := 正規表現の開始と終端
+\A := 文字列の先頭
+[\w+-.]+ := 英数字, _, +, -, .のいずれかを少なくとも1回繰り返す
+@ := アットマーク
+[a-z\d-.]+ := 英小文字, 数字, -, . のいずれか1つを少なくとも1文字以上繰り返す
+. := ドット
+[a-z]+ := 英小文字を少なくとも1回以上繰り返す
+\z := 文字列の末尾
+i := 大文字小文字を無視するオプション</p> <h1 id="dbのmigrate"><a href="#dbのmigrate" aria-hidden="true" class="header-anchor">#</a> dbのmigrate</h1> <p>ファイル直接書き換えの場合は,
+$ rails db:migrate:reset</p> <h1 id="usersリソース"><a href="#usersリソース" aria-hidden="true" class="header-anchor">#</a> Usersリソース</h1> <p>config/routes.rbに
+resources :users
+を追加。</p> <p>すると, index, show, new, create, edit, update, destroyが使用可能になる。
+アクションの定義は, app/controllers/users_controller.rbで行う。
+def {action_name}
+…
+end
+で追加できる。</p> <p>debuggerを追加するとbybugが使用可能になる。</p> <h1 id="signup"><a href="#signup" aria-hidden="true" class="header-anchor">#</a> signup</h1> <p>app/views/users/new.html.erbに追加。
+明日はSignupのテストから。</p> <p>テスト終わり
+assert_template
+assert_select := 以降のテキストが存在しているか
+content_tag := 以降の要素をタグとしてhtmlを作成
+assert_no_difference := その中の行為で要素の変更がないことをテストする</p> <h1 id="sessions-login-logout"><a href="#sessions-login-logout" aria-hidden="true" class="header-anchor">#</a> sessions(login, logout)</h1> <h1 id="sessionsコントローラを生成-newアクションを追加"><a href="#sessionsコントローラを生成-newアクションを追加" aria-hidden="true" class="header-anchor">#</a> sessionsコントローラを生成(newアクションを追加)</h1> <p>$ rails g controller Sessions new</p> <h1 id="ルートを追加"><a href="#ルートを追加" aria-hidden="true" class="header-anchor">#</a> ルートを追加</h1> <p>get    '/login',   to: 'sessions#new'
+post   '/login',   to: 'sessions#create'
+delete '/logout',  to: 'sessions#destroy'</p> <h1 id="ルートを確認する"><a href="#ルートを確認する" aria-hidden="true" class="header-anchor">#</a> ルートを確認する</h1> <p>$ rails routes</p> <h1 id="flashメッセージで報告"><a href="#flashメッセージで報告" aria-hidden="true" class="header-anchor">#</a> flashメッセージで報告</h1> <p>def createの部分にflash.now[:danger] = ‘Invalid’を追加すると良い</p> <h1 id="トグルメニューの追加"><a href="#トグルメニューの追加" aria-hidden="true" class="header-anchor">#</a> トグルメニューの追加</h1> <p>class=“dropdown-toggle”を追加すればおk</p> <h1 id="ログアウト"><a href="#ログアウト" aria-hidden="true" class="header-anchor">#</a> ログアウト</h1> <p>helperに追加
+session.delete(:user_id)
+@current_user = nil
+でおk。セッションを切っても@curernt_userはそのままなので, nilで上書きする</p> <p>その後, controllerに追加
+controllerに全部書いてもいいが, 中身が大きくなりすぎるので, helperを用いて分割する。</p> <h1 id="todo"><a href="#todo" aria-hidden="true" class="header-anchor">#</a> todo</h1> <p>rails g model Task title:string
+rails g controller Tasks
+ルーティングの追加</p> <p>他のアクションの追加
+new, create
+viewの追加
+edit, update</p> <p>controllerで宣言したresourceはviewでも利用可能</p></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
+    <script src="/note/assets/js/app.56e0a8cb.js" defer></script><script src="/note/assets/js/7.71b9228b.js" defer></script>
+  </body>
+</html>
