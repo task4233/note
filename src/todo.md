@@ -1,6 +1,7 @@
 # TODO
  - Rails Todo
    - [ ] TODOをチェックボックスにする
+     - [ ] checkboxの改行を修正
    - [ ] modelにis_doneを追加
  - Rails x Vue
    - [ ] APIの認証を実装
@@ -9,3 +10,5 @@
    - [ ] searchのデザイン変更
    - [x] プログラムのlinum追加
    - [x] チェックボックスの追加
+ - ChukapiAA
+   - [ ] 不要な文字データの消去
