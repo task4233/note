@@ -1,8 +1,12 @@
 ---
+date: 2019-01-30
 description: 'TodoアプリをRailsで作る過程を綴っていきます.'
+category:
+ - rails
+ - todo
 ---
 
-# 製作手順
+# Rails_Todoの製作手順めも
 # 12/26
 1. rootのToppageの作成
 ## homeアクションとaboutアクションを追加
@@ -348,3 +352,13 @@ def home
 end
 ```
 を追記した.
+
+# 01/30
+# DBの再構築
+`$ rails db:reset`よりも`$ rails db:migrate:reset`を使うべき.  
+ - [rake db:reset と rake db:migrate:reset の違い](https://easyramble.com/difference-bettween-rake-db-migrate-reset.html)
+
+::: danger
+`db:reset`はmigration fileを編集してもその内容は更新されない.
+:::
+ 

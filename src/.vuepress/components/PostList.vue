@@ -3,6 +3,7 @@
     <div v-for="post in posts">
       <h2><a v-bind:href="$withBase(post.path)">{{ post.title }} </a></h2>
       <p>{{ post.frontmatter.description }}</p>
+      Tags: <span v-for="c in post.frontmatter.category" class="tag"><a v-bind:href="$withBase(post.path)">{{c}}</a></span><p></p>
       <a v-bind:href="$withBase(post.path)">続きを読む!</a>
     </div>
   </div>
@@ -19,3 +20,32 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+/*タグクラウドのデザイン*/
+.tag a {
+ padding:10px 0;
+ color:#666;
+ display:inline-block;
+ margin-right: 10px;
+ background:none;
+ font-size:12px;
+ text-decoration:none;
+ border-bottom:dotted 1px #ddd;
+}
+
+.tag a:hover{
+ color:#7fbfff;
+ background:#fafafa;
+ font-weight:bold;
+}
+
+.tag a:before{
+ text-shadow:none;
+ font-family:"FontAwesome";
+ content:"\f02c";
+ font-weight:normal;
+ color:#eedcb3;
+ padding-right:6px;
+}
+</style>

@@ -1,6 +1,9 @@
 ---
 date: 2019-01-30
 description: 'VuePressをはじめて気づいたこととか'
+category: 
+ - memo
+ - VuePress
 footer: Copyright ©︎ 2019-present task4233
 ---
 
