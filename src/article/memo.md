@@ -64,6 +64,14 @@ $ vue --version
 
 
  - [算出プロパティとウォッチャ](https://jp.vuejs.org/v2/guide/computed.html)
+
+## リンクをBase依存にする
+`$withBase`を使えば良い.  
+e.g.)  
+```vue
+<img :src="withBase('/foo.png')" alt="foo">
+```
+ - [Base URL](https://vuepress.vuejs.org/guide/assets.html#base-url)
  
 # 参考資料
  - [vue-cliでVue.jsをインストールしたときのファイルについて](https://qiita.com/magaya0403/items/2b5d9641592df0c7cba2)
@@ -73,3 +81,4 @@ $ vue --version
  - [Config.jsの公式](https://vuepress.vuejs.org/config/#basic-config)
  - [VuePressでディレクトリ構成からサイドバーのメニューを自動設定する](https://qiita.com/jacoyutorius/items/ad769d5e303d222f215a)
  - [算出プロパティとウォッチャ](https://jp.vuejs.org/v2/guide/computed.html)
+ - [Asset Handling](https://vuepress.vuejs.org/guide/assets.html#asset-handling)
