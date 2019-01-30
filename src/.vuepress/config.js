@@ -35,14 +35,9 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: 'Todo'    , link: '/todo.html'  },
-      { text: 'Memo'    , link: '/memo.html'    },
-      { text: 'Articles',
-        items: [
-            { text: 'Vue x Rails', link: '/article/vue_rails.html' },
-            { text: 'Rails Todo' , link: '/article/rails_todo.html' }
-        ]
-      }
+      { text: 'Todo'           , link: '/todo.html' },
+      { text: 'Chukapi-Fun-Art', link: '/chukapi_fun_art.html' },
+      { text: 'Articles'       , link: '/list.html' }
     ],
     search: true,
   }

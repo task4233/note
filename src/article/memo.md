@@ -1,8 +1,11 @@
 ---
+date: 2019-01-30
+description: 'VuePressをはじめて気づいたこととか'
 footer: Copyright ©︎ 2019-present task4233
 ---
 
-# コマンド
+# Memo(VuePress)
+# コマンド(2019-01-26)
 開発時のコマンドは, 
 `$ yarn docs:dev`
 
@@ -47,10 +50,20 @@ $ vue --version
 :::
 以上の3点をまとめて, `*.vue`に記述。
 
-## checkboxの追加
+## checkboxの追加(2019-01-27)
 以下のpackageで追加可能.  
 ただし, staticなので注意.  
 [markdown-it-task-lists](https://github.com/revin/markdown-it-task-lists)
+
+## Computedとmethods, watchの違い(2019-01-30)
+|Property Name|Speed|Details|
+|:-:|:-:|:-:|
+|`Computed`|高速|値は依存関係に基づきキャッシュされ, 依存元が変更されない限りはメモ化された値を返す|  
+|`methods`|普通|依存元が刻々と変化する場合に用いられる|
+|`watch`|速い|データが変わるのに応じて非同期やコストの高い処理を実行したいときに, ウォッチャとして扱うのに向いている|
+
+
+ - [算出プロパティとウォッチャ](https://jp.vuejs.org/v2/guide/computed.html)
  
 # 参考資料
  - [vue-cliでVue.jsをインストールしたときのファイルについて](https://qiita.com/magaya0403/items/2b5d9641592df0c7cba2)
@@ -59,3 +72,4 @@ $ vue --version
  - [はじめに](https://jp.vuejs.org/v2/guide/index.html)
  - [Config.jsの公式](https://vuepress.vuejs.org/config/#basic-config)
  - [VuePressでディレクトリ構成からサイドバーのメニューを自動設定する](https://qiita.com/jacoyutorius/items/ad769d5e303d222f215a)
+ - [算出プロパティとウォッチャ](https://jp.vuejs.org/v2/guide/computed.html)

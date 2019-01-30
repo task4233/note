@@ -1,3 +1,9 @@
+---
+date: 2019-01-25
+description: 'VuePress公式のConfigについて読んだ時のメモ'
+---
+
+# VuePressのConfigめも
 # はじめに
 これは, 私なりにVuePressを読んだ時のメモです.
 詳しくは, [公式](https://vuepress.vuejs.org/config)をみてね.

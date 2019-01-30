@@ -1,4 +1,5 @@
 # TODO
+## Unaccomplished Tasks
  - Rails Todo
    - [ ] TODOをチェックボックスにする
      - [ ] checkboxの改行を修正
@@ -8,7 +9,15 @@
  - VuePress
    - [ ] カテゴリの追加
    - [ ] searchのデザイン変更
+
+## Accomplished Tasks
+ - Rails Todo
+   - No Tasks
+ - Rails x Vue
+   - No Tasks
+ - VuePress
+   - [x] 一覧ページの追加
    - [x] プログラムのlinum追加
    - [x] チェックボックスの追加
  - ChukapiAA
-   - [ ] 不要な文字データの消去
+   - [x] 不要な文字データの消去

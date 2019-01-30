@@ -1,3 +1,7 @@
+---
+description: 'TodoアプリをRailsで作る過程を綴っていきます.'
+---
+
 # 製作手順
 # 12/26
 1. rootのToppageの作成
