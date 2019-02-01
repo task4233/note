@@ -1,6 +1,10 @@
 # Created by https://www.gitignore.io/api/vue,node
 # Edit at https://www.gitignore.io/?templates=vue,node
 
+### alternative filter ###
+md_docs/
+client/
+
 ### Node ###
 # Logs
 logs
