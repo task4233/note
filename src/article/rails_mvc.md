@@ -1,5 +1,5 @@
 ---
-date: 2019-01-30
+date: 2019-02-01
 description: '現状をまとめた.MVCの振り分けが難しい...'
 category:
  - rails
@@ -85,7 +85,7 @@ Viewは散らかり過ぎて参っているので, どうにかしたい.
 |index.html.erb|タスクの一斉表示(これlayoutの_taskなんとかで良くないか?)|?|
 |edit.html.erb|タスクのedit(これってこのページじゃないと無理なのか?)|o?|
 |new.html.erb|タスクのCreate(これもViewをわざわざ用意する必要があるのか?)|o?|
-|_task.html.erb|これは何?|x?|
+|_task.html.erb|view/users/showのところでTasksを表示するときのパラメータっぽい|x?|
 
 TasksってView要らない気がする(Viewは別にして, Controllerだけあれば良いと考えているので)
 

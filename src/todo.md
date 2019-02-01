@@ -1,9 +1,11 @@
 # TODO
 ## Unaccomplished Tasks
  - Rails Todo
-   - [ ] TODOをチェックボックスにする
-     - [ ] checkboxの改行を修正
-   - [ ] modelにis_doneを追加
+   - [ ] Task Modelのpriorityの実装
+     - [ ] priorityのソート
+     - [ ] priorityの実装方法を考える
+     - [ ] にぶたんのフォームを作る
+     - [ ] にぶたんの実装を考える
  - Rails x Vue
    - [ ] APIの認証を実装
  - VuePress
@@ -12,7 +14,7 @@
 
 ## Accomplished Tasks
  - Rails Todo
-   - No Tasks
+   - [x] modelにis_doneを追加
  - Rails x Vue
    - No Tasks
  - VuePress

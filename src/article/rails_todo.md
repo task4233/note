@@ -1,5 +1,5 @@
 ---
-date: 2019-01-30
+date: 2019-02-01
 description: 'TodoアプリをRailsで作る過程を綴っていきます.'
 category:
  - rails
@@ -362,3 +362,29 @@ end
 `db:reset`はmigration fileを編集してもその内容は更新されない.
 :::
  
+# 02/01
+# Viewの刷新
+現時点で必要のなさそうなものを全て取り払った.  
+特に, 重複しているものなどは, まとめて`home.html.erb`に全て流し込んだ.  
+細かい部分は, partialを作って, `shared/`フォルダに流し込んだ.  
+
+# Tasksの表示数の変更
+allではなく, `take(num)`と書くと, num個の要素を表示できる.  
+
+```ruby
+# 3つ選んで表示
+<%= render @user.tasks.all.take(3) %>
+````
+
+また, 表示されるデータは, モデルでソートしておくことで, 任意の順序で取り出すことが可能.
+
+```ruby
+// app/models/task.rb
+~~
+# priorityをキーとして, 昇順でソート
+default_scope -> { order(priority: :desc) } 
+~~
+```
+
+# `priority`の追加(in Task Model)
+`priority`を追加することで, 重要度の高いものを上に持ってくる.  
