@@ -388,3 +388,6 @@ default_scope -> { order(priority: :desc) }
 
 # `priority`の追加(in Task Model)
 `priority`を追加することで, 重要度の高いものを上に持ってくる.  
+
+## poiorityの実装方法
+ヒープ木を持たせるのが良さそう.
