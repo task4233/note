@@ -1,5 +1,5 @@
 ---
-date: 2019-02-01
+date: 2019-02-02
 description: 'TodoアプリをRailsで作る過程を綴っていきます.'
 category:
  - rails
@@ -391,3 +391,117 @@ default_scope -> { order(priority: :desc) }
 
 ## poiorityの実装方法
 ヒープ木を持たせるのが良さそう.
+
+### 実装
+```ruby
+class HeapArray
+  def initialize
+    @heapArr = []
+  end
+
+  def push(n)
+    i = @heapArr.size
+    
+    while i > 0
+      # 親のノード番号
+      p = (i-1)/2
+      # 逆転してないなら抜ける
+      # この部分の処理をインタラクティブにすれば良さそう
+      break if @heapArr[p] >= n
+      # 親ノード番号を下ろして, 自分は上に
+      @heapArr[i] = @heapArr[p]
+      i = p
+    end
+    @heapArr[i] = n
+  end  
+ 
+  def pop()
+    max = @heapArr[0]
+    # 根に持ってくる要素を取り出す
+    n = @heapArr.pop
+
+    if @heapArr.empty?
+      return max
+    end
+    
+    # 根から下ろしていく
+    i = 0
+    while (i*2 + 1) < @heapArr.size
+      # 子同士を比較
+      left = i*2 + 1
+      right = i*2 + 2
+      if !@heapArr[i*2+2].nil? && @heapArr[left] < @heapArr[right]
+        left = right
+      end
+
+      break if @heapArr[left] <= n
+      @heapArr[i] = @heapArr[left]
+      i = left      
+    end
+    @heapArr[i] = n
+
+    return max
+  end
+
+end
+```
+
+# 02/02
+## Modal Windowの実装
+Ajaxで非同期通信にしたいなという気持ちがある  
+[これとかどうでしょう(Rails5とBootstrapでモーダルウィンドウ)](https://logist3.com/rails5-bootstrap-modalwindow/)
+
+## それのチュートリアル
+ - bootstrapの前にjqueryをrequireしないとNG(app/assets/javascripts/application.js)
+ - 基本的に, 同じviewの中で完結させること(Controllerに関しては知らない)
+ - Controllerのcreateアクションに応じて, 同じ属性のViewに位置する`create.js.erb`が呼ばれる
+ - new_user_pathの呼び出しがトリガとなり, 同じ属性のViewに位置する`new.js.erb`が呼ばれる
+
+## 設計
+ということは, TaskをPostする上で, 以下のようなページ遷移をさせたい.  
+
+### 1.Top-Page
+ - Postをonclickでmodalを表示
+ - `<%= link_to ... %>`を使うと良さそう
+
+### 2.Modal-Page
+ - `decide_priority_task_path`をトリガとして, decide.js.erbに遷移
+   - Ajaxで非同期通信したいので, <%= form.submit %>ではなく, <%= link_to %>にする
+   - その際, link_toにパラメータを載せたいので, formの内容を`decide_priority_task_path()`で渡してあげたい(形式がわからない) 
+ - `decide_priority_task_path`に遷移後, ヒープ木に従い`@heapArr[p] >= n`の処理を繰り返し行う.
+ - [a]よりも重要度は高いですか?
+   - Yes: にぶたんのtrue の方
+   - No : にぶたんのfalseの方
+ - 結果に応じて, 同じページで`render`し続ける.
+ - (あとn回答えてね, のようなメッセージがあるといいかも)
+ - それに応じてボーナスをあげてもいいかも?
+ - 返り値が`false`になった時に, `f.submit`, それ以外は`<%= link_to %>`でループさせる
+ - `submit`したら, そこに決定してroot_pathに遷移
+
+
+### 3.Top-Page
+ - `flash[:success]`で, メッセージを表示
+
+<s>
+### decide.js.erb
+ここだけ`Query`モデルを作って, そこでループさせてもいい気がしてきた. </s> 
+
+### renderとredirect_toの違い
+ - renderは別のページをそこに描画
+ - redirect_toはそのページに遷移
+
+## Heap-Treeの改良
+以前のものだと, ソートされていなかったため, ソート機構を加えた.  
+$O(NlogN)$  
+```ruby
+~~
+  def heap_sort
+    _size = @heapArr.size()
+    @retArr = []
+    _size.times do
+      @retArr.push(pop)
+    end
+    @heapArr = @retArr
+  end
+~~
+```

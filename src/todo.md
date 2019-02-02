@@ -5,7 +5,8 @@
      - [ ] priorityのソート
      - [ ] priorityの実装方法を考える
      - [ ] にぶたんのフォームを作る
-     - [ ] にぶたんの実装を考える
+       - [ ] モーダルウィンドウを実装する
+       - [ ] Ajax通信にする(できれば?)
  - Rails x Vue
    - [ ] APIの認証を実装
  - VuePress
@@ -15,6 +16,7 @@
 ## Accomplished Tasks
  - Rails Todo
    - [x] modelにis_doneを追加
+   - [x] にぶたんの実装を考える
  - Rails x Vue
    - No Tasks
  - VuePress
