@@ -505,3 +505,11 @@ $O(NlogN)$
   end
 ~~
 ```
+
+## Ajax通信
+ - アクションが呼ばれると, そのアクションに対応した`{action_name}.js.erb`が呼び出される.  
+ - この`js.erb`は, そのアクションに対応するController名と同じView以下に設置する.
+ - Controllerの返り値は, `respond_to`で形式を変更する必要がある.  
+   - `format.html`, `format.js`等
+
+ - [これとか](https://qiita.com/__tambo__/items/45211df065e0c037d032), [これとか](https://railstutorial.jp/chapters/following_users?version=4.2#sec-a_working_follow_button_with_ajax)が参考になるかも?
