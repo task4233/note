@@ -513,3 +513,11 @@ $O(NlogN)$
    - `format.html`, `format.js`等
 
  - [これとか](https://qiita.com/__tambo__/items/45211df065e0c037d032), [これとか](https://railstutorial.jp/chapters/following_users?version=4.2#sec-a_working_follow_button_with_ajax)が参考になるかも?
+
+# 02/03
+## Modal Windowの実装の続き([前はこっち](#modal-windowの実装))
+画面遷移はできているので, 実装をするだけ(それが難しい)
+
+午後は実装する.
+やることのまとめ.  
+ - view/static_pages/home.html.erb<%= link_to tasks_path %>
