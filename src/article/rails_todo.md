@@ -1,5 +1,5 @@
 ---
-date: 2019-02-02
+date: 2019-02-05
 description: 'TodoアプリをRailsで作る過程を綴っていきます.'
 category:
  - rails
@@ -521,3 +521,44 @@ $O(NlogN)$
 午後は実装する.
 やることのまとめ.  
  - view/static_pages/home.html.erb<%= link_to tasks_path %>
+
+# 02/05
+## Twitter認証
+### Initialize
+Gem `omniauth-twitter`と`device`で実装.  
+
+ - Gemfileに追記
+ - `$ rails g devise:install`でdeviceのインストール
+   - device使いますよ, という意思表示
+ - デフォルトMailUrlの設定(`config/environments/development.rb`に`config.action_mailer.default_url_options = { host: '0.0.0.0', port: '3000' }`を追加
+ - RootUrlの設定
+   - `config/routes`に追記
+ - Devise用のViewを作成(`$ rails g devise:views`)
+ - Devise用のUserModelの作成(`$ rails g devise User`)
+ - Omniauth-twitter用のカラムを追加(`$ rails g migration add_columns_to_users provider uid username`)
+
+### Twitter Authentication
+ - [Twitter App](https://developer.twitter.com/en/apps)でアプリケーションを登録.  
+ - API_KEYとAPI_SECRET_KEYを取得
+ - callback用のControllerを作成
+   - omniauthで入手した情報を元に,
+   - 登録されていた場合はログイン
+   - 登録されていない場合は新しく追加
+   - という流れを踏む.
+
+### Twitterのみでログイン可能にする
+ - EmailおよびPassの情報をdummyのものと, Twitterからハッシュ化した文字列で代用する.  
+
+### めも
+ - callback関数でバグるので, 本番環境でやっていた. 
+ - Twitter Developersのcallback_urlに複数ルートを追加するとうまくいった.
+ - Vagrant使ってて, こういうパス関係に強くなってきた気がする
+
+### 参考資料
+ - [[*Rails*] deviseの使い方（rails5版）](https://qiita.com/cigalecigales/items/f4274088f20832252374)
+ - [CallbackURLs](https://saruwakakun.com/memo/omniauth-twitter)
+ - [既存のRailsアプリにユーザ名とパスワードでログインできるようにする](https://saruwakakun.com/memo/omniauth-twitter)
+ - [初心者がRails+DeviseでTodoアプリ作る【Omniauth編】](https://blog.freedom-man.com/rails-devise-omniauth/)
+ - [[初心者向け] Ruby on Rails デバッグ方法まとめ](https://qiita.com/nishina555/items/e5886339d381db61b412)
+ - [TWITTERでOAUTH認証を行う(1：TWITTERへのアプリケーション登録)](https://techbooster.org/android/mashup/4525/)
+ - [twitterアカウントでログイン devise+omniauth (rails5)](https://qiita.com/ntkgcj/items/c3108c19fb64acc9dd8d)
