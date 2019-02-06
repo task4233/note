@@ -1,5 +1,5 @@
 ---
-date: 2019-02-05
+date: 2019-02-06
 description: 'TodoアプリをRailsで作る過程を綴っていきます.'
 category:
  - rails
@@ -562,3 +562,39 @@ Gem `omniauth-twitter`と`device`で実装.
  - [[初心者向け] Ruby on Rails デバッグ方法まとめ](https://qiita.com/nishina555/items/e5886339d381db61b412)
  - [TWITTERでOAUTH認証を行う(1：TWITTERへのアプリケーション登録)](https://techbooster.org/android/mashup/4525/)
  - [twitterアカウントでログイン devise+omniauth (rails5)](https://qiita.com/ntkgcj/items/c3108c19fb64acc9dd8d)
+
+# 02/06
+## Task Model & Controllersの移行
+`$ rails g model Task name:string`  
+でモデル追加.  
+
+[#todo](#todo)で書いた部分を改めてやるだけ. 
+
+## メニューにTwitterLoginを実装
+ - app/helpers/にomniauth用のメソッドをいくつか用意
+   - [詳細はここ](http://hajimete-ruby.jugem.jp/?cid=19)
+ - [bootstrapの追加](#bootstrapの追加)
+   - `Gemfile`にbootstrapを追加
+   - `app/assets/javascripts/application.js`にrequireで追加
+
+## Herokuにデプロイ
+ - heroku update
+ - heroku login
+ - heroku create
+ - gitでprodutionブランチを切る
+ - Herokuのadminページでgithubと連携
+ - heroku run rake db:migrate
+ - おわり
+
+## 結果
+ - ひとまずデプロイは成功
+ - PCだけでなく, 他のブラウザ, 機器からもアクセス可能なことを確認
+
+## ブラウザの対応
+|ブラウザ|o/x|
+|:-:|:-:|
+|Google Chrome(MacOS)|o|
+|Safari(MacOS)|o|
+|FireFox(MacOS)|x(表示が乱れるので, 修正の必要あり)|
+|Google Chrome(iPhone)|o(レスポンシブデザインにすべき?)|
+|Safari(iPhone)|o('')|
