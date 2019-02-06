@@ -94,5 +94,8 @@ docs/_book
 # TODO: where does this rule come from?
 test/
 
+### VuePress ###
+src/
+
 # End of https://www.gitignore.io/api/vue,node
 
