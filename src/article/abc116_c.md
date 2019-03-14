@@ -6,7 +6,7 @@ category:
  - AtCoder
 ---
 
-# [C - Grand Garden](https://atcoder.jp/contests/abc116/tasks/abc116_c)
+# [ABC116 C - Grand Garden](https://atcoder.jp/contests/abc116/tasks/abc116_c)
 ## 概要
 最初に高さ$0$の花が$N$本ある。
 今, この$N$本の花の高さを$h[i]$にしたい.
