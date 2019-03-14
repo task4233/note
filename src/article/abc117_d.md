@@ -6,7 +6,7 @@ category:
  - AtCoder
 ---
 
-# [D - XXOR](https://atcoder.jp/contests/abc117/tasks/abc117_d)
+# [ABC117 D - XXOR](https://atcoder.jp/contests/abc117/tasks/abc117_d)
 ## 概要
 $N$個の非負整数$A_1, A_2, ..., A_n$および$K$が与えられる.  
 $0$以上$K$以下の整数$X$に対して, $f(X) = (X xor A_1) + ... + (X xor A_n)$としたとき, $f$の最大値を求めよ.

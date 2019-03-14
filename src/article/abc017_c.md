@@ -6,7 +6,7 @@ category:
  - AtCoder
 ---
 
-# [C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3)
+# [ABC017 C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3)
 ## 概要
 $N$個の遺跡と$M$種類の宝石がある.  
 遺跡$i$を探索すると, [$l_i$, $r_i$]の種類の宝石を$1$つずつ入手し, スコア$s_i$を獲得する.  
