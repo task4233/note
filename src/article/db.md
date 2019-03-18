@@ -1,5 +1,5 @@
 ---
-date: 2019-03-18
+date: 2019-03-19
 description: 'デスペめも'
 category: 
  - memo
@@ -80,7 +80,7 @@ category:
 #### 通常時
  - 年齢をグループ化して各年齢の人数合計を求める時は, 次のように書く
 
-```sql=
+```sql
 SELECT age, SUM(age) AS age_cnt
     FROM measured_data
     GROUP BY age
@@ -94,7 +94,7 @@ SELECT age, SUM(age) AS age_cnt
  - GROUP BYの結果に対してvalidationを指定したい場合は, HAVING句の後に条件式を指定する
  - 同じ年齢の人間が5人以上いる時のみ表示する時は, 次のように書く
 
-```sql=
+```sql
 SELECT age, SUM(age) AS age_cnt
     FROM measured_data
     GROUP BY age
@@ -106,7 +106,7 @@ SELECT age, SUM(age) AS age_cnt
 #### 使用例
  - 年齢をグループ化して各年齢の人数合計を求め, 年齢について降順で表示する時は, 次のように書く
 
-```sql=
+```sql
 SELECT age, SUM(age) AS age_cnt
     FROM measured_data
     GROUP BY age
@@ -115,7 +115,7 @@ SELECT age, SUM(age) AS age_cnt
 
  - 年齢をグループ化して各年齢の人数合計を求め, 年齢について昇順で表示する時は, 次のように書く
 
-```sql=
+```sql
 SELECT age, SUM(age) AS age_cnt
     FROM measured_data
     GROUP BY age
@@ -124,7 +124,7 @@ SELECT age, SUM(age) AS age_cnt
 
  - 年齢をグループ化して各年齢の人数合計を求め, 合計人数について昇順で表示する時は, 次のように書く
 
-```sql=
+```sql
 SELECT age, SUM(age) AS age_cnt
     FROM measured_data
     GROUP BY age
@@ -253,7 +253,7 @@ SELECT age, SUM(age) AS age_cnt
  - 候補キーの中で主キーに選ばれなかったキー
 
 ## 小まとめ
- - 主キー $\in$ 候補キー $\subset$ < スーパーキー
+ - 主キー $\in$ 候補キー $\subset$ スーパーキー
 
 ## サロゲートキー(Surrogate Key)
  - 連番がよく使用される
@@ -272,3 +272,37 @@ SELECT age, SUM(age) AS age_cnt
  - このとき, Aの主キーpを参照するBの外部キーqが存在するとする
  - Aの主キーpには実線で下線が引かれる
  - Bの外部キーqには破線で下線が引かれる
+
+# 03/19
+## H30 午後1-2
+## SQL
+ - CURRENT_DATE値関数によって現在日時を示すDATE型の値が取得できる
+ - DISTINCT句で重複を解消できる
+ - GROUP BY句の後に来れるのはHAVING句かORDER BY句
+   - グループ化した後に条件があればHAVING句
+   - グループ化した後にソートされていればORDER BY句
+     - ASCは昇順, DESCは降順
+     - ASCは省略可能
+## 参照制約
+ - テーブルとテーブルが参照関係にある場合の整合性制約
+ - 参照元テーブルに外部キーを指定することで, テーブル間の整合性を保つ
+
+|OPTION|詳細|
+|:-:|:-:|
+|NO ACTION|参照元テーブルにデータが存在している場合, 参照先テーブルでは削除と更新ができない|
+|''|オプションを設定しない場合, NO ACTIONに設定される|
+|CASCADE|参照元テーブルにデータが存在している場合でも, 参照先テーブルで削除と更新ができる|
+|''|データは連携して削除される|
+|SET NULL|参照元テーブルにデータが存在している場合でも, 参照先テーブルで削除と更新ができる|
+|''|参照元テーブルのデータはNULLに設定される|
+
+ - 参照先テーブルに関して(raw data)
+   - 行を追加することは問題ない
+   - 行を削除する場合に, 参照元テーブルの外部キーに同じ値が存在している場合, 削除はできない
+     - 参照関係が存在している場合に削除はできない
+   - ある行を更新する場合, 参照先テーブルの外部キーに存在する値への更新なら可能になる
+ - 参照元テーブルに関して(instance data)
+   - 行を削除することは問題ない
+   - 行を追加する場合に, 参照先テーブルに存在するものかNULLしか追加できない
+   - 行を更新する場合に, 更新後の値が参照先テーブルに存在する値にしか更新できない
+ 
