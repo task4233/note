@@ -65,8 +65,8 @@ assert_response :success
 assert_select “{object_name(e.g. title)}”, “{Screening text}”
 
 ## 埋め込みRuby
-<% … %> := 中に書かれたコードを実行するだけ
-<%= … %> := 中に蚊kれたコードの実行結果がそこに挿入される
+ - `<% …% >` := 中に書かれたコードを実行するだけ 
+ - `<%= …% >` := 中に書かれたコードの実行結果がそこに挿入される 
 
 `provide`メソッドを使用してタイトルをページごとに変更する。
 ```ruby
@@ -93,17 +93,15 @@ app/assets/stylesheet/custom.scssに,
 を追加
 
 ## bootstrapの効果
-navbar navbar-fixed-top := nav要素を上に表示
-navbar-inverse := 色反転
+ - navbar navbar-fixed-top := nav要素を上に表示
+ - navbar-inverse := 色反転
 
-nav navbar-nav navbar-right := navbar内のnav要素を右に表示
+ - nav navbar-nav navbar-right := navbar内のnav要素を右に表示
 
-jumbotran := 背景をそれっぽく覆う
+ - jumbotran := 背景をそれっぽく覆う
 
 ## renderメソッドによる分散コーディング
-<%= render ‘layouts/hoge’ %>
-と書くと, 
-app/views/layout/_hoge.html.erb を参照する。
+`<%= render layouts/hoge%>`と書くと, app/views/layout/_hoge.html.erb を参照する。
 
 ## アセットパイプライン
  - app/assets := 現在のアプリケーション固有のアセット
@@ -615,7 +613,7 @@ Gem `omniauth-twitter`と`device`で実装.
 # 02/11
 ## タスクの全表示がない
  - 作る
- - <s>`view/tasks/show.html.erb`を追加して, そこに入れれば良さそう?</s>
+ - `view/tasks/show.html.erb`を追加して, そこに入れれば良さそう?
  - User1に対してnのTaskが振られているので, `view/users/index.html.erb`に入れる方が良さそう
    - (show.html.erbにすると, indexの作り方がわからなくなるため, 別の用途でindexが必要な時に変えれば問題ないかと)
 
