@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # $ whoami
  - Handle: task4233  
  - Major: Computer Science

@@ -1,3 +1,6 @@
+---
+sidebar: false
+---
 
 # Welcome!
 Here's a top page.  

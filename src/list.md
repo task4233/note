@@ -1,5 +1,4 @@
 ---
-pageClass: none-sidebar-class
 sidebar: false
 ---
 

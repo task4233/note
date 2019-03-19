@@ -6,6 +6,7 @@ module.exports = {
             description: 'Take it easy. But not lazy.'
         }
     },
+    ga: 'UA-134364564-2',
     base: '/note/',
     dest: 'docs',
     head: [
@@ -35,6 +36,7 @@ module.exports = {
     },
     themeConfig: {
         sidebar: 'auto',
+        sidebarDepth: 1,
         nav: [
             { text: 'About'        , link: '/about.html' },
             { text: 'Articles'       , link: '/list.html' },
@@ -43,5 +45,4 @@ module.exports = {
         lastUpdated: true,
         search: true,
     },
-    evergreen: true,
 }
