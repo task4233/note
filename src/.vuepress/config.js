@@ -43,5 +43,4 @@ module.exports = {
         lastUpdated: true,
         search: true,
     },
-    evergreen: true,
 }
