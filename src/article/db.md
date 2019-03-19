@@ -5,7 +5,7 @@ category:
  - memo
  - デスペ
 sidebar: auto
-sidebarDepth: 3
+sidebarDepth: 1
 ---
 
 # デスペめも
