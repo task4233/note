@@ -1,5 +1,6 @@
-# Chukapi-ASKII-Art-Easy
-## 問題
+# Chukapi-Fun-Art
+## Chukapi-ASKII-Art-Easy
+### 問題
 以下の画像に隠されたflagを見つけてください.  
 
  - `問題が酷かったので, 難易度を調整しました(2019-01-29)`
@@ -16,8 +17,8 @@ flag{This_Is_A_Flag}
 お手数ですが, ファイルのダウンロードは, 上の画像から直接行ってください.  
 <s>パスを通すのが面倒だったので.</s>
 
-# Chukapi-ASKII-Art
-## 問題
+## Chukapi-ASKII-Art
+### 問題
 以下の画像に隠されたflagを見つけてください.
 
 ::: tip
