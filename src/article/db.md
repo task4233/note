@@ -4,6 +4,8 @@ description: 'デスペめも'
 category: 
  - memo
  - デスペ
+sidebar: auto
+sidebarDepth: 3
 ---
 
 # デスペめも

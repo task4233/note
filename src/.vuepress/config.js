@@ -20,7 +20,7 @@ module.exports = {
              rel: 'stylesheet',
              href: 'https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css'
          }
-        ]
+        ],
     ],
     markdown: {
         lineNumbers: true,
@@ -34,6 +34,7 @@ module.exports = {
         }
     },
     themeConfig: {
+        sidebar: 'auto',
         nav: [
             { text: 'About'        , link: '/about.html' },
             { text: 'Articles'       , link: '/list.html' },
@@ -41,6 +42,6 @@ module.exports = {
         ],
         lastUpdated: true,
         search: true,
-        displayAllHeaders: true,
     },
+    evergreen: true,
 }
