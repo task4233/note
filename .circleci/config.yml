@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/vue/pg
+    docker:
+      - image: node:9.11.2
+    steps:
+      - checkout
+      - restore_cache:
+          key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install dependencies
+          command: yarn
+      - run:
+          name: Build
+          command: yarn src:build
+      - save_cache:
+          key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/vue/pg/node_modules
