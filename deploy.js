@@ -1,11 +1,6 @@
-var master = require("master");
+var ghpages = require("gh-pages");
 
-master.publish("./docs", {
-    user: {
-        name: "task4233",
-        email: "tks.m1205@gmail.com"
-    }
-}, function (err) {
+ghpages.publish("./docs", function (err) {
     if (err) {
         console.log(err);
         process.exit(1);
