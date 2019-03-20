@@ -7,7 +7,7 @@
         "deploy": "rm -rf ./docs && yarn src:build && node ./deploy.js",
         "src:dev": "vuepress dev src --port 3030",
         "src:build": "vuepress build src"
-    },
+    }, 
     "repository": {
         "type": "git",
         "url": "git+https://github.com/task4233/note.git"
