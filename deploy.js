@@ -1,6 +1,11 @@
 var ghpages = require("gh-pages");
 
-ghpages.publish("./docs", function (err) {
+ghpages.publish("./docs", {
+    user: {
+        name: "task4233",
+        email: "tks.m1205@gmail.com"
+    }
+}, function (err) {
     if (err) {
         console.log(err);
         process.exit(1);
