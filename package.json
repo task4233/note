@@ -8,11 +8,11 @@
         "src:dev": "vuepress dev src --port 3030",
         "src:build": "vuepress build src"
     },
+    "keywords": [],
     "repository": {
         "type": "git",
-        "git+https://github.com/task4233/note.git"
+        "url": "git+https://github.com/task4233/note.git"
     },
-    "keywords": [],
     "author": "task4233",
     "license": "ISC",
     "devDependencies": {
