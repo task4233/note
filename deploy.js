@@ -4,8 +4,9 @@ ghpages.publish("./docs", {
     user: {
         name: "task4233",
         email: "tks.m1205@gmail.com"
-    }
-}, function (err) {
+    },
+    message: "Auto build and deploy"
+}, function(err) {
     if (err) {
         console.log(err);
         process.exit(1);
