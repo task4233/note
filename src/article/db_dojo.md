@@ -82,3 +82,5 @@ category:
  - Durabillity(永続性)
    - 一旦正常終了したトランザクションの結果は, 以後システムに障害が発生しても失われないことを保証
 
+## hogehoge
+ - fugafuga
