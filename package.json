@@ -6,7 +6,7 @@
     "scripts": {
         "deploy": "ls -l && node ./deploy.js",
         "src:dev": "vuepress dev src --port 3030",
-        "src:build": "rm -rf ./docs && vuepress build src"
+        "src:build": "rm -rf ./docs && vuepress build src && ls -l"
     },
     "repository": {
         "type": "git",
