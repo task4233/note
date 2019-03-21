@@ -4,9 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "deploy": "ls -l && node ./deploy.js",
+        "deploy": "git branch && ls -l && node ./deploy.js",
         "src:dev": "vuepress dev src --port 3030",
-        "src:build": "rm -rf ./docs && vuepress build src && ls -l"
+        "src:build": "rm -rf ./docs && vuepress build src && ls -l && git branch"
     },
     "repository": {
         "type": "git",
