@@ -5,7 +5,7 @@ ghpages.publish("./docs", {
         name: "task4233",
         email: "tks.m1205@gmail.com"
     },
-    message: "Auto build and deploy"
+    message: "Auto build and deploy [ci skip]"
 }, function(err) {
     if (err) {
         console.log(err);
