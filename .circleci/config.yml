@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build-deploy:
+  build:
     docker:
       - image: node:8.12
     working_directory: ~/task4233/note
@@ -23,11 +23,9 @@ jobs:
           command: yarn deploy
 workflows:
   version: 2
-  build-deploy:
+  build:
     jobs:
       - build-deploy:
-          requires:
-            - build
           filters:
             branches:
               ignore: gh-pages
