@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "deploy": "node ./deploy.js",
+        "deploy": "ls -l && node ./deploy.js",
         "src:dev": "vuepress dev src --port 3030",
         "src:build": "rm -rf ./docs && vuepress build src"
     },
