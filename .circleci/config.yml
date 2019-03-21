@@ -24,6 +24,15 @@ jobs:
     working_directory: ~/task4233/note
     steps:
       - checkout
+      - restore_cache:
+          key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install dependencies
+          command: yarn
+      - save_cache:
+          key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths:
+            - ./node_modules
       - run:
           name: Deploy
           command: yarn deploy
