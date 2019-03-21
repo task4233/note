@@ -18,14 +18,6 @@ jobs:
       - run:
           name: Build
           command: yarn src:build
-  deploy:
-    docker:
-      - image: node:8.12
-    working_directory: ~/task4233/note
-    steps:
-      - checkout
-      - restore_cache:
-          key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
       - run:
           name: Deploy
           command: yarn deploy
@@ -35,11 +27,6 @@ workflows:
   build-deploy:
     jobs:
       - build:
-          filters:
-            branches:
-              ignore:
-                - gh-pages
-      - deploy:
           filters:
             branches:
               ignore:
