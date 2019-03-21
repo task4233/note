@@ -92,3 +92,65 @@ $ circleci config validate
  - 全体の流れはつぎのとおりです
  - 四角で囲まれた部分をCircleCIを用いて構築していきます
 
+ - CircleCIにしてほしいことは大きく分けて次の2つです
+   - `$ yarn src:build`の実行
+   - 実行後にできた`./docs`以下のファイルを`gh-pages`ブランチに配置
+
+ - しかし, いずれもnodeのパッケージをインストールしておく必要があります
+ - その処理を書いてから, 先ほどの2つの処理を加えていきます
+
+## 0. nodeのパッケージインストール
+ - nodeのパッケージをインストールするためには, つぎのように書きます
+ 
+```yml
+// .circleci/config.yml
+version: 2
+jobs:
+  build:
+    docker:
+      - image: node:8.12
+    working_directory: ~/task4233/note
+    steps:
+      - checkout
+      - restore_cache:
+          key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install dependencies
+          command: yarn
+      - save_cache:
+          key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: Build
+          command: yarn src:build
+  deploy:
+    docker:
+      - image: node:8.12
+    working_directory: ~/task4233/note
+    steps:
+      - checkout
+      - run:
+          name: Deploy
+          command: yarn deploy
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore:
+                - gh-pages
+      - deploy:
+          filters:
+            branches:
+              ignore:
+                - gh-pages
+```
+
+## 1. `$ yarn src:build`の実行
+ - これは簡単です
+ - つぎのように, `.circleci/config.yml`に追記します
+
