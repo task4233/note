@@ -36,7 +36,7 @@ module.exports = {
     },
     themeConfig: {
         sidebar: 'auto',
-        sidebarDepth: 1,
+        sidebarDepth: 2,
         nav: [
             { text: 'About'        , link: '/about.html' },
             { text: 'Articles'       , link: '/list.html' },

@@ -7,6 +7,8 @@ category:
 ---
 
 # CircleCIを用いたVuePressの自動ビルド+デプロイ
+ - タイトルのとおりです
+
 # はじめに
  - VuePressは毎回buildする必要があるので面倒
  - 誰かがCIを使って自動デプロイとか言ってたな
@@ -60,6 +62,13 @@ $ curl -fLSs https://circle.ci/cli | bash
 $ circleci update
 $ circleci switch
 ```
+
+ - インストールしている際に, `permission denied`が発生することがあるようです
+ - その時はつぎのようにコマンドを変更して対処してください
+
+```bash
+```
+
 ## .circleci/config.ymlファイルの作成
  - CircleCIの動作を定義するymlファイルを作成します
  - 記法についてはつぎの記事の通りに書けば問題ないはずです
@@ -92,7 +101,7 @@ $ circleci config validate
  - 全体の流れはつぎのとおりです
  - 四角で囲まれた部分をCircleCIを用いて構築していきます
 
- - CircleCIにしてほしいことは大きく分けて次の2つです
+ - CircleCIにやってもらいたいことは, つぎの2つです
    - `$ yarn src:build`の実行
    - 実行後にできた`./docs`以下のファイルを`gh-pages`ブランチに配置
 
@@ -101,9 +110,139 @@ $ circleci config validate
 
 ## 0. nodeのパッケージインストール
  - nodeのパッケージをインストールするためには, つぎのように書きます
+ - `restore_cache`と`save_cache`でnode_moduleのキャッシュを残しておくものです
  
 ```yml
 // .circleci/config.yml
++ version: 2
++ jobs:
++   build:
++     docker:
++       - image: node:8.12
++     working_directory: ~/task4233/note
++     steps:
++       - checkout
++       - restore_cache:
++           key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
++       - run:
++           name: Install dependencies
++           command: yarn
++       - save_cache:
++           key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
++           paths:
++             - ./node_modules
++
++ workflows:
++   version: 2
++   build-deploy:
++     jobs:
++       - build
+```
+
+## 1. `$ yarn src:build`の実行
+ - これは簡単です
+ - つぎのように, `.circleci/config.yml`に追記します
+
+```yml
+// .circleci/config.yml
+version: 2
+jobs:
+  build:
+    docker:
+      - image: node:8.12
+    working_directory: ~/task4233/note
+    steps:
+      - checkout
+      - restore_cache:
+          key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install dependencies
+          command: yarn
+      - save_cache:
+          key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths:
+            - ./node_modules
+ +     - run:
+ +         name: Build
+ +         command: yarn src:build
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build
+```
+
+## 2. `gh-pages`ブランチに配置
+ - そのようなスクリプトは存在していないので, スクリプトを作成して`.circleci/config.yml`に追記します
+
+### スクリプトの作成
+ - `gh-pages`ブランチに`./docs`以下のファイルを配置するために, nodejsの`gh-pages`パッケージを利用します
+ - つぎのように新たに`deploy.js`を書きます
+
+```js
+// deploy.js
++ var ghpages = require("gh-pages");
++
++ ghpages.publish("./docs", {
++     user: {
++         name: "{YOUR_NAME}",
++         email: "{YOUR_EMAIL}"
++     },
++     message: "Auto build and deploy [ci skip]"
++ }, function(err) {
++     if (err) {
++         console.log(err);
++         process.exit(1);
++     } else {
++         console.log("Successfully Delployed!");
++     }
++ });
+```
+
+ - 6,7行目は自身のものに変更してください
+ - 9行目でわざわざmessageを記載しているのは, コミットメッセージに`[ci skip]`を付与することで`gh-pages`ブランチでCircleCIを動作させないためです
+   - `gh-pages`ブランチは公開用ブランチなので, `gh-pages`ブランチではCircleCIを動作させません
+
+### スクリプトを実行するコマンドの追記
+ - このjsファイルを実行させるためのコマンドを`package.json`に追記します
+ - 他の部分は私の設定なので, 自身の`package.json`に7行目の内容のみ追記してください
+
+```js
+// package.json
+{
+    "name": "pg",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
++       "deploy": "node ./deploy.js",
+        "src:dev": "vuepress dev src --port 3030",
+        "src:build": "rm -rf ./docs && vuepress build src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/task4233/note.git"
+    },
+    "author": "task4233",
+    "license": "ISC",
+    "devDependencies": {
+        "markdown-it": "^8.4.2",
+        "markdown-it-katex": "^2.0.3",
+        "markdown-it-task-lists": "^2.1.1",
+        "vuepress": "^0.14.8"
+    },
+    "dependencies": {
+        "gh-pages": "^2.0.1"
+    }
+}
+```
+
+### .circleci/config.ymlへの追記
+ - コマンドが完成したので, `.circleci/config.yml`に追記します
+ - つぎのように追記します
+
+```yml
 version: 2
 jobs:
   build:
@@ -124,33 +263,24 @@ jobs:
       - run:
           name: Build
           command: yarn src:build
-  deploy:
-    docker:
-      - image: node:8.12
-    working_directory: ~/task4233/note
-    steps:
-      - checkout
-      - run:
-          name: Deploy
-          command: yarn deploy
+ +    - run:
+ +        name: Deploy
+ +        command: yarn deploy
 
 workflows:
   version: 2
   build-deploy:
     jobs:
-      - build:
-          filters:
-            branches:
-              ignore:
-                - gh-pages
-      - deploy:
-          filters:
-            branches:
-              ignore:
-                - gh-pages
+      - build
 ```
 
-## 1. `$ yarn src:build`の実行
- - これは簡単です
- - つぎのように, `.circleci/config.yml`に追記します
+### 書いた.circleci/config.ymlのvalidate
+ - githubにpushしてから`config.yml`のせいでエラーがでると悲しくなるので, ローカルでvalidateします
+ - つぎのコマンドでvalidateできます
+
+```bash
+$ circleci config validate -c {config.ymlまでのファイルパス}
+# circleci config validate -c ./.circleci/config.yml
+# Config file at ./.circleci/config.yml is valid.
+```
 
