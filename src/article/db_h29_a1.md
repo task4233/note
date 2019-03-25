@@ -1,6 +1,6 @@
 ---
-date: 2019-03-21
-description: 'デスペめも -H30 午後2編-'
+date: 2019-03-25
+description: 'デスペめも -H29 午後1編-'
 category: 
  - memo
  - デスペ
@@ -139,3 +139,17 @@ category:
    - この場合は, 関数従属元がNULLになることもある
  - 「必要に応じて」も同様
  
+# 午後1-2
+## INNER JOINとOUTER JOIN
+ - INNER JOINはAND
+ - OUTER JOINはOR
+   - LEFT OUTER JOINはA全体にBをJOIN
+   - RIGHT OUTER JOINはB全体をAにJOIN
+   - BがNULLでも良い場合は, LEFT OUTER JOIN
+   - AがNULLでも良い場合は, RIGHT OUTER JOIN
+
+## シーケンシャルリード
+ - 逐次読み込みのことだった
+ - 対して使われるのが, ランダムリード(ランダムアクセス)
+## SQL-カーソル処理
+ - 更新処理は`UPDATE ~ WHERE CURRENT OF カーソル名`
