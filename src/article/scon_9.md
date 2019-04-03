@@ -93,11 +93,12 @@ signed main() {
 using namespace std;
 using int64 = long long;
 #define int int64
+constexpr int INF = 1LL<<60;
 
 signed main() {
   string s; cin>>s;
   vector<int> cnt(26,0);
-  REP(i,s.size()){
+  for(int i=0;i<s.size();++i){
     // 出現する文字数をカウント
     ++cnt[s[i]-'a'];
   }
