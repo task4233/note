@@ -49,6 +49,8 @@ sidebar: false
    - Version control
  - Vagrant
    - Usually, I develop by using Vagrant(CentOS)
+ - CircleCI
+   - For deploying [this project(note)](https://github.com/task4233/note)
 
 # Learned
 ## Univ.
