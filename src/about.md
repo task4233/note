@@ -18,7 +18,7 @@ sidebar: false
    - [SECCON Beginners in Nagoya Record](https://hackmd.io/s/B1vjy5EsV)
 
 # Skills
-## languages
+## Languages
  - C++14
    - For Competitive Programming
  - Java SE8
