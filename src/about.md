@@ -6,7 +6,7 @@ sidebar: false
  - Handle: task4233  
  - Major: Computer Science
 
-# interests
+# Interests
  - Teachering Profession
  - Psychology
  - Math
@@ -17,7 +17,7 @@ sidebar: false
    - [CyberRebeatCTF - WriteUp](https://hackmd.io/s/B1vjy5EsV)
    - [SECCON Beginners in Nagoya Record](https://hackmd.io/s/B1vjy5EsV)
 
-# skills
+# Skills
 ## languages
  - C++14
    - For Competitive Programming
@@ -60,7 +60,7 @@ sidebar: false
  - Network Specialist
  - Database Specialist
 
-# links
+# Links
  - [GitHub](https://github.com/task4233)
  - [Twitter](https://twitter.com/task4233)
  - [HatenaBlog](https://task4233.hatenablog.com/)
