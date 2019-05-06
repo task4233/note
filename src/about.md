@@ -19,9 +19,9 @@ sidebar: false
 
 # Skills
 ## Languages
- - C++14
+ - C++
    - For Competitive Programming
- - Java SE8
+ - Java
    - For class
  - Python3
    - Django
