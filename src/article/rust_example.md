@@ -35,29 +35,8 @@ HTMLファイルに404 NOT FOUNDの旨を書けば良いです。
 
 ```rust
 // src/main.rs
-use std::net::TcpListener;
-use std::net::TcpStream;
-use std::io::prelude::*;
-use std::fs::File;
 
-fn main() {
-  // 127.0.0.1:3000でTCP接続要求を監視するTcpListenerを宣言
-  let listener = TcpListener::bind("127.0.0.1:3000").unwrap();
-
-  for stream in listener.incoming() {
-    match stream {
-      Err(_) => println!("listen error!"),
-      Ok(stream) => {
-        // 要求を受け取った時の処理を書く
-        println!("Connection from {} to {} is established!",
-          stream.peer_addr().unwrap(),
-          stream.local_addr().unwrap());
-                
-          handle_connection(stream);
-      }
-    }
-  }
-}
+// ~~ 略 ~~
 
 fn handle_connection(mut stream: TcpStream) {
   // TcpStreamインスタンスのデータを読み取るためのバッファを用意
@@ -90,6 +69,44 @@ fn handle_connection(mut stream: TcpStream) {
 ```
 
 以上です。これで`http://127.0.0.1:3000/`以外のURLでリクエストを飛ばすと, `public/404.html`の内容がレスポンスとして返されることが確認できると思います。
+
+# さらにリファクタリングしてみる
+上のコードだとコードとして重複している部分が複数あります。
+そこで, 重複している部分をまとめてみようと思います。
+
+よくコードを見ると, 異なっている部分はステータスコードとレスポンスとして返すファイルの場所のみであることがわかります。したがって, その2つを変数としてレスポンスを返してみます。
+
+コードは次の通りです。
+
+```rust
+src/main.rs
+
+// ~~ 略 ~~
+
+fn handle_connection(mut stream: TcpStream) {
+  // TcpStreamインスタンスのデータを読み取るためのバッファを用意
+  let mut buffer = [0;512];
+  stream.read(&mut buffer).unwrap();
+  println!("Request: {}", String::from_utf8_lossy(&buffer[..]));
+
+  let get = b"GET / HTTP/1.1\r\n";
+
+  let (status_line, resource_path) = if buffer.starts_with(get) {
+    ("HTTP/1.1 200 OK\r\n\r\n", "public/index.html")
+  } else {
+    ("HTTP/1.1 404 NOT FOUND\r\n\r\n", "public/404.html")
+  };
+
+  let mut file = File::open(resource_path).unwrap();
+  let mut contents = String::new();
+  file.read_to_string(&mut contents).unwrap();
+  
+  let response = format!("{}{}", status_line, contents);
+  stream.write(response.as_bytes()).unwrap();
+  // streamに完全にwriteされるように, flush()を呼び出しておく
+  stream.flush().unwrap();
+}
+```
 
 お疲れ様でした。
 
