@@ -9,7 +9,7 @@ category:
 # ハリネズミ本 pwnのめも
 # 実行環境
 OSはUbuntu-18.04 LTSを使用しています。
-```bash
+```
 $ cat /etc/os-release 
 NAME="Ubuntu"
 VERSION="18.04.2 LTS (Bionic Beaver)"
@@ -159,7 +159,7 @@ printf 410 56555554?
 system: 0xf7 e1 62 00
 引数
 
-```pg
+```
 #include <stdio.h>
 #include <string.h>
 
