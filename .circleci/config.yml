@@ -21,6 +21,9 @@ jobs:
       - run:
           name: Deploy
           command: yarn deploy
+      - run:
+          name: cleanup
+          command: yarn docs:remove
 
 workflows:
   version: 2
