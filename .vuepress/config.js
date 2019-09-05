@@ -24,7 +24,7 @@ module.exports = {
     ],
   ],
   plugins: [
-    '@vuepress/blog',
+    'latex'
   ],
   themeConfig: {
     sidebar: 'auto',
