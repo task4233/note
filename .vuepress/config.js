@@ -6,15 +6,25 @@ module.exports = {
       description: 'Take it easy. But not lazy.'
     }
   },
+  ga: 'UA-134364564-2',
   base: '/note/',
   dest: 'docs',
+  head: [
+    ['link',
+     {
+       rel: 'stylesheet',
+       href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css'
+     }
+    ],
+    ['link',
+     {
+       rel: 'stylesheet',
+       href: 'https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css'
+     }
+    ],
+  ],
   plugins: [
-    '@vuepress/blog',
-    'latex',
-    '@vuepress/google-analytics',
-    {
-      ga: 'UA-134364564-2',
-    }
+    'latex'
   ],
   themeConfig: {
     sidebar: 'auto',
@@ -26,5 +36,5 @@ module.exports = {
     ],
     lastUpdated: true,
     search: true,
-  }
+  },
 }

