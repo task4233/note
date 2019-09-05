@@ -2,8 +2,10 @@
 # Edit at https://www.gitignore.io/?templates=vue,node
 
 ### alternative filter ###
+docs/
 md_docs/
 client/
+.vuepress/
 
 ### Node ###
 # Logs

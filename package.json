@@ -1,27 +1,29 @@
 {
-    "name": "pg",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "deploy": "node ./deploy.js",
-        "src:dev": "vuepress dev src --port 3030",
-        "src:build": "rm -rf ./docs && vuepress build src"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/task4233/note.git"
-    },
-    "author": "task4233",
-    "license": "ISC",
-    "devDependencies": {
-        "markdown-it": "^9.1.0",
-        "markdown-it-katex": "^2.0.3",
-        "markdown-it-task-lists": "^2.1.1",
-        "vuepress": "^1.0.3"
-    },
-    "dependencies": {
-        "gh-pages": "^2.1.1",
-        "js-yaml": "^3.13.1"
-    }
+  "name": "pg",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node ./deploy.js",
+    "docs:remove": "rm -rf ./docs",
+    "src:dev": "vuepress dev src --port 3030",
+    "src:build": "yarn docs:remove && vuepress build src --dest ./docs",
+    "src:eject": "vuepress eject src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/task4233/note.git"
+  },
+  "author": "task4233",
+  "license": "ISC",
+  "devDependencies": {
+    "markdown-it": "^9.1.0",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-task-lists": "^2.1.1",
+    "vuepress": "^1.0.3"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "js-yaml": "^3.13.1"
+  }
 }
