@@ -4,6 +4,7 @@
 ### alternative filter ###
 md_docs/
 client/
+.vuepress/
 
 ### Node ###
 # Logs
