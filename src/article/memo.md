@@ -78,6 +78,10 @@ e.g.)
 
 ## sass対応する(2/7)
 `$ npm install sass-resources-loader --save-dev`でインストールできる
+
+## 1.x系にしたときのtheme
+ - themeは, src/.vuepress/theme/stylesにある
+ - index.stylではなく直接編集した方が楽
  
 # 参考資料
  - [vue-cliでVue.jsをインストールしたときのファイルについて](https://qiita.com/magaya0403/items/2b5d9641592df0c7cba2)
