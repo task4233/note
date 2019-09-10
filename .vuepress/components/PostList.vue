@@ -4,7 +4,7 @@
       <h2><router-link v-bind:to="post.path">{{ post.title }}</router-link></h2>
       <p>{{ post.frontmatter.description }}</p>
       Tags: <span v-for="c in post.frontmatter.category" class="tag"><a v-bind:href="$withBase(post.path)">{{c}}</a></span><p></p>
-      <router-link v-bind:to="post.path">{{ post.title }}</router-link>
+      <router-link v-bind:to="post.path">続きを読む</router-link>
     </div>
   </div>
 </template>
@@ -12,7 +12,7 @@
 <script>
 export default {
   computed: {
-    posts() {
+    posts () {
       return this.$site.pages
         .filter(post => post.path.startsWith('/article/'))
         .sort((a,b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
