@@ -4,14 +4,16 @@ $mobileSidebarWidth = $sidebarWidth * 0.82
 
 // narrow desktop / iPad
 @media (max-width: $MQNarrow)
+  min-width $MQNarrow
   .sidebar
     font-size 15px
     width $mobileSidebarWidth
   .page
-    padding-right $mobileSidebarWidth
+    padding-right 0
 
 // wide mobile
 @media (max-width: $MQMobile)
+  min-width $MQMobile
   .sidebar
     top 0
     padding-top $navbarHeight
@@ -29,9 +31,12 @@ $mobileSidebarWidth = $sidebarWidth * 0.82
 
 // narrow mobile
 @media (max-width: $MQMobileNarrow)
+  min-width: $MQMobileNarrow
+  .page
+    padding-right 0
   h1
     font-size 1.9rem
-  .content
+  {$contentClass}
     div[class*="language-"]
       margin 0.85rem -1.5rem
       border-radius 0
