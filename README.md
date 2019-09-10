@@ -17,8 +17,8 @@ markdown, TeXに対応しているので便利です。
 - CircleCIを用いた自動デプロイ
 
 ## Requirement
-- >= yarn ver 1.17.3
-- [package.json]に必要パッケージは載っています。
+- \>= yarn ver 1.17.3
+- [package.json]（https://github.com/task4233/note/blob/master/package.json）に必要パッケージは載っています。
 
 
 ## Installation
@@ -29,7 +29,3 @@ markdown, TeXに対応しているので便利です。
 ## Author
 
 [@task4233](https://twitter.com/task4233)
-
-## License
-
-[MIT](http://b4b4r07.mit-license.org)
