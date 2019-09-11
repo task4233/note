@@ -12,7 +12,7 @@ e.g. )
 flag{This_Is_A_Flag}
 :::
 
-![chukapi](./assets/img/chukapi_easy.png)
+![chukapi](./chukapi_easy.png)
 
 お手数ですが, ファイルのダウンロードは, 上の画像から直接行ってください.  
 <s>パスを通すのが面倒だったので.</s>
@@ -27,4 +27,4 @@ e.g. )
 flag{This_Is_A_Flag}
 :::
 
-![chukapi](./assets/img/chukapi.png)
+![chukapi](./chukapi.png)

@@ -6,4 +6,4 @@ sidebar: false
 タグのリンク先はまだ作れていません.
 :::
 
-<PostList />
+<PostList/>

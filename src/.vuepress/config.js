@@ -41,9 +41,9 @@ module.exports = {
     sidebar: 'auto',
     sidebarDepth: 2,
     nav: [
-      { text: 'About'        , link: '/about.html' },
-      { text: 'Articles'       , link: '/list.html' },
-      { text: 'Chukapi-Fun-Art', link: '/chukapi_fun_art.html' },
+      { text: 'About'        , link: '/about/' },
+      { text: 'Articles'       , link: '/lists/' },
+      { text: 'Chukapi-Fun-Art', link: '/chukapi_fun_art/' },
     ],
     lastUpdated: true,
     search: true,
