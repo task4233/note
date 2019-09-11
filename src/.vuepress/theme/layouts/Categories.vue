@@ -1,0 +1,24 @@
+<template>
+  <LayoutWrapper>
+    <div class="page">
+      <div class="content default">
+        <h2>カテゴリー一覧</h2>
+        <div>
+          <div v-for="(data, key) in $categories.map" :key="key">
+            <router-link :to="data.path">{{ key }}({{ data.posts.length }})</router-link>
+          </div>
+        </div>
+      </div>
+    </div>
+  </LayoutWrapper>
+</template>
+
+<script>
+import LayoutWrapper from './LayoutWrapper.vue'
+  
+export default {
+  components: {
+    LayoutWrapper
+  }
+}
+</script>

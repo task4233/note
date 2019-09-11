@@ -11,5 +11,4 @@ export default {
 name: 'Layout',
 components: { LayoutWrapper }
 }
-
 </script>
