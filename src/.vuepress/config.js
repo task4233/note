@@ -1,4 +1,14 @@
 module.exports = {
+  base: '/note/',
+  dest: 'docs',
+  extendMarkdown(md) {
+    md.use(require('markdown-it-katex'))
+    md.use(require('markdown-it-task-lists'))
+    md.set({
+      breaks: true,
+      linkify: true
+    })
+  },
   locales: {
     '/': {
       lang: 'ja',
@@ -20,11 +30,7 @@ module.exports = {
      }
     ],
   ],
-  
-  base: '/note/',
-  dest: 'docs',
   plugins: [
-    'latex',
     ['@vuepress/google-analytics',
      {
        ga: 'UA-134364564-2',
