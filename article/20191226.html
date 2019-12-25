@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>segmentation faultが消えた......? | Note</title>
+    <meta name="description" content="segmentation faultが消えた......?">
+    
+    
+    <link rel="preload" href="/note/assets/css/0.styles.6ac3a915.css" as="style"><link rel="preload" href="/note/assets/js/app.f43b09a9.js" as="script"><link rel="preload" href="/note/assets/js/2.a525c827.js" as="script"><link rel="preload" href="/note/assets/js/32.4963118e.js" as="script"><link rel="prefetch" href="/note/assets/js/10.7cd8297f.js"><link rel="prefetch" href="/note/assets/js/11.363068c7.js"><link rel="prefetch" href="/note/assets/js/12.54d60cc5.js"><link rel="prefetch" href="/note/assets/js/13.dc5fca73.js"><link rel="prefetch" href="/note/assets/js/14.86452c02.js"><link rel="prefetch" href="/note/assets/js/15.e2ef6826.js"><link rel="prefetch" href="/note/assets/js/16.ad277858.js"><link rel="prefetch" href="/note/assets/js/17.b8c80d69.js"><link rel="prefetch" href="/note/assets/js/18.f63ecf30.js"><link rel="prefetch" href="/note/assets/js/19.d4eba7ac.js"><link rel="prefetch" href="/note/assets/js/20.6a731cd5.js"><link rel="prefetch" href="/note/assets/js/21.24789fde.js"><link rel="prefetch" href="/note/assets/js/22.0d983d6e.js"><link rel="prefetch" href="/note/assets/js/23.c940bb84.js"><link rel="prefetch" href="/note/assets/js/24.5e0224f4.js"><link rel="prefetch" href="/note/assets/js/25.ffcb53f8.js"><link rel="prefetch" href="/note/assets/js/26.651d1da8.js"><link rel="prefetch" href="/note/assets/js/27.67d2e715.js"><link rel="prefetch" href="/note/assets/js/28.9ec71909.js"><link rel="prefetch" href="/note/assets/js/29.a18fbd9a.js"><link rel="prefetch" href="/note/assets/js/3.1c7a6bc6.js"><link rel="prefetch" href="/note/assets/js/30.d0bfd6ac.js"><link rel="prefetch" href="/note/assets/js/31.6123410d.js"><link rel="prefetch" href="/note/assets/js/33.717e25d5.js"><link rel="prefetch" href="/note/assets/js/34.a0b98c2d.js"><link rel="prefetch" href="/note/assets/js/35.6a228fad.js"><link rel="prefetch" href="/note/assets/js/36.9a5dcae6.js"><link rel="prefetch" href="/note/assets/js/37.4301b85c.js"><link rel="prefetch" href="/note/assets/js/38.47dad7e3.js"><link rel="prefetch" href="/note/assets/js/39.2041445a.js"><link rel="prefetch" href="/note/assets/js/4.24c816f7.js"><link rel="prefetch" href="/note/assets/js/40.9182090d.js"><link rel="prefetch" href="/note/assets/js/41.d2f326de.js"><link rel="prefetch" href="/note/assets/js/42.9e25cdb8.js"><link rel="prefetch" href="/note/assets/js/43.5b4a3135.js"><link rel="prefetch" href="/note/assets/js/44.5bab56c7.js"><link rel="prefetch" href="/note/assets/js/45.4e1b520c.js"><link rel="prefetch" href="/note/assets/js/46.ce669157.js"><link rel="prefetch" href="/note/assets/js/47.22cb89f9.js"><link rel="prefetch" href="/note/assets/js/48.6bda9f9a.js"><link rel="prefetch" href="/note/assets/js/49.cf328b06.js"><link rel="prefetch" href="/note/assets/js/5.4fb9621f.js"><link rel="prefetch" href="/note/assets/js/50.052afa05.js"><link rel="prefetch" href="/note/assets/js/51.6b7096a0.js"><link rel="prefetch" href="/note/assets/js/52.ea4113ed.js"><link rel="prefetch" href="/note/assets/js/53.2b4272ec.js"><link rel="prefetch" href="/note/assets/js/54.01f888a6.js"><link rel="prefetch" href="/note/assets/js/55.faad398d.js"><link rel="prefetch" href="/note/assets/js/56.1543ef5c.js"><link rel="prefetch" href="/note/assets/js/57.46a7a5b2.js"><link rel="prefetch" href="/note/assets/js/58.9446e8f0.js"><link rel="prefetch" href="/note/assets/js/59.bcd81738.js"><link rel="prefetch" href="/note/assets/js/6.91363e5a.js"><link rel="prefetch" href="/note/assets/js/60.5772e8d2.js"><link rel="prefetch" href="/note/assets/js/61.720e7580.js"><link rel="prefetch" href="/note/assets/js/62.98bd5849.js"><link rel="prefetch" href="/note/assets/js/63.289fbf40.js"><link rel="prefetch" href="/note/assets/js/64.16caca8b.js"><link rel="prefetch" href="/note/assets/js/65.775f9504.js"><link rel="prefetch" href="/note/assets/js/66.3a14d36e.js"><link rel="prefetch" href="/note/assets/js/67.9d0aa017.js"><link rel="prefetch" href="/note/assets/js/68.5e107a14.js"><link rel="prefetch" href="/note/assets/js/69.b5b3e9f6.js"><link rel="prefetch" href="/note/assets/js/7.520b95b6.js"><link rel="prefetch" href="/note/assets/js/70.96df87b2.js"><link rel="prefetch" href="/note/assets/js/71.2527f31c.js"><link rel="prefetch" href="/note/assets/js/72.d110c7c9.js"><link rel="prefetch" href="/note/assets/js/73.42750694.js"><link rel="prefetch" href="/note/assets/js/74.67685796.js"><link rel="prefetch" href="/note/assets/js/75.712dc291.js"><link rel="prefetch" href="/note/assets/js/76.691fb296.js"><link rel="prefetch" href="/note/assets/js/8.585af4b3.js"><link rel="prefetch" href="/note/assets/js/9.a6b5866a.js">
+    <link rel="stylesheet" href="/note/assets/css/0.styles.6ac3a915.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/note/" class="home-link router-link-active"><!----> <span class="site-name">Note</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/note/about.html" class="nav-link">About</a></div><div class="nav-item"><a href="/note/list.html" class="nav-link">Articles</a></div><div class="nav-item"><a href="/note/chukapi_fun_art.html" class="nav-link">Chukapi-Fun-Art</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/note/about.html" class="nav-link">About</a></div><div class="nav-item"><a href="/note/list.html" class="nav-link">Articles</a></div><div class="nav-item"><a href="/note/chukapi_fun_art.html" class="nav-link">Chukapi-Fun-Art</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>segmentation faultが消えた......?</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/note/article/20191226.html#segmentation-faultとは" class="sidebar-link">segmentation faultとは</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/note/article/20191226.html#q1" class="sidebar-link">Q1</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/note/article/20191226.html#q2" class="sidebar-link">Q2</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="segmentation-faultが消えた"><a href="#segmentation-faultが消えた" aria-hidden="true" class="header-anchor">#</a> segmentation faultが消えた......?</h1> <h2 id="segmentation-faultとは"><a href="#segmentation-faultとは" aria-hidden="true" class="header-anchor">#</a> segmentation faultとは</h2> <blockquote><p>セグメンテーション違反（英語：segmentation fault）はソフトウェアの実行時に起きる特定のエラー条件である。segfault（セグフォールト）と略される場合がある。 セグメンテーション違反はアクセスが許可されていないメモリ上の位置、もしくは許可されていない方法（例えばリードオンリーの位置へ書き込みをしようとする、もしくはオペレーティングシステムの部分を上書きしようとする）でメモリ上の位置にアクセスしようとするときに起こる。</p></blockquote> <p><a href="https://ja.wikipedia.org/wiki/%E3%82%BB%E3%82%B0%E3%83%A1%E3%83%B3%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E9%81%95%E5%8F%8D" target="_blank" rel="noopener noreferrer">セグメンテーション違反 @ Wikipediaより引用<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p>今回出てくるsegmentation faultは, 存在しない位置へのアクセスにより生じたものである。</p> <h2 id="q1"><a href="#q1" aria-hidden="true" class="header-anchor">#</a> Q1</h2> <ul><li>Q. 以下のポインタ変数<code>s</code>はmain関数内で宣言した時点でallocateされているのか？</li></ul> <div class="language- extra-class"><pre class="language-text"><code>int main(void) {
+  char* s;
+  s = &quot;hoge&quot;;
+  puts(s);
+}
+</code></pre></div><ul><li>A. されている。ポインタ変数はmain関数のローカル変数なので, スタックに積まれた段階で使用できる。</li></ul> <p>ただし, 以下のような代入はsegmentation faultが発生する。<br>
+なぜなら, <code>*s</code>は参照外しが行われており, allocateされていないデータに対しるアクセスが発生するためである。</p> <div class="language- extra-class"><pre class="language-text"><code>int main(void) {
+  char* s;
+  *s = &quot;hoge&quot;;
+  puts(s);
+}
+</code></pre></div><h2 id="q2"><a href="#q2" aria-hidden="true" class="header-anchor">#</a> Q2</h2> <ul><li>Q. 上の例ではsegmentation faultが発生するが, 下の例ではsegmentation faultが発生しなかった。なぜか？</li></ul> <div class="language- extra-class"><pre class="language-text"><code>#include &lt;stdio.h&gt;
+
+void func(char* c) {
+  c = &quot;B&quot;;
+}
+
+int main(void) {
+  char* c2;
+  func(c2);
+  printf(&quot;%s\n&quot;, c2);
+}
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>#include &lt;stdio.h&gt;
+
+void func(char* c) {
+  c = &quot;B&quot;;
+}
+
+int main(void) {
+  char* c;
+  c = &quot;A&quot;;
+  printf(&quot;%s\n&quot;, c);  
+
+  char* c2; 
+  func(c2);
+  printf(&quot;%s\n&quot;, c2);
+}
+</code></pre></div><ul><li>A. 偶然。具体的には, 下の例では偶然c2の参照先とスタック上のデータがアクセス許可されている値になったためである。その根拠として, gdbによるデバッグを行うと以下の結果が得られた。</li></ul> <div class="language- extra-class"><pre class="language-text"><code>gdb-peda$ s
+[----------------------------------registers-----------------------------------]
+RAX: 0x7ffff7faad60 --&gt; 0x7fffffffe298 --&gt; 0x7fffffffe579 (&quot;SHELL=/bin/bash&quot;)
+RBX: 0x0 
+RCX: 0x7ffff7fa7718 --&gt; 0x7ffff7fa9a40 --&gt; 0x0 
+RDX: 0x7fffffffe298 --&gt; 0x7fffffffe579 (&quot;SHELL=/bin/bash&quot;)
+RSI: 0x7fffffffe288 --&gt; 0x7fffffffe566 (&quot;/root/work/2/test2&quot;)
+RDI: 0x1 
+RBP: 0x401190 (&lt;__libc_csu_init&gt;:	push   r15)
+RSP: 0x7fffffffe198 --&gt; 0x0 
+RIP: 0x40119e (&lt;__libc_csu_init+14&gt;:	push   r13)
+R8 : 0x7ffff7fa9a50 --&gt; 0x4 
+R9 : 0x7ffff7fe4780 (&lt;_dl_fini&gt;:	push   rbp)
+R10: 0x0 
+R11: 0x27 (&quot;'&quot;)
+R12: 0x401040 (&lt;_start&gt;:	xor    ebp,ebp)
+R13: 0x7fffffffe280 --&gt; 0x1 
+R14: 0x7fffffffe298 --&gt; 0x7fffffffe579 (&quot;SHELL=/bin/bash&quot;)
+R15: 0x403e10 --&gt; 0x401120 (&lt;frame_dummy&gt;:	jmp    0x4010b0 &lt;register_tm_clones&gt;)
+EFLAGS: 0x206 (carry PARITY adjust zero sign trap INTERRUPT direction overflow)
+[-------------------------------------code-------------------------------------]
+   0x401192 &lt;__libc_csu_init+2&gt;:	lea    r15,[rip+0x2c77]        # 0x403e10
+   0x401199 &lt;__libc_csu_init+9&gt;:	push   r14
+   0x40119b &lt;__libc_csu_init+11&gt;:	mov    r14,rdx
+=&gt; 0x40119e &lt;__libc_csu_init+14&gt;:	push   r13
+   0x4011a0 &lt;__libc_csu_init+16&gt;:	mov    r13,rsi
+   0x4011a3 &lt;__libc_csu_init+19&gt;:	push   r12
+   0x4011a5 &lt;__libc_csu_init+21&gt;:	mov    r12d,edi
+   0x4011a8 &lt;__libc_csu_init+24&gt;:	push   rbp
+[------------------------------------stack-------------------------------------]
+0000| 0x7fffffffe198 --&gt; 0x0 
+0008| 0x7fffffffe1a0 --&gt; 0x0 
+0016| 0x7fffffffe1a8 --&gt; 0x7ffff7e14b4a (&lt;__libc_start_main+122&gt;:	mov    rax,QWORD PTR [rip+0x19230f]        # 0x7ffff7fa6e60)
+0024| 0x7fffffffe1b0 --&gt; 0x0 
+0032| 0x7fffffffe1b8 --&gt; 0x7fffffffe288 --&gt; 0x7fffffffe566 (&quot;/root/work/2/test2&quot;)
+0040| 0x7fffffffe1c0 --&gt; 0x100040000 
+0048| 0x7fffffffe1c8 --&gt; 0x401151 (&lt;main&gt;:	push   rbp)
+0056| 0x7fffffffe1d0 --&gt; 0x0 
+[------------------------------------------------------------------------------]
+Legend: code, data, rodata, value
+0x000000000040119e in __libc_csu_init ()
+gdb-peda$ x/64b 0x7fffffffe190
+0x7fffffffe190:	0x90	0x11	0x40	0x00	0x00	0x00	0x00	0x00
+0x7fffffffe198:	0x00	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+0x7fffffffe1a0:	0x00	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+0x7fffffffe1a8:	0x4a	0x4b	0xe1	0xf7	0xff	0x7f	0x00	0x00
+0x7fffffffe1b0:	0x00	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+0x7fffffffe1b8:	0x88	0xe2	0xff	0xff	0xff	0x7f	0x00	0x00
+0x7fffffffe1c0:	0x00	0x00	0x04	0x00	0x01	0x00	0x00	0x00
+0x7fffffffe1c8:	0x51	0x11	0x40	0x00	0x00	0x00	0x00	0x00
+gdb-peda$ s
+[----------------------------------registers-----------------------------------]
+RAX: 0x7ffff7faad60 --&gt; 0x7fffffffe298 --&gt; 0x7fffffffe579 (&quot;SHELL=/bin/bash&quot;)
+RBX: 0x0 
+RCX: 0x7ffff7fa7718 --&gt; 0x7ffff7fa9a40 --&gt; 0x0 
+RDX: 0x7fffffffe298 --&gt; 0x7fffffffe579 (&quot;SHELL=/bin/bash&quot;)
+RSI: 0x7fffffffe288 --&gt; 0x7fffffffe566 (&quot;/root/work/2/test2&quot;)
+RDI: 0x1 
+RBP: 0x401190 (&lt;__libc_csu_init&gt;:	push   r15)
+RSP: 0x7fffffffe190 --&gt; 0x7fffffffe280 --&gt; 0x1 
+RIP: 0x4011a0 (&lt;__libc_csu_init+16&gt;:	mov    r13,rsi)
+R8 : 0x7ffff7fa9a50 --&gt; 0x4 
+R9 : 0x7ffff7fe4780 (&lt;_dl_fini&gt;:	push   rbp)
+R10: 0x0 
+R11: 0x27 (&quot;'&quot;)
+R12: 0x401040 (&lt;_start&gt;:	xor    ebp,ebp)
+R13: 0x7fffffffe280 --&gt; 0x1 
+R14: 0x7fffffffe298 --&gt; 0x7fffffffe579 (&quot;SHELL=/bin/bash&quot;)
+R15: 0x403e10 --&gt; 0x401120 (&lt;frame_dummy&gt;:	jmp    0x4010b0 &lt;register_tm_clones&gt;)
+EFLAGS: 0x206 (carry PARITY adjust zero sign trap INTERRUPT direction overflow)
+[-------------------------------------code-------------------------------------]
+   0x401199 &lt;__libc_csu_init+9&gt;:	push   r14
+   0x40119b &lt;__libc_csu_init+11&gt;:	mov    r14,rdx
+   0x40119e &lt;__libc_csu_init+14&gt;:	push   r13
+=&gt; 0x4011a0 &lt;__libc_csu_init+16&gt;:	mov    r13,rsi
+   0x4011a3 &lt;__libc_csu_init+19&gt;:	push   r12
+   0x4011a5 &lt;__libc_csu_init+21&gt;:	mov    r12d,edi
+   0x4011a8 &lt;__libc_csu_init+24&gt;:	push   rbp
+   0x4011a9 &lt;__libc_csu_init+25&gt;:	lea    rbp,[rip+0x2c68]        # 0x403e18
+[------------------------------------stack-------------------------------------]
+0000| 0x7fffffffe190 --&gt; 0x7fffffffe280 --&gt; 0x1 
+0008| 0x7fffffffe198 --&gt; 0x0 
+0016| 0x7fffffffe1a0 --&gt; 0x0 
+0024| 0x7fffffffe1a8 --&gt; 0x7ffff7e14b4a (&lt;__libc_start_main+122&gt;:	mov    rax,QWORD PTR [rip+0x19230f]        # 0x7ffff7fa6e60)
+0032| 0x7fffffffe1b0 --&gt; 0x0 
+0040| 0x7fffffffe1b8 --&gt; 0x7fffffffe288 --&gt; 0x7fffffffe566 (&quot;/root/work/2/test2&quot;)
+0048| 0x7fffffffe1c0 --&gt; 0x100040000 
+0056| 0x7fffffffe1c8 --&gt; 0x401151 (&lt;main&gt;:	push   rbp)
+[------------------------------------------------------------------------------]
+Legend: code, data, rodata, value
+0x00000000004011a0 in __libc_csu_init ()
+gdb-peda$ x/64b 0x7fffffffe190
+0x7fffffffe190:	0x80	0xe2	0xff	0xff	0xff	0x7f	0x00	0x00
+0x7fffffffe198:	0x00	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+0x7fffffffe1a0:	0x00	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+0x7fffffffe1a8:	0x4a	0x4b	0xe1	0xf7	0xff	0x7f	0x00	0x00
+0x7fffffffe1b0:	0x00	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+0x7fffffffe1b8:	0x88	0xe2	0xff	0xff	0xff	0x7f	0x00	0x00
+0x7fffffffe1c0:	0x00	0x00	0x04	0x00	0x01	0x00	0x00	0x00
+0x7fffffffe1c8:	0x51	0x11	0x40	0x00	0x00	0x00	0x00	0x00
+gdb-peda$ info registers
+rax            0x7ffff7faad60      0x7ffff7faad60
+rbx            0x0                 0x0
+rcx            0x7ffff7fa7718      0x7ffff7fa7718
+rdx            0x7fffffffe298      0x7fffffffe298
+rsi            0x7fffffffe288      0x7fffffffe288
+rdi            0x1                 0x1
+rbp            0x401190            0x401190 &lt;__libc_csu_init&gt;
+rsp            0x7fffffffe190      0x7fffffffe190
+r8             0x7ffff7fa9a50      0x7ffff7fa9a50
+r9             0x7ffff7fe4780      0x7ffff7fe4780
+r10            0x0                 0x0
+r11            0x27                0x27
+r12            0x401040            0x401040
+r13            0x7fffffffe280      0x7fffffffe280
+r14            0x7fffffffe298      0x7fffffffe298
+r15            0x403e10            0x403e10
+rip            0x4011a0            0x4011a0 &lt;__libc_csu_init+16&gt;
+eflags         0x206               [ PF IF ]
+cs             0x33                0x33
+ss             0x2b                0x2b
+ds             0x0                 0x0
+es             0x0                 0x0
+fs             0x0                 0x0
+gs             0x0                 0x0
+
+
+</code></pre></div><p>以上より, r13をpushしたことにより, <code>0x7fffffffe190</code>の値が書き換わっていることがわかる。<br>
+その上でmainを見ると以下のように, main+43で<code>mov rax,QWORD PTR [rbp-0x10]</code>を実行している。ここで, rbpは<code>0x7fffffffe1a0</code>なので, <code>[rbp-10]</code> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>⇔</mo></mrow><annotation encoding="application/x-tex">\Leftrightarrow</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">⇔</span></span></span></span> <code>[0x7fffffffe190]</code> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>⇔</mo></mrow><annotation encoding="application/x-tex">\Leftrightarrow</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">⇔</span></span></span></span> <code>0x7fffffff2e80</code>である。そのため, <code>rax</code>にこの値が入り, <code>printf()</code>で参照されるため, segmentation faultは発生しないという訳である。</p> <div class="language- extra-class"><pre class="language-text"><code>gdb-peda$ disas main
+Dump of assembler code for function main:
+   0x0000000000401151 &lt;+0&gt;:	push   rbp
+   0x0000000000401152 &lt;+1&gt;:	mov    rbp,rsp
+   0x0000000000401155 &lt;+4&gt;:	sub    rsp,0x10
+   0x0000000000401159 &lt;+8&gt;:	lea    rax,[rip+0xea8]        # 0x402008
+   0x0000000000401160 &lt;+15&gt;:	mov    QWORD PTR [rbp-0x8],rax
+   0x0000000000401164 &lt;+19&gt;:	mov    rax,QWORD PTR [rbp-0x8]
+   0x0000000000401168 &lt;+23&gt;:	mov    rdi,rax
+   0x000000000040116b &lt;+26&gt;:	call   0x401030 &lt;puts@plt&gt;
+   0x0000000000401170 &lt;+31&gt;:	mov    rax,QWORD PTR [rbp-0x10]
+   0x0000000000401174 &lt;+35&gt;:	mov    rdi,rax
+   0x0000000000401177 &lt;+38&gt;:	call   0x401122 &lt;func&gt;
+   0x000000000040117c &lt;+43&gt;:	mov    rax,QWORD PTR [rbp-0x10]
+   0x0000000000401180 &lt;+47&gt;:	mov    rdi,rax
+   0x0000000000401183 &lt;+50&gt;:	call   0x401030 &lt;puts@plt&gt;
+   0x0000000000401188 &lt;+55&gt;:	mov    eax,0x0
+   0x000000000040118d &lt;+60&gt;:	leave  
+   0x000000000040118e &lt;+61&gt;:	ret    
+End of assembler dump.
+gdb-peda$ info registers 
+The program has no registers now.
+gdb-peda$ b main+43
+Function &quot;main+43&quot; not defined.
+gdb-peda$ b *0x401170
+Breakpoint 1 at 0x401170
+gdb-peda$ r
+Starting program: /root/work/2/test2 
+A
+[----------------------------------registers-----------------------------------]
+RAX: 0x2 
+RBX: 0x0 
+RCX: 0x7ffff7ed9904 (&lt;__GI___libc_write+20&gt;:	cmp    rax,0xfffffffffffff000)
+RDX: 0x7ffff7faa580 --&gt; 0x0 
+RSI: 0x405260 --&gt; 0xa41 ('A\n')
+RDI: 0x0 
+RBP: 0x7fffffffe1a0 --&gt; 0x401190 (&lt;__libc_csu_init&gt;:	push   r15)
+RSP: 0x7fffffffe190 --&gt; 0x7fffffffe280 --&gt; 0x1 
+RIP: 0x401170 (&lt;main+31&gt;:	mov    rax,QWORD PTR [rbp-0x10])
+R8 : 0x2 
+R9 : 0x7ffff7e92f90 (&lt;__wcpcpy&gt;:	lea    rax,[rdi-0x4])
+R10: 0x410 
+R11: 0x246 
+R12: 0x401040 (&lt;_start&gt;:	xor    ebp,ebp)
+R13: 0x7fffffffe280 --&gt; 0x1 
+R14: 0x0 
+R15: 0x0
+EFLAGS: 0x246 (carry PARITY adjust ZERO sign trap INTERRUPT direction overflow)
+[-------------------------------------code-------------------------------------]
+   0x401164 &lt;main+19&gt;:	mov    rax,QWORD PTR [rbp-0x8]
+   0x401168 &lt;main+23&gt;:	mov    rdi,rax
+   0x40116b &lt;main+26&gt;:	call   0x401030 &lt;puts@plt&gt;
+=&gt; 0x401170 &lt;main+31&gt;:	mov    rax,QWORD PTR [rbp-0x10]
+   0x401174 &lt;main+35&gt;:	mov    rdi,rax
+   0x401177 &lt;main+38&gt;:	call   0x401122 &lt;func&gt;
+   0x40117c &lt;main+43&gt;:	mov    rax,QWORD PTR [rbp-0x10]
+   0x401180 &lt;main+47&gt;:	mov    rdi,rax
+[------------------------------------stack-------------------------------------]
+0000| 0x7fffffffe190 --&gt; 0x7fffffffe280 --&gt; 0x1 
+0008| 0x7fffffffe198 --&gt; 0x402008 --&gt; 0x3b031b0100000041 
+0016| 0x7fffffffe1a0 --&gt; 0x401190 (&lt;__libc_csu_init&gt;:	push   r15)
+0024| 0x7fffffffe1a8 --&gt; 0x7ffff7e14bbb (&lt;__libc_start_main+235&gt;:	mov    edi,eax)
+0032| 0x7fffffffe1b0 --&gt; 0x0 
+0040| 0x7fffffffe1b8 --&gt; 0x7fffffffe288 --&gt; 0x7fffffffe566 (&quot;/root/work/2/test2&quot;)
+0048| 0x7fffffffe1c0 --&gt; 0x100040000 
+0056| 0x7fffffffe1c8 --&gt; 0x401151 (&lt;main&gt;:	push   rbp)
+[------------------------------------------------------------------------------]
+Legend: code, data, rodata, value
+
+Breakpoint 1, 0x0000000000401170 in main ()
+gdb-peda$ info registers 
+rax            0x2                 0x2
+rbx            0x0                 0x0
+rcx            0x7ffff7ed9904      0x7ffff7ed9904
+rdx            0x7ffff7faa580      0x7ffff7faa580
+rsi            0x405260            0x405260
+rdi            0x0                 0x0
+rbp            0x7fffffffe1a0      0x7fffffffe1a0
+rsp            0x7fffffffe190      0x7fffffffe190
+r8             0x2                 0x2
+r9             0x7ffff7e92f90      0x7ffff7e92f90
+r10            0x410               0x410
+r11            0x246               0x246
+r12            0x401040            0x401040
+r13            0x7fffffffe280      0x7fffffffe280
+r14            0x0                 0x0
+r15            0x0                 0x0
+rip            0x401170            0x401170 &lt;main+31&gt;
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                0x33
+ss             0x2b                0x2b
+ds             0x0                 0x0
+es             0x0                 0x0
+fs             0x0                 0x0
+gs             0x0                 0x0
+gdb-peda$ x/64b 0x0x7fffffffe190
+Invalid number &quot;0x0x7fffffffe190&quot;.
+gdb-peda$ x/64b 0x7fffffffe190
+0x7fffffffe190:	0x80	0xe2	0xff	0xff	0xff	0x7f	0x00	0x00
+0x7fffffffe198:	0x08	0x20	0x40	0x00	0x00	0x00	0x00	0x00
+0x7fffffffe1a0:	0x90	0x11	0x40	0x00	0x00	0x00	0x00	0x00
+0x7fffffffe1a8:	0xbb	0x4b	0xe1	0xf7	0xff	0x7f	0x00	0x00
+0x7fffffffe1b0:	0x00	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+0x7fffffffe1b8:	0x88	0xe2	0xff	0xff	0xff	0x7f	0x00	0x00
+0x7fffffffe1c0:	0x00	0x00	0x04	0x00	0x01	0x00	0x00	0x00
+0x7fffffffe1c8:	0x51	0x11	0x40	0x00	0x00	0x00	0x00	0x00
+gdb-peda$ s
+[----------------------------------registers-----------------------------------]
+RAX: 0x7fffffffe280 --&gt; 0x1 
+RBX: 0x0 
+RCX: 0x7ffff7ed9904 (&lt;__GI___libc_write+20&gt;:	cmp    rax,0xfffffffffffff000)
+RDX: 0x7ffff7faa580 --&gt; 0x0 
+RSI: 0x405260 --&gt; 0xa41 ('A\n')
+RDI: 0x0 
+RBP: 0x7fffffffe1a0 --&gt; 0x401190 (&lt;__libc_csu_init&gt;:	push   r15)
+RSP: 0x7fffffffe190 --&gt; 0x7fffffffe280 --&gt; 0x1 
+RIP: 0x401174 (&lt;main+35&gt;:	mov    rdi,rax)
+R8 : 0x2 
+R9 : 0x7ffff7e92f90 (&lt;__wcpcpy&gt;:	lea    rax,[rdi-0x4])
+R10: 0x410 
+R11: 0x246 
+R12: 0x401040 (&lt;_start&gt;:	xor    ebp,ebp)
+R13: 0x7fffffffe280 --&gt; 0x1 
+R14: 0x0 
+R15: 0x0
+EFLAGS: 0x246 (carry PARITY adjust ZERO sign trap INTERRUPT direction overflow)
+[-------------------------------------code-------------------------------------]
+   0x401168 &lt;main+23&gt;:	mov    rdi,rax
+   0x40116b &lt;main+26&gt;:	call   0x401030 &lt;puts@plt&gt;
+   0x401170 &lt;main+31&gt;:	mov    rax,QWORD PTR [rbp-0x10]
+=&gt; 0x401174 &lt;main+35&gt;:	mov    rdi,rax
+   0x401177 &lt;main+38&gt;:	call   0x401122 &lt;func&gt;
+   0x40117c &lt;main+43&gt;:	mov    rax,QWORD PTR [rbp-0x10]
+   0x401180 &lt;main+47&gt;:	mov    rdi,rax
+   0x401183 &lt;main+50&gt;:	call   0x401030 &lt;puts@plt&gt;
+[------------------------------------stack-------------------------------------]
+0000| 0x7fffffffe190 --&gt; 0x7fffffffe280 --&gt; 0x1 
+0008| 0x7fffffffe198 --&gt; 0x402008 --&gt; 0x3b031b0100000041 
+0016| 0x7fffffffe1a0 --&gt; 0x401190 (&lt;__libc_csu_init&gt;:	push   r15)
+0024| 0x7fffffffe1a8 --&gt; 0x7ffff7e14bbb (&lt;__libc_start_main+235&gt;:	mov    edi,eax)
+0032| 0x7fffffffe1b0 --&gt; 0x0 
+0040| 0x7fffffffe1b8 --&gt; 0x7fffffffe288 --&gt; 0x7fffffffe566 (&quot;/root/work/2/test2&quot;)
+0048| 0x7fffffffe1c0 --&gt; 0x100040000 
+0056| 0x7fffffffe1c8 --&gt; 0x401151 (&lt;main&gt;:	push   rbp)
+[------------------------------------------------------------------------------]
+Legend: code, data, rodata, value
+0x0000000000401174 in main ()
+gdb-peda$ s
+[----------------------------------registers-----------------------------------]
+RAX: 0x7fffffffe280 --&gt; 0x1 
+RBX: 0x0 
+RCX: 0x7ffff7ed9904 (&lt;__GI___libc_write+20&gt;:	cmp    rax,0xfffffffffffff000)
+RDX: 0x7ffff7faa580 --&gt; 0x0 
+RSI: 0x405260 --&gt; 0xa41 ('A\n')
+RDI: 0x7fffffffe280 --&gt; 0x1 
+RBP: 0x7fffffffe1a0 --&gt; 0x401190 (&lt;__libc_csu_init&gt;:	push   r15)
+RSP: 0x7fffffffe190 --&gt; 0x7fffffffe280 --&gt; 0x1 
+RIP: 0x401177 (&lt;main+38&gt;:	call   0x401122 &lt;func&gt;)
+R8 : 0x2 
+R9 : 0x7ffff7e92f90 (&lt;__wcpcpy&gt;:	lea    rax,[rdi-0x4])
+R10: 0x410 
+R11: 0x246 
+R12: 0x401040 (&lt;_start&gt;:	xor    ebp,ebp)
+R13: 0x7fffffffe280 --&gt; 0x1 
+R14: 0x0 
+R15: 0x0
+EFLAGS: 0x246 (carry PARITY adjust ZERO sign trap INTERRUPT direction overflow)
+[-------------------------------------code-------------------------------------]
+   0x40116b &lt;main+26&gt;:	call   0x401030 &lt;puts@plt&gt;
+   0x401170 &lt;main+31&gt;:	mov    rax,QWORD PTR [rbp-0x10]
+   0x401174 &lt;main+35&gt;:	mov    rdi,rax
+=&gt; 0x401177 &lt;main+38&gt;:	call   0x401122 &lt;func&gt;
+   0x40117c &lt;main+43&gt;:	mov    rax,QWORD PTR [rbp-0x10]
+   0x401180 &lt;main+47&gt;:	mov    rdi,rax
+   0x401183 &lt;main+50&gt;:	call   0x401030 &lt;puts@plt&gt;
+   0x401188 &lt;main+55&gt;:	mov    eax,0x0
+Guessed arguments:
+arg[0]: 0x7fffffffe280 --&gt; 0x1 
+[------------------------------------stack-------------------------------------]
+0000| 0x7fffffffe190 --&gt; 0x7fffffffe280 --&gt; 0x1 
+0008| 0x7fffffffe198 --&gt; 0x402008 --&gt; 0x3b031b0100000041 
+0016| 0x7fffffffe1a0 --&gt; 0x401190 (&lt;__libc_csu_init&gt;:	push   r15)
+0024| 0x7fffffffe1a8 --&gt; 0x7ffff7e14bbb (&lt;__libc_start_main+235&gt;:	mov    edi,eax)
+0032| 0x7fffffffe1b0 --&gt; 0x0 
+0040| 0x7fffffffe1b8 --&gt; 0x7fffffffe288 --&gt; 0x7fffffffe566 (&quot;/root/work/2/test2&quot;)
+0048| 0x7fffffffe1c0 --&gt; 0x100040000 
+0056| 0x7fffffffe1c8 --&gt; 0x401151 (&lt;main&gt;:	push   rbp)
+[------------------------------------------------------------------------------]
+Legend: code, data, rodata, value
+0x0000000000401177 in main ()
+gdb-peda$ info registers 
+rax            0x7fffffffe280      0x7fffffffe280
+rbx            0x0                 0x0
+rcx            0x7ffff7ed9904      0x7ffff7ed9904
+rdx            0x7ffff7faa580      0x7ffff7faa580
+rsi            0x405260            0x405260
+rdi            0x7fffffffe280      0x7fffffffe280
+rbp            0x7fffffffe1a0      0x7fffffffe1a0
+rsp            0x7fffffffe190      0x7fffffffe190
+r8             0x2                 0x2
+r9             0x7ffff7e92f90      0x7ffff7e92f90
+r10            0x410               0x410
+r11            0x246               0x246
+r12            0x401040            0x401040
+r13            0x7fffffffe280      0x7fffffffe280
+r14            0x0                 0x0
+r15            0x0                 0x0
+rip            0x401177            0x401177 &lt;main+38&gt;
+eflags         0x246               [ PF ZF IF ]
+cs             0x33                0x33
+ss             0x2b                0x2b
+ds             0x0                 0x0
+es             0x0                 0x0
+fs             0x0                 0x0
+gs             0x0                 0x0
+</code></pre></div><h1 id="最後に"><a href="#最後に" aria-hidden="true" class="header-anchor">#</a> 最後に</h1> <p>未初期化変数は不安定なので今回のようなことが起きる。<strong>変数は初期化するべきである</strong>。</p> <p>また, 今回の問題の解決に<a href="https://twitter.com/zunzun_meow" target="_blank" rel="noopener noreferrer">@zunzun_meow<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>さん, <a href="https://twitter.com/Nperair" target="_blank" rel="noopener noreferrer">@Nperair<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>さん, <a href="https://twitter.com/yuki_obuchi" target="_blank" rel="noopener noreferrer">@yuki_obuchi<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>さん, <a href="https://twitter.com/onokatio_" target="_blank" rel="noopener noreferrer">onokatio_<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>さん, <a href="https://twitter.com/xrekkusu" target="_blank" rel="noopener noreferrer">@xrekkusu<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>さんにお手伝いいただきました。この場をお借りして感謝申し上げます。</p> <p>以上。</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">2019-12-25 18:52:00</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/note/assets/js/app.f43b09a9.js" defer></script><script src="/note/assets/js/2.a525c827.js" defer></script><script src="/note/assets/js/32.4963118e.js" defer></script>
+  </body>
+</html>
