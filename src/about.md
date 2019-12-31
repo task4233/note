@@ -20,10 +20,10 @@ sidebar: false
    - [CyberRebeatCTF - WriteUp](https://hackmd.io/s/B1vjy5EsV)
    - [SECCON Beginners in Nagoya Record](https://hackmd.io/s/B1vjy5EsV)
    
-# Award
- - 育英奨学生 - 芝浦工業大学 工学部 1年次
- - 1st Place - SECCON Beginner 2018 名古屋
- - 育英奨学生 - 芝浦工業大学 工学部 2年次
+# Awards
+ - Scholarship Student in Shibaura Institute of Technology - freshman in University
+ - 1st Place - SECCON Beginner 2018 Nagoya
+ - Scholarship Student in Shibaura Institute of Technology - Sophomore in University
  - 3rd Place - CTF in インシデントレスポンスで攻撃者を追いかけろ seccamp2019
 
 # Skills
