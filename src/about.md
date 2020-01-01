@@ -4,7 +4,7 @@ sidebar: false
 
 # $ whoami
  - Name: Takashi Mima
- - Handle: task4233  
+ - Handle: task4233
  - Major: Computer Science
  - Institution: Shibaura Institute of Technology
 
@@ -22,7 +22,7 @@ sidebar: false
    
 # Awards
  - Scholarship Student in Shibaura Institute of Technology - freshman in University
- - 1st Place - SECCON Beginner 2018 Nagoya
+ - 1st Place - SECCON Beginners 2018 Nagoya
  - Scholarship Student in Shibaura Institute of Technology - Sophomore in University
  - 3rd Place - CTF in インシデントレスポンスで攻撃者を追いかけろ seccamp2019
 
@@ -43,7 +43,7 @@ sidebar: false
  - Golang(Intermediate)
    - [mono-management(backend)](https://github.com/task4233/mono-management)
  - Rust(Beginner)
-   - Making Simple Single Thread Server
+   - For Making Simple Single Thread Server
  - Verilog
    - for PBL
 
