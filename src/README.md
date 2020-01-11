@@ -4,7 +4,7 @@ sidebar: false
 
 # Welcome!
 Here's a top page.  
-This site has been made for note.  
+This site has been made for note-cum-portfolio.  
 
 If you have any questions, please feel free to ask [@task4233](https://twitter.com/task4233).
 
