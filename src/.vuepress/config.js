@@ -6,7 +6,7 @@ module.exports = {
       description: 'Take it easy. But not lazy.'
     }
   },
-  base: '/note/',
+  base: '/',
   dest: 'docs',
   plugins: [
     '@vuepress/blog',
