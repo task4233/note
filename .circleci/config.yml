@@ -19,11 +19,11 @@ jobs:
           name: Build
           command: yarn src:build
       - run:
-          name: Deploy
-          command: yarn deploy
-      - run:
           name: MakeCNAME
           command: mv ./CNAME ./docs/CNAME
+      - run:
+          name: Deploy
+          command: yarn deploy
       - run:
           name: cleanup
           command: yarn docs:remove
