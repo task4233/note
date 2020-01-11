@@ -7,7 +7,7 @@ module.exports = {
     }
   },
   ga: 'UA-134364564-2',
-  base: '/note/',
+  base: '/',
   dest: 'docs',
   head: [
     ['link',
