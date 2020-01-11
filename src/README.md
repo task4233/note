@@ -15,7 +15,7 @@ If you have any questions, please feel free to ask [@task4233](https://twitter.c
  - Institution: Shibaura Institute of Technology
 
 # Interests
- - Computer Scienct
+ - Computer Science
  - Teachering Profession
  - Psychology
  - Math
