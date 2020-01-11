@@ -20,7 +20,6 @@ module.exports = {
     sidebar: 'auto',
     sidebarDepth: 2,
     nav: [
-      { text: 'About'        , link: '/about.html' },
       { text: 'Articles'       , link: '/list.html' },
       { text: 'Chukapi-Fun-Art', link: '/chukapi_fun_art.html' },
     ],
