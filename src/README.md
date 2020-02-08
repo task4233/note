@@ -2,35 +2,35 @@
 sidebar: false
 ---
 
-# Welcome!
-Here's a top page.  
-This site has been made for note-cum-portfolio.  
-
-If you have any questions, please feel free to ask [@task4233](https://twitter.com/task4233).
-
-# $ whoami
- - Name: Takashi Mima
- - Handle: task4233
- - Major: Computer Science
- - Institution: Shibaura Institute of Technology
+# Abstract
+**Takashi Mima** a.k.a task4233 is a junior student at Department of Information Science and Engineering at Shibaura Institute of Technology.
 
 # Interests
  - Computer Science
- - Teachering Profession
- - Psychology
- - Math
- - Competitive Programming
-   - [AtCoder(Cyan)](https://atcoder.jp/users/task4233)
-   - [CodeForces(Pupil)](https://codeforces.com/profile/task4233)
- - CTF(Web/Pwn)
-   - [CyberRebeatCTF - WriteUp](https://hackmd.io/s/B1vjy5EsV)
-   - [SECCON Beginners in Nagoya Record](https://hackmd.io/s/B1vjy5EsV)
-   
+   I have been studying the computer science at the university. I used to do a competitive programming([AtCoder(Cyan)](https://atcoder.jp/users/task4233), [CodeForces(Pupil)](https://codeforces.com/profile/task4233)). Especially, **a cyber security topic** is the most interested. I have been studying the penetration skills along with SANS SEC560 OnDemand. Sometimes, enjoying CTF([CyberRebeatCTF - WriteUp](https://hackmd.io/s/B1vjy5EsV), [SECCON Beginners in Nagoya Record](https://hackmd.io/s/B1vjy5EsV)) 
+ - Teachering Cource
+   I have been taking the teaching cource(math, informatics, industrial chemistry) at the university.
+
+
 # Awards
  - Scholarship Student in Shibaura Institute of Technology - freshman in University
  - 1st Place - SECCON Beginners 2018 Nagoya
- - Scholarship Student in Shibaura Institute of Technology - Sophomore in University
+ - Scholarship Student in Shibaura Institute of Technology - sophomore in University
  - 3rd Place - CTF in インシデントレスポンスで攻撃者を追いかけろ seccamp2019
+
+## Certificates
+ - TOEIC 720/990
+ - Database Specialist
+ - Graduated Security Camp 2019
+ - Graduated Security Mini Camp 2019 in Yamanashi
+
+# Links
+ - [GitHub](https://github.com/task4233)
+ - [Twitter](https://twitter.com/task4233)
+ - [HatenaBlog](https://task4233.hatenablog.com/)
+ - [Qiita](https://qiita.com/task4233)
+ - [SpeakerDeck](https://speakerdeck.com/task4233)
+
 
 # Skills
 ## Languages
@@ -77,17 +77,3 @@ If you have any questions, please feel free to ask [@task4233](https://twitter.c
    - Usually, I develop by using Vagrant(CentOS)
  - CircleCI
    - For deploying [this project(note)](https://github.com/task4233/note)
-
-# Learned
-## Univ.
- - Summarize information on [there](https://hackmd.io/ymhtfPztSb6-V01OPT_gOw)
-
-## Certification Exam
- - Database Specialist
-
-# Links
- - [GitHub](https://github.com/task4233)
- - [Twitter](https://twitter.com/task4233)
- - [HatenaBlog](https://task4233.hatenablog.com/)
- - [Qiita](https://qiita.com/task4233)
- - [SpeakerDeck](https://speakerdeck.com/task4233)
