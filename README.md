@@ -18,7 +18,7 @@ markdown, TeXに対応しているので便利です。
 
 ## Requirement
 - \>= yarn ver 1.17.3
-- [package.json]（https://github.com/task4233/note/blob/master/package.json）に必要パッケージは載っています。
+- [package.json](https://github.com/task4233/note/blob/master/package.json)に必要パッケージは載っています。
 
 
 ## Installation
