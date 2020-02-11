@@ -6,9 +6,12 @@ sidebar: false
 **Takashi Mima** a.k.a task4233 is a junior student at Department of Information Science and Engineering at Shibaura Institute of Technology.
 
 # Interests
- - Computer Science
-   I have been studying the computer science at the university. I used to do a competitive programming([AtCoder(Cyan)](https://atcoder.jp/users/task4233), [CodeForces(Pupil)](https://codeforces.com/profile/task4233)). Especially, **a cyber security topic** is the most interested. I have been studying the penetration skills along with SANS SEC560 OnDemand. Sometimes, enjoying CTF([CyberRebeatCTF - WriteUp](https://hackmd.io/s/B1vjy5EsV), [SECCON Beginners in Nagoya Record](https://hackmd.io/s/B1vjy5EsV)) 
- - Teachering Cource
+ - Computer Science  
+
+   I have been studying the computer science at the university. Especially, **a cyber security topic** is the most interested. I have been studying the penetration skills along with SANS SEC560 OnDemand.
+
+ - Teachering Cource  
+ 
    I have been taking the teaching cource(math, informatics, industrial chemistry) at the university.
 
 
