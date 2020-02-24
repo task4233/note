@@ -19,6 +19,7 @@ sidebar: false
  - 1st Place - SECCON Beginners 2018 Nagoya
  - Scholarship Student in Shibaura Institute of Technology - sophomore in University
  - 3rd Place - CTF in インシデントレスポンスで攻撃者を追いかけろ seccamp2019
+ - Scholarship Student in Shibaura Institute of Technology - junior in University
 
 ## Certificates
  - TOEIC 720/990
