@@ -7,8 +7,7 @@ sidebar: false
 
 # Interests
  - Computer Science  
-   I have been studying the computer science at the university. Especially,
-   **a cyber security topic** is the most interesting to me. Specifically, SANS SEC560 OnDemand is undergoing for penetration skills.
+   I have been studying the computer science at the university. Especially, **a cyber security topic** is the most interesting to me. Specifically, I have been really into malware detection since security camp. My thought about weakness of its recent research is a packing. Then, I believe that solving this problem is important in this research area.
 
  - Teachering Cource  
    I have been taking the teaching cource(math, informatics, industrial chemistry) at the university.
@@ -26,6 +25,7 @@ sidebar: false
  - Database Specialist
  - Graduated Security Camp 2019
  - Graduated Security Mini Camp 2019 in Yamanashi
+ - certificated SANS SEC560 OnDemand
 
 # Links
  - [GitHub](https://github.com/task4233)
