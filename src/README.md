@@ -3,7 +3,7 @@ sidebar: false
 ---
 
 # Abstract
-**Takashi Mima** a.k.a task4233 is a junior student at Department of Information Science and Engineering at Shibaura Institute of Technology.
+**Takashi Mima** a.k.a task4233 is a senior student at Department of Information Science and Engineering at Shibaura Institute of Technology.
 
 # Interests
  - Computer Science  
