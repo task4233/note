@@ -14,32 +14,6 @@ sidebar: false
  - Teachering Cource  
    I have been taking the teaching cource(math, informatics, industrial chemistry) at the university.
 
-# Tech Internship & Part-Time Job
-## 2020
- - NTTコミュニケーションズ セキュリティ脅威分析, SREエンジニア体験 [02/08](https://task4233.hatenablog.com/entry/2020/02/08/235757), [02/15](https://task4233.hatenablog.com/entry/2020/02/17/193956)
- - SBテクノロジー SOCアナリスト 定常業務, 業務改善 [02/01-03/31](https://task4233.hatenablog.com/entry/2020/04/11/091428)
- - 株式会社マイナビ バックエンドエンジニア 社内アプリケーション開発, [技術検証](https://qiita.com/task4233/items/bf6752692143b7b80027) 07/01-
-
-# Tech Events
-## 2018
- - [SECCON Beginners 名古屋](https://task4233.hatenablog.com/entry/2018/11/25/130607) 11/24
-
-## 2019
- - [Bug Shooting Challenge#2 in Mixi](https://task4233.hatenablog.com/entry/2019/03/02/235724) 03/02
- - [Git Challenge#11 in Mixi](https://task4233.hatenablog.com/entry/2019/05/19/122206) 05/18
- - [セキュリティ・キャンプ 全国大会2019](https://task4233.hatenablog.com/entry/2019/08/24/132522)
- - [BIT VALLEY 2019](https://task4233.hatenablog.com/entry/2019/09/15/110308) 09/14
- - [セキュリティ・ミニキャンプ in 山梨 2019](https://task4233.hatenablog.com/entry/2019/10/12/131008) 09/29
- - [CODE BLUE 2019 学生スタッフ](https://task4233.hatenablog.com/entry/2019/10/31/162742) 10/29, 30
- - [とある診断員とSecurity-JAWS #01](https://task4233.hatenablog.com/entry/2019/11/24/220643) 11/24
- - [taskCTF 開催](https://qiita.com/task4233/items/09f112076eb5855eeed3) 12/05
- - [学生LT#31](https://task4233.hatenablog.com/entry/2019/12/09/235315) 12/08
- 
- ## 2020
-  - SecHack365 Research Driven Course(Ongoing...)
-  - [NTT Performance Tuning Challenge 2020](https://task4233.hatenablog.com/entry/2020/09/11/200801) 09/11
-  - [Hardening 2020 H3DX](https://task4233.hatenablog.com/entry/2020/11/26/201239) ~11/14
-
 # Awards
  - Scholarship Student in Shibaura Institute of Technology - freshman in University
  - 1st Place - SECCON Beginners 2018 Nagoya
