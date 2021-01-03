@@ -2,6 +2,8 @@
 sidebar: false
 ---
 
+[Japanese version](https://task4233.dev)
+
 # Abstract
 **Takashi Mima** a.k.a task4233 is a senior student at Department of Information Science and Engineering at Shibaura Institute of Technology.
 
