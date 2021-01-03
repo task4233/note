@@ -25,6 +25,7 @@ sidebar: false
 
 ## Tech Events
 ### 2020
+  - [第ニ回サイバーセキュリティ系LT会 in 東京](https://everyone-cyber-security.connpass.com/event/155818/) 主催 01/12
   - SecHack365 Research Driven Course(Ongoing...)
   - [NTT Performance Tuning Challenge 2020](https://task4233.hatenablog.com/entry/2020/09/11/200801) 09/11
   - [Hardening 2020 H3DX](https://task4233.hatenablog.com/entry/2020/11/26/201239) ~11/14
