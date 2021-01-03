@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ghidra勉強会 | Note</title>
+    <meta name="description" content="Ghidraによるマルウェア解析 with ピンク先生！(中忍編)">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.6f1cf167.css" as="style"><link rel="preload" href="/assets/js/app.48bc3197.js" as="script"><link rel="preload" href="/assets/js/5.4b6140b2.js" as="script"><link rel="preload" href="/assets/js/2.c2c74dfd.js" as="script"><link rel="preload" href="/assets/js/41.8c096ed8.js" as="script"><link rel="prefetch" href="/assets/js/10.92d98377.js"><link rel="prefetch" href="/assets/js/11.2d55892c.js"><link rel="prefetch" href="/assets/js/12.4ef4f33a.js"><link rel="prefetch" href="/assets/js/13.bc76cf39.js"><link rel="prefetch" href="/assets/js/14.c440aca2.js"><link rel="prefetch" href="/assets/js/15.7ce8fb5d.js"><link rel="prefetch" href="/assets/js/16.de5fb12f.js"><link rel="prefetch" href="/assets/js/17.fb81097a.js"><link rel="prefetch" href="/assets/js/18.b3bf3190.js"><link rel="prefetch" href="/assets/js/19.a5338fe0.js"><link rel="prefetch" href="/assets/js/20.a618118c.js"><link rel="prefetch" href="/assets/js/21.9b959b80.js"><link rel="prefetch" href="/assets/js/22.c8154fc9.js"><link rel="prefetch" href="/assets/js/23.33458ae1.js"><link rel="prefetch" href="/assets/js/24.3b8eee22.js"><link rel="prefetch" href="/assets/js/25.124edf92.js"><link rel="prefetch" href="/assets/js/26.fd37ca61.js"><link rel="prefetch" href="/assets/js/27.c9bce968.js"><link rel="prefetch" href="/assets/js/28.d95aee5f.js"><link rel="prefetch" href="/assets/js/29.da12def9.js"><link rel="prefetch" href="/assets/js/3.faf42d1d.js"><link rel="prefetch" href="/assets/js/30.c754b965.js"><link rel="prefetch" href="/assets/js/31.6cfdf6da.js"><link rel="prefetch" href="/assets/js/32.272ab896.js"><link rel="prefetch" href="/assets/js/33.819b484b.js"><link rel="prefetch" href="/assets/js/34.d518b962.js"><link rel="prefetch" href="/assets/js/35.a57f62c6.js"><link rel="prefetch" href="/assets/js/36.d59f46fe.js"><link rel="prefetch" href="/assets/js/37.694f642a.js"><link rel="prefetch" href="/assets/js/38.4e623619.js"><link rel="prefetch" href="/assets/js/39.f2291ba0.js"><link rel="prefetch" href="/assets/js/4.7a95267e.js"><link rel="prefetch" href="/assets/js/40.5fa133ae.js"><link rel="prefetch" href="/assets/js/42.3bab00a6.js"><link rel="prefetch" href="/assets/js/43.316fc499.js"><link rel="prefetch" href="/assets/js/44.40eaf96c.js"><link rel="prefetch" href="/assets/js/45.ab10326f.js"><link rel="prefetch" href="/assets/js/46.c13c22ff.js"><link rel="prefetch" href="/assets/js/47.79018f4b.js"><link rel="prefetch" href="/assets/js/48.126c0411.js"><link rel="prefetch" href="/assets/js/49.c1cca226.js"><link rel="prefetch" href="/assets/js/50.3ee1b73a.js"><link rel="prefetch" href="/assets/js/51.672ccbbb.js"><link rel="prefetch" href="/assets/js/52.df3f566f.js"><link rel="prefetch" href="/assets/js/53.42e96124.js"><link rel="prefetch" href="/assets/js/54.c07668c4.js"><link rel="prefetch" href="/assets/js/55.4e255337.js"><link rel="prefetch" href="/assets/js/56.dc698157.js"><link rel="prefetch" href="/assets/js/57.a01ba331.js"><link rel="prefetch" href="/assets/js/58.14f10101.js"><link rel="prefetch" href="/assets/js/59.e2b6e465.js"><link rel="prefetch" href="/assets/js/6.86e4fe4e.js"><link rel="prefetch" href="/assets/js/60.d82c0f2a.js"><link rel="prefetch" href="/assets/js/61.8aef81cb.js"><link rel="prefetch" href="/assets/js/62.7286d941.js"><link rel="prefetch" href="/assets/js/63.ff4ebb29.js"><link rel="prefetch" href="/assets/js/64.176b25f1.js"><link rel="prefetch" href="/assets/js/65.b1905ae6.js"><link rel="prefetch" href="/assets/js/66.96feb9ba.js"><link rel="prefetch" href="/assets/js/67.754b135b.js"><link rel="prefetch" href="/assets/js/68.56c6df8d.js"><link rel="prefetch" href="/assets/js/69.3ec1e34f.js"><link rel="prefetch" href="/assets/js/7.5ab61fee.js"><link rel="prefetch" href="/assets/js/70.cdbad9d5.js"><link rel="prefetch" href="/assets/js/71.734b5804.js"><link rel="prefetch" href="/assets/js/72.870027d7.js"><link rel="prefetch" href="/assets/js/73.e2999aeb.js"><link rel="prefetch" href="/assets/js/74.df5ddb01.js"><link rel="prefetch" href="/assets/js/75.5727f206.js"><link rel="prefetch" href="/assets/js/76.a92f952e.js"><link rel="prefetch" href="/assets/js/77.df58b50e.js"><link rel="prefetch" href="/assets/js/78.aca21863.js"><link rel="prefetch" href="/assets/js/79.a131724b.js"><link rel="prefetch" href="/assets/js/8.3c008a46.js"><link rel="prefetch" href="/assets/js/80.46ca3ac0.js"><link rel="prefetch" href="/assets/js/81.f62a40ca.js"><link rel="prefetch" href="/assets/js/82.9b1304fb.js"><link rel="prefetch" href="/assets/js/83.ad4319e4.js"><link rel="prefetch" href="/assets/js/84.cb83563f.js"><link rel="prefetch" href="/assets/js/9.aa64878f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6f1cf167.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Note</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/list.html" class="nav-link">Articles</a></div><div class="nav-item"><a href="/chukapi_fun_art.html" class="nav-link">Chukapi-Fun-Art</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/list.html" class="nav-link">Articles</a></div><div class="nav-item"><a href="/chukapi_fun_art.html" class="nav-link">Chukapi-Fun-Art</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Ghidra勉強会</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/article/20210103_ghidra.html#seccamp事前課題" class="sidebar-link">Seccamp事前課題</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="ghidra勉強会"><a href="#ghidra勉強会" class="header-anchor">#</a> Ghidra勉強会</h1> <h2 id="seccamp事前課題"><a href="#seccamp事前課題" class="header-anchor">#</a> Seccamp事前課題</h2> <ul><li>0x001013c1からの関数がmain
+<ul><li>entryから呼び出しているので</li></ul></li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+undefined8 FUN_001013c1(int param_1,undefined8 *param_2)
+
+{
+  undefined *__s2;
+  int iVar1;
+  char *__s1;
+  undefined local_138 [272];
+  void *local_28;
+  size_t local_20;
+  
+  if (param_1 &lt; 2) {
+    printf(&quot;Usage: %s &lt;plaintext&gt;&quot;,*param_2);
+                    /* WARNING: Subroutine does not return */
+    exit(1);
+  }
+  puts((char *)param_2[1]);
+  local_20 = strlen((char *)param_2[1]);
+  local_28 = malloc(local_20);
+  FUN_00101195(local_138,&quot;seccamp2020&quot;,DAT_00104060 &amp; 0xffffffff,0x3b);
+  __s2 = PTR_DAT_00104068;
+  __s1 = (char *)FUN_00101285(local_138,param_2[1],local_28,local_20);
+  iVar1 = strcmp(__s1,__s2);
+  if (iVar1 == 0) {
+    puts(&quot;Correct!&quot;);
+  }
+  else {
+    puts(&quot;Wrong...&quot;);
+  }
+  free(local_28);
+  return 0;
+}
+
+
+</code></pre></div><ul><li>読みやすくするために再命名</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+int main(int argc,char *argv)
+
+{
+  undefined *__s2;
+  int iVar1;
+  char *__s1;
+  undefined local_138 [272];
+  void *buf;
+  size_t size;
+  
+  if (argc &lt; 2) {
+    printf(&quot;Usage: %s &lt;plaintext&gt;&quot;,*(undefined8 *)argv);
+                    /* WARNING: Subroutine does not return */
+    exit(1);
+  }
+  puts(*(char **)(argv + 8));
+  size = strlen(*(char **)(argv + 8));
+  buf = malloc(size);
+  FUN_00101195(local_138,&quot;seccamp2020&quot;,DAT_00104060 &amp; 0xffffffff,0x3b);
+  __s2 = PTR_DAT_00104068;
+  __s1 = (char *)FUN_00101285(local_138,*(undefined8 *)(argv + 8),buf,size);
+  iVar1 = strcmp(__s1,__s2);
+  if (iVar1 == 0) {
+    puts(&quot;Correct!&quot;);
+  }
+  else {
+    puts(&quot;Wrong...&quot;);
+  }
+  free(buf);
+  return 0;
+}
+
+
+</code></pre></div><ul><li>FUN_00101195の中身を見る</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+void FUN_00101195(long param_1,long param_2,int param_3,char param_4)
+
+{
+  undefined uVar1;
+  int local_14;
+  uint local_10;
+  int local_c;
+  
+  *(undefined4 *)(param_1 + 0x100) = 0;
+  *(undefined4 *)(param_1 + 0x104) = 0;
+  local_c = 0;
+  while (local_c &lt; 0x100) {
+    *(char *)(param_1 + local_c) = param_4 + (char)local_c;
+    local_c = local_c + 1;
+  }
+  local_10 = 0;
+  local_14 = 0;
+  while (local_14 &lt; 0x41) {
+    local_10 = (int)*(char *)(param_2 + local_14 % param_3) +
+               (int)*(char *)(param_1 + local_14) + local_10 &amp; 0xff;
+    uVar1 = *(undefined *)(param_1 + local_14);
+    *(undefined *)(param_1 + local_14) = *(undefined *)(param_1 + (int)local_10);
+    *(undefined *)(param_1 + (int)local_10) = uVar1;
+    local_14 = local_14 + 1;
+  }
+  return;
+}
+
+</code></pre></div><ul><li><code>*(undefined4 *)(param_1 + 0x100) = 0;</code>とか<code>*(undefined4 *)(param_1 + 0x104) = 0;</code>が構造体アクセスっぽい</li> <li>param1に対してauto Create Structureを実施</li> <li>Edit Data Typeで修正
+<ul><li>サイズ等はアセンブリを読めば分かる</li> <li>char[0x100], int, int</li></ul></li> <li>local_10とlocal_14は変数として使ってるっぽいので, iとjと命名</li> <li>whileの中の処理は, swap(str[i], str[j])っぽい</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+void FUN_00101195(CTX *param_1,long param_2,int param_3,char param_4)
+
+{
+  int j;
+  uint i;
+  int str_idx;
+  char tmp;
+  
+  param_1-&gt;i = 0;
+  param_1-&gt;j = 0;
+  str_idx = 0;
+  while (str_idx &lt; 0x100) {
+    param_1-&gt;str[str_idx] = param_4 + (char)str_idx;
+    str_idx = str_idx + 1;
+  }
+  i = 0;
+  j = 0;
+  while (j &lt; 0x41) {
+    i = (int)*(char *)(param_2 + j % param_3) + (int)param_1-&gt;str[j] + i &amp; 0xff;
+    /* swap(str[i], str[j]); */
+    tmp = param_1-&gt;str[j];
+    param_1-&gt;str[j] = param_1-&gt;str[(int)i];
+    param_1-&gt;str[(int)i] = tmp;
+    j = j + 1;
+  }
+  return;
+}
+
+</code></pre></div><ul><li>もう一方のFUN_00101285も調査</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+long FUN_00101285(CTX *param_1,long param_2,long param_3,ulong param_4)
+
+{
+  int idx;
+  uint j;
+  uint i;
+  char tmp;
+  
+  i = param_1-&gt;i;
+  j = param_1-&gt;j;
+  if (param_3 == 0) {
+                    /* WARNING: Subroutine does not return */
+    exit(1);
+  }
+  idx = 0;
+  while ((ulong)(long)idx &lt; param_4) {
+    i = i + 1 &amp; 0xff;
+    j = j + (int)param_1-&gt;str[(int)i] &amp; 0xff;
+                    /* swap(str[i], str[j]) */
+    tmp = param_1-&gt;str[(int)i];
+    param_1-&gt;str[(int)i] = param_1-&gt;str[(int)j];
+    param_1-&gt;str[(int)j] = tmp;
+                    /* xor */
+    *(byte *)(param_3 + idx) =
+         *(byte *)(param_2 + idx) ^
+         param_1-&gt;str[(int)((int)param_1-&gt;str[(int)j] + (int)param_1-&gt;str[(int)i] &amp; 0xff)];
+    idx = idx + 1;
+  }
+  param_1-&gt;i = i;
+  param_1-&gt;j = j;
+  return param_3;
+}
+
+</code></pre></div><ul><li>xorを取っているので, RC4の亜種っぽい</li> <li>純粋なRC4との違いは, swap前のadd処理</li> <li>そのため, よくあるRC4を多少編集すれば良い</li></ul></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">2021-1-3 10:00:34</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.48bc3197.js" defer></script><script src="/assets/js/5.4b6140b2.js" defer></script><script src="/assets/js/2.c2c74dfd.js" defer></script><script src="/assets/js/41.8c096ed8.js" defer></script>
+  </body>
+</html>
