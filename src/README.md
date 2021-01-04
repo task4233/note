@@ -9,13 +9,13 @@ sidebar: false
 
 ## Interests
  - 情報工学
-   - 大学で情報工学を専攻
-   - 特に, サイバーセキュリティ系に興味がある
-   - セキュリティ・キャンプ全国大会をきっかけとして, 特にマルウェア解析に興味を持ち, 大学ではその研究を行っている
+   - 大学で情報工学を専攻しています
+   - セキュリティ・キャンプ全国大会をきっかけとしてマルウェア解析に興味を持ち, これに関する研究を行っています
    
  - 教職課程
-   - 大学で数学(中学・高校), 情報, 工業の教職課程を履修
-   - 2020年10月下旬から11月上旬にかけて3週間の教育実習を実施
+   - 大学で数学(中学・高校), 情報, 工業に関する教職課程を履修しています
+   - 2019年9月下旬から10月上旬にかけて計1週間の介護等体験をしました
+   - 2020年10月下旬から11月上旬にかけて3週間の教育実習を実施しました
    
 ## Tech Internship & Part-Time Job
 ### 2020
@@ -25,21 +25,22 @@ sidebar: false
 
 ## Tech Events
 ### 2020
-  - [第ニ回サイバーセキュリティ系LT会 in 東京](https://everyone-cyber-security.connpass.com/event/155818/) 主催 01/12
-  - SecHack365 Research Driven Course(Ongoing...)
-  - [NTT Performance Tuning Challenge 2020](https://task4233.hatenablog.com/entry/2020/09/11/200801) 09/11
-  - [Hardening 2020 H3DX](https://task4233.hatenablog.com/entry/2020/11/26/201239) ~11/14
+  - 01/12 [第ニ回サイバーセキュリティ系LT会 in 東京](https://everyone-cyber-security.connpass.com/event/155818/) 主催
+  - SecHack365 研究駆動コース(進行中)
+  - 09/11 [NTT Performance Tuning Challenge 2020](https://task4233.hatenablog.com/entry/2020/09/11/200801)
+  - ~11/14 [Hardening 2020 H3DX](https://task4233.hatenablog.com/entry/2020/11/26/201239)
+  - 12/05 [taskctf20開催](https://github.com/task4233/taskctf20)
 
 ### 2019
- - [Bug Shooting Challenge#2 in Mixi](https://task4233.hatenablog.com/entry/2019/03/02/235724) 03/02
- - [Git Challenge#11 in Mixi](https://task4233.hatenablog.com/entry/2019/05/19/122206) 05/18
+ - 03/02 [Bug Shooting Challenge#2 in Mixi](https://task4233.hatenablog.com/entry/2019/03/02/235724)
+ - 05/18 [Git Challenge#11 in Mixi](https://task4233.hatenablog.com/entry/2019/05/19/122206)
  - [セキュリティ・キャンプ 全国大会2019](https://task4233.hatenablog.com/entry/2019/08/24/132522)
- - [BIT VALLEY 2019](https://task4233.hatenablog.com/entry/2019/09/15/110308) 09/14
- - [セキュリティ・ミニキャンプ in 山梨 2019](https://task4233.hatenablog.com/entry/2019/10/12/131008) 09/29
- - [CODE BLUE 2019 学生スタッフ](https://task4233.hatenablog.com/entry/2019/10/31/162742) 10/29, 30
- - [とある診断員とSecurity-JAWS #01](https://task4233.hatenablog.com/entry/2019/11/24/220643) 11/24
- - [taskCTF 開催](https://qiita.com/task4233/items/09f112076eb5855eeed3) 12/05
- - [学生LT#31](https://task4233.hatenablog.com/entry/2019/12/09/235315) 12/08
+ - 09/14 [BIT VALLEY 2019 参加](https://task4233.hatenablog.com/entry/2019/09/15/110308)
+ - 09/29 [セキュリティ・ミニキャンプ in 山梨 2019](https://task4233.hatenablog.com/entry/2019/10/12/131008)
+ - 10/29, 30 [CODE BLUE 2019 学生スタッフ](https://task4233.hatenablog.com/entry/2019/10/31/162742)
+ - 11/24 [とある診断員とSecurity-JAWS #01 参加](https://task4233.hatenablog.com/entry/2019/11/24/220643)
+ - 12/05 [taskCTF 開催](https://qiita.com/task4233/items/09f112076eb5855eeed3)
+ - 12/08 [学生LT#31](https://task4233.hatenablog.com/entry/2019/12/09/235315)
 
 ### 2018
  - [SECCON Beginners 名古屋](https://task4233.hatenablog.com/entry/2018/11/25/130607) 11/24
