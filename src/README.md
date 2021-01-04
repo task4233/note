@@ -17,16 +17,16 @@ sidebar: false
    
 ## Tech Internship & Part-Time Job
 ### 2020
- - NTTコミュニケーションズ セキュリティ脅威分析, SREエンジニア体験 [02/08](https://task4233.hatenablog.com/entry/2020/02/08/235757), [02/15](https://task4233.hatenablog.com/entry/2020/02/17/193956)
- - SBテクノロジー SOCアナリスト 定常業務, 業務改善 [02/01-03/31](https://task4233.hatenablog.com/entry/2020/04/11/091428)
- - 株式会社マイナビ バックエンドエンジニア 社内アプリケーション開発, [技術検証](https://qiita.com/task4233/items/bf6752692143b7b80027) 07/01-
+ - [02/08](https://task4233.hatenablog.com/entry/2020/02/08/235757),[15](https://task4233.hatenablog.com/entry/2020/02/17/193956) NTTコミュニケーションズ セキュリティ脅威分析, SREエンジニア体験
+ - [02/01-03/31](https://task4233.hatenablog.com/entry/2020/04/11/091428) SBテクノロジー SOCアナリスト 定常業務, 業務改善
+ - 07/01- 株式会社マイナビ バックエンドエンジニア 社内アプリケーション開発, [技術検証](https://qiita.com/task4233/items/bf6752692143b7b80027)
 
 ## Tech Events
 ### 2020
   - 01/12 [第ニ回サイバーセキュリティ系LT会 in 東京](https://everyone-cyber-security.connpass.com/event/155818/) 主催
   - SecHack365 研究駆動コース(進行中)
   - 09/11 [NTT Performance Tuning Challenge 2020](https://task4233.hatenablog.com/entry/2020/09/11/200801)
-  - ~11/14 [Hardening 2020 H3DX](https://task4233.hatenablog.com/entry/2020/11/26/201239)
+  - 11/13,14 [Hardening 2020 H3DX](https://task4233.hatenablog.com/entry/2020/11/26/201239)
   - 12/05 [taskctf20開催](https://github.com/task4233/taskctf20)
 
 ### 2019
@@ -41,7 +41,7 @@ sidebar: false
  - 12/08 [学生LT#31](https://task4233.hatenablog.com/entry/2019/12/09/235315)
 
 ### 2018
- - [SECCON Beginners 名古屋](https://task4233.hatenablog.com/entry/2018/11/25/130607) 11/24
+ - 11/24 [SECCON Beginners 名古屋](https://task4233.hatenablog.com/entry/2018/11/25/130607)
 
 ## Awards
  - 学内奨学生 1～3年次
