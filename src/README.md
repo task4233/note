@@ -5,7 +5,8 @@ sidebar: false
 [English version](https://task4233.dev/README-en.html)
 
 ## Abstract
-**美馬 隆志(MIMA Takashi)** は芝浦工業大学 工学部 情報工学科の4年生です。ハンドルはtask4233です。
+ - **美馬 隆志(MIMA Takashi)** は芝浦工業大学 工学部 情報工学科の4年生です
+ - ハンドルはtask4233です
 
 ## Interests
  - 情報工学
