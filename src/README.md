@@ -57,7 +57,7 @@ sidebar: false
  - データベーススペシャリスト(DB) 合格
  - セキュリティ・キャンプ全国大会 2019 修了
  - セキュリティ・ミニキャンプ 2019 in 山梨 修了
- - SANS SEC560 OnDemenad 修了
+ - SANS SEC560 OnDemand 修了
 
 # Links
  - [GitHub](https://github.com/task4233)
