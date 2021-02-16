@@ -7,6 +7,13 @@ sidebar: false
 ## Abstract
  - **美馬 隆志(MIMA Takashi)** は芝浦工業大学 工学部 情報工学科の4年生です
  - ハンドルはtask4233です
+ 
+## Links
+ - [GitHub](https://github.com/task4233)
+ - [Twitter](https://twitter.com/task4233)
+ - [HatenaBlog](https://task4233.hatenablog.com/)
+ - [Qiita](https://qiita.com/task4233)
+ - [SpeakerDeck](https://speakerdeck.com/task4233)
 
 ## Interests
  - 情報工学
@@ -58,14 +65,6 @@ sidebar: false
  - セキュリティ・キャンプ全国大会 2019 修了
  - セキュリティ・ミニキャンプ 2019 in 山梨 修了
  - SANS SEC560 OnDemand 修了
-
-# Links
- - [GitHub](https://github.com/task4233)
- - [Twitter](https://twitter.com/task4233)
- - [HatenaBlog](https://task4233.hatenablog.com/)
- - [Qiita](https://qiita.com/task4233)
- - [SpeakerDeck](https://speakerdeck.com/task4233)
-
 
 # Skills
 ## Languages
