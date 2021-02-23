@@ -1,5 +1,5 @@
 ---
-date: 2021-02-22
+date: 2021-02-23
 description: 'YWTに則った日報'
 category:
  - 記録
