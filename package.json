@@ -17,12 +17,11 @@
   "author": "task4233",
   "license": "ISC",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.2.0",
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.8.2"
   },
   "dependencies": {
-    "gh-pages": "^2.1.1",
-    "js-yaml": "^3.13.1",
+    "gh-pages": "^2.2.0",
+    "js-yaml": "^3.14.1",
     "vuepress-plugin-latex": "^0.1.3"
   }
 }

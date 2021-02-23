@@ -7,14 +7,17 @@ module.exports = {
     }
   },
   base: '/',
+  head: [
+    [
+      "link", {
+        rel: "icon", href: "/favicon.ico"
+      }
+    ]
+  ],
   dest: 'docs',
   plugins: [
     '@vuepress/blog',
     'latex',
-    '@vuepress/google-analytics',
-    {
-      ga: 'UA-134364564-2',
-    }
   ],
   themeConfig: {
     sidebar: 'auto',
