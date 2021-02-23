@@ -17,7 +17,7 @@
   "author": "task4233",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "^2.0.0-alpha.25"
   },
   "dependencies": {
     "gh-pages": "^2.2.0",
