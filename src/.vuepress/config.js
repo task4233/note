@@ -16,6 +16,7 @@ module.exports = {
   ],
   dest: 'docs',
   plugins: [
+    '@vuepress/pwa',
     '@vuepress/blog',
     'latex',
     ['@vuepress/google-analytics',
@@ -33,5 +34,8 @@ module.exports = {
     ],
     lastUpdated: true,
     search: true,
+  },
+  extendMarkdown(md) {
+    // TODO: markdown settings
   }
 }
