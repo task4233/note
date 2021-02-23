@@ -18,6 +18,10 @@ module.exports = {
   plugins: [
     '@vuepress/blog',
     'latex',
+    ['@vuepress/google-analytics',
+    {
+      ga: 'UA-134364564-2',
+    }],
   ],
   themeConfig: {
     sidebar: 'auto',
