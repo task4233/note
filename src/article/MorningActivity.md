@@ -1,11 +1,30 @@
 ---
-date: 2021-02-22
+date: 2021-02-2
 description: 'あさかつ'
 category:
  - 朝活
 ---
 
 # はてブのテック系記事の雑談をする会におけるログ
+## Day5
+### 扱ったトピック
+ - [IPアドレスに縛られない新しい通信識別技術と既存のインターネットが共存するための国際規格が発行されました](https://www.meti.go.jp/press/2020/02/20210222002/20210222002.html)
+   - 欲しいデータ／コンテンツを取得する際に「場所（IPアドレス）」を指定して取りに行くのではなく、データ／コンテンツの「名前」を指定して取りに行く新しいネットワーク技術と、既存のインターネットが共存するための国際規格が発行されました
+   - この国際規格により、Society5.0 を支える重要な基盤要素であるIoTにおけるデータ通信が効率化され、様々な産業分野でデジタル化が促進されることが期待されます
+   - IoT関連の国際規格が発行されたとのこと。詳細は今後追います
+ - [「ChromeはmacOS上でSafariの10倍もメモリを食う」という実験結果](https://gigazine.net/news/20210222-browser-memory-chrome-safari/)
+   - Macにおける最低のメモリ使用量が落ちてきているので意外と気にしなくても良い？
+ - [LEXUS、助手席でゲームが遊べるPC/液晶完備のゲーマー向けセダン](Macにおける最低のメモリ使用量が落ちてきているので意外と気にしなくても良い？)
+   - ここでリモートワークすると快適だったりするのかな
+ - [イオン銀行に不正アクセス、個人情報2062件が流出　情報管理用クラウドツールで設定ミス](https://www.itmedia.co.jp/news/articles/2102/22/news129.html)
+   - 昨日、財団のお話で聞いていた内容で、使っている人は今一度設定を見直した方がいいかもしれない
+ - [Clubhouseを“盗聴”できるアプリがGitHubで公開される](https://pc.watch.impress.co.jp/docs/news/yajiuma/1307813.html)
+   - 盗聴される危険を意識しながら話すことが重要かもしれない
+
+### 関連リンク集
+ - [Twitterが音声によるソーシャルネットワーク機能「Spaces」のベータテストを開始](https://jp.techcrunch.com/2020/12/18/2020-12-17-twitter-launches-its-voice-based-spaces-social-networking-feature-into-beta-testing/)
+   - FF内のみの関係で話せるClubhouse的なツール
+
 ## Day4
 ### 扱ったトピック
  - https://qiita.com/takobaya391076/items/49b15c1fa36734b3fa53
