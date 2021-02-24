@@ -6,6 +6,24 @@ category:
 ---
 
 # はてブのテック系記事の雑談をする会におけるログ
+## Day6
+### 扱ったトピック
+ - [Webエンジニアが勉強できるGit Repository 10選](https://qiita.com/hedrall/items/177eb850c4c054146321)
+   - developer-roadmapやawesomeはフロント以外の業界でも見るね
+ - [取り返しのつかない我がエンジニア人生よ](https://anond.hatelabo.jp/20210223235037)
+   - ポエムでした
+ - [情報工学部の学生にはMacとWindowsのどちらが適していますか？](https://jp.quora.com/%E6%83%85%E5%A0%B1%E5%B7%A5%E5%AD%A6%E9%83%A8%E3%81%AE%E5%AD%A6%E7%94%9F%E3%81%AB%E3%81%AFMac%E3%81%A8Windows%E3%81%AE%E3%81%A9%E3%81%A1%E3%82%89%E3%81%8C%E9%81%A9%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99)
+   - 最近はWindowsならWSL2、MacOSはBSDベースのUNIXなので、使いたい方を使えばいいかなと思った
+ - [テスラ株が４営業日続落、年初からの上昇を帳消し](https://www.bloomberg.co.jp/news/articles/2021-02-23/QOZ49IT0AFB401)
+   - 1月ごろの報道では総資産19兆円とのことだったので、1.6兆円の損失はそこまでひびいていないのかもしれない
+ - [着陸時の動画や火星の風の音。NASA探査車「Perseverance」新たなデータ公開](https://sorae.info/space/20210223-perseverance.html)
+   - 意外と綺麗に見えていて、データ圧縮を工夫しているんだろうなと思った
+
+### 関連リンク
+ - [Hacking: 美しき策謀 第2版 ―脆弱性攻撃の理論と実際](https://www.amazon.co.jp/dp/4873115140)
+ - [sindresorhus/pure](https://github.com/sindresorhus/pure)
+   - 高速で軽量なzshテーマ
+
 ## Day5
 ### 扱ったトピック
  - [IPアドレスに縛られない新しい通信識別技術と既存のインターネットが共存するための国際規格が発行されました](https://www.meti.go.jp/press/2020/02/20210222002/20210222002.html)
