@@ -6,6 +6,22 @@ category:
 ---
 
 # はてブのテック系記事の雑談をする会におけるログ
+## day7
+### 扱ったトピック
+
+- [格安SIM/格安スマホのIIJmio｜新プラン【ギガプラン】登場！](https://pr.iijmio.jp/gigaplan/)
+  - 5Gも使える割になかなか安い
+- [「いったんメモ帳に貼って再コピペ」消滅か。次期Windows 10に書式なしテキスト貼付機能](https://internet.watch.impress.co.jp/docs/yajiuma/1308379.html)
+  - Windows10でコピペする時に、書式が無効化されるのはありがたい
+- [文系パパエンジニアが放送大学等でコンピュータサイエンス・数学を学んで理系学士を取りに行く話](https://wbspry.hatenablog.com/entry/2021/02/24/111912)
+  - 最近は働きながらCSの学士を取りに行く方が増えているんだなという印象がある
+- [PCで「→」マークを簡単に入力できる方法がタメになると話題に　「知らなかった」「1発で変換された」](https://nlab.itmedia.co.jp/nl/articles/2102/24/news143.html)
+  - Macのz+kやz+lは知っていたけど、これは知らなかった
+- [M1搭載Macで「SSDの寿命が縮むほど異常な量のデータ読み書きを確認した」という報告](https://gigazine.net/news/20210224-m1-mac-excessive-ssd-wear/)
+  - 物によってはM1搭載のMacにおいて、SSDで異常な量の書き込みが行われているとのこと
+- [リモートワークは百害あって一利なし？ オフィスワークに戻る企業、ハイブリッドを模索する企業、ワクチン普及後の働き方](https://news.yahoo.co.jp/articles/48905760dc1da31f034b9573c97bcdbfd7cb6179)
+  - リモートワークの欠点として挙げられている「寂しさ」を解消する手段として、ClubHouseは適しているんだなという気がした
+
 ## Day6
 ### 扱ったトピック
  - [Webエンジニアが勉強できるGit Repository 10選](https://qiita.com/hedrall/items/177eb850c4c054146321)
