@@ -1,11 +1,27 @@
 ---
-date: 2021-02-23
+date: 2021-02-26
 description: 'あさかつ'
 category:
  - 朝活
 ---
 
 # はてブのテック系記事の雑談をする会におけるログ
+## day8
+### 扱ったトピック
+ - [メルカリ、「無意識（アンコンシャス）バイアス ワークショップ」の社内研修資料を無償公開](https://about.mercari.com/press/news/articles/20210225_unconsciousbiasworkshop/)
+   - バイアスにも色々あることを再確認した
+ - [VM環境のCPU仮想化はどうやって実現しているのか
+ハードウェア仮想化支援機構の仕組み](https://logmi.jp/tech/articles/323956)
+   - センシティブな命令=仮想CPU上では実CPUと動作を変えなければいけない命令のことって定義されてた。見逃してた
+ - [Node.js Native ESM への道 〜最終章: Babel / TypeScript Modules との闘い〜](https://slideshare.net/teppeis/nodejs-esm-final-season)
+   - CJS Interopというワードを初めて知った
+ - [iPhoneのアプリアイコンを一気に移動させる鮮やかな方法が話題に](https://iphone-mania.jp/news-349612/)
+   - 便利
+ - [Pythonやデータサイエンティスト入門が無料に](https://ledge.ai/meti-learning-0225/)
+   - 初学者向けかな
+ - [無料で使える開発に役立つサービスをまとめた「free-for.dev」レビュー、埋もれたサービスも発掘可能](https://gigazine.net/news/20210225-free-for-dev/)
+   - フリーのツールを使いたいときに便利そう
+
 ## day7
 ### 扱ったトピック
 
