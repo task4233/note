@@ -1,11 +1,29 @@
 ---
-date: 2021-02-26
+date: 2021-02-2
 description: 'あさかつ'
 category:
  - 朝活
 ---
 
 # はてブのテック系記事の雑談をする会におけるログ
+## day9
+### 扱ったトピック
+ - [数学が好きな人を好きな人のための数学基礎知識](https://slideshare.net/nisei/ss-241772408)
+   - 技術を使うために基礎的な数学用語はできると良いよね
+ - [パーツの交換・修理が簡単に行えるモジュール交換式ノートPC「Framework Laptop」が登場](https://gigazine.net/news/20210226-framework-laptop/)
+   - 拡張カードシステムという発想が面白い。接続部の耐久性が少し気になるところ
+ - [私なりの技術書の読み方](https://blog.hanhans.net/2021/02/26/how-to-read-a-book/)
+   - 時間を決めて読むのが良いというのは同意できる
+ - [磁気スプレーで対象を超小型ロボットにする技術　体内に薬を届けた後、自己分解も](https://itmedia.co.jp/news/articles/2102/26/news107.html)
+   - 実用化されたら凄そう
+ - [VM環境のCPU仮想化はどうやって実現しているのか
+ハードウェア仮想化支援機構の仕組み](https://logmi.jp/tech/articles/323956)
+   - 再読。記事の更新があったらまた読みたい
+
+### 関連リンク集
+ - [Pomodoro Tracker](https://pomodoro-tracker.com/?lang=ja)
+   - ポモドーロ・テクニックに基づいたタイマー
+
 ## day8
 ### 扱ったトピック
  - [メルカリ、「無意識（アンコンシャス）バイアス ワークショップ」の社内研修資料を無償公開](https://about.mercari.com/press/news/articles/20210225_unconsciousbiasworkshop/)
@@ -51,7 +69,7 @@ category:
  - [着陸時の動画や火星の風の音。NASA探査車「Perseverance」新たなデータ公開](https://sorae.info/space/20210223-perseverance.html)
    - 意外と綺麗に見えていて、データ圧縮を工夫しているんだろうなと思った
 
-### 関連リンク
+### 関連リンク集
  - [Hacking: 美しき策謀 第2版 ―脆弱性攻撃の理論と実際](https://www.amazon.co.jp/dp/4873115140)
  - [sindresorhus/pure](https://github.com/sindresorhus/pure)
    - 高速で軽量なzshテーマ
