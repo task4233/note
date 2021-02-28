@@ -1,11 +1,50 @@
 ---
-date: 2021-02-2
+date: 2021-03-01
 description: 'あさかつ'
 category:
  - 朝活
 ---
 
 # はてブのテック系記事の雑談をする会におけるログ
+## day10
+### 扱ったトピック
+
+・https://blog.hirokiky.org/entry/2021/02/27/104744
+
+→要件定義で機能を決めてから別個で実装してるのかな
+・https://blog.hirokiky.org/entry/2021/02/27/104744
+
+→欲しい
+・https://zenn.dev/nobonobo/articles/4fb018a24f9ee9
+
+→GOPATH以下にプロジェクトを置く必要はない
+・https://iphone-mania.jp/news-350046/
+
+→Macに寄せてきてる気が
+・https://slideshare.net/trueroad_jp/pdfcidgid
+
+→これは知見
+
+・https://ledge.ai/soumu0227/
+
+→そこまで魅力的には見えなかった
+・https://jp.techcrunch.com/2021/02/27/atcoder-practical-algorithm-skill-test-book/
+
+→目次を見た限り中身は基本的な内容が多そう
+・https://japanese.engadget.com/bill-gates-preference-android-over-i-phone-035009710.html
+
+→どっちもあまり詳しくないので何とも言えない
+・https://jp.techcrunch.com/2021/02/27/2021-02-25-twitters-super-follow-creator-subscription-takes-shots-at-substack-and-patreon/
+
+→流行るか否かは業界によりそう
+
+・https://ledge.ai/development-try-0227/
+
+→パネルプログラミングでチャットボットが作る話だった
+・https://qiita.com/akase244/items/726edbdd10085198f61f
+
+→やってみた系記事
+
 ## day9
 ### 扱ったトピック
  - [数学が好きな人を好きな人のための数学基礎知識](https://slideshare.net/nisei/ss-241772408)
