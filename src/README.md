@@ -22,7 +22,10 @@ sidebar: false
    
  - 教職課程
    - 数学(中学・高校), 情報, 工業に関する教職課程を履修しています
-   
+
+## Products
+ - [GitHub](https://github.com/task4233?tab=repositories)を参照してください
+
 ## Tech Internships
 ### 2020
  - [02/08](https://task4233.hatenablog.com/entry/2020/02/08/235757),[15](https://task4233.hatenablog.com/entry/2020/02/17/193956) NTTコミュニケーションズ セキュリティ脅威分析, SREエンジニア体験
