@@ -6,6 +6,21 @@ category:
 ---
 
 # はてブのテック系記事の雑談をする会におけるログ
+## day11
+### 扱ったトピック
+ - [みずほ銀行 ATMシステム障害 復旧作業終わり稼働始める](https://www3.nhk.or.jp/news/html/20210301/k10012890751000.html)
+   - 午前7時からATMを稼働させてトラブルは起きていないとのこと
+ - [アジャイルと契約 / Agile Contracts](https://speakerdeck.com/fkino/agile-contracts)
+   - アジャイル開発だと契約とズレてしまいがちなので、というお話
+ - [grepでは困難な、特定文字列の存在行から別の文字列が存在する行までの抽出 (Perlのflip-flop演算子の使い方)](https://kiririmode.hatenablog.jp/entry/20210226/1614351599)
+   - sed(awk)でもこの記事の内容なら実現できそう
+ - [A Vim Guide for Advanced Users](https://thevaluable.dev/vim-advanced/)
+   - :marksは使ったことが無かった
+
+### 関連リンク集
+ - [Rebuild](https://rebuild.fm)
+   - IT系のpodcast
+
 ## day10
 ### 扱ったトピック
 
