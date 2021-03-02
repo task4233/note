@@ -1,11 +1,32 @@
 ---
-date: 2021-03-01
+date: 2021-03-02
 description: 'あさかつ'
 category:
  - 朝活
 ---
 
 # はてブのテック系記事の雑談をする会におけるログ
+## day12
+### 扱ったトピック
+ - [ビックカメラ、容量無制限のクラウドサービス「Bic CLOUD」](https://watch.impress.co.jp/docs/news/1309262.html)
+   - どこの層をターゲットにしたいのか疑問
+ - [ヤマトの「クロネコマーク」、4月にデザイン変更。1957年以来初](https://watch.impress.co.jp/docs/news/1309215.html)
+   - 変わるらしい
+ - [本企画での色覚検証について](https://events.z-holdings.co.jp/tougou/color.html)
+   - 経営統合関連で注目度が高まったという印象
+ - [システム過負荷でなぜATMにトラブルが？　みずほ銀システム障害、運用面の課題あらわに](https://www.itmedia.co.jp/news/articles/2103/02/news057.html)
+   - 原因はデータ移行処理と月末処理によるシステムへの負担
+ - [POSIX準拠シェルスクリプトでマルチコアの能力を活用する並列処理の実装（最大並列数あり、GNU Parallel, xargsなし）](https://qiita.com/ko1nksm/items/ed2781b2373f518945c8)
+   - 知見多めの記事。exit 130 = 128 + 2 = kill(シグナル番号2)というのを初めて知った。
+
+### 関連リンク
+ - https://twitter.com/nagise/status/1366540966673281030?s=20
+   - 時代の流れ
+ - [コマンドラインツールを書くなら知っておきたい Bash の 予約済み Exit Code](https://qiita.com/Linda_pp/items/1104d2d9a263b60e104b)
+   - Bashの予約済みExitCode
+ - [Unix Exit Code 137 143](https://hondou.homedns.org/pukiwiki/index.php?Unix%20Exit%20Code%20137%20143)
+   - UNIX Exit Code 143の意味するところ
+
 ## day11
 ### 扱ったトピック
  - [みずほ銀行 ATMシステム障害 復旧作業終わり稼働始める](https://www3.nhk.or.jp/news/html/20210301/k10012890751000.html)
@@ -23,42 +44,26 @@ category:
 
 ## day10
 ### 扱ったトピック
-
-・https://blog.hirokiky.org/entry/2021/02/27/104744
-
-→要件定義で機能を決めてから別個で実装してるのかな
-・https://blog.hirokiky.org/entry/2021/02/27/104744
-
-→欲しい
-・https://zenn.dev/nobonobo/articles/4fb018a24f9ee9
-
-→GOPATH以下にプロジェクトを置く必要はない
-・https://iphone-mania.jp/news-350046/
-
-→Macに寄せてきてる気が
-・https://slideshare.net/trueroad_jp/pdfcidgid
-
-→これは知見
-
-・https://ledge.ai/soumu0227/
-
-→そこまで魅力的には見えなかった
-・https://jp.techcrunch.com/2021/02/27/atcoder-practical-algorithm-skill-test-book/
-
-→目次を見た限り中身は基本的な内容が多そう
-・https://japanese.engadget.com/bill-gates-preference-android-over-i-phone-035009710.html
-
-→どっちもあまり詳しくないので何とも言えない
-・https://jp.techcrunch.com/2021/02/27/2021-02-25-twitters-super-follow-creator-subscription-takes-shots-at-substack-and-patreon/
-
-→流行るか否かは業界によりそう
-
-・https://ledge.ai/development-try-0227/
-
-→パネルプログラミングでチャットボットが作る話だった
-・https://qiita.com/akase244/items/726edbdd10085198f61f
-
-→やってみた系記事
+ - [TrelloのDescription欄だけでUIを超えた手触りが良すぎて学びしかない](https://blog.hirokiky.org/entry/2021/02/27/104744)
+   - 要件定義で機能を決めてから別個で実装してるのかな
+ - [🦜Goのプロジェクト構成の基本](https://zenn.dev/nobonobo/articles/4fb018a24f9ee9)
+   - GOPATH以下にプロジェクトを置く必要はない
+ - [Microsoft、「新しいWindows」を4月に発表か](https://iphone-mania.jp/news-350046/)
+   - Macに寄せてきてる気が
+ - [PDFのコピペが文字化けするのはなぜか？～CID/GIDと原ノ味フォント～](https://slideshare.net/trueroad_jp/pdfcidgid)
+   - これは知見
+ - [総務省、無料の社会人データサイエンス入門を再び開講](https://ledge.ai/soumu0227/)
+   - そこまで魅力的には見えなかった
+ - [競技プログラミングコンテスト「AtCoder」アルゴリズム実技検定初の公式テキストが登場](https://jp.techcrunch.com/2021/02/27/atcoder-practical-algorithm-skill-test-book/)
+   - 目次を見た限り中身は基本的な内容が多そう
+ - [ビル・ゲイツ、「iPhoneよりAndroidが好き」と明かして理由を語る](https://japanese.engadget.com/bill-gates-preference-android-over-i-phone-035009710.html)
+   - どっちもあまり詳しくないので何とも言えない
+ - [Twitterが同社初となる有料クリエイターサブスク機能「スーパーフォロー」発表、サービスの構造が劇的に変わる可能性](https://jp.techcrunch.com/2021/02/27/2021-02-25-twitters-super-follow-creator-subscription-takes-shots-at-substack-and-patreon/)
+   - 流行るか否かは業界によりそう
+ - [Googleの無料サービス「Dialogflow」ノーコードでLINEチャットボットに挑戦：Dialogflowやってみた記事5選](https://ledge.ai/development-try-0227/)
+   - パネルプログラミングでチャットボットが作る話だった
+ - [UTMを使ってM1 MacにUbuntu20.04をインストールして、その中でDockerを動かして、その中でUbuntu20.10を動かしてみる](https://qiita.com/akase244/items/726edbdd10085198f61f)
+   - やってみた系記事
 
 ## day9
 ### 扱ったトピック
