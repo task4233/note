@@ -72,7 +72,7 @@ sidebar: false
 # Skills
 ## Languages
 ### Often Use
- - Golang
+ - Go
    - 今一番好きな言語
    - try-catch-finallyを使用しないエラーハンドリングの仕方がかなり好き
    - 最近はGo Language Specification輪読会に参加して, 不足している知識を吸収中
