@@ -52,7 +52,7 @@ sidebar: false
  - Ruby(Beginner)
    - Rails
  - JavaScript(Beginner)
- - Golang(Intermediate)
+ - Go(Intermediate)
    - [mono-management(backend)](https://github.com/task4233/mono-management)
  - Rust(Beginner)
    - For Making Simple Single Thread Server
