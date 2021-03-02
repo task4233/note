@@ -28,7 +28,7 @@ sidebar: false
 
 ## Tech Internships
 ### 2020
- - [02/08](https://task4233.hatenablog.com/entry/2020/02/08/235757),[15](https://task4233.hatenablog.com/entry/2020/02/17/193956) NTTコミュニケーションズ セキュリティ脅威分析, SREエンジニア体験
+ - [02/08](https://task4233.hatenablog.com/entry/2020/02/08/235757),[15](https://task4233.hatenablog.com/entry/2020/02/17/193956) エヌ・ティ・ティ・コミュニケーションズ株式会社 セキュリティ脅威分析, SREエンジニア体験
  - [02/01-03/31](https://task4233.hatenablog.com/entry/2020/04/11/091428) SBテクノロジー SOCアナリスト 定常業務, 業務改善
  - 07/01- 株式会社マイナビ バックエンドエンジニア 社内アプリケーション開発, [技術検証](https://qiita.com/task4233/items/bf6752692143b7b80027)
 
