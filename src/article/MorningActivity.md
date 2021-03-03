@@ -8,22 +8,22 @@ category:
 # はてブのテック系記事の雑談をする会におけるログ
 ## day13
 ### 扱ったトピック
-・https://publickey1.jp/blog/21/rpapower_automate_desktop_for_windows_10microsoft_ignite_2021.html
-→Win10環境での自動化が捗りそう
-・https://japanese.engadget.com/dji-fpv-140358933.html
-→VRでドローンを操縦すると鳥の気分になれるんだろうか
-・https://qiita.com/e99h2121/items/ea5822922d83d00ebc4a
-→GitLab社内でまとめられた、リモートワークの中でも生産性高く働くための事項集の紹介
-・https://coliss.com/articles/build-websites/operation/work/eagle-ver2.html
-→ファイル管理ツールのオススメ記事なのだけど、私はGoogleDriveで十分な気がしてる
-・https://qiita.com/angel_p_57/items/ca643138ed9902f7bf1e
-→公開鍵暗号の解説動画を対象に、曖昧な表現や誤った表現を指摘して修正している記事。こういう記事は誤った理解を直せる機会になるので凄く好き
+ - https://publickey1.jp/blog/21/rpapower_automate_desktop_for_windows_10microsoft_ignite_2021.html
+   - Win10環境での自動化が捗りそう
+ - https://japanese.engadget.com/dji-fpv-140358933.html
+   - VRでドローンを操縦すると鳥の気分になれるんだろうか
+ - https://qiita.com/e99h2121/items/ea5822922d83d00ebc4a
+   - GitLab社内でまとめられた、リモートワークの中でも生産性高く働くための事項集の紹介
+ - https://coliss.com/articles/build-websites/operation/work/eagle-ver2.html
+   - ファイル管理ツールのオススメ記事なのだけど、私はGoogleDriveで十分な気がしてる
+ - https://qiita.com/angel_p_57/items/ca643138ed9902f7bf1e
+   - 公開鍵暗号の解説動画を対象に、曖昧な表現や誤った表現を指摘して修正している記事。こういう記事は誤った理解を直せる機会になるので凄く好き
 
 ### 関連リンク集
-・https://about.gitlab.com/handbook/
-→リモートワークでも生産性高く働くためのTipsがまとめられたGitLabのドキュメント
-・https://flow.microsoft.com/en-us/desktop/
-→PowerAutomateDesktopのダウンロードはこちらから
+ - https://about.gitlab.com/handbook/
+   - リモートワークでも生産性高く働くためのTipsがまとめられたGitLabのドキュメント
+ - https://flow.microsoft.com/en-us/desktop/
+   - PowerAutomateDesktopのダウンロードはこちらから
 
 ## day12
 ### 扱ったトピック
