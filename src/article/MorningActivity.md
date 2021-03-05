@@ -8,47 +8,47 @@ category:
 # はてブのテック系記事の雑談をする会におけるログ
 ## day15
 ### 扱ったトピック
-・https://smhn.info/202103-ahamo-kill-useless-services  
-→ahamoにプラン変更する場合docomo Wi-Fiも自動廃止されるのね  
-・https://itome.team/blog/2021/03/flutter-v2/  
-→「モバイルフレームワーク」から「ポータブルフレームワーク」へ変わるって話？  
-・https://togetter.com/li/1676715  
-→技術的に可能⇒時間をかけた上で運が良ければ可能  
-・https://hackerslab.aktsk.jp/2021/03/04/122751  
-→OSS貢献は小さなところからできる。GitHubのTrendsに頻繁に出てくるようなリポジトリはバグが潜みがちなので、プルリクチャンスらしい。  
+ - [アハモにプラン変更すると、大量のドコモサービスが「自動廃止」されることが判明。](https://smhn.info/202103-ahamo-kill-useless-services)
+   - ahamoにプラン変更する場合docomo Wi-Fiも自動廃止されるのね  
+ - [Flutter2.0で新しくなったこと](https://itome.team/blog/2021/03/flutter-v2/)
+   - 「モバイルフレームワーク」から「ポータブルフレームワーク」へ変わるって話？  
+ - [エンジニアの言う「技術的には可能です」を正しく認識してもらうために、こう伝えるようにしてる](https://togetter.com/li/1676715)
+   - 技術的に可能⇒時間をかけた上で運が良ければ可能  
+ - [Rubyへの累計コミット数18,000以上。アカツキ所属のパッチモンスター中田さんに機能の開発秘話を聞いた](https://hackerslab.aktsk.jp/2021/03/04/122751)
+   - OSS貢献は小さなところからできる
+   - GitHubのTrendsに頻繁に出てくるようなリポジトリはバグが潜みがちなので、プルリクチャンスらしい
 
 ## day14
 ### 扱ったトピック
-・https://nlab.itmedia.co.jp/nl/articles/2103/03/news144.html  
-→テック記事とは  
-・https://nikkei.com/article/DGXZQOGN037UI0T00C21A3000000/  
-→Privacy Sandboxに引き続き  
-・https://qiita.com/okazu_dm/items/87003109067348e9b7bf  
-→無料で使えるクラウドWebサービスまとめ  
-・https://tech.pepabo.com/2021/03/03/ec_efficiency_with_github_actions/  
-→Actionsはやはり便利ね  
-・https://nazology.net/archives/84146/2  
-→ワクワクする内容  
-・https://news.mynavi.jp/article/zeropython-73/  
-→`for Humans`  
+ - [延々流せるやつだ……！　Amazonプライム・ビデオ見放題に「世界の車窓から」が登場](https://nlab.itmedia.co.jp/nl/articles/2103/03/news144.html)
+   - `テック記事` とは
+ - [一銭も払わずにクラウド上でWebサービスを公開する(2021/02時点)](https://qiita.com/okazu_dm/items/87003109067348e9b7bf)
+   - 無料で使えるクラウドWebサービスまとめ
+ - [GitHub Actionsで日々の小さな作業を自動化する](https://tech.pepabo.com/2021/03/03/ec_efficiency_with_github_actions/)
+   - Actionsはやはり便利ね
+ - [人間の脳は有機スーパーコンピュータだった　「0と1」で記憶を保存すると明らかに](https://nazology.net/archives/841461)
+   - ワクワクする内容
+ - [より簡単にデスクトップアプリが作れるPySimpleGUIを使ってみよう](https://news.mynavi.jp/article/zeropython-73/)
+   - `for Humans`
 
 ## day13
 ### 扱ったトピック
- - https://publickey1.jp/blog/21/rpapower_automate_desktop_for_windows_10microsoft_ignite_2021.html
+ - [［速報］マイクロソフト、無料でRPA機能「Power Automate Desktop」をWindows 10ユーザーに提供開始。Microsoft Ignite 2021](https://publickey1.jp/blog/21/rpapower_automate_desktop_for_windows_10microsoft_ignite_2021.html)
    - Win10環境での自動化が捗りそう
- - https://japanese.engadget.com/dji-fpv-140358933.html
+ - [速報：「DJI FPV」発表、VRゴーグルで目視外操縦、140km/hで飛行　15万円〜](https://japanese.engadget.com/dji-fpv-140358933.html)
    - VRでドローンを操縦すると鳥の気分になれるんだろうか
- - https://qiita.com/e99h2121/items/ea5822922d83d00ebc4a
+ - [リモートワークのいま学びたい、GitLab Handbookと徹底した文書化への狂気](https://qiita.com/e99h2121/items/ea5822922d83d00ebc4a)
    - GitLab社内でまとめられた、リモートワークの中でも生産性高く働くための事項集の紹介
- - https://coliss.com/articles/build-websites/operation/work/eagle-ver2.html
+ - [フォント管理や画像管理にはこれがオススメ！シンプルで使いやすい、WinMac両対応アプリ「Eagle」が神アップデート](https://coliss.com/articles/build-websites/operation/work/eagle-ver2.html)
    - ファイル管理ツールのオススメ記事なのだけど、私はGoogleDriveで十分な気がしてる
- - https://qiita.com/angel_p_57/items/ca643138ed9902f7bf1e
-   - 公開鍵暗号の解説動画を対象に、曖昧な表現や誤った表現を指摘して修正している記事。こういう記事は誤った理解を直せる機会になるので凄く好き
+ - [公開鍵暗号関連のテキストの間違いの典型例](https://qiita.com/angel_p_57/items/ca643138ed9902f7bf1e)
+   - 公開鍵暗号の解説動画を対象に、曖昧な表現や誤った表現を指摘して修正している記事
+   - こういう記事は誤った理解を直せる機会になるので凄く好き
 
 ### 関連リンク集
- - https://about.gitlab.com/handbook/
+ - [Handbook | GitLab](https://about.gitlab.com/handbook/)
    - リモートワークでも生産性高く働くためのTipsがまとめられたGitLabのドキュメント
- - https://flow.microsoft.com/en-us/desktop/
+ - [Microsoft | Power Automate](https://flow.microsoft.com/en-us/desktop/)
    - PowerAutomateDesktopのダウンロードはこちらから
 
 ## day12
