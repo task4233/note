@@ -6,6 +6,32 @@ category:
 ---
 
 # はてブのテック系記事の雑談をする会におけるログ
+## day15
+### 扱ったトピック
+・https://smhn.info/202103-ahamo-kill-useless-services  
+→ahamoにプラン変更する場合docomo Wi-Fiも自動廃止されるのね  
+・https://itome.team/blog/2021/03/flutter-v2/  
+→「モバイルフレームワーク」から「ポータブルフレームワーク」へ変わるって話？  
+・https://togetter.com/li/1676715  
+→技術的に可能⇒時間をかけた上で運が良ければ可能  
+・https://hackerslab.aktsk.jp/2021/03/04/122751  
+→OSS貢献は小さなところからできる。GitHubのTrendsに頻繁に出てくるようなリポジトリはバグが潜みがちなので、プルリクチャンスらしい。  
+
+## day14
+### 扱ったトピック
+・https://nlab.itmedia.co.jp/nl/articles/2103/03/news144.html  
+→テック記事とは  
+・https://nikkei.com/article/DGXZQOGN037UI0T00C21A3000000/  
+→Privacy Sandboxに引き続き  
+・https://qiita.com/okazu_dm/items/87003109067348e9b7bf  
+→無料で使えるクラウドWebサービスまとめ  
+・https://tech.pepabo.com/2021/03/03/ec_efficiency_with_github_actions/  
+→Actionsはやはり便利ね  
+・https://nazology.net/archives/84146/2  
+→ワクワクする内容  
+・https://news.mynavi.jp/article/zeropython-73/  
+→`for Humans`  
+
 ## day13
 ### 扱ったトピック
  - https://publickey1.jp/blog/21/rpapower_automate_desktop_for_windows_10microsoft_ignite_2021.html
