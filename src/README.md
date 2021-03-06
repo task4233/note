@@ -35,7 +35,7 @@ sidebar: false
 ## Tech Events
 ### 2020
   - 01/12 [第ニ回サイバーセキュリティ系LT会 in 東京](https://everyone-cyber-security.connpass.com/event/155818/) 主催
-  - SecHack365 研究駆動コース(進行中)
+  - SecHack365 研究駆動コース
   - 09/11 [NTT Performance Tuning Challenge 2020](https://task4233.hatenablog.com/entry/2020/09/11/200801)
   - 11/13,14 [Hardening 2020 H3DX](https://task4233.hatenablog.com/entry/2020/11/26/201239)
   - 12/05 [taskctf20開催](https://github.com/task4233/taskctf20)
@@ -65,17 +65,19 @@ sidebar: false
  - 基本情報技術者試験(FE) 合格
  - 応用情報技術者試験(AP) 合格
  - データベーススペシャリスト(DB) 合格
+ - SecHack365 2020 研究駆動コース 修了
  - セキュリティ・キャンプ全国大会 2019 修了
  - セキュリティ・ミニキャンプ 2019 in 山梨 修了
  - SANS SEC560 OnDemand 修了
+ 
 
 # Skills
 ## Languages
 ### Often Use
  - Go
    - 今一番好きな言語
-   - try-catch-finallyを使用しないエラーハンドリングの仕方がかなり好き
-   - 最近はGo Language Specification輪読会に参加して, 不足している知識を吸収中
+   - io.ReaderのRead()とio.WriterのWrite()が綺麗
+   - 最近はGo Language Specification輪読会にて, 不足している知識を吸収中
    - 一番最初に書いたのは, 3か月間に6人でモノ管理アプリケーションを開発でサーバサイドを担当したとき([mono-management](https://github.com/task4233/mono-management)])
    - 直近で書いたのは, [CyberAgentさんのAPI実装コード](https://github.com/task4233/techtrain-mission)
  - Python
