@@ -6,6 +6,15 @@ category:
 ---
 
 # はてブのテック系記事の雑談をする会におけるログ
+## day16
+### 扱ったトピック
+ - [Goエラーハンドリング戦略](https://zenn.dev/nobonobo/articles/0b722c9c2b18d5)
+   - Goのエラーハンドリングを概観するのに良い記事
+ - [マイクロサービスアーキテクチャの経済と適応度](https://qiita.com/hirokidaichi/items/4d8f3479b52d00d00eba)
+   - マイクロサービスにおける分割オプション価値と調整コストの兼ね合いを考える部分以降の主張が唐突すぎて謎
+ - [80カ国語を同時翻訳＋文字起こしをするマイクロソフトの会議用アプリ｢Group Transcribe｣](https://gizmodo.jp/2021/03/microsoft-group-transcribe.html)
+   - 音声翻訳と文字起こしを同時に行うアプリ
+
 ## day15
 ### 扱ったトピック
  - [アハモにプラン変更すると、大量のドコモサービスが「自動廃止」されることが判明。](https://smhn.info/202103-ahamo-kill-useless-services)
