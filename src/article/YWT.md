@@ -1,4 +1,4 @@
- ---
+---
 date: 2021-03-01
 description: 'YWTに則った日報'
 category:
