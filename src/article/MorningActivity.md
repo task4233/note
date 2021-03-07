@@ -10,6 +10,15 @@ category:
 早起きすることを目的に始めた、Clubhouseにて毎朝8:15~8:45に行っている「はてブのテック系記事で雑談する会」で扱った記事とそれに対するコメント集です。  
 Clubhouseは `@task4233` でやってます。
 
+## day17
+### 扱ったトピック
+ - [銀行の基幹系システムはなぜ古臭いのか？](https://note.com/tsuchie88/n/ncae14ac6466b)
+   - 勘定系は変化することが少ないので、新しいものにするくらいなら古いままで保守したい気持ちがあるらしい
+ - [論文検索サービス「Google Scholar」で英語以外の論文が差別されているという指摘](https://gigazine.net/news/20210306-google-scholar-non-english/)
+   - これも公平性の問題か
+ - [Twitter、ツイート取り消しボタンをテスト中か](https://www.itmedia.co.jp/news/articles/2103/06/news021.html)
+   - ツイートの送信取り消し機能が実装されるかも？
+
 ## day16
 ### 扱ったトピック
  - [Goエラーハンドリング戦略](https://zenn.dev/nobonobo/articles/0b722c9c2b18d5)
