@@ -123,5 +123,5 @@ sidebar: false
    - k8sはアルバイト先でCloudRunやBigQuery等を使い, 社内Webページのパフォーマンス計測と解析に利用
  - CI
    - 昔はCircleCIを, 最近はGitHub Actionsを利用
-   - [このブログ]((https://github.com/task4233/note))にてMarkdownからhtmlを自動生成してGitHub Pagesに自動デプロイする仕組みを実装
+   - [このブログ](https://github.com/task4233/note)にてMarkdownからhtmlを自動生成してGitHub Pagesに自動デプロイする仕組みを実装
  
