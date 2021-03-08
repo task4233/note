@@ -10,6 +10,19 @@ category:
 早起きすることを目的に始めた、Clubhouseにて毎朝8:15~8:45に行っている「はてブのテック系記事で雑談する会」で扱った記事とそれに対するコメント集です。  
 Clubhouseは `@task4233` でやってます。
 
+## day18
+### 扱ったトピック
+ - [Webアプリのテスト観点を調べてまとめてみた (25選)](https://silverbirder180.hatenablog.com/entry/2020/06/18/122658)
+   - "全てをテストする必要はなく、『どういう動作の品質を担保したいか』を意識して、 取捨選択するのが良いと思います"←これ
+ - [入社して一週間、素早く生き残るためにやったこと（Ubie inc）](https://blog.h13i32maru.jp/entry/2021/03/07/163441)
+   - 新しい環境に身を置いたときにやったことのまとめ
+
+### 関連リンク集
+ - [tailwindcss](https://tailwindcss.com)
+   - utility firstのcssフレームワーク
+ - [cypress](https://cypress.io)
+   - WebUIテスト用のフレームワーク(e2e)
+
 ## day17
 ### 扱ったトピック
  - [銀行の基幹系システムはなぜ古臭いのか？](https://note.com/tsuchie88/n/ncae14ac6466b)
