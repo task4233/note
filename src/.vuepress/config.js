@@ -32,7 +32,10 @@ module.exports = {
         serviceWorker: true,
         updatePopup: true
       }
-    ]
+    ],
+    ['@vuepress/search', {
+      searchMaxSuggestions: 5
+    }]
   ],
   themeConfig: {
     sidebar: 'auto',
