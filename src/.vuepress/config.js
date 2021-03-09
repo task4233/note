@@ -9,11 +9,9 @@ module.exports = {
   base: '/',
   dest: 'docs',
   plugins: [
-    '@vuepress/blog',
-    'latex',
-    ['markdown-it-bar', {
-
-    }],
+    ['@vuepress/blog'],
+    ['latex'],
+    ['markdown-it-bar'],
     ['@vuepress/google-analytics',
     {
       ga: 'UA-134364564-2',
