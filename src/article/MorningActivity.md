@@ -1,5 +1,5 @@
 ---
-date: 2021-03-02
+date: :year-:month-:day
 description: 'あさかつ'
 category:
  - 朝活
