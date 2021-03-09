@@ -2,9 +2,10 @@
   <div>
     <div v-for="post in posts">
       <h2><router-link v-bind:to="post.path">{{ post.title }}</router-link></h2>
+      <!-- 表記がバグっているので一旦消す
       <p>{{ post.frontmatter.description }}</p>
       Tags: <span v-for="c in post.frontmatter.category" class="tag"><a v-bind:href="$withBase(post.path)">{{c}}</a></span><p></p>
-      <router-link v-bind:to="post.path">{{ post.title }}</router-link>
+      <router-link v-bind:to="post.path">{{ post.title }}</router-link> -->
     </div>
   </div>
 </template>
