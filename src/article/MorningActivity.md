@@ -10,6 +10,15 @@ category:
 早起きすることを目的に始めた、Clubhouseにて毎朝8:15~8:45に行っている「はてブのテック系記事で雑談する会」で扱った記事とそれに対するコメント集です。  
 Clubhouseは `@task4233` でやってます。
 
+## day19(solo)
+### 扱ったトピック
+ - [軽量Dockerイメージに安易にAlpineを使うのはやめたほうがいいという話](https://blog.inductor.me/entry/alpine-not-recommended)
+   - distrolessの存在を初めて知ったので、今後CIを組むときに使ってみようと思った
+ - [magicpak: 静的リンクなしで小さなDockerイメージを作る](https://coordination.hatenablog.com/entry/2020/04/15/014847)
+   - ELFのリンク情報を用いているので、しっかりと中身を理解して作っているんだなという印象を受けた
+ - [2020.06.01 M1勉強会 論文の読み方・書き方・研究室の過ごし方](https://speakerdeck.com/sei88888/2020-dot-06-dot-01-m1mian-qiang-hui-lun-wen-falsedu-mifang-shu-kifang-yan-jiu-shi-falseguo-gosifang)
+   - 非常に参考になる記事。昨年見たかった
+
 ## day18
 ### 扱ったトピック
  - [Webアプリのテスト観点を調べてまとめてみた (25選)](https://silverbirder180.hatenablog.com/entry/2020/06/18/122658)
