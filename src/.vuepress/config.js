@@ -4,6 +4,11 @@ module.exports = {
       lang: 'ja',
       title: 'Note',
       description: 'Take it easy. But not lazy.'
+    },
+    '/en/': {
+      lang: 'en-US',
+      title: 'Note',
+      description: 'Take it easy. But not lazy.'
     }
   },
   base: '/',
