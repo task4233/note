@@ -3,13 +3,35 @@ module.exports = {
     '/': {
       lang: 'ja',
       title: 'Note',
-      description: 'Take it easy. But not lazy.'
+      description: 'Take it easy. But not lazy.',
+      head: [
+        ['meta', {name: 'keywords', content: 'task4233, techblog'}],
+        ['meta', {property: 'og:title', content: 'Note'}],
+        ['meta',
+          {
+            name: 'og:description',
+            content: 'Take it easy. But not lazy.',
+          },
+        ],
+        ['meta', { property: 'og:locale', content: 'ja' }],
+        ['meta', { property: 'og:type', content: 'website' }],
+        ['meta', { property: 'og:url', content: 'https://task4233.dev' }],
+        ['meta', { property: 'og:site_name', content: 'task4233 techblog' }],
+        [
+          'meta',
+          {
+            property: 'og:image',
+            content: 'https://task4233.dev/icon.png',
+          },
+        ],
+      ]
     }
   },
-  base: '/',head: [
+  base: '/',
+  head: [
     ['link', { rel: 'icon', href: '/icon.png' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['link', { rel: 'stylesheet', href: "/main.css"}],
+    ['link', { rel: 'stylesheet', href: '/main.css'}],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'shortcut icon', href: '/favicon.ico'}],
   ],
