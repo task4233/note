@@ -2,7 +2,7 @@
 date: 2019-03-13
 description: 'ksnctf villagerA'
 tags:
- - ctf
+ - CTF
 ---
 
 # ksnCTF Villager A

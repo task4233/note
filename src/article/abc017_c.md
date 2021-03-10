@@ -3,7 +3,6 @@ date: 2019-02-15
 description: 'ABC017-C'
 tags:
  - 競プロ
- - AtCoder
 ---
 
 # [ABC017 C - ハイスコア](https://atcoder.jp/contests/abc017/tasks/abc017_3)

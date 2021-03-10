@@ -2,7 +2,7 @@
 date: :year-:month-:day
 description: 'あさかつ'
 tags:
- - 朝活
+ - 記録
 ---
 
 # はてブのテック系記事の雑談をする会におけるログ
@@ -291,3 +291,5 @@ Clubhouseは `@task4233` でやってます。
    - AndroidアプリにはServiceというコンポーネントがありバックグラウンド処理に用いられる
  - https://developer.android.com/training/monitoring-device-state/doze-standby?hl=ja
    - Android6.0から利用できるDozeモードではネットワークアクセスが制限されるため、Dozeモードから復旧した際の処理を実装する必要がある
+
+

@@ -3,7 +3,6 @@ date: 2019-02-04
 description: 'ABC117のDの桁DPについて'
 tags:
  - 競プロ
- - AtCoder
 ---
 
 # [ABC117 D - XXOR](https://atcoder.jp/contests/abc117/tasks/abc117_d)

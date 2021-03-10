@@ -2,8 +2,7 @@
 date: 2019-03-15
 description: 'デスペめも -sql編-'
 tags: 
- - memo
- - デスペ
+ - データベーススペシャリスト
 ---
 
 # 1章 SQL

@@ -3,7 +3,6 @@ date: 2019-02-14
 description: 'ABC116-C'
 tags:
  - 競プロ
- - AtCoder
 ---
 
 # [ABC116 C - Grand Garden](https://atcoder.jp/contests/abc116/tasks/abc116_c)
