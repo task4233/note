@@ -1,7 +1,7 @@
 ---
 date: 2019-03-20
 description: 'デスペめも -ビジネスモデル編-'
-category:
+tags:
  - memo
  - デスペ
 ---

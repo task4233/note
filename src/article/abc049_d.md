@@ -1,7 +1,7 @@
 ---
 date: 2019-03-14
 description: 'ABC049-D'
-category:
+tags:
  - 競プロ
  - AtCoder
 ---

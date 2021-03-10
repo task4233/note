@@ -1,7 +1,7 @@
 ---
 date: 2019-03-20
 description: 'デスペ道場でのめも'
-category:
+tags:
  - memo
  - デスペ
 ---

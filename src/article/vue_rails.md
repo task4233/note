@@ -1,7 +1,7 @@
 ---
 date: 2019-01-27
 description: 'RailsのアプリケーションにVue.jsを導入できることがわかったので, 試してみることにした.'
-category:
+tags:
  - memo
  - rails
  - Vue.js
