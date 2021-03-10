@@ -1,7 +1,7 @@
 ---
 date: 2019-08-28
 description: 'ksnctfの解き直し'
-category:
+tags:
  - CTF
 ---
 

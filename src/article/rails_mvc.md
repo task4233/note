@@ -1,7 +1,7 @@
 ---
 date: 2019-02-01
 description: '現状をまとめた.MVCの振り分けが難しい...'
-category:
+tags:
  - rails
  - memo
 ---

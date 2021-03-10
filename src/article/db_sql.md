@@ -1,7 +1,7 @@
 ---
 date: 2019-03-15
 description: 'デスペめも -sql編-'
-category: 
+tags: 
  - memo
  - デスペ
 ---

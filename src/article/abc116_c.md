@@ -1,7 +1,7 @@
 ---
 date: 2019-02-14
 description: 'ABC116-C'
-category:
+tags:
  - 競プロ
  - AtCoder
 ---
