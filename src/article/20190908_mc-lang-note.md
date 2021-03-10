@@ -2,7 +2,7 @@
 date: 2019-09-15
 description: 'mc-lang-1のリソースメモ'
 tags:
- - めも
+ - 記録
 ---
 
 # mc-lang 1 20190908
