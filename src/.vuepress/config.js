@@ -49,7 +49,7 @@ module.exports = {
   head: [
     ['link', {
       rel: 'icon',
-      href: '/icon.png'
+      href: '/imgs/icons/icon.png'
     }],
     ['meta', {
       name: 'theme-color',
@@ -65,7 +65,7 @@ module.exports = {
     }],
     ['link', {
       rel: 'shortcut icon',
-      href: '/favicon.ico'
+      href: '/imgs/icons/favicon.ico'
     }],
   ],
   dest: 'docs',
