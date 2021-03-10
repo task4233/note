@@ -2,8 +2,8 @@
 date: 2019-03-21
 description: 'VuePressの自動ビルド+デプロイ'
 tags:
- - vuepress
- - circleci
+ - VuePress
+ - CircleCI
 ---
 
 # CircleCIを用いたVuePressの自動ビルド+デプロイ

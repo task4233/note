@@ -7,7 +7,8 @@ tags:
 
 # メモ付きCSS
  - 下の方のCSSの意味が理解できなかったので, メモとして残しておく
-```
+ 
+```css
 <template>
   <div id="app">
     <div id="headerWrap">

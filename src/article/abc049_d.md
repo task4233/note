@@ -3,7 +3,6 @@ date: 2019-03-14
 description: 'ABC049-D'
 tags:
  - 競プロ
- - AtCoder
 ---
 
 # [ABC049 D - 連結](https://atcoder.jp/contests/abc049/tasks/arc065_b)

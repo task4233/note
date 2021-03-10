@@ -2,9 +2,7 @@
 date: 2019-02-07
 description: 'VuePressをはじめて気づいたこととか'
 tags: 
- - memo
  - VuePress
-footer: Copyright ©︎ 2019-present task4233
 ---
 
 # Memo(VuePress)

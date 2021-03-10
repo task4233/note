@@ -2,8 +2,7 @@
 date: 2019-02-10
 description: 'TodoアプリをRailsで作る過程を綴っていきます.'
 tags:
- - rails
- - todo
+ - 'Ruby on Rails'
 ---
 
 # Rails_Todoの製作手順めも
@@ -34,11 +33,11 @@ Running via Spring preloader in process 30664
       create      app/assets/stylesheets/static_pages.scss
 ```
 
-結果, `$rails s`すると, 以下のページにアクセス可能になる。  
+結果, `$rails s`すると, 以下のページにアクセス可能になる。 
  - http://192.168.33.10:3000/static_pages/home
- - http://192.168.33.10:3000/static_pages/about 
+ - http://192.168.33.10:3000/static_pages/about
 ## 内容の編集
-表示される内容はViewにあたるので, 以下のパスに存在している。  
+表示される内容はViewにあたるので, 以下のパスに存在している。 
  - /app/views/static_pages/home
  - /app/views/static_pages/about
 
@@ -76,7 +75,7 @@ app/view/static_pages/*.html.erb
 <%= yield(:title) %>
 ```
 
-ページのレイアウトは`app/views/layouts/application.html.erb`以下に存在している。 これを用いることで, `provide`メソッドを各ファイルで定義し, `yield`メソッドを書く必要がなくなる。
+ページのレイアウトは`app/views/layouts/application.html.erb`以下に存在している。これを用いることで, `provide`メソッドを各ファイルで定義し, `yield`メソッドを書く必要がなくなる。
 
 ## html5のサポート
 ```ruby
@@ -101,7 +100,7 @@ app/assets/stylesheet/custom.scssに,
  - jumbotran := 背景をそれっぽく覆う
 
 ## renderメソッドによる分散コーディング
-`<%= render layouts/hoge%>`と書くと, app/views/layout/_hoge.html.erb を参照する。
+`<%= render layouts/hoge%>`と書くと, app/views/layout/_hoge.html.erbを参照する。
 
 ## アセットパイプライン
  - app/assets := 現在のアプリケーション固有のアセット
@@ -147,11 +146,11 @@ format: {with: } := 正規表現
 i := 大文字小文字を無視するオプション
 
 ## dbのmigrate
-ファイル直接書き換えの場合は,  $ rails db:migrate:reset
+ファイル直接書き換えの場合は, $ rails db:migrate:reset
 
 # Usersリソース
 config/routes.rbに
-resources :users を追加。
+resources :usersを追加。
 
 すると, index, show, new, create, edit, update, destroyが使用可能になる。
 アクションの定義は, app/controllers/users_controller.rbで行う。

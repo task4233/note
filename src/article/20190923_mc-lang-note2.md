@@ -2,7 +2,7 @@
 date: 2019-09-23
 description: 'mc-lang-2 めも'
 tags:
- - めも
+ - 記録
 ---
 
 # mc-lang-02 note

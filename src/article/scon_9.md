@@ -3,7 +3,6 @@ date: 2019-04-04
 description: '芝浦ばちゃ#9'
 tags:
  - 競プロ
- - AtCoder
 ---
 
 # [芝浦ばちゃ#9](https://not-522.appspot.com/contest/5140556057411584)
