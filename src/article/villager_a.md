@@ -1,7 +1,7 @@
 ---
 date: 2019-03-13
 description: 'ksnctf villagerA'
-category:
+tags:
  - ctf
 ---
 

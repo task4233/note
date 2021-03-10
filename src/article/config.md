@@ -1,7 +1,7 @@
 ---
 date: 2019-01-25
 description: 'VuePress公式のConfigについて読んだ時のメモ'
-category:
+tags:
  - VuePress
  - memo
 ---

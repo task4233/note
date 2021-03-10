@@ -1,7 +1,7 @@
 ---
 date: 2019-02-02
 description: 'Cにおけるゴルフのテク'
-category:
+tags:
  - codegolf
 ---
 # Cにおけるゴルフのテク

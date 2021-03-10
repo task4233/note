@@ -1,7 +1,7 @@
 ---
 date: 2019-02-17
 description: 'Vue.jsでコマンドライン風のページを作りたい'
-category: 
+tags: 
  - memo
  - VuePress
  - vue

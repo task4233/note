@@ -1,7 +1,7 @@
 ---
 date: 2019-04-02
 description: '芝浦ばちゃ#8'
-category:
+tags:
  - 競プロ
  - AtCoder
 ---

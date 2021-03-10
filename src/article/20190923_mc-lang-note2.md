@@ -1,7 +1,7 @@
 ---
 date: 2019-09-23
 description: 'mc-lang-2 めも'
-category:
+tags:
  - めも
 ---
 

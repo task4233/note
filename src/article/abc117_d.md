@@ -1,7 +1,7 @@
 ---
 date: 2019-02-04
 description: 'ABC117のDの桁DPについて'
-category:
+tags:
  - 競プロ
  - AtCoder
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2019-02-15
 description: 'ABC017-C'
-category:
+tags:
  - 競プロ
  - AtCoder
 ---

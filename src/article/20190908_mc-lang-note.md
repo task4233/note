@@ -1,7 +1,7 @@
 ---
 date: 2019-09-15
 description: 'mc-lang-1のリソースメモ'
-category:
+tags:
  - めも
 ---
 

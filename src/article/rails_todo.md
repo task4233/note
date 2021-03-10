@@ -1,7 +1,7 @@
 ---
 date: 2019-02-10
 description: 'TodoアプリをRailsで作る過程を綴っていきます.'
-category:
+tags:
  - rails
  - todo
 ---

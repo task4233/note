@@ -1,7 +1,7 @@
 ---
 date: 2019-03-19
 description: 'デスペめも -正規化編-'
-category:
+tags:
  - memo
  - デスペ
 ---

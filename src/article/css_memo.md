@@ -1,7 +1,7 @@
 ---
 date: 2019-08-29
 description: 'css Menuのメモ'
-category:
+tags:
  - CSS
 ---
 
