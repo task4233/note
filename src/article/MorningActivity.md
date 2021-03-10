@@ -1,7 +1,7 @@
 ---
 date: :year-:month-:day
 description: 'あさかつ'
-category:
+tags:
  - 朝活
 ---
 

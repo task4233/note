@@ -1,7 +1,7 @@
 ---
 date: 2019-05-17
 description: 'Rustのシングルスレッドサーバ記事の例'
-category:
+tags:
  - Rust
 ---
 

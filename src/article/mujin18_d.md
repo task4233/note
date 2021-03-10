@@ -1,7 +1,7 @@
 ---
 date: 2019-04-21
 description: 'Mujin18 うほょじご'
-category:
+tags:
  - 競プロ
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2019-02-01
 description: '自分用のメモ, 最近の好きな画面配置など'
-category:
+tags:
  - memo
 ---
 
