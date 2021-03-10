@@ -71,7 +71,6 @@ module.exports = {
   dest: 'docs',
   themeConfig: {
     sidebar: 'auto',
-    logo: '/imgs/icon.png',
     sidebarDepth: 2,
     nav: [{
         text: 'Links',
