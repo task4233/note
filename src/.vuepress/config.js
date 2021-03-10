@@ -79,7 +79,7 @@ module.exports = {
       },
       {
         text: 'Articles',
-        link: '/list.html'
+        link: '/tags/'
       },
       {
         text: 'Chukapi-Fun-Art',
