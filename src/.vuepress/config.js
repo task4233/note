@@ -56,10 +56,6 @@ module.exports = {
       content: '#3eaf7c'
     }],
     ['link', {
-      rel: 'stylesheet',
-      href: '/main.css'
-    }],
-    ['link', {
       rel: 'manifest',
       href: '/manifest.json'
     }],
