@@ -9,6 +9,34 @@ tags:
 早起きすることを目的に始めた、Clubhouseにて毎朝8:15~8:45に行っている「はてブのテック系記事で雑談する会」で扱った記事とそれに対するコメント集です。  
 Clubhouseは `@task4233` でやってます。
 
+## day23
+### 扱ったトピック
+ - https://speakerdeck.com/toricls/the-debt
+   - 組織の開発における技術的負債の返済は、小さく始めて効果が認められなければすぐやめる
+ - https://zenn.dev/yukito0616/articles/d3b7032e9f1e90
+   - 後半は、Railsに限らず広い視野を持って書かれているので良い。特にテスト、DRY、マインドの部分
+ - https://businessinsider.jp/post-231151
+   - Notionは情報を一元化するためのハブとして使うと、素早い判断、仕事に繋がるとのこと
+
+### 関連リンク
+ - https://プログラマが知るべき97のこと.com
+   - 「プログラマが知るべき97のこと」のWeb版
+
+## day22
+### 扱ったトピック
+ - https://speakerdeck.com/line_developers/about-the-job-technical-writer-who-writes-easy-to-understand-documents
+   - 昨日のLINE Technical Writing Meetup、良かったです
+ - https://sysdig.jp/blog/dockerfile-best-practices/
+   - 前にCTFを開催したときにrootで実行していて内容を書き換えられたことがあるので、耳が痛いお話
+
+### 関連リンク
+ - https://docs.docker.jp/engine/reference/builder.html#user
+   - USER句でユーザ名、ユーザグループ(またはGID)を指定できる。ユーザが存在しない場合はrootグループとして実行される
+ - https://github.com/hadolint/hadolint
+   - Haskellで書かれたDockerfileのLinter
+ - https://scsk.jp/sp/sysdig/blog/sysdig_platform/12.html
+   - 本番環境のコンテナイメージスキャンについて
+
 ## day21
 ### 扱ったトピック
  - https://hatebu-grep.web.app
