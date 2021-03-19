@@ -54,6 +54,7 @@ sidebar: false
  - 11/24 [SECCON Beginners 名古屋](https://task4233.hatenablog.com/entry/2018/11/25/130607)
 
 ## Awards
+ - 創立者有元史郎記念賞(学科次席)
  - 学内奨学生 1～3年次
  - SECCON Beginners 2018 名古屋でのCTF 1位
  - セキュリティ・キャンプ全国大会2019 インシデントレスポンスで攻撃者を追いかけろでのCTF 3位
@@ -117,9 +118,9 @@ sidebar: false
    - VirtualBoxをよく利用
    - 元々MacOS使いだった名残で, 未だにWindowsでもVirtualBoxを利用
    - CyberSecurity系はKali Linux, 普段使いはUbuntuをよく利用
- - Docker(Docker-compose), k8s
+ - Docker(Docker-compose), K8s
    - サービスを動かすときはDockerを利用
-   - k8sはアルバイト先でCloudRunやBigQuery等を使い, 社内Webページのパフォーマンス計測と解析に利用
+   - アルバイト先でCloudRunやBigQuery等を使い, 社内Webページのパフォーマンス計測と解析に利用
  - CI
    - 昔はCircleCIを, 最近はGitHub Actionsを利用
    - [このブログ](https://github.com/task4233/note)にてMarkdownからhtmlを自動生成してGitHub Pagesに自動デプロイする仕組みを実装
