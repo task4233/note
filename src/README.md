@@ -5,7 +5,7 @@ sidebar: false
 [English version](https://task4233.dev/README-en.html)
 
 ## Abstract
- - **美馬 隆志(MIMA Takashi)** は芝浦工業大学大学院 電気電子情報専攻の1年生です
+ - **美馬 隆志(MIMA Takashi)** は芝浦工業大学大学院 理工学研究科 電気電子情報工学専攻の1年生です
  - ハンドルはtask4233です
  
 ## Links
