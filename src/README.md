@@ -27,10 +27,14 @@ sidebar: false
  - [GitHub](https://github.com/task4233?tab=repositories)を参照してください
 
 ## Tech Internships
+### 2021 
+ - 03/01- 株式会社スリーシェイク Sreake事業部 バックエンドエンジニア 脆弱性スキャナの実装
+ - -03/31 株式会社マイナビ バックエンドエンジニア 社内アプリケーション開発, [技術検証](https://qiita.com/task4233/items/bf6752692143b7b80027)
+
 ### 2020
  - [02/08](https://task4233.hatenablog.com/entry/2020/02/08/235757),[15](https://task4233.hatenablog.com/entry/2020/02/17/193956) エヌ・ティ・ティ・コミュニケーションズ株式会社 セキュリティ脅威分析, SREエンジニア体験
  - [02/01-03/31](https://task4233.hatenablog.com/entry/2020/04/11/091428) SBテクノロジー SOCアナリスト 定常業務, 業務改善
- - 07/01- 株式会社マイナビ バックエンドエンジニア 社内アプリケーション開発, [技術検証](https://qiita.com/task4233/items/bf6752692143b7b80027)
+ - 07/01- 株式会社マイナビ バックエンドエンジニア
 
 ## Tech Events
 ### 2020
@@ -60,6 +64,7 @@ sidebar: false
  - SECCON Beginners 2018 名古屋でのCTF 1位
  - セキュリティ・キャンプ全国大会2019 インシデントレスポンスで攻撃者を追いかけろでのCTF 3位
  - Hardening 2020 H3DX チーム「おにぎりまみれ」 1位
+ - [Open Hack U 2020 Online Vol.5 チーム「さぼてんとゆかいな仲間たち」1位](https://hacku.yahoo.co.jp/hacku2020online5/)
 
 ### Certificates
  - TOEIC 720/990
@@ -71,7 +76,6 @@ sidebar: false
  - セキュリティ・ミニキャンプ 2019 in 山梨 修了
  - SANS SEC560 OnDemand 修了
  
-
 # Skills
 ## Languages
 ### Often Use
