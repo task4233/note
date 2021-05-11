@@ -36,28 +36,6 @@ sidebar: false
  - [02/01-03/31](https://task4233.hatenablog.com/entry/2020/04/11/091428) SBテクノロジー SOCアナリスト 定常業務, 業務改善
  - 07/01- 株式会社マイナビ バックエンドエンジニア
 
-## Tech Events
-### 2020
-  - 01/12 [第ニ回サイバーセキュリティ系LT会 in 東京](https://everyone-cyber-security.connpass.com/event/155818/) 主催
-  - [SecHack365 研究駆動コース](https://task4233.hatenablog.com/entry/2021/03/31/234326)
-  - 09/11 [NTT Performance Tuning Challenge 2020](https://task4233.hatenablog.com/entry/2020/09/11/200801)
-  - 11/13,14 [Hardening 2020 H3DX](https://task4233.hatenablog.com/entry/2020/11/26/201239)
-  - 12/05 [taskctf20開催](https://github.com/task4233/taskctf20)
-
-### 2019
- - 03/02 [Bug Shooting Challenge#2 in Mixi](https://task4233.hatenablog.com/entry/2019/03/02/235724)
- - 05/18 [Git Challenge#11 in Mixi](https://task4233.hatenablog.com/entry/2019/05/19/122206)
- - [セキュリティ・キャンプ 全国大会2019](https://task4233.hatenablog.com/entry/2019/08/24/132522)
- - 09/14 [BIT VALLEY 2019 参加](https://task4233.hatenablog.com/entry/2019/09/15/110308)
- - 09/29 [セキュリティ・ミニキャンプ in 山梨 2019](https://task4233.hatenablog.com/entry/2019/10/12/131008)
- - 10/29, 30 [CODE BLUE 2019 学生スタッフ](https://task4233.hatenablog.com/entry/2019/10/31/162742)
- - 11/24 [とある診断員とSecurity-JAWS #01 参加](https://task4233.hatenablog.com/entry/2019/11/24/220643)
- - 12/05 [taskCTF 開催](https://qiita.com/task4233/items/09f112076eb5855eeed3)
- - 12/08 [学生LT#31](https://task4233.hatenablog.com/entry/2019/12/09/235315)
-
-### 2018
- - 11/24 [SECCON Beginners 名古屋](https://task4233.hatenablog.com/entry/2018/11/25/130607)
-
 ## Awards
  - 創立者有元史郎記念賞(学科次席)
  - 学内奨学生 1～3年次
@@ -128,5 +106,5 @@ sidebar: false
    - アルバイト先でCloudRunやBigQuery等を使い, 社内Webページのパフォーマンス計測と解析に利用
  - CI
    - 昔はCircleCIを, 最近はGitHub Actionsを利用
-   - [このブログ](https://github.com/task4233/note)にてMarkdownからhtmlを自動生成してGitHub Pagesに自動デプロイする仕組みを実装
+   - [ブログ](https://github.com/task4233/note)にてMarkdownからhtmlを自動生成してGitHub Pagesに自動デプロイする仕組みを実装
  
