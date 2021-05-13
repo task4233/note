@@ -42,7 +42,7 @@ sidebar: false
  - SECCON Beginners 2018 名古屋でのCTF 1位
  - セキュリティ・キャンプ全国大会2019 インシデントレスポンスで攻撃者を追いかけろでのCTF 3位
  - Hardening 2020 H3DX チーム「おにぎりまみれ」 1位
- - [Open Hack U 2020 Online Vol.5 チーム「さぼてんとゆかいな仲間たち」1位](https://hacku.yahoo.co.jp/hacku2020online5/)
+ - [Open Hack U 2020 Online Vol.5 チーム「さぼてんとゆかいな仲間たち」 最優秀賞・Happy Hacking賞](https://hacku.yahoo.co.jp/hacku2020online5/)
 
 ### Certificates
  - TOEIC 720/990
