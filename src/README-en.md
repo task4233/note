@@ -5,7 +5,7 @@ sidebar: false
 [Japanese version](https://task4233.dev)
 
 # Abstract
-**Takashi Mima** a.k.a task4233 is a first year of master's program at Department of Information Science and Engineering at Shibaura Institute of Technology.
+**Takashi MIMA** is an enthusiatic graduate student at Shibaura Institute of Technology, researching malware detection. My major is Computer Science and I have a Bachelor of Computer Science. In addition, I obtained teaching license in mathematics, information technology, and industry.
 
 # Interests
  - Computer Science  
