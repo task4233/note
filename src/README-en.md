@@ -33,7 +33,7 @@ sidebar: false
 ## Certificates
  - TOEIC 720/990
  - Database Specialist
- - SecHack365 2021 Research Driven Cource Assistant
+ - SecHack365 2021 Research Driven Cource Assistant(ongoing)
  - SecHack365 2020 Research Driven Cource Trainee
  - Graduated Security Camp 2019
  - Graduated Security Mini Camp 2019 in Yamanashi
