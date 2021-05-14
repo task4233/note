@@ -14,21 +14,6 @@ sidebar: false
  - Teachering Cource  
    I have been taking the teaching cource(math, informatics, industrial chemistry) at the university.
 
-# Awards
- - Scholarship Student in Shibaura Institute of Technology - freshman in University
- - 1st Place - SECCON Beginners 2018 Nagoya
- - Scholarship Student in Shibaura Institute of Technology - sophomore in University
- - 3rd Place - CTF in インシデントレスポンスで攻撃者を追いかけろ seccamp2019
- - Scholarship Student in Shibaura Institute of Technology - junior in University
- - 1st Place Hardening 2020 H3DX
-
-## Certificates
- - TOEIC 720/990
- - Database Specialist
- - Graduated Security Camp 2019
- - Graduated Security Mini Camp 2019 in Yamanashi
- - Certificated SANS SEC560 OnDemand
-
 # Links
  - [GitHub](https://github.com/task4233)
  - [Twitter](https://twitter.com/task4233)
@@ -36,6 +21,23 @@ sidebar: false
  - [Qiita](https://qiita.com/task4233)
  - [SpeakerDeck](https://speakerdeck.com/task4233)
 
+# Awards
+ - Best Award and Happy Hacking Award in Open Hack U 2020 Onlinve Vol.5 as a Team "さぼてんとゆかいな仲間たち"
+ - 創立者有元史郎記念賞(graduated with second honors)
+ - 1st Place Hardening 2020 H3DX
+ - Scholarship Student in Shibaura Institute of Technology - freshman, sophomore, and junior in University
+ - 1st Place - SECCON Beginners 2018 Nagoya
+ - 3rd Place - CTF in インシデントレスポンスで攻撃者を追いかけろ seccamp2019
+
+
+## Certificates
+ - TOEIC 720/990
+ - Database Specialist
+ - SecHack365 2021 Research Driven Cource Assistant
+ - SecHack365 2020 Research Driven Cource Trainee
+ - Graduated Security Camp 2019
+ - Graduated Security Mini Camp 2019 in Yamanashi
+ - Certificated SANS SEC560 OnDemand
 
 # Skills
 ## Languages
