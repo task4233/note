@@ -22,9 +22,11 @@ markdown, TeXに対応しているので便利です。
 
 
 ## Installation
-1. $ git clone https://github.com/task4233/note/
-2. $ yarn install
-3. $ yarn src:dev
+```bash
+git clone https://github.com/task4233/note/
+yarn install
+yarn src:dev
+```
 
 ## Author
 
