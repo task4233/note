@@ -62,7 +62,7 @@ sidebar: false
    - 今一番好きな言語
    - io.ReaderのRead()とio.WriterのWrite()が綺麗
    - 最近はGo Language Specification輪読会にて, 不足している知識を吸収中
-   - 一番最初に書いたのは, 3か月間に6人でモノ管理アプリケーションを開発でサーバサイドを担当したとき([mono-management](https://github.com/task4233/mono-management)])
+   - 一番最初に書いたのは, 3か月間に6人でモノ管理アプリケーションを開発でサーバサイドを担当したとき([mono-management](https://github.com/task4233/mono-management))
    - 直近で書いたのは, [CyberAgentさんのAPI実装コード](https://github.com/task4233/techtrain-mission)
  - Python
    - GhidraやGDBのスクリプト, CTFでの書き捨てのコード
