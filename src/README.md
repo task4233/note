@@ -27,10 +27,11 @@ sidebar: false
  - [GitHub](https://github.com/task4233?tab=repositories)を参照してください
 
 ## Tech Internships
-### 2021 
- - 8/30-9/10 Yahoo! JAPAN 広告配信システムの機能追加, リリース, A/Bテスト
- - 8/9-8/27 株式会社VOYAGE GROUP Treasure 講義・グループ開発
- - 7/19-8/6 株式会社アカツキ ATLASチーム APIの設計と実装 パフォーマンス検証と改善
+### 2021
+ - 09/13-10/01 Wantedly 推薦基盤チーム、Infrastructureチーム 設計と開発
+ - 08/30-09/10 Yahoo! JAPAN 広告配信システムの機能追加, リリース, A/Bテスト
+ - 08/09-08/27 株式会社VOYAGE GROUP Treasure 講義・グループ開発
+ - 07/19-08/06 株式会社アカツキ ATLASチーム APIの設計と実装 パフォーマンス検証と改善
  - 03/01- 株式会社スリーシェイク Sreake事業部 バックエンドエンジニア 脆弱性スキャナの実装
  - -03/31 株式会社マイナビ バックエンドエンジニア 社内アプリケーション開発, [技術検証](https://qiita.com/task4233/items/bf6752692143b7b80027)
 
