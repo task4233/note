@@ -28,7 +28,8 @@ sidebar: false
 
 ## Tech Internships
 ### 2021
- - 09/13-10/01 Wantedly 推薦基盤チーム、Infrastructureチーム 設計と開発
+ - 10/01-11/30 株式会社ディー・エヌ・エー ヘルスケア事業部 API設計と開発 システム改善タスク
+ - 09/13-10/01 Wantedly 推薦基盤チーム Infrastructureチーム 設計と開発
  - 08/30-09/10 Yahoo! JAPAN 広告配信システムの機能追加, リリース, A/Bテスト
  - 08/09-08/27 株式会社VOYAGE GROUP Treasure 講義・グループ開発
  - 07/19-08/06 株式会社アカツキ ATLASチーム APIの設計と実装 パフォーマンス検証と改善
