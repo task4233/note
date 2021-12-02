@@ -42,6 +42,7 @@ sidebar: false
  - 07/01- 株式会社マイナビ バックエンドエンジニア
 
 ## Awards
+ - [2nd Place in PyTorch Responsible AI Development Tools & Libraries on PyTorch Annual Hackathon 2021](https://devpost.com/software/promp2slip)
  - 創立者有元史郎記念賞(学科次席)
  - 学内奨学生 1～3年次
  - SECCON Beginners 2018 名古屋でのCTF 1位
