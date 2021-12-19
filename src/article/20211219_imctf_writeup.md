@@ -1,6 +1,16 @@
+---
+date: 2021-12-19
+description: 'はりねずみめも'
+tags: 
+ - CTF
+---
+
+
 # IMCTF writeup
 ## はじめに
-IMCTF2021にTsukushiのメンバーとして参加し、5694点取得して全体2位でした。
+IMCTF2021にTsukushiのメンバーとして参加し、その中で私が5694点獲得して全体2位でした。
+
+<img width="1117" alt="スクリーンショット 2021-12-19 18 20 22" src="https://user-images.githubusercontent.com/29667656/146669851-acd54360-7ee2-42f3-8efa-642d0078f618.png">
 
 解いた問題だけ簡単に方針を書いておきました。
 
