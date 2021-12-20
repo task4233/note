@@ -1174,10 +1174,17 @@
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.8.2.tgz#96cf65f1f0ecbb3bcf6b0d10089dafe2aea875bc"
   integrity sha512-BMFayLzT2BvXmnhM9mDHw0UPU7J0pH1X9gQA4HmZxOf7f3+atK5eJGsc1Ia/+1FTG2ESvhFLUU/CC3h5arjEJw==
 
-"@vuepress/plugin-last-updated@1.8.2", "@vuepress/plugin-last-updated@^1.8.2":
+"@vuepress/plugin-last-updated@1.8.2":
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-last-updated/-/plugin-last-updated-1.8.2.tgz#7ce689f8d5050cf0213949bc2e5aa879c09ff4b1"
   integrity sha512-pYIRZi52huO9b6HY3JQNPKNERCLzMHejjBRt9ekdnJ1xhLs4MmRvt37BoXjI/qzvXkYtr7nmGgnKThNBVRTZuA==
+  dependencies:
+    cross-spawn "^6.0.5"
+
+"@vuepress/plugin-last-updated@^1.8.2":
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-last-updated/-/plugin-last-updated-1.8.3.tgz#1f24aa27f244cdf48682de159ea8b4f28120c0fe"
+  integrity sha512-anqktVt3RYyPVC+GxA0gBLWJZKQTXUcH5M+fFiO+tQvSizuhkzY/0i70Ss6znxv8ov5xwVn/C/gBGt21/9Qzvw==
   dependencies:
     cross-spawn "^6.0.5"
 
