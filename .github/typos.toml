@@ -1,2 +1,2 @@
 [files]
-extend-exclude = ["go.sum", "package.lock"]
+extend-exclude = ["go.sum", "yarn.lock"]
