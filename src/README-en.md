@@ -11,7 +11,7 @@ sidebar: false
  - Computer Science  
    I have been studying the computer science at the university. Especially, **a cyber security topic** is the most interesting to me. Specifically, I have been really into malware detection since security camp. My thought about weakness of its recent research is a packing. Then, I believe that solving this problem is important in this research area.
 
- - Teachering Cource  
+ - Teachering Course  
    I have been taking the teaching cource(math, informatics, industrial chemistry) at the university.
 
 # Links
