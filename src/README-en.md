@@ -5,14 +5,14 @@ sidebar: false
 [Japanese version](https://task4233.dev)
 
 # Abstract
-**Takashi MIMA** is an enthusiatic graduate student at Shibaura Institute of Technology, researching malware detection. My major is Computer Science and I have a Bachelor of Computer Science. In addition, I obtained teaching license in mathematics, information technology, and industry.
+**Takashi MIMA** is an enthusiastic graduate student at Shibaura Institute of Technology, researching malware detection. My major is Computer Science and I have a Bachelor of Computer Science. In addition, I obtained teaching license in mathematics, information technology, and industry.
 
 # Interests
  - Computer Science  
    I have been studying the computer science at the university. Especially, **a cyber security topic** is the most interesting to me. Specifically, I have been really into malware detection since security camp. My thought about weakness of its recent research is a packing. Then, I believe that solving this problem is important in this research area.
 
  - Teachering Course  
-   I have been taking the teaching cource(math, informatics, industrial chemistry) at the university.
+   I have been taking the teaching course(math, informatics, industrial chemistry) at the university.
 
 # Links
  - [GitHub](https://github.com/task4233)
@@ -33,8 +33,8 @@ sidebar: false
 ## Certificates
  - TOEIC 720/990
  - Database Specialist
- - SecHack365 2021 Research Driven Cource Assistant(ongoing)
- - SecHack365 2020 Research Driven Cource Trainee
+ - SecHack365 2021 Research Driven Course Assistant(ongoing)
+ - SecHack365 2020 Research Driven Course Trainee
  - Graduated Security Camp 2019
  - Graduated Security Mini Camp 2019 in Yamanashi
  - Certificated SANS SEC560 OnDemand
