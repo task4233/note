@@ -1,0 +1,16 @@
+name: Checks Typo
+on: [push]
+
+jobs:
+  run:
+    name: Spell Check with Typos
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Actions Repository
+        uses: actions/checkout@v2
+
+      - name: Use custom config file
+        uses: crate-ci/typos@master
+        with:
+          files: ./
+          config: ./.github/typos.toml
