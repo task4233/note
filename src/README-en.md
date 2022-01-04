@@ -22,7 +22,7 @@ sidebar: false
  - [SpeakerDeck](https://speakerdeck.com/task4233)
 
 # Awards
- - Best Award and Happy Hacking Award in Open Hack U 2020 Onlinve Vol.5 as a Team "さぼてんとゆかいな仲間たち"
+ - Best Award and Happy Hacking Award in Open Hack U 2020 Online Vol.5 as a Team "さぼてんとゆかいな仲間たち"
  - 創立者有元史郎記念賞(graduated with second honors)
  - 1st Place Hardening 2020 H3DX
  - Scholarship Student in Shibaura Institute of Technology - freshman, sophomore, and junior in University
