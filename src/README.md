@@ -9,6 +9,7 @@ sidebar: false
  - ハンドルはtask4233です
  
 ## Links
+ - [CV (Last Update: January 2022)](https://docs.google.com/document/d/1xGLwwBypyb8x722-zgl7Iso_h3nQjQZjjtPU88cf1Is)
  - [GitHub](https://github.com/task4233)
  - [Twitter](https://twitter.com/task4233)
  - [HatenaBlog](https://task4233.hatenablog.com/)
@@ -28,6 +29,7 @@ sidebar: false
 
 ## Tech Internships
 ### 2021
+ - 10/01-12/31 Merpay, Inc. idpチーム OIDCクライアント登録のためのTerraform Custom Providerの開発とgRPCエンドポイント実装
  - 10/01-11/30 株式会社ディー・エヌ・エー ヘルスケア事業部 API設計と開発 システム改善タスク
  - 10/23-11/06 株式会社VOYAGE GROUP Sunrise
  - 09/13-10/01 Wantedly 推薦基盤チーム Infrastructureチーム 設計と開発
@@ -66,20 +68,14 @@ sidebar: false
 ## Languages
 ### Often Use
  - Go
-   - 今一番好きな言語
-   - io.ReaderのRead()とio.WriterのWrite()が綺麗
-   - 最近はGo Language Specification輪読会にて, 不足している知識を吸収中
-   - 一番最初に書いたのは, 3か月間に6人でモノ管理アプリケーションを開発でサーバサイドを担当したとき([mono-management](https://github.com/task4233/mono-management))
-   - 直近で書いたのは, [CyberAgentさんのAPI実装コード](https://github.com/task4233/techtrain-mission)
+   - 標準ライブラリの豊富さとシンプルに書けること、そして人間が面倒なことを極力考えないでアプリケーションの実装をできるので一番好きです
  - Python
-   - GhidraやGDBのスクリプト, CTFでの書き捨てのコード
-   - Seleniumを用いた業務半自動化スクリプト
-   - 役割を割り切って利用
+   - GhidraやGDBのスクリプト, CTFでの書き捨てのコードとしてよく使います
 ### Sometimes Use
  - C++
-   - 競技プログラミングでよく使う
+   - 競技プログラミングでよく使います
  - Java
-   - 結城浩さんのデザインパターンを学ぶときに利用
+   - 結城浩さんのデザインパターンを学ぶときに利用します
    - 授業でネットワークプログラミングをした際に利用
  - PHP
    - 下記CTFで作問時に利用
@@ -99,7 +95,6 @@ sidebar: false
    
 ## RDBMS
  - クエリの最適化やテーブル構造の設計を議論できるレベル
- - お金があれば闇の技術を用いたSpannerを使ってみたい(インターンで触れてみたい......)
 
 ## Others
  - Git
@@ -108,7 +103,7 @@ sidebar: false
  - VM
    - VirtualBoxをよく利用
    - 元々MacOS使いだった名残で, 未だにWindowsでもVirtualBoxを利用
-   - CyberSecurity系はKali Linux, 普段使いはUbuntuをよく利用
+   - CyberSecurity系はKali Linux, 普段使いはUbuntu
  - Docker(Docker-compose), K8s
    - サービスを動かすときはDockerを利用
    - アルバイト先でCloudRunやBigQuery等を使い, 社内Webページのパフォーマンス計測と解析に利用
