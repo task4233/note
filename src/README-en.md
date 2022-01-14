@@ -73,7 +73,7 @@ sidebar: false
  - MySQL
    - Laravel
  - PostgreSQL
-   - Production enironment on Heroku
+   - Production environment on Heroku
 
 ## Other skills
  - Git
