@@ -25,7 +25,7 @@ IMCTF2021にTsukushiのメンバーとして参加し、その中で私が5694�
 
 Local Storageに意味ありげな文字列があったので、CyberChefに投げ込みました。
 
-https://gchq.github.io/CyberChef/#recipe=Magic(3,false,false,'')&input=NTQgNDcgNTYgMzAgNDkgNDcgMzEgNmMgNDkgNDggNTIgNmMgNjIgNDcgNzcgNjcgNjUgNTcgMzkgMzEgNDkgNDcgNDYgNjkgNjIgMzMgNTYgMzAgNDkgNDggNTIgNmYgNWEgNTMgNDIgN2EgNjQgNDggNGEgNjggNjIgNmQgNjQgNmMgNDkgNDggNTIgNmYgNjEgNTcgMzUgNmUgNjMgNzkgNDIgNjggNjMgNmQgNTUgNjcgNjEgNDcgNDYgNzcgNjMgNDcgNTYgNzUgNjEgNTcgMzQgNmUgNDkgNDggNTIgNzYgNDkgNDcgMzEgNmMgNDMgNmMgNGUgMzAgNjMgNmQgNDYgNzUgNWEgMzIgNTUgNjcgNjQgNDcgNjggNzAgNjIgNmQgNjQgN2EgNDMgNmQgNmMgNzQgNTkgMzMgNTIgNmQgNjUgMzMgNGUgMzAgNjMgNmQgNDYgNzUgNWEgMzIgNTYgNjYgNjQgNDcgNjggNzAgNjIgNmQgNjQgN2EgNTggMzIgNDYgNzkgNWEgNTYgMzkgNmYgNTkgNTggNDIgNzcgNWEgNTcgMzUgNzAgNjIgNjkgNjQgNjYgNjQgNDcgMzkgNjYgNjIgNTcgNTYgMzkgNDMgNmIgNDYgNzAgNjIgNjkgNjQgMzAgNDkgNDcgMzUgNzYgNDkgNDcgNTIgNzYgNjQgNTcgNGEgMzAgNDkgNDcgNDYgNjkgNjIgMzMgNTYgMzAgNDkgNDcgNmMgMzA
+[CyberChef](https://gchq.github.io/CyberChef/)
 
 ### not any more logging📜
 > 私たちにはもはやログなど必要ない。そう、リリースしたのだから。
@@ -89,7 +89,7 @@ TSUYOSHI SENT A LOVE LETTER TO KANAKO FOR CHRISTMAS. TSUYOSHI LIKES CTF, SO HE U
 ```
 
 ## rev
-### nin nin pdf
+### ninninpdf
 > 「にんにん！拙者は忍者ハットリくん！今宵、秘密の暗号を雪の中に隠したぞ！」
 
 PDF Stream Dumper Parserで読み取ると、Base64エンコードされた文字列があったので、それをBase64デコードしました。

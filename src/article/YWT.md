@@ -893,7 +893,7 @@ LINEに行くかは別として, 候補に入れておきたいと思うのと, 
 # 12月12日
 ## やったこと
 - ゼミ
-- Holiday Hack Challengeのachivementsを8つゲット
+- Holiday Hack Challengeのachievementsを8つゲット
 -- writeupの下書き
 
 ## 明日やること

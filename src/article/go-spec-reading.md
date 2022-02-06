@@ -206,7 +206,7 @@ var pt *T
 func makeT() T
 ```
 
-> The expression`t.Mv` yeilds a function value of type `func(int) int`.
+> The expression`t.Mv` yields a function value of type `func(int) int`.
 
 式`t.Mv`は型`func(int) int`の関数値を生み出す。
 
@@ -529,7 +529,7 @@ within Greeting, who will have the same value as s with the same underlying arra
 
 スライスsとcallであるGreetingにおいて、同じ...
 
-### Floating-piont operators
+### Floating-point operators
 > For floating-point and complex numbers, +x is the same as x, while -x is the negation of x. The result of a floating-point or complex division by zero is not specified beyond the IEEE-754 standard; whether a run-time panic occurs is implementation-specific.
 
 浮動小数点数や複素数の場合、+xはxと同じ意味で、-xはxの反転である。浮動小数点数や複素数のゼロ除算の結果は、IEEE-754規格以上には規定されておらず、実行時エラーが発生するかどうかは実装依存である。

@@ -192,7 +192,7 @@ class=“dropdown-toggle”を追加すればおk
 helperに追加
 session.delete(:user_id)
 @current_user = nil
-でおk。セッションを切っても@curernt_userはそのままなので, nilで上書きする
+でおk。セッションを切っても@current_userはそのままなので, nilで上書きする
 
 その後, controllerに追加
 controllerに全部書いてもいいが, 中身が大きくなりすぎるので, helperを用いて分割する。

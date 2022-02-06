@@ -39,7 +39,7 @@ $ vue --version
 ## ポート指定
  - ポート指定は`config/index.js`で設定可能
  - ポートの許可は
-   - Vagrantfileのfowarding_port
+   - Vagrantfileのforwarding_port
    - /etc/sysconfig/iptablesで許可する
    - ホスト側のセキュリティソフト等も確認する
 
