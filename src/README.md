@@ -2,112 +2,99 @@
 sidebar: false
 ---
 
-[English version](https://task4233.dev/README-en.html)
+## Takashi Mima (美馬 隆志)
 
-## Abstract
- - **美馬 隆志(MIMA Takashi)** は芝浦工業大学大学院 理工学研究科 電気電子情報工学専攻の1年生です
- - ハンドルはtask4233です
- 
+**Takashi Mima** is a first-year master's student at Shibaura Institute of Technology, advised by [Isao Sasano](http://www.sic.shibaura-it.ac.jp/~sasano/index.html).
+
+
 ## Links
- - [CV (Last Update: January 2022)](https://docs.google.com/document/d/1xGLwwBypyb8x722-zgl7Iso_h3nQjQZjjtPU88cf1Is)
- - [GitHub](https://github.com/task4233)
- - [Twitter](https://twitter.com/task4233)
- - [HatenaBlog](https://task4233.hatenablog.com/)
- - [Qiita](https://qiita.com/task4233)
- - [SpeakerDeck](https://speakerdeck.com/task4233)
 
-## Interests
- - 情報工学
-   - 大学で情報工学を専攻しています
-   - セキュリティ・キャンプでマルウェア解析に興味を持ち, その研究をしています
- - 教職課程
-   - 数学(中学校・高等学校), 情報(高等学校), 工業(高等学校)の教諭一種免許状を取得しました
-   - 現在は情報の教諭専修免許状取得のために教職課程を履修しています
+[CV](https://docs.google.com/document/d/1WapjZUwRj9J3aBemjO3ONKrPcrY3uf9G7Fgy1vZ3G2w/edit?usp=sharing) (Last Update: February 2022)  
 
-## Products
- - [GitHub](https://github.com/task4233?tab=repositories)を参照してください
+[GitHub](https://github.com/task4233)  
 
-## Tech Internships
-### 2021
- - 10/01-12/31 Merpay, Inc. idpチーム OIDCクライアント登録のためのTerraform Custom Providerの開発とgRPCエンドポイント実装
- - 10/01-11/30 株式会社ディー・エヌ・エー ヘルスケア事業部 API設計と開発 システム改善タスク
- - 10/23-11/06 株式会社VOYAGE GROUP Sunrise
- - 09/13-10/01 Wantedly 推薦基盤チーム Infrastructureチーム 設計と開発
- - 08/30-09/10 Yahoo! JAPAN 広告配信システムの機能追加, リリース, A/Bテスト
- - 09/04-09/05 株式会社ディー・エヌ・エー 短期インターンシップ
- - 08/09-08/27 株式会社VOYAGE GROUP Treasure 講義・グループ開発
- - 07/19-08/06 株式会社アカツキ ATLASチーム APIの設計と実装 パフォーマンス検証と改善
- - 03/01- 株式会社スリーシェイク Sreake事業部 バックエンドエンジニア 脆弱性スキャナの実装
- - -03/31 株式会社マイナビ バックエンドエンジニア 社内アプリケーション開発, [技術検証](https://qiita.com/task4233/items/bf6752692143b7b80027)
+[Twitter](https://twitter.com/task4233)  
 
-### 2020
- - [02/08](https://task4233.hatenablog.com/entry/2020/02/08/235757),[15](https://task4233.hatenablog.com/entry/2020/02/17/193956) エヌ・ティ・ティ・コミュニケーションズ株式会社 セキュリティ脅威分析, SREエンジニア体験
- - [02/01-03/31](https://task4233.hatenablog.com/entry/2020/04/11/091428) SBテクノロジー SOCアナリスト 定常業務, 業務改善
- - 07/01- 株式会社マイナビ バックエンドエンジニア
+[HatenaBlog](https://task4233.hatenablog.com/)  
 
-## Awards
- - [2nd Place in PyTorch Responsible AI Development Tools & Libraries on PyTorch Annual Hackathon 2021](https://devpost.com/software/promp2slip)
- - 創立者有元史郎記念賞(学科次席)
- - 学内奨学生 1～3年次
- - SECCON Beginners 2018 名古屋でのCTF 1位
- - セキュリティ・キャンプ全国大会2019 インシデントレスポンスで攻撃者を追いかけろでのCTF 3位
- - Hardening 2020 H3DX チーム「おにぎりまみれ」 1位
- - [Open Hack U 2020 Online Vol.5 チーム「さぼてんとゆかいな仲間たち」 最優秀賞・Happy Hacking賞](https://hacku.yahoo.co.jp/hacku2020online5/)
+[Qiita](https://qiita.com/task4233)  
 
-### Certificates
- - TOEIC 720/990
- - 基本情報技術者試験(FE) 合格
- - 応用情報技術者試験(AP) 合格
- - データベーススペシャリスト(DB) 合格
- - SecHack365 2020 研究駆動コース 修了
- - セキュリティ・キャンプ全国大会 2019 修了
- - セキュリティ・ミニキャンプ 2019 in 山梨 修了
- - SANS SEC560 OnDemand 修了
- 
-# Skills
-## Languages
-### Often Use
- - Go
-   - 標準ライブラリの豊富さとシンプルに書けること、そして人間が面倒なことを極力考えないでアプリケーションの実装をできるので一番好きです
- - Python
-   - GhidraやGDBのスクリプト, CTFでの書き捨てのコードとしてよく使います
-### Sometimes Use
- - C++
-   - 競技プログラミングでよく使います
- - Java
-   - 結城浩さんのデザインパターンを学ぶときに利用します
-   - 授業でネットワークプログラミングをした際に利用
- - PHP
-   - 下記CTFで作問時に利用
-   - [taskctf19](https://github.com/task4233/taskctf19)
-   - [taskctf20](https://github.com/task4233/taskctf20)
- - Ruby
-   - RailsでMVCアーキテクチャを学ぶために利用
-   - TwitterのOAuthを用いたログイン機構を持つToDoアプリ作成時に利用[terminator](https://github.com/task4233/terminator)
- - JavaScript
-   - Vue.jsを好んで利用
-   - 最近はライブラリなしのplainなJSで書く方が好き
- - Rust
-   - シングルスレッドサーバを, プロトコル理解のために実装したときに利用
-   - メリットがあまり感じられないため, あまり使っていない
- - Verilog
-   - PBLでD/A, A/DコンバータをFPGAを制御するために利用
-   
-## RDBMS
- - クエリの最適化やテーブル構造の設計を議論できるレベル
+[SpeakerDeck](https://speakerdeck.com/task4233)  
 
-## Others
- - Git
-   - 基本的な利用(init, add, stash, commit, push, rebase, pull, fetchなど)
-   - .gitからの復元など
- - VM
-   - VirtualBoxをよく利用
-   - 元々MacOS使いだった名残で, 未だにWindowsでもVirtualBoxを利用
-   - CyberSecurity系はKali Linux, 普段使いはUbuntu
- - Docker(Docker-compose), K8s
-   - サービスを動かすときはDockerを利用
-   - アルバイト先でCloudRunやBigQuery等を使い, 社内Webページのパフォーマンス計測と解析に利用
- - CI
-   - 昔はCircleCIを, 最近はGitHub Actionsを利用
-   - [ブログ](https://github.com/task4233/note)にてMarkdownからhtmlを自動生成してGitHub Pagesに自動デプロイする仕組みを実装
- 
+## Education
+
+April 2021 -  
+Master's degree, Department of Electrical Engineering and Computer Science, Shibaura Institute of Technology, Japan.  
+
+April 2017 - March 2021  
+Bachelor's degree, Department of Computer Science and Engineering, Shibaura Institute of Technology, Japan.  
+GPA 3.99/4.00  
+
+## Internships / Employments
+
+October 2021 - December 2021  
+**Software Engineering Internship at Merpay Inc.**  
+ID Platform Team, Automation for OIDC Client Creation / Go, Terraform Custom Provider  
+
+October 2021 - November 2021  
+**Software Engineering Internship at DeNA Inc.**  
+Go, GCP(Cloud Build, Cloud Run, Pub/Sub)  
+
+September 2021 - October 2021  
+**Software Engineering Internship at Wantedly Inc.**  
+Recommendation Infrastructure Team / Go, Kubernetes  
+
+August 2021 - September 2021  
+**Software Engineering Internship at Yahoo Japan Corporation.**  
+Advertising Distribution Team, Design-Development-Release-A/B Testing / C++, Java, Go  
+
+July 2021 - August 2021  
+**Software Engineering Internship at Akatsuki Inc.**  
+Game Currency Infrastructure Development Team, API Design&Development and Performance Improvement / Go, GCP  
+
+March 2021 - July 2021, December 2021 -  
+**Software Engineering Internship at 3-shake Inc.**  
+Go, GCP  
+
+July 2020 - March 2021  
+**Software Engineer Internship at Mynavi Inc.**
+Go, GCP(Cloud Build, Cloud Run)
+
+## Teaching and Mentoring
+
+April 2021 -  
+**Research-Driven Cource Assistant, SecHack365.**  
+
+## Awards / Honors
+
+PyTorch Annual Hackathon 2021  
+[prompt2slip](https://devpost.com/software/promp2slip)  
+2nd Place in PyTorch Responsible AI Development Tools & Libraries Category  
+
+Hardening 2020 H3DX  
+1st Place as Team "おにぎりまみれ"  
+
+[Open Hack U 2020 Online Vol.5](https://hacku.yahoo.co.jp/hacku2020online5/)  
+1st Place as Team "さぼてんとゆかいな仲間たち"  
+
+## Certificates
+
+TOEIC 720
+
+April 2020 - March 2021  
+SecHack365 Trainee in Research Driven Cource
+[Malgraph: Malware Detection System by Using Control Flow Graph.](https://sechack365.nict.go.jp/achievement/2020/pdf/2020_32.pdf)  
+
+August 2019  
+Security Camp
+
+June 2019  
+Database Specialist Examination (DB)  
+
+June 2018  
+Applied Information Technology Engineering Examination (AP)  
+
+November 2017  
+Fundermental Information Technology Engineering Examination (FE)  
+
+## Skills
