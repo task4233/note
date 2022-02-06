@@ -70,7 +70,7 @@ Go, GCP(Cloud Build, Cloud Run)
 - TOEIC 720
 
 - April 2020 - March 2021  
-SecHack365 Trainee in Research Driven Course
+SecHack365 Trainee in Research Driven Course  
 [Malgraph: Malware Detection System by Using Control Flow Graph.](https://sechack365.nict.go.jp/achievement/2020/pdf/2020_32.pdf)  
 
 - August 2019  
