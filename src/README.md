@@ -63,7 +63,7 @@ Go, GCP(Cloud Build, Cloud Run)
 ## Teaching and Mentoring
 
 April 2021 -  
-**Research-Driven Cource Assistant, SecHack365.**  
+**Research-Driven Course Assistant, SecHack365.**  
 
 ## Awards / Honors
 
@@ -82,7 +82,7 @@ Hardening 2020 H3DX
 TOEIC 720
 
 April 2020 - March 2021  
-SecHack365 Trainee in Research Driven Cource
+SecHack365 Trainee in Research Driven Course
 [Malgraph: Malware Detection System by Using Control Flow Graph.](https://sechack365.nict.go.jp/achievement/2020/pdf/2020_32.pdf)  
 
 August 2019  
