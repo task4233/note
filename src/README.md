@@ -2,12 +2,12 @@
 sidebar: false
 ---
 
-## Takashi Mima (美馬 隆志)
+# Takashi Mima (美馬 隆志)
 **Takashi Mima** is a first-year master's student at Shibaura Institute of Technology, advised by [Isao Sasano](http://www.sic.shibaura-it.ac.jp/~sasano/index.html).
 
 
 ## Links
-- [CV](https://docs.google.com/document/d/1WapjZUwRj9J3aBemjO3ONKrPcrY3uf9G7Fgy1vZ3G2w/edit?usp=sharing) (Last Update: February 2022)  
+- [CV](https://docs.google.com/document/d/1WapjZUwRj9J3aBemjO3ONKrPcrY3uf9G7Fgy1vZ3G2w/edit?usp=sharing) (Last Updated: February 2022)  
 - [GitHub](https://github.com/task4233)  
 - [Twitter](https://twitter.com/task4233)  
 - [HatenaBlog](https://task4233.hatenablog.com/)  
