@@ -74,7 +74,7 @@ SecHack365 Trainee in Research Driven Course
 [Malgraph: Malware Detection System by Using Control Flow Graph.](https://sechack365.nict.go.jp/achievement/2020/pdf/2020_32.pdf)  
 
 - August 2019  
-Security Camp
+Security Camp(Vulnerability / Malware Analysis Course)
 
 - June 2019  
 Database Specialist Examination (DB)  
