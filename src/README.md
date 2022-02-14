@@ -66,7 +66,7 @@ Go, GCP(Cloud Build, Cloud Run)
 - [Open Hack U 2020 Online Vol.5](https://hacku.yahoo.co.jp/hacku2020online5/)  
 1st Place as Team "さぼてんとゆかいな仲間たち"  
 
-## Certificates
+## Certifications
 - TOEIC 720
 
 - April 2020 - March 2021  
