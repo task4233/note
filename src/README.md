@@ -23,6 +23,10 @@ Bachelor's degree, Department of Computer Science and Engineering, Shibaura Inst
 GPA 3.99/4.00  
 
 ## Internships / Employments
+- February 2022  
+**Backend Engineering Internship at Recruit Holdings Co., Ltd.**  
+Hot Pepper Beauty Clinic, Improvement of the bff layer in Web Server / Java, Spring Boot
+
 - October 2021 - December 2021  
 **Software Engineering Internship at Merpay Inc.**  
 ID Platform Team, Automation for OIDC Client Creation / Go, Terraform Custom Provider  
@@ -52,7 +56,7 @@ Go, GCP
 Go, GCP(Cloud Build, Cloud Run)
 
 ## Teaching and Mentoring
-- April 2021 -  
+- April 2021 - March 2022  
 **Research-Driven Course Assistant, SecHack365.**  
 
 ## Awards / Honors
