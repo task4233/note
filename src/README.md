@@ -3,7 +3,7 @@ sidebar: false
 ---
 
 # Takashi Mima (美馬 隆志)
-**Takashi Mima** is a first-year master's student at Shibaura Institute of Technology, advised by [Isao Sasano](http://www.sic.shibaura-it.ac.jp/~sasano/index.html).
+**Takashi Mima** is a second-year master's student at Shibaura Institute of Technology, advised by [Isao Sasano](http://www.sic.shibaura-it.ac.jp/~sasano/index.html).
 
 
 ## Links
