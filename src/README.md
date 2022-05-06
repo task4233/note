@@ -91,7 +91,7 @@ Fundermental Information Technology Engineering Examination (FE)
 
 ## Skills
  - Go(Intermediate)
-   - [dl - The logger not commited to Git for delog](https://github.com/task4233/dl)
+   - [dl - The logger not committed to Git for delog](https://github.com/task4233/dl)
    - [OmnisCode(API)](https://github.com/openhacku-saboten/OmnisCode-backend)
  - Python(Intermediate)
    - [Malgrapher](https://github.com/task4233/malgrapher)
