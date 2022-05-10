@@ -27,7 +27,7 @@
     "vuepress-plugin-smooth-scroll": "0.0.10"
   },
   "dependencies": {
-    "gh-pages": "3.2.3",
+    "gh-pages": "4.0.0",
     "js-yaml": "4.1.0",
     "markdown-it-mark": "3.0.1",
     "moment": "2.29.3",
