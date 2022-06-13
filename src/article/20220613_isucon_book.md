@@ -580,7 +580,6 @@ dstat --cpu
           scenarios: (100.00%) 1 scenario, 1 max VUs, 10m30s max duration (incl. graceful stop):
                    * default: 1 iterations for each of 1 VUs (maxDuration: 10m0s, gracefulStop: 30s)
         
-        ERRO[0007] ReferenceError: parseHTML is not defined
         running at file:///Users/takashimima/work/private-isu/k6/scinario-base-request/comment.js:18:24(40)
         default at native  executor=per-vu-iterations scenario=default source=stacktrace
         
@@ -879,11 +878,12 @@ dstat --cpu
         - 1テーブルに1つしか存在できない
     - セカンダリインデックス
         - プライマリインデックス以外のインデックス
-        - プライマリインデックスを参照しないで結果が返せる高速化をConvering Indexと呼ぶ
+        - プライマリインデックスを参照しないで結果が返せる高速化をCovering Indexと呼ぶ
         - 以下の例はプライマリインデックスを参照せずに結果が返せるため、 `user_id`にインデックスを貼ることで高速化が期待できる
     
     ```sql
-    SELECT COUNT(*) FROM comments WHERE user_id = 123;
+    SELECT COUNT(*) FROM comments WH
+    E user_id = 123;
     ```
     
     - LIKE句を用いている場合は全文検索インデックスが使える
