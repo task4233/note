@@ -12,6 +12,7 @@ tags:
 
 ## References
 
+- 藤原 et al., "達人が教えるWebパフォーマンスチューニング〜ISUCONから学ぶ高速化の実践", 2022, ISBN 978-4-297-12846-3.
 - [GitHub](https://github.com/task4233/private-isu)
 - [ISUCON Cheat Sheet](https://gist.github.com/south37/d4a5a8158f49e067237c17d13ecab12a)
 
