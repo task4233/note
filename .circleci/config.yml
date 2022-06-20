@@ -17,7 +17,7 @@ jobs:
             - ./node_modules
       - run:
           name: Build
-          command: yarn src:build
+          command: yarn build
       - run:
           name: MakeCNAME
           command: mv ./CNAME ./docs/CNAME
@@ -26,7 +26,7 @@ jobs:
           command: yarn deploy
       - run:
           name: cleanup
-          command: yarn docs:remove
+          command: yarn clean
 
 workflows:
   version: 2

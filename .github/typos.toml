@@ -1,2 +1,2 @@
 [files]
-extend-exclude = ["go.sum", "yarn.lock", "*villager_a.md"]
+extend-exclude = ["go.sum", "yarn.lock", "*villager_a.md", "*nazotoki*"]

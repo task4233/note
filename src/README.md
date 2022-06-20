@@ -28,7 +28,7 @@ GPA 3.99/4.00
 Hot Pepper Beauty Clinic, Improvement of the bff layer in Web Server / Java, Spring Boot
 
 - October 2021 - December 2021  
-**Software Engineering Internship at Merpay Inc.**  
+**Software Engineering Internship at Mercari Inc.**  
 ID Platform Team, Automation for OIDC Client Creation / Go, Terraform Custom Provider  
 
 - October 2021 - November 2021  

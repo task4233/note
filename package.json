@@ -1,14 +1,14 @@
 {
   "name": "note",
-  "version": "1.2.6",
+  "version": "1.2.12",
   "description": "",
   "main": "index.js",
   "scripts": {
     "deploy": "node ./deploy.js",
-    "docs:remove": "rm -rf ./docs",
-    "src:dev": "vuepress dev src --port 3030",
-    "src:build": "yarn docs:remove && vuepress build src --dest ./docs",
-    "src:eject": "vuepress eject src"
+    "serve": "vuepress dev src --port 3030",
+    "build": "yarn clean && vuepress build src --dest ./docs",
+    "clean": "rm -rf ./docs",
+    "eject": "vuepress eject src"
   },
   "repository": {
     "type": "git",
