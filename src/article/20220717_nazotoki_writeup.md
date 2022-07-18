@@ -107,7 +107,7 @@ valueをDevToolsを開いて `dioskouroi` を埋め込み `SUBMIT` を押しま�
 User-Agentを `stardustChrome` に書き換えれば良いです。
 
 ```bash
-curl https://libra.ctf.nazotoki.tech/ -H "User-Agent: stardustChrome"                                          [~/work/note]+[master]
+$ curl https://libra.ctf.nazotoki.tech/ -H "User-Agent: stardustChrome"
 <!DOCTYPE html>
 <html lang="Ja">
   <head>
@@ -133,7 +133,7 @@ curl https://libra.ctf.nazotoki.tech/ -H "User-Agent: stardustChrome"           
                 フラグは<code>stardustChrome</code>という特殊なブラウザでしか閲覧できません。
             </p>
             <p>
-                X-Forwarded-For:xxx.xxx.xxx.xxx<br>X-Forwarded-Proto:https<br>X-Forwarded-Port:443<br>Host:libra.ctf.nazotoki.tech<br>X-Amzn-Trace-Id:Root=1-62d4e1a2-6c741bea2a9eb7a70a0d3d73<br>accept:*/*<br><br />確かにstardustChromeを使ってるね。フラグをどうぞ！ <br />nazotokiCTF{<code>クローン</code>} <br />
+                X-Forwarded-For:***.***.***.***<br>X-Forwarded-Proto:https<br>X-Forwarded-Port:443<br>Host:libra.ctf.nazotoki.tech<br>X-Amzn-Trace-Id:Root=1-62d4e1a2-6c741bea2a9eb7a70a0d3d73<br>accept:*/*<br><br />確かにstardustChromeを使ってるね。フラグをどうぞ！ <br />nazotokiCTF{<code>クローン</code>} <br />
             </p>
             <a href="/" onclick="window.location.reload();">再読み込み</a>
             </div>
@@ -240,7 +240,7 @@ $ curl -H "Referer: aquarius.ctf.nazotoki.tech" https://libra.ctf.nazotoki.tech/
                 フラグは<code>stardustChrome</code>という特殊なブラウザでしか閲覧できません。
             </p>
             <p>
-                X-Forwarded-For:xxx.xxx.xxx.xxx<br>X-Forwarded-Proto:https<br>X-Forwarded-Port:443<br>Host:libra.ctf.nazotoki.tech<br>X-Amzn-Trace-Id:Root=1-62d3d2c3-76d89c6a1b4e720760dac34b<br>user-agent:curl/7.64.1<br>accept:*/*<br><br />遠いところをよくおいでくださいました。ひみつの鍵を差し上げます。 
+                X-Forwarded-For:***.***.***.***<br>X-Forwarded-Proto:https<br>X-Forwarded-Port:443<br>Host:libra.ctf.nazotoki.tech<br>X-Amzn-Trace-Id:Root=1-62d3d2c3-76d89c6a1b4e720760dac34b<br>user-agent:curl/7.64.1<br>accept:*/*<br><br />遠いところをよくおいでくださいました。ひみつの鍵を差し上げます。 
 <pre>-----BEGIN RSA PRIVATE KEY-----
 MIIEpAIBAAKCAQEAunVG5a8SbXgsayNWhd4f9FYsWb8z57P2Ql8Yq+fQgq0Y2xcH
 /HgHO0vZrgSbjFLxnpx4D9arOtvGdn06GLZcL3eU32jPvqVh8QhqmaQ8bdUDlEp8
