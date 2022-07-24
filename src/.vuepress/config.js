@@ -9,39 +9,6 @@ module.exports = {
           name: 'keywords',
           content: 'task4233, techblog'
         }],
-        ['meta', {
-          property: 'og:title',
-          content: 'Note'
-        }],
-        ['meta',
-          {
-            name: 'og:description',
-            content: 'Take it easy. But not lazy.',
-          },
-        ],
-        ['meta', {
-          property: 'og:locale',
-          content: 'ja'
-        }],
-        ['meta', {
-          property: 'og:type',
-          content: 'website'
-        }],
-        ['meta', {
-          property: 'og:url',
-          content: 'https://task4233.dev'
-        }],
-        ['meta', {
-          property: 'og:site_name',
-          content: 'task4233 techblog'
-        }],
-        [
-          'meta',
-          {
-            property: 'og:image',
-            content: 'https://task4233.dev/icon.png',
-          },
-        ],
       ]
     }
   },
