@@ -102,3 +102,6 @@ test/
 
 # End of https://www.gitignore.io/api/vue,node
 
+
+.temp
+.cache
