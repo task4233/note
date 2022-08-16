@@ -56,7 +56,7 @@ Go, GCP
 Go, GCP(Cloud Build, Cloud Run)
 
 ## Teaching and Mentoring
-- August 2022
+- August 2022  
 **D Class: AI Security Class Tutor, Security Camp 2022 Online.**
 
 - April 2021 - March 2022  
