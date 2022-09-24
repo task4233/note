@@ -56,6 +56,9 @@ Go, GCP
 Go, GCP(Cloud Build, Cloud Run)
 
 ## Teaching and Mentoring
+- September 2022
+**Teacher in Web Category, SECCON Beginners in Sapporo**
+
 - August 2022  
 **D Class: AI Security Class Tutor, Security Camp 2022 Online.**
 
@@ -63,6 +66,10 @@ Go, GCP(Cloud Build, Cloud Run)
 **Research-Driven Course Assistant, SecHack365.**  
 
 ## Awards / Honors
+- Geekten 2022
+[SHAREVOX](https://www.sharevox.app/). 
+Grand Prize in AI/Data Analysis Category
+
 - PyTorch Annual Hackathon 2021  
 [prompt2slip](https://devpost.com/software/promp2slip)  
 2nd Place in PyTorch Responsible AI Development Tools & Libraries Category  
