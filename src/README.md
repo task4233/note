@@ -56,7 +56,7 @@ Go, GCP
 Go, GCP(Cloud Build, Cloud Run)
 
 ## Teaching and Mentoring
-- September 2022
+- September 2022  
 **Teacher in Web Category, SECCON Beginners in Sapporo**
 
 - August 2022  
@@ -66,8 +66,8 @@ Go, GCP(Cloud Build, Cloud Run)
 **Research-Driven Course Assistant, SecHack365.**  
 
 ## Awards / Honors
-- Geekten 2022
-[SHAREVOX](https://www.sharevox.app/). 
+- Geekten 2022. 
+[SHAREVOX](https://www.sharevox.app/)  
 Grand Prize in AI/Data Analysis Category
 
 - PyTorch Annual Hackathon 2021  
