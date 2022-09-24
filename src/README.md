@@ -68,11 +68,11 @@ Go, GCP(Cloud Build, Cloud Run)
 ## Awards / Honors
 - Geekten 2022  
 [SHAREVOX](https://www.sharevox.app/)  
-Grand Prize in AI/Data Analysis Category
+Grand Prize in AI/Data Analysis Category as Team "高度セキュリティ人材"
 
 - PyTorch Annual Hackathon 2021  
 [prompt2slip](https://devpost.com/software/promp2slip)  
-2nd Place in PyTorch Responsible AI Development Tools & Libraries Category  
+2nd Place in PyTorch Responsible AI Development Tools & Libraries Category with alumnis of SecHack365
 
 - Hardening 2020 H3DX  
 1st Place as Team "おにぎりまみれ"  
