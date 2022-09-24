@@ -66,7 +66,7 @@ Go, GCP(Cloud Build, Cloud Run)
 **Research-Driven Course Assistant, SecHack365.**  
 
 ## Awards / Honors
-- Geekten 2022. 
+- Geekten 2022  
 [SHAREVOX](https://www.sharevox.app/)  
 Grand Prize in AI/Data Analysis Category
 
