@@ -81,8 +81,6 @@ Grand Prize in AI/Data Analysis Category as Team "高度セキュリティ人材
 1st Place as Team "さぼてんとゆかいな仲間たち"  
 
 ## Certifications
-- TOEIC 720
-
 - April 2020 - March 2021  
 SecHack365 Trainee in Research Driven Course  
 [Malgraph: Malware Detection System by Using Control Flow Graph.](https://sechack365.nict.go.jp/achievement/2020/pdf/2020_32.pdf)  
@@ -92,6 +90,9 @@ Security Camp(Vulnerability / Malware Analysis Course)
 
 - June 2019  
 Database Specialist Examination (DB)  
+
+- March 2019  
+TOEIC 720  
 
 - June 2018  
 Applied Information Technology Engineering Examination (AP)  
