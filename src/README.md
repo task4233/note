@@ -56,8 +56,8 @@ Go, GCP
 Go, GCP(Cloud Build, Cloud Run)
 
 ## Teaching and Mentoring
-- September 2022  
-**Teacher in Web Category, SECCON Beginners in Sapporo.**
+- September / October 2022  
+**Teacher in Web Category, SECCON Beginners in Sapporo / Fukuoka.**
 
 - August 2022  
 **AI Security Class Tutor, Security Camp 2022 Online.**
