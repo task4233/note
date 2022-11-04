@@ -66,6 +66,9 @@ Go, GCP(Cloud Build, Cloud Run)
 **Research-Driven Course Assistant, SecHack365.**  
 
 ## Awards / Honors
+- CTF for Connected Cars 2022  
+2nd Place in CTF for Connected Cars as Team "doctor_run"
+
 - Geekten 2022  
 [SHAREVOX](https://www.sharevox.app/)  
 Grand Prize in AI/Data Analysis Category as Team "高度セキュリティ人材"
