@@ -6,7 +6,7 @@ tags:
 ---
 
 # nazotokiCTF Writeup
-2022/07/17〜18にかけて開催された[#nazotokiCTF](https://ctf.nazotoki.tech/)に参加して全完したのでWriteupを書きます。
+2022/07/17〜18にかけて開催された[#nazotokiCTF](https://ctf.nazotoki.tech/)に参加しました。一応、全完したのでWriteupを書きます。
 
 ## nazotokiCTF概要
 [のみぞう](https://twitter.com/nomizooone)さんが個人で開催してくださったCTFです。閃きで解ける問題が多かったですが、ヒントが用意されていたので気付けるような構成になっていたと思います。
