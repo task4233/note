@@ -13,21 +13,21 @@ tags:
 
 本エントリでは、私が新たに知った/気づいたことを共有します。
 
-### テストのカバレッジは何%程度にしておくと良いか
+## テストのカバレッジは何%程度にしておくと良いか
 
 前提として、**カバレッジはあくまで参考にする数値**です。そのため、カバレッジだけに着目して数字を追いかけることに意味はなさそうです。
 
 その上で、カバレッジを指標の1つとする場合でも、基準はプロジェクトに依存するとのことです。少なくとも60%は欲しく、80%程度あると望ましいとの話でした。テストが難しかったり不要だったりするロジックが存在するため、100%のカバレッジを目指す必要はありません。
 
-### ErrorとFatalの使い分け
+## ErrorとFatalの使い分け
 
 **後続の処理が実行不能になる場合はFatal、そうでない場合はErrorを使うと良い**とのことです。ただし、Fatalを実行すると内部的に `runtime.Goexit()` が実行されてしまうことに注意してください。一応、Error+即時returnを利用することもできますが、return後に後続の処理が実行される場合は代替にならないためクロージャ外でFatalを利用することが好ましいです。
 
-### $ go testの-vオプション
+## $ go testの-vオプション
 
 **`-v` オプションを使うのはローカルでのデバッグにとどめ、CIでは理由がなければ付与しない方が良いのでは**ないか、とのことです。 理由としては、テスト失敗時の原因が見づらいこと、出力が増える分処理が遅くなることが挙げられます。
 
-### カバレッジがどう計算されているか
+## カバレッジがどう計算されているか
 
 `$ go test -cover` の実行時に、GoのCLIが以下のような計測用のコードを内部的に差し込みます。
 
@@ -49,7 +49,7 @@ func F() {GoCover.Count[0] = 1; // この行が実行された場合、Count[0]�
 
 ref: ****[いつも忘れてしまうC0/C1/C2カバレッジまとめ](https://tech.naturalmindo.com/notwork_coverage/)****
 
-### gp: Go PlaygroundのCLIツール
+## gp: Go PlaygroundのCLIツール
 
 [GitHubで公開されている](https://github.com/tenntenn/goplayground)Go PlaygroundのCLIツールです。ローカルのコードを共有したい時に便利です。
 
@@ -62,7 +62,7 @@ $ gp share main_test.go
 https://go.dev/play/p/zVM3DkjZj6s
 ```
 
-### ループ変数にtt := ttが必要という話
+## ループ変数にtt := ttが必要という話
 
 Goには、以下のようなループ変数のイテレーションで、 `tt := tt` のようにコピーを生成しないと、1つの変数のみが参照されてしまうという問題があります。
 
@@ -125,7 +125,7 @@ ref: [https://go.dev/play/p/aThJGJu46K2](https://go.dev/play/p/aThJGJu46K2)
 
 ref: **[redefining for loop variable semantics](https://github.com/golang/go/discussions/56010)**
 
-### testingパッケージの便利メソッド
+## testingパッケージの便利メソッド
 
 初めて知ったのは [Cleanup](https://pkg.go.dev/testing#B.Cleanup) と [TempDir](https://pkg.go.dev/testing#B.TempDir) の2つです。
 
@@ -133,7 +133,7 @@ ref: **[redefining for loop variable semantics](https://github.com/golang/go/dis
 
 後者は、テスト時に作成された一時ディレクトリのパスを返すメソッドです。ここで生成された一時ディレクトリは、[Cleanup](https://pkg.go.dev/testing#B.Cleanup) 実行時に自動的に削除されます。
 
-### txtar: 複数のファイルをまとめて扱うファイル形式
+## txtar: 複数のファイルをまとめて扱うファイル形式
 
 `-- ファイルパス --` を区切り文字として、1つのファイルに複数のファイルのデータを入れることで、まとめて扱うファイル形式です。Go Playgroundでも利用が可能です。
 
@@ -159,7 +159,7 @@ func Print(arg any) {
 
 ref: [https://go.dev/play/p/Hglypeavo5Q](https://go.dev/play/p/Hglypeavo5Q)
 
-### Golden File Test
+## Golden File Test
 
 期待するデータを、文字列ではなくファイルで用意しておくテスト形式のことです。”Golden File Test” というテスト名は、用意されたファイルを Golden File と呼ぶことに由来するものです。
 
