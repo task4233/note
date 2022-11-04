@@ -13,6 +13,7 @@ sidebar: false
 - [HatenaBlog](https://task4233.hatenablog.com/)  
 - [Qiita](https://qiita.com/task4233)  
 - [SpeakerDeck](https://speakerdeck.com/task4233)  
+- [Random Note](https://blog.task4233.dev)
 
 ## Education
 - April 2021 -  
