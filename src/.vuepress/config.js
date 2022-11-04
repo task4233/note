@@ -64,17 +64,6 @@ module.exports = {
     }],
     ['smooth-scroll'],
     ['@vuepress/back-to-top'],
-    ['@vuepress/pwa',
-      {
-        serviceWorker: true,
-        updatePopup: {
-          "/": {
-            message: "新しいコンテンツがあります。",
-            buttonText: "更新する",
-          },
-        },
-      }
-    ],
     ['@vuepress/last-updated',
       {
         transformer: (timestamp, lang) => {
