@@ -67,7 +67,7 @@ Go, GCP(Cloud Build, Cloud Run)
 
 ## Awards / Honors
 - CTF for Connected Cars 2022  
-2nd Place in CTF for Connected Cars as Team "doctor_run"
+2nd Place in CTF for Connected Cars as Team "docter_run"
 
 - Geekten 2022  
 [SHAREVOX](https://www.sharevox.app/)  
