@@ -37,7 +37,7 @@ Wrong...
 
 Ghidraで解析すると、以下のif文がtrueならCorrectになるようです。しかし、これらのデコンパイル結果を見てもよく分かりませんでした。そこで、動的解析してみることにしました。
 
-![Screen Shot 2022-11-14 at 0.51.56.png](SECCON%20CTF%202022%20Writeup%2006c66cb85bb74f439f392f34a7ce7e7d/Screen_Shot_2022-11-14_at_0.51.56.png)
+![ghidra](https://user-images.githubusercontent.com/29667656/201532416-ddfe5fb2-a4eb-4c23-91bf-957f0e493919.png)
 
 GDBの逆アセンブル結果を見るに
 
