@@ -52,7 +52,7 @@ Game Currency Infrastructure Development Team, API Design&Development and Perfor
 Go, GCP  
 
 - July 2020 - March 2021  
-**Software Engineer Internship at Mynavi Inc.**. 
+**Software Engineer Internship at Mynavi Inc.**  
 Go, GCP(Cloud Build, Cloud Run)
 
 ## Teaching and Mentoring
