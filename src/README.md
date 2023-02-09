@@ -12,7 +12,8 @@ sidebar: false
 - [Twitter](https://twitter.com/task4233)  
 - [HatenaBlog](https://task4233.hatenablog.com/)  
 - [Qiita](https://qiita.com/task4233)  
-- [SpeakerDeck](https://speakerdeck.com/task4233)  
+- [SpeakerDeck](https://speakerdeck.com/task4233)
+- <a rel="me" href="https://mstdn.jp/@task4233">Mastodon</a>
 
 ## Education
 - April 2021 -  
