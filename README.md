@@ -1,7 +1,5 @@
 # note
 
-[![CircleCI](https://circleci.com/gh/task4233/note.svg?style=svg)](https://circleci.com/gh/task4233/note)
-
 TechBlog兼ポートフォリオです。
 
 
