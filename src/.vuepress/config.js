@@ -41,7 +41,7 @@ module.exports = {
       },
       {
         text: 'Articles',
-        link: '/tags/'
+        link: 'https://blog.task4233.dev'
       },
       {
         text: 'Chukapi-Fun-Art',
