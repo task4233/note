@@ -1452,13 +1452,6 @@
     "@vuepress/shared-utils" "1.9.8"
     "@vuepress/types" "1.9.8"
 
-"@vuepress/plugin-search@1.9.7":
-  version "1.9.7"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.9.7.tgz#37a4714973ccac8c28837fc72a38ae0888d874bf"
-  integrity sha512-MLpbUVGLxaaHEwflFxvy0pF9gypFVUT3Q9Zc6maWE+0HDWAvzMxo6GBaj6mQPwjOqNQMf4QcN3hDzAZktA+DQg==
-  dependencies:
-    "@vuepress/types" "1.9.7"
-
 "@vuepress/plugin-search@1.9.8":
   version "1.9.8"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.9.8.tgz#89bb96527f4a9c0bd34ecc476f24eb421fccd907"
