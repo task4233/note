@@ -17,7 +17,7 @@
   "author": "task4233",
   "license": "ISC",
   "devDependencies": {
-    "@vuepress/plugin-active-header-links": "1.9.7",
+    "@vuepress/plugin-active-header-links": "1.9.8",
     "@vuepress/plugin-back-to-top": "1.9.8",
     "@vuepress/plugin-google-analytics": "1.9.7",
     "@vuepress/plugin-last-updated": "1.9.8",
