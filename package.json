@@ -29,7 +29,7 @@
     "js-yaml": "4.1.0",
     "markdown-it-mark": "3.0.1",
     "moment": "2.29.4",
-    "vuepress": "1.9.8",
+    "vuepress": "1.9.9",
     "vuepress-plugin-latex": "0.1.3"
   }
 }
