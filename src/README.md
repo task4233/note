@@ -15,14 +15,6 @@ sidebar: false
 - [SpeakerDeck](https://speakerdeck.com/task4233)
 - <a rel="me" href="https://mstdn.jp/@task4233">Mastodon</a>
 
-## Education
-- April 2021 - March 2023  
-Master's degree, Department of Electrical Engineering and Computer Science, Shibaura Institute of Technology, Japan.  
-
-- April 2017 - March 2021  
-Bachelor's degree, Department of Computer Science and Engineering, Shibaura Institute of Technology, Japan.  
-GPA 3.99/4.00  
-
 ## Internships / Employments
 - December 2022 - January 2023  
 **Backend Engineer Internship at Mercari Inc.**  
@@ -110,6 +102,14 @@ Applied Information Technology Engineering Examination (AP)
 
 - November 2017  
 Fundermental Information Technology Engineering Examination (FE)  
+
+## Education
+- April 2021 - March 2023  
+Master's degree, Department of Electrical Engineering and Computer Science, Shibaura Institute of Technology, Japan.  
+
+- April 2017 - March 2021  
+Bachelor's degree, Department of Computer Science and Engineering, Shibaura Institute of Technology, Japan.  
+GPA 3.99/4.00  
 
 ## Skills
  - Go(Intermediate)
