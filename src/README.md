@@ -3,7 +3,7 @@ sidebar: false
 ---
 
 # Takashi Mima
-**Takashi Mima** is a second-year master's student at Shibaura Institute of Technology, advised by [Isao Sasano](http://www.sic.shibaura-it.ac.jp/~sasano/index.html).
+**Takashi Mima** is a backend and security enginne at Mercari inc.
 
 
 ## Links
@@ -16,7 +16,7 @@ sidebar: false
 - <a rel="me" href="https://mstdn.jp/@task4233">Mastodon</a>
 
 ## Education
-- April 2021 -  
+- April 2021 - March 2023  
 Master's degree, Department of Electrical Engineering and Computer Science, Shibaura Institute of Technology, Japan.  
 
 - April 2017 - March 2021  
@@ -24,6 +24,10 @@ Bachelor's degree, Department of Computer Science and Engineering, Shibaura Inst
 GPA 3.99/4.00  
 
 ## Internships / Employments
+- December 2022 - January 2023  
+**Backend Engineer Internship at Mercari Inc.**  
+Partner Platform Team / Go, Python, Kubernetes
+
 - February 2022  
 **Backend Engineering Internship at Recruit Holdings Co., Ltd.**  
 Hot Pepper Beauty Clinic, Improvement of the bff layer in Web Server / Java, Spring Boot
@@ -48,7 +52,7 @@ Advertising Distribution Team, Design-Development-Release-A/B Testing / C++, Jav
 **Software Engineering Internship at Akatsuki Inc.**  
 Game Currency Infrastructure Development Team, API Design&Development and Performance Improvement / Go, GCP  
 
-- March 2021 - July 2021, December 2021 -  
+- March 2021 - July 2021, December 2021 - March 2023  
 **Software Engineering Internship at 3-shake Inc.**  
 Go, GCP  
 
@@ -57,6 +61,9 @@ Go, GCP
 Go, GCP(Cloud Build, Cloud Run)
 
 ## Teaching and Mentoring
+- March 2023  
+**Teacher for Vulnerability Workshop in Aizu.**
+
 - September / October 2022  
 **Teacher in Web Category, SECCON Beginners in Sapporo / Fukuoka.**
 
