@@ -16,6 +16,10 @@ sidebar: false
 - <a rel="me" href="https://mstdn.jp/@task4233">Mastodon</a>
 
 ## Internships / Employments
+- April 2023  
+**Backend Engineer at Mercari Inc.**  
+ID Platform Team
+
 - December 2022 - January 2023  
 **Backend Engineer Internship at Mercari Inc.**  
 Partner Platform Team / Go, Python, Kubernetes
