@@ -57,6 +57,10 @@ Go, GCP
 Go, GCP(Cloud Build, Cloud Run)
 
 ## Teaching and Mentoring
+- July 2023  
+**Teacher for ["Deep Dive into Vulnerabilities with Developing Vulnerability Scanner"](https://www.security-camp.or.jp/minicamp/mie2023.html), Security Mini Camp in Mie**
+  [GitHub Repo for the class[JA]](https://github.com/task4233/sqli-chal)
+
 - March 2023  
 **Teacher for Vulnerability Workshop in Aizu.**
 
