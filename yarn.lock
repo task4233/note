@@ -1444,6 +1444,13 @@
     "@vuepress/shared-utils" "1.9.9"
     "@vuepress/types" "1.9.9"
 
+"@vuepress/plugin-search@1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.9.10.tgz#313a504020d60a2f694b27a8b6457ee99b4c71e7"
+  integrity sha512-bn2XJikaRgQZXvu8upCjOWrxbLHIRTqnJ3w7G0mo6jCYWGVsHNo6XhVpqylpLR2PWnHT/ImO2bGo38/5Bag/tQ==
+  dependencies:
+    "@vuepress/types" "1.9.10"
+
 "@vuepress/plugin-search@1.9.9":
   version "1.9.9"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.9.9.tgz#d30804b86f9b7f54b3db0b987a288433be3cfd7b"
@@ -1496,6 +1503,15 @@
     stylus-loader "^3.0.2"
     vuepress-plugin-container "^2.0.2"
     vuepress-plugin-smooth-scroll "^0.0.3"
+
+"@vuepress/types@1.9.10":
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/@vuepress/types/-/types-1.9.10.tgz#5b8d112a0d7dbaffce1e5d39b66754412c83ecc6"
+  integrity sha512-TDNQn4og85onmBpLTTXXmncW3rUnYGr2MkuI8OIFJZetDNM49t1WbjNVlrT+kx7C6qXi6okDQgrHGYXajHZWfg==
+  dependencies:
+    "@types/markdown-it" "^10.0.0"
+    "@types/webpack-dev-server" "^3"
+    webpack-chain "^6.0.0"
 
 "@vuepress/types@1.9.9":
   version "1.9.9"
