@@ -16,7 +16,7 @@ sidebar: false
 - <a rel="me" href="https://mstdn.jp/@task4233">Mastodon</a>
 
 ## Internships / Employments
-- April 2023  
+- April 2023 -  
 **Backend Engineer at Mercari Inc.**  
 ID Platform Team
 
