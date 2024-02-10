@@ -7,7 +7,7 @@ sidebar: false
 
 
 ## Links
-- [CV](https://docs.google.com/document/d/1WapjZUwRj9J3aBemjO3ONKrPcrY3uf9G7Fgy1vZ3G2w/edit?usp=sharing) (Last Updated: January 2023)  
+- [CV](https://docs.google.com/document/d/1WapjZUwRj9J3aBemjO3ONKrPcrY3uf9G7Fgy1vZ3G2w) (Last Updated: January 2023)  
 - [GitHub](https://github.com/task4233)  
 - [Twitter](https://twitter.com/task4233)  
 - [HatenaBlog](https://task4233.hatenablog.com/)  
@@ -16,9 +16,13 @@ sidebar: false
 - <a rel="me" href="https://mstdn.jp/@task4233">Mastodon</a>
 
 ## Internships / Employments
+- February 2024 -  
+**SWE at Flatt Security Inc.**  
+Shisho Cloud / Go, Kubernetes
+
 - April 2023 -  
-**Backend Engineer at Mercari Inc.**  
-ID Platform Team
+**SWE at Mercari Inc.**  
+ID Platform Team / Go, Kubernetes
 
 - December 2022 - January 2023  
 **Backend Engineer Internship at Mercari Inc.**  
@@ -56,7 +60,15 @@ Go, GCP
 **Software Engineer Internship at Mynavi Inc.**  
 Go, GCP(Cloud Build, Cloud Run)
 
+## Publication
+- June 2023  
+**[Knowledge by given implementation of logger for debug](https://speakerdeck.com/task4233/knowledge-by-given-implementation-of-logger-for-debug)**  
+Go Conference 2023
+
 ## Teaching and Mentoring
+- December 2023  
+**Mentor in [Mercoin Hackathon](https://mercan.mercari.com/articles/40371/).**
+
 - July 2023  
 **Teacher for ["Deep Dive into Vulnerabilities with Developing Vulnerability Scanner"](https://www.security-camp.or.jp/minicamp/mie2023.html), Security Mini Camp in Mie.**  
 [GitHub Repo for the class[JA]](https://github.com/task4233/sqli-chal)
