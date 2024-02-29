@@ -9,7 +9,8 @@ sidebar: false
 ## Links
 - [CV](https://docs.google.com/document/d/1WapjZUwRj9J3aBemjO3ONKrPcrY3uf9G7Fgy1vZ3G2w) (Last Updated: January 2023)  
 - [GitHub](https://github.com/task4233)  
-- [Twitter](https://twitter.com/task4233)  
+- [Twitter](https://twitter.com/task4233)
+- [LinkedIn](https://www.linkedin.com/in/takashi-mima/)  
 - [HatenaBlog](https://task4233.hatenablog.com/)  
 - [Qiita](https://qiita.com/task4233)  
 - [SpeakerDeck](https://speakerdeck.com/task4233)
