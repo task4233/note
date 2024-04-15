@@ -581,7 +581,7 @@ Gem `omniauth-twitter`と`device`で実装.
  - heroku update
  - heroku login
  - heroku create
- - gitでprodutionブランチを切る
+ - gitでproductionブランチを切る
  - Herokuのadminページでgithubと連携
  - heroku run rake db:migrate
  - おわり
