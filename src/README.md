@@ -16,50 +16,14 @@ sidebar: false
 - [SpeakerDeck](https://speakerdeck.com/task4233)
 - <a rel="me" href="https://mstdn.jp/@task4233">Mastodon</a>
 
-## Internships / Employments
-- February 2024 -  
+## Employments
+- February 2024 - now  
 **SWE at Flatt Security Inc.**  
 Shisho Cloud / Go, Kubernetes
 
-- April 2023 -  
+- April 2023 - now  
 **SWE at Mercari Inc.**  
 ID Platform Team / Go, Kubernetes
-
-- December 2022 - January 2023  
-**Backend Engineer Internship at Mercari Inc.**  
-Partner Platform Team / Go, Python, Kubernetes
-
-- February 2022  
-**Backend Engineering Internship at Recruit Holdings Co., Ltd.**  
-Hot Pepper Beauty Clinic, Improvement of the bff layer in Web Server / Java, Spring Boot
-
-- October 2021 - December 2021  
-**Software Engineering Internship at Mercari Inc.**  
-ID Platform Team, Automation for OIDC Client Creation / Go, Terraform Custom Provider  
-
-- October 2021 - November 2021  
-**Software Engineering Internship at DeNA Inc.**  
-Go, GCP(Cloud Build, Cloud Run, Pub/Sub)  
-
-- September 2021 - October 2021  
-**Software Engineering Internship at Wantedly Inc.**  
-Recommendation Infrastructure Team / Go, Kubernetes  
-
-- August 2021 - September 2021  
-**Software Engineering Internship at Yahoo Japan Corporation.**  
-Advertising Distribution Team, Design-Development-Release-A/B Testing / C++, Java, Go  
-
-- July 2021 - August 2021  
-**Software Engineering Internship at Akatsuki Inc.**  
-Game Currency Infrastructure Development Team, API Design&Development and Performance Improvement / Go, GCP  
-
-- March 2021 - July 2021, December 2021 - March 2023  
-**Software Engineering Internship at 3-shake Inc.**  
-Go, GCP  
-
-- July 2020 - March 2021  
-**Software Engineer Internship at Mynavi Inc.**  
-Go, GCP(Cloud Build, Cloud Run)
 
 ## Publication
 - June 2023  
@@ -123,6 +87,43 @@ Applied Information Technology Engineering Examination (AP)
 
 - November 2017  
 Fundermental Information Technology Engineering Examination (FE)  
+
+## Internships
+- December 2022 - January 2023  
+**Backend Engineer Internship at Mercari Inc.**  
+Partner Platform Team / Go, Python, Kubernetes
+
+- February 2022  
+**Backend Engineering Internship at Recruit Holdings Co., Ltd.**  
+Hot Pepper Beauty Clinic, Improvement of the bff layer in Web Server / Java, Spring Boot
+
+- October 2021 - December 2021  
+**Software Engineering Internship at Mercari Inc.**  
+ID Platform Team, Automation for OIDC Client Creation / Go, Terraform Custom Provider  
+
+- October 2021 - November 2021  
+**Software Engineering Internship at DeNA Inc.**  
+Go, GCP(Cloud Build, Cloud Run, Pub/Sub)  
+
+- September 2021 - October 2021  
+**Software Engineering Internship at Wantedly Inc.**  
+Recommendation Infrastructure Team / Go, Kubernetes  
+
+- August 2021 - September 2021  
+**Software Engineering Internship at Yahoo Japan Corporation.**  
+Advertising Distribution Team, Design-Development-Release-A/B Testing / C++, Java, Go  
+
+- July 2021 - August 2021  
+**Software Engineering Internship at Akatsuki Inc.**  
+Game Currency Infrastructure Development Team, API Design&Development and Performance Improvement / Go, GCP  
+
+- March 2021 - July 2021, December 2021 - March 2023  
+**Software Engineering Internship at 3-shake Inc.**  
+Go, GCP  
+
+- July 2020 - March 2021  
+**Software Engineer Internship at Mynavi Inc.**  
+Go, GCP(Cloud Build, Cloud Run)
 
 ## Education
 - April 2021 - March 2023  
