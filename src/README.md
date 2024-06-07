@@ -31,6 +31,9 @@ ID Platform Team / Go, Kubernetes
 Go Conference 2023
 
 ## Teaching and Mentoring
+- April 2024  
+**Teacher for [Auth Platform Onboarding of DevDojo](https://engineering.mercari.com/en/blog/entry/20240530-ae7feb0542/#:~:text=Auth%20Platform%20Onboarding).**
+
 - December 2023  
 **Mentor in [Mercoin Hackathon](https://mercan.mercari.com/articles/40371/).**
 
