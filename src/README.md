@@ -54,7 +54,7 @@ Go Conference 2023
 **Research-Driven Course Assistant, SecHack365.**  
 
 ## Awards / Honors
-- [GopherCon 2024 Challenge Series](https://gophercon.challengeseries.org/teams/15)  
+- [GopherCon 2024 Challenge Series](https://gophercon.challengeseries.org/teams/15) 2024  
 Got 5 Individual Prizes: High Score! / Efficiency Expert / Prolific! / Under the Wire! / Master Spy! 
 
 - CTF for Connected Cars 2022  
