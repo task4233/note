@@ -26,7 +26,7 @@ Shisho Cloud / Go, Kubernetes
 ID Platform Team / Go, Kubernetes
 
 ## Publication
-- Sep 2024
+- Sep 2024  
 **[GopherCon 2024 Recap: Exploring the Go Compiler: Adding a "four" loop](https://speakerdeck.com/task4233/recap-exploring-the-go-compiler)**  
 [Go 1.23 Release Party & GopherCon 2024 Report](https://gocon.connpass.com/event/324888/)
 
