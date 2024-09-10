@@ -26,9 +26,17 @@ Shisho Cloud / Go, Kubernetes
 ID Platform Team / Go, Kubernetes
 
 ## Publication
-- Sep 2024  
+- September 2024  
 **[GopherCon 2024 Recap: Exploring the Go Compiler: Adding a "four" loop](https://speakerdeck.com/task4233/recap-exploring-the-go-compiler)**  
 Go 1.23 Release Party & GopherCon 2024 Report
+
+- May 2024  
+**OAuth 2.0 Dynamic Client Registration with Terraform Custom Provider in [Unleash Mercari Tech! vol.3](https://techbookfest.org/product/4JE8riJdXX5y1vBEYq7v8L)**  
+TechBookFest vol.16
+
+- November 2023  
+**Compiler Optimization of PGO in Go in [Unleash Mercari Tech! vol.2](https://techbookfest.org/product/3ziMt3YDP9WKqntz4A8KBA)**  
+TechBookFest vol.15
 
 - June 2023  
 **[Knowledge by given implementation of logger for debug](https://speakerdeck.com/task4233/knowledge-by-given-implementation-of-logger-for-debug)**  
