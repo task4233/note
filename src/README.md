@@ -27,6 +27,10 @@ ID Platform Team / Go, Kubernetes
 
 ## Publication
 - September 2024  
+**[GC24 Recap: Interface Internals](https://speakerdeck.com/task4233/recap-interface-internals)**  
+mercari.go #27
+
+- September 2024  
 **[GopherCon 2024 Recap: Exploring the Go Compiler: Adding a "four" loop](https://speakerdeck.com/task4233/recap-exploring-the-go-compiler)**  
 Go 1.23 Release Party & GopherCon 2024 Report
 
