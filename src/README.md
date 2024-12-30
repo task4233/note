@@ -47,6 +47,9 @@ TechBookFest vol.15
 Go Conference 2023
 
 ## Teaching and Mentoring
+- December 2024
+**Teacher in Web Category, SECCON Beginners in Okinawa.**  
+
 - April 2024  
 **Teacher for [Auth Platform Onboarding of DevDojo](https://engineering.mercari.com/en/blog/entry/20240530-ae7feb0542/#:~:text=Auth%20Platform%20Onboarding).**
 
