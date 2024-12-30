@@ -47,7 +47,7 @@ TechBookFest vol.15
 Go Conference 2023
 
 ## Teaching and Mentoring
-- December 2024
+- December 2024  
 **Teacher in Web Category, SECCON Beginners in Okinawa.**  
 
 - April 2024  
