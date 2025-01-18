@@ -26,6 +26,10 @@ Shisho Cloud / Go, Kubernetes
 ID Platform Team / Go, Kubernetes
 
 ## Publication
+- January 2025  
+**[Deep Dive into embed Package in Go](https://speakerdeck.com/task4233/deep-dive-into-embed-package-in-go)**  
+Gopher's Gathering
+
 - September 2024  
 **[GC24 Recap: Interface Internals](https://speakerdeck.com/task4233/recap-interface-internals)**  
 mercari.go #27
