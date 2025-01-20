@@ -18,7 +18,7 @@ sidebar: false
 
 ## Employments
 - February 2024 - now  
-**SWE at Flatt Security Inc.**  
+**SWE at GMO Flatt Security Inc.**  
 Shisho Cloud / Go, Kubernetes
 
 - April 2023 - now  
