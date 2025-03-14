@@ -8,12 +8,10 @@ sidebar: false
 
 ## Links
 - [GitHub](https://github.com/task4233)  
-- [X](https://x.com/task4233)
 - [LinkedIn](https://www.linkedin.com/in/takashi-mima/)  
-- [HatenaBlog](https://task4233.hatenablog.com/)  
+- [X](https://x.com/task4233)
 - [Qiita](https://qiita.com/task4233)  
 - [SpeakerDeck](https://speakerdeck.com/task4233)
-- <a rel="me" href="https://mstdn.jp/@task4233">Mastodon</a>
 
 ## Employments
 - April 2023 - now  
