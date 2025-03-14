@@ -25,8 +25,8 @@ Shisho Cloud / Go, Kubernetes
 ID Platform Team / Go, Kubernetes
 
 ## Publication
-- January 2025
-**[Practical Prototype Pollution](https://github.com/task4233/ctf4b-web-2025-kanazawa)**
+- January 2025  
+**[Practical Prototype Pollution](https://github.com/task4233/ctf4b-web-2025-kanazawa)**  
 SECCON Beginners 2025 in Kanazawa  
 
 - January 2025  
