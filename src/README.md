@@ -16,13 +16,13 @@ sidebar: false
 - <a rel="me" href="https://mstdn.jp/@task4233">Mastodon</a>
 
 ## Employments
-- February 2024 - now  
-**SWE at GMO Flatt Security Inc.**  
-Shisho Cloud / Go, Kubernetes
-
 - April 2023 - now  
-**SWE at Mercari Inc.**  
+**Main Job: SWE at Mercari Inc.**  
 ID Platform Team / Go, Kubernetes
+
+- February 2024 - now  
+**Side Job: SWE at GMO Flatt Security Inc.**  
+Shisho Cloud / Go, Kubernetes
 
 ## Publication
 - January 2025  
