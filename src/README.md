@@ -7,9 +7,8 @@ sidebar: false
 
 
 ## Links
-- [CV](https://docs.google.com/document/d/1WapjZUwRj9J3aBemjO3ONKrPcrY3uf9G7Fgy1vZ3G2w) (Last Updated: January 2023)  
 - [GitHub](https://github.com/task4233)  
-- [Twitter](https://twitter.com/task4233)
+- [X](https://x.com/task4233)
 - [LinkedIn](https://www.linkedin.com/in/takashi-mima/)  
 - [HatenaBlog](https://task4233.hatenablog.com/)  
 - [Qiita](https://qiita.com/task4233)  
@@ -26,6 +25,10 @@ Shisho Cloud / Go, Kubernetes
 ID Platform Team / Go, Kubernetes
 
 ## Publication
+- January 2025
+**[Practical Prototype Pollution](https://github.com/task4233/ctf4b-web-2025-kanazawa)**
+SECCON Beginners 2025 in Kanazawa  
+
 - January 2025  
 **[Deep Dive into embed Package in Go](https://speakerdeck.com/task4233/deep-dive-into-embed-package-in-go)**  
 Gopher's Gathering
