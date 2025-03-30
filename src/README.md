@@ -3,7 +3,7 @@ sidebar: false
 ---
 
 # Takashi Mima
-**Takashi Mima** is a backend and security engineer at Mercari, Inc.
+**Takashi Mima** is a software engineer at Mercari, Inc and engages Web Security as a hobby.
 
 
 ## Links
