@@ -24,7 +24,7 @@ Shisho Cloud / Go, Kubernetes
 
 ## Publication
 - June 2025  
-**[How We Did IdP i18n Handling for Global Expansion](https://techbookfest.org/product/cWvjAcXjXVpBtsKuuKZk4H)**
+**[How We Did IdP i18n Handling for Global Expansion](https://techbookfest.org/product/cWvjAcXjXVpBtsKuuKZk4H)**  
 TechBookFest vol.18
 
 - January 2025  
