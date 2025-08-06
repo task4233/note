@@ -23,6 +23,10 @@ ID Platform Team / Go, Kubernetes
 Shisho Cloud / Go, Kubernetes
 
 ## Publication
+- June 2025  
+**[How We Did IdP i18n Handling for Global Expansion](https://techbookfest.org/product/cWvjAcXjXVpBtsKuuKZk4H)**
+TechBookFest vol.18
+
 - January 2025  
 **[Practical Prototype Pollution](https://github.com/task4233/ctf4b-web-2025-kanazawa)**  
 SECCON Beginners 2025 in Kanazawa  
