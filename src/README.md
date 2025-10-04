@@ -23,13 +23,13 @@ ID Platform Team / Go, Kubernetes
 Shisho Cloud / Go, Kubernetes
 
 ## Publication
+- Oct 2025
+**[pprof vs runtime/trace (FlightRecorder)](https://speakerdeck.com/task4233/trace-flightrecorder)**  
+Go 1.25 Release Party & GopherCon 2025 Report
+
 - June 2025  
 **[How We Did IdP i18n Handling for Global Expansion](https://techbookfest.org/product/cWvjAcXjXVpBtsKuuKZk4H)**  
 TechBookFest vol.18
-
-- January 2025  
-**[Practical Prototype Pollution](https://github.com/task4233/ctf4b-web-2025-kanazawa)**  
-SECCON Beginners 2025 in Kanazawa  
 
 - January 2025  
 **[Deep Dive into embed Package in Go](https://speakerdeck.com/task4233/deep-dive-into-embed-package-in-go)**  
@@ -56,6 +56,10 @@ TechBookFest vol.15
 Go Conference 2023
 
 ## Teaching and Mentoring
+- January 2025  
+Teacher for **[Practical Prototype Pollution](https://github.com/task4233/ctf4b-web-2025-kanazawa)**  
+**SECCON Beginners 2025 in Kanazawa**  
+
 - December 2024  
 **Teacher in Web Category, SECCON Beginners in Okinawa.**  
 
