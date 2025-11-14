@@ -24,7 +24,7 @@ Shisho Cloud / Go, Kubernetes
 
 ## Publication
 - Nov 2025  
-**[Mechanism and Implementation for Generating Browser Fingerprints](https://techbookfest.org/product/cXmRrrRCAVn3tTYfN7QPFJ)**
+**[Mechanism and Implementation for Generating Browser Fingerprints](https://techbookfest.org/product/cXmRrrRCAVn3tTYfN7QPFJ)**  
 TechBookFest vol.19
 
 - Oct 2025  
