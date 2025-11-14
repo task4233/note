@@ -23,6 +23,10 @@ ID Platform Team / Go, Kubernetes
 Shisho Cloud / Go, Kubernetes
 
 ## Publication
+- Nov 2025  
+**[Mechanism and Implementation for Generating Browser Fingerprints](https://techbookfest.org/product/cXmRrrRCAVn3tTYfN7QPFJ)**
+TechBookFest vol.19
+
 - Oct 2025  
 **[pprof vs runtime/trace (FlightRecorder)](https://speakerdeck.com/task4233/trace-flightrecorder)**  
 Go 1.25 Release Party & GopherCon 2025 Report
