@@ -60,6 +60,10 @@ TechBookFest vol.15
 Go Conference 2023
 
 ## Teaching and Mentoring
+- December 2025
+Organizer for **[Optimal Diagnostics with Profiling and Tracing](https://github.com/task4233/gwc-profiling/)**
+**https://gwc.gocon.jp/2025/**  
+
 - January 2025  
 Teacher for **[Practical Prototype Pollution](https://github.com/task4233/ctf4b-web-2025-kanazawa)**  
 **SECCON Beginners 2025 in Kanazawa**  
