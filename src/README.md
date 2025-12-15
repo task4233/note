@@ -61,7 +61,7 @@ Go Conference 2023
 
 ## Teaching and Mentoring
 - December 2025  
-Organizer for **[Optimal Diagnostics with Profiling and Tracing](https://github.com/task4233/gwc-profiling/)**
+Organizer for **[Optimal Diagnostics with Profiling and Tracing](https://github.com/task4233/gwc-profiling/)**  
 **[Go Workshop Conference 2025 IN KOBE](https://gwc.gocon.jp/2025/)**  
 
 - January 2025  
