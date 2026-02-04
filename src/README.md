@@ -18,7 +18,7 @@ sidebar: false
 **Main Job: SWE at Mercari Inc.**  
 Identity Platform Team / Go, Kubernetes
 
-- February 2024 - now  
+- February 2024 - January 2026  
 **Side Job: SWE at GMO Flatt Security Inc.**  
 Shisho Cloud, Takumi / Go, Kubernetes
 
