@@ -23,6 +23,10 @@ Identity Platform Team / Go, Kubernetes
 Shisho Cloud, Takumi / Go, Kubernetes
 
 ## Publication
+- Apr 2026  
+**[Manage Connections across Multiple Shards with Type Parameters in Go](https://techbookfest.org/product/i531CarUdzN53XMZbAkQJs)**  
+TechBookFest vol.20
+
 - Nov 2025  
 **[Mechanism and Implementation for Generating Browser Fingerprints](https://techbookfest.org/product/cXmRrrRCAVn3tTYfN7QPFJ)**  
 TechBookFest vol.19
