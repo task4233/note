@@ -195,7 +195,7 @@ workflows:
 +         console.log(err);
 +         process.exit(1);
 +     } else {
-+         console.log("Successfully Delployed!");
++         console.log("Successfully Deployed!");
 +     }
 + });
 ```
