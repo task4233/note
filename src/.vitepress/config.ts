@@ -39,11 +39,6 @@ export default defineConfig({
     sidebarMenuLabel: 'メニュー',
     returnToTopLabel: 'トップへ戻る',
     skipToContentLabel: 'コンテンツへスキップ',
-    notFound: {
-      title: 'ページが見つかりません',
-      quote: '進む方向を変えなければ, あなたは向かっている方向にたどり着くことになる',
-      linkText: 'トップへ戻る',
-      linkLabel: 'トップに戻る',
-    },
+    // notFound: src/.vitepress/theme/NotFound.vue で完全に上書きしているので未使用
   },
 })
