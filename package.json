@@ -15,6 +15,9 @@
   },
   "author": "task4233",
   "license": "ISC",
+  "engines": {
+    "node": ">=22.18 <23"
+  },
   "devDependencies": {
     "@vuepress/plugin-active-header-links": ">=1.9.9",
     "@vuepress/plugin-back-to-top": ">=1.9.9",
