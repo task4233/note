@@ -41,7 +41,7 @@ export default defineConfig({
     skipToContentLabel: 'コンテンツへスキップ',
     notFound: {
       title: 'ページが見つかりません',
-      quote: '進む方向を変えなければ, あなたは向かっている方向にたどり着くことになる',
+      quote: '',
       linkText: 'トップへ戻る',
       linkLabel: 'トップに戻る',
     },
