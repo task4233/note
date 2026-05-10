@@ -26,3 +26,14 @@
 .vp-doc h2 .header-anchor {
   top: 0;
 }
+
+/* aside（右 outline）無しページの本文幅を広げる。VitePress default は
+   .content の max-width が固定 px (752px @>=960, 784px @>=1440) で
+   ビューポートが広くても本文が中央寄りに細く見える。
+   親 .container (992px @>=960, 1104px @>=1440) に対する % 指定にして
+   responsive に追従させる。aside 有ページは default のまま。
+   !important は VitePress が同セレクタを Vue scoped style
+   (data-v-* 属性で specificity 上乗せ) で出しているため必須 */
+.VPDoc:not(.has-aside) .content {
+  max-width: 80% !important;
+}
