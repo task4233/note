@@ -12,6 +12,7 @@ export default defineConfig({
   cleanUrls: false,
   outDir: '../docs',
   lastUpdated: true,
+  appearance: false,
 
   head: [
     ['meta', { name: 'keywords', content: 'task4233, techblog' }],
@@ -34,6 +35,7 @@ export default defineConfig({
   },
 
   themeConfig: {
+    externalLinkIcon: true,
     nav: [
       { text: 'Links', link: '/#links' },
       { text: 'Articles', link: 'https://blog.task4233.dev' },

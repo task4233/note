@@ -1,5 +1,7 @@
 ---
 sidebar: false
+aside: false
+outline: false
 ---
 
 # Takashi Mima
