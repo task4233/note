@@ -25,6 +25,14 @@ export default defineConfig({
 
   srcExclude: ['tags/**'],
 
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag: string) => tag.startsWith('mjx-'),
+      },
+    },
+  },
+
   themeConfig: {
     nav: [
       { text: 'Links', link: '/#links' },
@@ -32,27 +40,7 @@ export default defineConfig({
       { text: 'Chukapi-Fun-Art', link: '/chukapi_fun_art.html' },
     ],
     outline: { level: [2, 3] },
-    search: {
-      provider: 'local',
-      options: {
-        locales: {
-          root: {
-            translations: {
-              button: { buttonText: '検索', buttonAriaLabel: '検索' },
-              modal: {
-                noResultsText: '一致する結果が見つかりませんでした',
-                resetButtonTitle: 'クエリ条件をクリア',
-                footer: {
-                  selectText: '選択',
-                  navigateText: '切替',
-                  closeText: '閉じる',
-                },
-              },
-            },
-          },
-        },
-      },
-    },
+    // search: Phase 2 で有効化（rails_todo.md の重複 heading id を直してから）
     lastUpdated: { text: '最終更新' },
   },
 

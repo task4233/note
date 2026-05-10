@@ -76,8 +76,21 @@ typings/
 # nuxt.js build output
 .nuxt
 
-# vuepress build output
-.vuepress/dist
+# vitepress build cache and output
+**/.vitepress/cache
+**/.vitepress/dist
+
+# yarn 4 (Berry) — keep .yarnrc.yml and yarn.lock tracked
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# playwright-mcp screenshots and snapshots
+.playwright-mcp/
 
 # Serverless directories
 .serverless/
