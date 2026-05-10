@@ -1,0 +1,39 @@
+:root {
+  --vp-c-brand-1: #1976D2;
+  --vp-c-brand-2: #1565C0;
+  --vp-c-brand-3: #0D47A1;
+  --vp-c-brand-soft: rgba(25, 118, 210, 0.14);
+}
+
+.dark {
+  --vp-c-brand-1: #42a5f5;
+  --vp-c-brand-2: #64b5f6;
+  --vp-c-brand-3: #90caf9;
+  --vp-c-brand-soft: rgba(66, 165, 245, 0.16);
+}
+
+/* VuePress 1 と同じ H2 区切り線スタイル（border-top → border-bottom） */
+.vp-doc h2 {
+  margin: 48px 0 16px;
+  border-top: none;
+  padding-top: 0;
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding-bottom: 0.3rem;
+}
+
+/* H2 の padding-top を消したのでアンカーリンクの位置も合わせる
+   （default は top: 24px で padding 内に配置） */
+.vp-doc h2 .header-anchor {
+  top: 0;
+}
+
+/* aside（右 outline）無しページの本文幅を広げる。VitePress default は
+   .content の max-width が固定 px (752px @>=960, 784px @>=1440) で
+   ビューポートが広くても本文が中央寄りに細く見える。
+   親 .container (992px @>=960, 1104px @>=1440) に対する % 指定にして
+   responsive に追従させる。aside 有ページは default のまま。
+   !important は VitePress が同セレクタを Vue scoped style
+   (data-v-* 属性で specificity 上乗せ) で出しているため必須 */
+.VPDoc:not(.has-aside) .content {
+  max-width: 80% !important;
+}
