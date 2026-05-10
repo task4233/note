@@ -1,31 +1,32 @@
 # note
 
-TechBlog兼ポートフォリオです。
+[task4233.dev](https://task4233.dev/) のポートフォリオサイトです。
 
 
 ## Description
-記事にするほどではない。でも, メモとして残しておきたい。そんな時にVuePressを見つけました。
-markdown, TeXに対応しているので便利です。
+プロフィール / Publications / Employments / Awards 等を載せたシングルページのポートフォリオサイト。
 
 ## Features
 
-- [VuePressの1.x系](https://v1.vuepress.vuejs.org/)を利用
-- markdownおよびTeXの適応
-- GitHub Pagesへのデプロイ
-- CircleCIを用いた自動デプロイ
+- [VitePress 1.x](https://vitepress.dev/) を利用
+- GitHub Pages へのデプロイ
+- GitHub Actions を用いた master push 連動の自動デプロイ
 
 ## Requirement
-- \>= yarn ver 1.17.3
-- [package.json](https://github.com/task4233/note/blob/master/package.json)に必要パッケージは載っています。
+- Node `>=22.18 <23` (`package.json` の `engines` で指定)
+- yarn 4 (corepack 経由)
+- [package.json](https://github.com/task4233/note/blob/master/package.json) に必要パッケージは載っています。
 
 
 ## Installation
 ```bash
 git clone https://github.com/task4233/note/
-yarn install
-yarn src:dev
+cd note
+corepack enable
+corepack yarn install
+corepack yarn dev
 ```
 
 ## Author
 
-[@task4233](https://twitter.com/task4233)
+[@task4233](https://x.com/task4233)
