@@ -18,6 +18,9 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#1976D2' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'shortcut icon', href: '/imgs/icons/favicon.ico' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:image', content: 'https://task4233.dev/imgs/icon.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
     ['script', { async: '', src: `https://www.googletagmanager.com/gtag/js?id=${GA_ID}` }],
     ['script', {}, `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`],
   ],
@@ -26,6 +29,7 @@ export default defineConfig({
     externalLinkIcon: true,
     nav: [
       { text: 'Links', link: '/#links' },
+      { text: 'Card', link: '/card.html' },
       { text: 'Articles', link: 'https://blog.task4233.dev' },
     ],
     lastUpdated: {
