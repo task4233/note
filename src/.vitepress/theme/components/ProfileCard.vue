@@ -17,6 +17,7 @@ defineProps({
       { label: 'X',           href: 'https://x.com/task4233',                    mark: 'X',  color: '#000000' },
       { label: 'Qiita',       href: 'https://qiita.com/task4233',                mark: 'Q',  color: '#55C500' },
       { label: 'SpeakerDeck', href: 'https://speakerdeck.com/task4233',          mark: 'SD', color: '#009287' },
+      { label: 'Bluesky',     href: 'https://bsky.app/profile/task4233.dev',     mark: 'BS', color: '#1185FE' },
     ],
   },
 })

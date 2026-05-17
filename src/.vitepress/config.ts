@@ -7,7 +7,7 @@ export default defineConfig({
   title: 'Note',
   description: 'Take it easy. But not lazy.',
   base: '/',
-  cleanUrls: false,
+  cleanUrls: true,
   outDir: '../docs',
   lastUpdated: true,
   appearance: false,
@@ -29,7 +29,7 @@ export default defineConfig({
     externalLinkIcon: true,
     nav: [
       { text: 'Links', link: '/#links' },
-      { text: 'Card', link: '/card.html' },
+      { text: 'Card', link: '/card' },
       { text: 'Articles', link: 'https://blog.task4233.dev' },
     ],
     lastUpdated: {
