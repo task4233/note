@@ -12,6 +12,7 @@ outline: false
 - [GitHub](https://github.com/task4233)  
 - [LinkedIn](https://www.linkedin.com/in/takashi-mima/)  
 - [X](https://x.com/task4233)
+- [Bluesky](https://bsky.app/profile/task4233.dev)
 - [Qiita](https://qiita.com/task4233)  
 - [SpeakerDeck](https://speakerdeck.com/task4233)
 
