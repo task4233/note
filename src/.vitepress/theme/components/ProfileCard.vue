@@ -15,9 +15,9 @@ defineProps({
       { label: 'GitHub',      href: 'https://github.com/task4233',               mark: 'GH', color: '#24292F' },
       { label: 'LinkedIn',    href: 'https://www.linkedin.com/in/takashi-mima/', mark: 'in', color: '#0A66C2' },
       { label: 'X',           href: 'https://x.com/task4233',                    mark: 'X',  color: '#000000' },
+      { label: 'Bluesky',     href: 'https://bsky.app/profile/task4233.dev',     mark: 'BS', color: '#1185FE' },
       { label: 'Qiita',       href: 'https://qiita.com/task4233',                mark: 'Q',  color: '#55C500' },
       { label: 'SpeakerDeck', href: 'https://speakerdeck.com/task4233',          mark: 'SD', color: '#009287' },
-      { label: 'Bluesky',     href: 'https://bsky.app/profile/task4233.dev',     mark: 'BS', color: '#1185FE' },
     ],
   },
 })
