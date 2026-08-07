@@ -101,7 +101,10 @@ Teacher for **[Practical Prototype Pollution](https://github.com/task4233/ctf4b-
 **Research-Driven Course Assistant, SecHack365.**  
 
 ## Awards / Honors
-- [GopherCon 2024 Challenge Series](https://web.archive.org/web/20241208190415/https://gophercon.challengeseries.org/teams/15) 2024  
+- [GopherCon Challenge Series 2026](https://gophercon.challengeseries.org/teams/45) 2026  
+2nd Place Team/ The "Chaos Theory Opportunist" Accolade
+
+- [GopherCon Challenge Series 2024](https://web.archive.org/web/20241208190415/https://gophercon.challengeseries.org/teams/15) 2024  
 Got 5 Individual Prizes: High Score! / Efficiency Expert / Prolific! / Under the Wire! / Master Spy! 
 
 - CTF for Connected Cars 2022  
@@ -185,25 +188,3 @@ Master's degree, Department of Electrical Engineering and Computer Science, Shib
 - April 2017 - March 2021  
 Bachelor's degree, Department of Computer Science and Engineering, Shibaura Institute of Technology, Japan.  
 GPA 3.99/4.00  
-
-## Skills
- - Go(Intermediate)
-   - [dl - The logger not committed to Git for delog](https://github.com/task4233/dl)
-   - [OmnisCode(API)](https://github.com/openhacku-saboten/OmnisCode-backend)
-   - [taskctf21](https://github.com/task4233/taskctf21-public)
-   - [taskctf22](https://github.com/task4233/taskctf22-public)
- - Python(Intermediate)
-   - [Malgrapher](https://github.com/task4233/malgrapher)
-   - [SortFont](https://github.com/sort-font/webpage)
- - C++(Intermediate)
-   - For Competitive Programming
-   - [Solved Codes](https://github.com/task4233/contest)
- - Java(Intermediate)
- - PHP(Beginner)
-   - Laravel
-   - [taskctf19](https://github.com/task4233/taskctf19)
-   - [taskctf20](https://github.com/task4233/taskctf20)
- - Ruby(Beginner)
- - JavaScript(Beginner)
- - Rust(Beginner)
- - Verilog(Beginner)
