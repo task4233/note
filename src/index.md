@@ -102,7 +102,7 @@ Teacher for **[Practical Prototype Pollution](https://github.com/task4233/ctf4b-
 
 ## Awards / Honors
 - [GopherCon Challenge Series 2026](https://gophercon.challengeseries.org/teams/45) 2026  
-2nd Place Team/ The "Chaos Theory Opportunist" Accolade
+2nd Place Team / The "Chaos Theory Opportunist" Accolade
 
 - [GopherCon Challenge Series 2024](https://web.archive.org/web/20241208190415/https://gophercon.challengeseries.org/teams/15) 2024  
 Got 5 Individual Prizes: High Score! / Efficiency Expert / Prolific! / Under the Wire! / Master Spy! 
