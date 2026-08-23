@@ -125,6 +125,9 @@ Grand Prize in AI/Data Analysis Category as Team "高度セキュリティ人材
 1st Place as Team "さぼてんとゆかいな仲間たち"  
 
 ## Certifications
+- Aug 2026  
+Nissho Bookkeeping Test 2nd Grade  
+
 - April 2020 - March 2021  
 SecHack365 Trainee in Research Driven Course  
 [Malgraph: Malware Detection System by Using Control Flow Graph.](https://sechack365.nict.go.jp/achievement/2020/pdf/2020_32.pdf)  
