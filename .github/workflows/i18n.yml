@@ -1,0 +1,21 @@
+name: Check i18n Parity
+on:
+  push:
+    paths: ['src/**/*.md', 'scripts/check-i18n-parity.mjs']
+  pull_request:
+    paths: ['src/**/*.md', 'scripts/check-i18n-parity.mjs']
+
+jobs:
+  run:
+    name: Compare en and ja pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: package.json
+
+      - name: Check i18n parity
+        run: node scripts/check-i18n-parity.mjs
