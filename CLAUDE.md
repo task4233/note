@@ -23,6 +23,7 @@ Node `>=22.18 <23` is required (`package.json` `engines`). Package manager is ya
 There is no test suite. CI workflows in `.github/workflows/`:
 - `deploy.yml` — builds with VitePress and deploys `docs/` to GitHub Pages on push to `master`.
 - `typos.yml` — runs `crate-ci/typos` against the whole repo using `.github/typos.toml` (note the `extend-exclude` list — add new files there if a legitimate term trips the spell checker).
+- `i18n.yml` — runs `scripts/check-i18n-parity.mjs`, which fails when `src/*.md` and `src/ja/*.md` differ in heading order or in the number of top-level list items under each heading. Run it locally with `node scripts/check-i18n-parity.mjs`.
 - `labeler.yml` — `srvaroa/labeler` auto-labels PRs by branch prefix: `feat/*` → feature, `fix/*` → bug, `chore/*` → chore (see `.github/labeler.yml`). Use these prefixes when creating branches.
 
 ## Content layout
