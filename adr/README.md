@@ -13,3 +13,4 @@
 | No. | タイトル | Status |
 |---|---|---|
 | [0001](0001-record-architecture-decisions.md) | ADR で設計判断を記録する | Accepted |
+| [0002](0002-i18n-with-vitepress-locales.md) | VitePress locales で日本語ロケールを追加する | Accepted |

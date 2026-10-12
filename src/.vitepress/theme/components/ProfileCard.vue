@@ -20,6 +20,10 @@ defineProps({
       { label: 'SpeakerDeck', href: 'https://speakerdeck.com/task4233',          mark: 'SD', color: '#009287' },
     ],
   },
+  saveLabel: {
+    type: String,
+    default: 'Save Contact',
+  },
 })
 </script>
 
@@ -31,7 +35,7 @@ defineProps({
     <p class="bio">{{ profile.bio }}</p>
 
     <a class="save-contact" href="/task4233.vcf" download="task4233.vcf">
-      Save Contact
+      {{ saveLabel }}
     </a>
 
     <ul class="links">
