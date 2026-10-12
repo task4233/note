@@ -14,6 +14,7 @@ outline: false
 - [X](https://x.com/task4233)
 - [Bluesky](https://bsky.app/profile/task4233.dev)
 - [Qiita](https://qiita.com/task4233)  
+- [Zenn](https://zenn.dev/task4233)
 - [SpeakerDeck](https://speakerdeck.com/task4233)
 
 ## Employments
