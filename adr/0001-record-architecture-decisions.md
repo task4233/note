@@ -27,4 +27,4 @@
 
 - 判断の理由が Git の履歴とは別に、まとまって残る。
 - ADR を書く手間が増える。対象を「後から理由を聞かれそうな判断」に絞って抑える。
-- 過去の判断（VuePress → VitePress 移行、ブログの分離、Cloudflare の DNS 設定）は、別途書き起こす。
+- 過去の判断のうち、VuePress → VitePress 移行の経緯（動機、他の選択肢、選定の軸）は記事「[VuePress 1.x から VitePress へポートフォリオサイトを移行した記録](https://blog.task4233.dev/posts/migrate-vuepress-to-vitepress/)」にまとまっているので、ADR には書き起こさずそちらを参照する。ブログの分離と Cloudflare の DNS 設定は、別途書き起こす。
