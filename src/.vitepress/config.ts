@@ -3,8 +3,18 @@ import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { defineConfig, type HeadConfig } from 'vitepress'
 
-const GA_ID = 'UA-134364564-2'
+// GA4 の Measurement ID（G-XXXXXXXXXX）。空のあいだは計測タグを出さない（ADR 0003）
+const GA_MEASUREMENT_ID = ''
 const SITE_URL = 'https://task4233.dev'
+
+// `vitepress build` は config の読み込み前に NODE_ENV=production を立てる。dev では計測しない
+const gaHead: HeadConfig[] =
+  GA_MEASUREMENT_ID && process.env.NODE_ENV === 'production'
+    ? [
+        ['script', { async: '', src: `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}` }],
+        ['script', {}, `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_MEASUREMENT_ID}');`],
+      ]
+    : []
 
 // locale key → URL / ファイルの prefix（root は prefix なし）
 const LOCALE_PREFIX = { root: '', ja: 'ja/' } as const
@@ -89,8 +99,7 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:image', content: 'https://task4233.dev/imgs/icon.png' }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
-    ['script', { async: '', src: `https://www.googletagmanager.com/gtag/js?id=${GA_ID}` }],
-    ['script', {}, `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`],
+    ...gaHead,
   ],
 
   // 対になる他言語ページが存在する locale を frontmatter に載せる。
