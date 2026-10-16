@@ -1,6 +1,6 @@
 # 0003. アクセス解析を Universal Analytics から GA4 に移行する
 
-- Status: Proposed
+- Status: Accepted
 - Date: 2026-10-17
 
 ## Context
@@ -16,6 +16,7 @@
 - GA4 のプロパティを新しく作り、その Web データストリームの Measurement ID（`G-` から始まる）に送る。UA の ID は削除する。
 - タグは従来どおり `config.ts` の `head` に gtag.js の標準スニペットで入れる。ID は `GA_MEASUREMENT_ID` 定数に直書きする（ID は HTML に出る公開値なので秘匿しない）。
 - タグは `vitepress build`（`NODE_ENV === 'production'`）のときだけ出す。`yarn dev` のアクセスを計測に混ぜないため。ID が空のときも出さない。
+- GA の利用規約（Privacy の条項）に従い、プライバシーポリシー（`/privacy`、`/ja/privacy`）を置き、Cookie の利用と Google Analytics の利用・データの扱いを開示する。Google の「How Google uses information from sites or apps that use our services」へリンクする。全ページのフッターからリンクする。
 - SPA 内の遷移は、GA4 の拡張計測「ブラウザの履歴イベントに基づくページの変更」に任せ、ルーターにフックを足さない。ロケールは `page_location`（`/ja/` で始まるか）で見分ける。
 
 ## Alternatives
@@ -31,3 +32,4 @@
 - データストリームの拡張計測で「ブラウザの履歴イベントに基づくページの変更」を切ると、初回表示以外のページ遷移が計測されなくなる。
 - `yarn preview`（ビルド結果をローカルで配信）は production ビルドなので計測される。必要なら GA4 側でホスト名 `localhost` を除外する。
 - 新しく Google のサービスにデータを送るわけではない（UA と同じ gtag.js / `googletagmanager.com`）。
+- 計測の設定（送るデータ、使うサービス）を変えたら、プライバシーポリシーも更新する。

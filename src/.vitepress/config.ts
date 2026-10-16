@@ -55,6 +55,7 @@ export default defineConfig({
           { text: 'Card', link: '/card' },
           { text: 'Articles', link: 'https://blog.task4233.dev' },
         ],
+        footer: { message: '<a href="/privacy">Privacy Policy</a>' },
         lastUpdated: {
           text: 'Last updated',
           formatOptions: { dateStyle: 'medium', timeStyle: 'short', forceLocale: true },
@@ -72,6 +73,7 @@ export default defineConfig({
           { text: 'Card', link: '/ja/card' },
           { text: 'Articles', link: 'https://blog.task4233.dev' },
         ],
+        footer: { message: '<a href="/ja/privacy">プライバシーポリシー</a>' },
         lastUpdated: {
           text: '最終更新',
           formatOptions: { dateStyle: 'medium', timeStyle: 'short', forceLocale: true },
