@@ -45,7 +45,7 @@ There is no `src/article/` or `src/tags/` directory — blog content was split o
   - Brand color variables (`--vp-c-brand-*`) set to `#1976D2` blues.
   - Wider content width on pages without an aside (`max-width: 80% !important`).
 - `appearance: false` disables the light/dark toggle. The `.dark` variables in `custom.css` are therefore unreachable in the current setup.
-- Google Analytics (UA property `UA-134364564-2`) is wired in via raw `<script>` tags in `config.ts` `head`. Note that Universal Analytics stopped processing data in July 2023 — migrating to GA4 is a known TODO (deferred as a separate task).
+- Google Analytics 4 is wired in via the standard gtag.js snippet in `config.ts` `head` (`GA_MEASUREMENT_ID`). The tags are emitted only when the ID is set and only in `vitepress build` (`NODE_ENV === 'production'`), so `yarn dev` sends nothing. SPA page transitions (including `/` ↔ `/ja/`) are counted by GA4 enhanced measurement ("page changes based on browser history events"), not by code here — keep that setting on in the GA4 data stream (ADR 0003).
 
 ## Dependencies
 
