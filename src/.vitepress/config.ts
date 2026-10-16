@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url'
 import { defineConfig, type HeadConfig } from 'vitepress'
 
 // GA4 の Measurement ID（G-XXXXXXXXXX）。空のあいだは計測タグを出さない（ADR 0003）
-const GA_MEASUREMENT_ID = ''
+const GA_MEASUREMENT_ID = 'G-7HV2NYFWDN'
 const SITE_URL = 'https://task4233.dev'
 
 // `vitepress build` は config の読み込み前に NODE_ENV=production を立てる。dev では計測しない
