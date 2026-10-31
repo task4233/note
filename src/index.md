@@ -67,6 +67,9 @@ TechBookFest vol.15
 **[Knowledge by given implementation of logger for debug](https://speakerdeck.com/task4233/knowledge-by-given-implementation-of-logger-for-debug)**  
 Go Conference 2023
 
+## Vulnerability Research
+- CVE-2026-116470
+
 ## Teaching and Mentoring
 - December 2025  
 Organizer for **[Optimal Diagnostics with Profiling and Tracing](https://github.com/task4233/gwc-profiling/)**  
