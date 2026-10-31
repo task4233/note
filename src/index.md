@@ -5,7 +5,7 @@ outline: false
 ---
 
 # Takashi Mima
-**Takashi Mima** is a software engineer at Mercari, Inc and engages Web Security as a hobby.
+**Takashi Mima** is a software engineer at Mercari, Inc. and an independent security researcher.
 
 
 ## Links

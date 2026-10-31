@@ -5,7 +5,7 @@ defineProps({
     default: () => ({
       name: 'Takashi Mima',
       title: 'Software Engineer @ Mercari, Inc.',
-      bio: 'Identity Platform Team. Web Security as a hobby.',
+      bio: 'Identity Platform Team. Independent security researcher.',
       image: '/imgs/icon.png',
     }),
   },
