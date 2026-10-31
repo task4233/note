@@ -67,6 +67,9 @@ Go 1.23 リリースパーティ & GopherCon 2024 報告会
 **[Goのデバッグ用ロガーの開発を通して得た デバッグとgoパッケージに関する知見](https://speakerdeck.com/task4233/knowledge-by-given-implementation-of-logger-for-debug)**  
 Go Conference 2023
 
+## Vulnerability Research
+- CVE-2026-116470
+
 ## Teaching and Mentoring
 - 2025年12月  
 **[Optimal Diagnostics with Profiling and Tracing](https://github.com/task4233/gwc-profiling/)** オーガナイザー  
